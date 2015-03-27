@@ -16,6 +16,53 @@ angular.module('starter.controllers', [])
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 })
 
+.controller('SettingsCtrl', function($scope) {
+
+  $scope.settingsList = [
+    { text: "Wireless", checked: true },
+    { text: "GPS", checked: false },
+    { text: "Vibration", checked: false }
+  ];
+
+  $scope.pushNotificationChange = function() {
+    console.log('Push Notification Change', $scope.pushNotification.checked);
+  };
+  
+  $scope.pushNotification = { checked: true };
+  $scope.emailNotification = 'Subscribed';
+  
+})
+
+
+.controller('EmergencyCtrl', function($scope) {
+  $scope.groups = [];
+  for (var i=0; i<10; i++) {
+    $scope.groups[i] = {
+      name: i,
+      items: []
+    };
+    for (var j=0; j<3; j++) {
+      $scope.groups[i].items.push(i + '-' + j);
+    }
+  }
+  
+  /*
+   * if given group is the selected group, deselect it
+   * else, select the given group
+   */
+  $scope.toggleGroup = function(group) {
+    if ($scope.isGroupShown(group)) {
+      $scope.shownGroup = null;
+    } else {
+      $scope.shownGroup = group;
+    }
+  };
+  $scope.isGroupShown = function(group) {
+    return $scope.shownGroup === group;
+  };
+  
+})
+
 .controller('PopupCtrl',function($scope, $ionicPopup) {
 
   $scope.Blist = [
@@ -111,8 +158,10 @@ angular.module('starter.controllers', [])
     Blist: ''
   };
 
- 
 
+
+  
+ 
 
   $scope.showBegin = function(){  
    var Popup = $ionicPopup.show({

@@ -77,7 +77,8 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map'])
     url: "/emergency_call",
     views: {
       'menuContent': {
-        templateUrl: "templates/emergency_call.html"
+        templateUrl: "templates/emergency_call.html",
+        controller: 'EmergencyCtrl'
       }
     }
   })
@@ -95,7 +96,8 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map'])
     url: "/settings",
     views: {
       'menuContent': {
-        templateUrl: "templates/settings.html"
+        templateUrl: "templates/settings.html",
+        controller: 'SettingsCtrl'
       }
     }
   })
@@ -177,5 +179,5 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map'])
     })
   ;
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/search');
 });
