@@ -1403,6 +1403,23 @@ angular.module('starter.map', [])
       $scope.popT4.hide();
       };
 
+      //Modal#Map_Point
+      $ionicModal.fromTemplateUrl('templates/map_point.html', {
+        id: '1001',
+        backdropClickToClose: false,
+        scope: $scope
+      }).then(function(modal) {
+        $scope.popmappoint = modal;
+      });
+
+      $scope.popmappointopen = function(index) {
+      $scope.popmappoint.show();
+      };
+
+      $scope.popmappointclose = function(index) {
+      $scope.popmappoint.hide();
+      };
+
 
 
 

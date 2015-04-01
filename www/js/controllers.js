@@ -1,5 +1,10 @@
 angular.module('starter.controllers', [])
 
+.controller('SlideboxCtrl', function($scope, $ionicSlideBoxDelegate) {
+  $scope.nextSlide = function() {
+    $ionicSlideBoxDelegate.next();
+  }             
+})   
 
 
 .controller('PlaylistsCtrl', function($scope) {
@@ -63,7 +68,7 @@ angular.module('starter.controllers', [])
   
 })
 
-.controller('PopupCtrl',function($scope, $ionicPopup) {
+.controller('PopupCtrl',function($scope, $ionicPopup, $ionicModal) {
 
   $scope.Blist = [
     {id: 1, title: 'ท่าปากเกร็ด', value: "ท่าปากเกร็ด"},
@@ -158,9 +163,21 @@ angular.module('starter.controllers', [])
     Blist: ''
   };
 
+  $ionicModal.fromTemplateUrl('templates/popup/Flag.html', {
+        id: '999',
+        backdropClickToClose: false,
+        scope: $scope
+      }).then(function(modal) {
+        $scope.popflag = modal;
+      });
 
+      $scope.popopenflag = function(index) {
+      $scope.popflag.show();
+      };
 
-  
+      $scope.popcloseflag = function(index) {
+      $scope.popflag.hide();
+      };
  
 
   $scope.showBegin = function(){  

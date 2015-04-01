@@ -102,6 +102,16 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map'])
     }
   })
 
+  .state('app.map_point', {
+      url: "/map_point",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/map_point.html",
+          controller: 'SlideboxCtrl'
+        }
+      }
+    })
+
   .state('app.contact', {
     url: "/contact",
     views: {
