@@ -4,9 +4,21 @@
     <div class="buttons">
       <button class="button button-clear" ng-click="popcloseflag()">Close</button>
     </div>
-   
+  
   </ion-header-bar>
+
   <ion-content>
-    
+  		<div class="list">
+            <ion-item class="item item-thumbnail-left" ng-repeat="p in Plist" href="#/app/{{p.value}}" ng-click="popcloseflag()">
+               <img ng-src="{{p.image}}" alt="">
+              <h2>{{p.name}}</h2>
+              <p class="subdued">Time estimate : <span class="royal">{{p.time}}</span><br/>
+              {{p.distance}} kilometers away</p></p>
+              <p class="available"><span class="balanced" ng-if="p.available_for_order == 1">Available</span><span class="assertive" ng-if="p.available_for_order != 1">Out of stock</span></p>
+              <h2>Price : <span class="royal">{{p.price}} </span>baht</h2>
+            </ion-item>
+          </div>
+     
+
   </ion-content>
 </ion-modal-view>

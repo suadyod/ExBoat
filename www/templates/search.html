@@ -1,7 +1,6 @@
 <ion-view view-title="Search">
   <ion-content>
 
-    <h1>เลือกท่าเรือ</h1>
   <head>
     <meta charset="utf-8">
     <title>
@@ -23,27 +22,34 @@
   </head>
   <body class="padding" ng-controller="PopupCtrl">
         <div class="container">
-           <button class="button button-positive" ng-click="showBegin()">
+          <br><br><br><br><br>
+           <button class="button button-block button-positive" ng-click="showBegin()">
             ต้นทาง
-           </button>  
-           <div class="item item-divider">
-            ท่าต้นทางที่คุณเลือก: {{ data.Blist }}
-           </div>
-            <br>
+           </button>
+           <br>
+           <input class="item item-divider" id = "input1" value ="{{ data.Blist }}">
+           </input>
+            <br><br>
 
-    
-           <button class="button button-positive" ng-click="showDest()">
-            ปลายทาง
-           </button> 
-           <div class="item item-divider">
-            ท่าปลายทางที่คุณเลือก: {{ data.Dlist }}
-           </div>
-  
-
-           <button class="button button-positive" ng-click="popopenflag()">
+           <button class="button button-block button-positive" ng-click="popopenflag()" >
            เลือกธงเดินทาง
            </button> 
            </div>
+           
+           <br><br>
+           <input class="item item-divider" id = "input2" value ="{{ data.Dlist }}">
+           </input>
+           <br>
+           <button class="button button-block button-positive" ng-click="showDest()">
+            ปลายทาง
+           </button> 
+  
+
+
+
+         
   </body>
   </ion-content>
 </ion-view>
+
+

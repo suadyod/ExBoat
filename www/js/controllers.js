@@ -68,7 +68,9 @@ angular.module('starter.controllers', [])
   
 })
 
-.controller('PopupCtrl',function($scope, $ionicPopup, $ionicModal) {
+.controller('PopupCtrl',function($scope, $ionicPopup, $ionicModal ) {
+
+
 
   $scope.Blist = [
     {id: 1, title: 'ท่าปากเกร็ด', value: "ท่าปากเกร็ด"},
@@ -172,13 +174,377 @@ angular.module('starter.controllers', [])
       });
 
       $scope.popopenflag = function(index) {
+          var begin = document.getElementById("input1").value;
+          var dest = document.getElementById("input2").value;
+
+          if(begin == "ท่าปากเกร็ด" && dest == "ท่าวัดกลางเกร็ด" || dest == "ท่าปากเกร็ด" && begin == "ท่าวัดกลางเกร็ด")
+          {
+                window.localStorage.setItem("begin_pier", begin);
+                window.localStorage.setItem("dest_pier", dest);   
+            
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Green',
+                  price: 13,
+                  value: "greenline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
+          
+              
+          }
+          else if(begin == "ท่าวัดกลางเกร็ด")
+          {
+            var beginID = 2;
+          }
+          else if(begin == "ท่ากระทรวงพาณิชย์")
+          {
+            var beginID = 3;
+          }
+          else if(begin == "ท่านนทบุรี (พิบูลย์สงคราม 3)")
+          {
+            var beginID = 4;
+          }
+          else if(begin == "ท่าพระราม 5")
+          {
+            var beginID = 5;
+          }
+          else if(begin == "ท่าพิบูลย์สงคราม 2")
+          {
+            var beginID = 6;
+          }
+          else if(begin == "ท่าวัดเขียน")
+          {
+            var beginID = 7;
+          }
+          else if(begin == "ท่าวัดตึก")
+          {
+            var beginID = 8;
+          }
+          else if(begin == "ท่าวัดเขมา")
+          {
+            var beginID = 9;
+          }
+          else if(begin == "ท่าพิบูลย์สงคราม 1")
+          {
+            var beginID = 10;
+          }
+          else if(begin == "ท่าพระราม 7")
+          {
+            var beginID = 11;
+          }
+          else if(begin == "ท่าวัดสร้อยทอง")
+          {
+            var beginID = 12;
+          }
+          else if(begin == "ท่าบางโพ")
+          {
+            var beginID = 13;
+          }
+          else if(begin == "ท่าเกียกกาย")
+          {
+            var beginID = 14;
+          }
+          else if(begin == "ท่าเขียวไก่กา")
+          {
+            var beginID = 15;
+          }
+          else if(begin == "ท่ากรมชลประทาน")
+          {
+            var beginID = 16;
+          }
+          else if(begin == "ท่าพายัพ")
+          {
+            var beginID = 17;
+          }
+          else if(begin == "ท่าวัดเทพากร")
+          {
+            var beginID = 18;
+          }
+          else if(begin == "ท่าวัดเทพนารี")
+          {
+            var beginID = 19;
+          }
+          else if(begin == "ท่าสะพานกรุงธน (ซังฮี้)")
+          {
+            var beginID = 20;
+          }
+          else if(begin == "ท่าเทเวศร์")
+          {
+            var beginID = 21;
+          }
+          else if(begin == "ท่าพระราม 8")
+          {
+            var beginID = 22;
+          }
+          else if(begin == "ท่าพระอาทิตย์")
+          {
+            var beginID = 23;
+          }
+          else if(begin == "ท่าพระปิ่นเกล้า")
+          {
+            var beginID = 24;
+          }
+          else if(begin == "ท่ารถไฟ")
+          {
+            var beginID = 25;
+          }
+          else if(begin == "ท่าวังหลัง (พรานนก)")
+          {
+            var beginID = 26;
+          }
+          else if(begin == "ท่ามหาราช")
+          {
+            var beginID = 27;
+          }
+          else if(begin == "ท่าช้าง")
+          {
+            var beginID = 28;
+          }
+          else if(begin == "ท่าเตียน")
+          {
+            var beginID = 29;
+          }
+          else if(begin == "ท่าราชินี")
+          {
+            var beginID = 30;
+          }
+          else if(begin == "ท่าสะพานพุทธ")
+          {
+            var beginID = 31;
+          }
+          else if(begin == "ท่าราชวงศ์")
+          {
+            var beginID = 32;
+          }
+          else if(begin == "ท่ากรมเจ้าท่า")
+          {
+            var beginID = 33;
+          }
+          else if(begin == "ท่าสี่พระยา")
+          {
+            var beginID = 34;
+          }
+          else if(begin == "ท่าวัดม่วงแค")
+          {
+            var beginID = 35;
+          }
+          else if(begin == "ท่าโอเรียนเท็ล")
+          {
+            var beginID = 36;
+          }
+          else if(begin == "ท่าสาทร (ตากสิน)")
+          {
+            var beginID = 37;
+          }
+          else if(begin == "ท่าวัดเศวตฉัตร")
+          {
+            var beginID = 38;
+          }
+          else if(begin == "ท่าวัดวธจรรยาวาส")
+          {
+            var beginID = 39;
+          }
+          else if(begin == "ท่าวัดราชสิงขร")
+          {
+            var beginID = 40;
+          }
+          else if(begin == "ท่าราษฎร์บูรณะ (บิ๊กซี)")
+          {
+            var beginID = 41;
+          }
+
+          else if(dest == "ท่าปากเกร็ด")
+          {
+            var destID = 1;
+          }
+          else if(dest == "ท่าวัดกลางเกร็ด")
+          {
+            var destID = 2;
+          }
+          else if(dest == "ท่ากระทรวงพาณิชย์")
+          {
+            var destID = 3;
+          }
+          else if(dest == "ท่านนทบุรี (พิบูลย์สงคราม 3)")
+          {
+            var destID = 4;
+          }
+          else if(dest == "ท่าพระราม 5")
+          {
+            var destID = 5;
+          }
+          else if(dest == "ท่าพิบูลย์สงคราม 2")
+          {
+            var destID = 6;
+          }
+          else if(dest == "ท่าวัดเขียน")
+          {
+            var destID = 7;
+          }
+          else if(dest == "ท่าวัดตึก")
+          {
+            var destID = 8;
+          }
+          else if(dest == "ท่าวัดเขมา")
+          {
+            var destID = 9;
+          }
+          else if(dest == "ท่าพิบูลย์สงคราม 1")
+          {
+            var destID = 10;
+          }
+          else if(dest == "ท่าพระราม 7")
+          {
+            var destID = 11;
+          }
+          else if(dest == "ท่าวัดสร้อยทอง")
+          {
+            var destID = 12;
+          }
+          else if(dest == "ท่าบางโพ")
+          {
+            var destID = 13;
+          }
+          else if(dest == "ท่าเกียกกาย")
+          {
+            var destID = 14;
+          }
+          else if(dest == "ท่าเขียวไก่กา")
+          {
+            var destID = 15;
+          }
+          else if(dest == "ท่ากรมชลประทาน")
+          {
+            var destID = 16;
+          }
+          else if(dest == "ท่าพายัพ")
+          {
+            var destID = 17;
+          }
+          else if(dest == "ท่าวัดเทพากร")
+          {
+            var destID = 18;
+          }
+          else if(dest == "ท่าวัดเทพนารี")
+          {
+            var destID = 19;
+          }
+          else if(dest == "ท่าสะพานกรุงธน (ซังฮี้)")
+          {
+            var destID = 20;
+          }
+          else if(dest == "ท่าเทเวศร์")
+          {
+            var destID = 21;
+          }
+          else if(dest == "ท่าพระราม 8")
+          {
+            var destID = 22;
+          }
+          else if(dest == "ท่าพระอาทิตย์")
+          {
+            var destID = 23;
+          }
+          else if(dest == "ท่าพระปิ่นเกล้า")
+          {
+            var destID = 24;
+          }
+          else if(dest == "ท่ารถไฟ")
+          {
+            var destID = 25;
+          }
+          else if(dest == "ท่าวังหลัง (พรานนก)")
+          {
+            var destID = 26;
+          }
+          else if(dest == "ท่ามหาราช")
+          {
+            var destID = 27;
+          }
+          else if(dest == "ท่าช้าง")
+          {
+            var destID = 28;
+          }
+          else if(dest == "ท่าเตียน")
+          {
+            var destID = 29;
+          }
+          else if(dest == "ท่าราชินี")
+          {
+            var destID = 30;
+          }
+          else if(dest == "ท่าสะพานพุทธ")
+          {
+            var destID = 31;
+          }
+          else if(dest == "ท่าราชวงศ์")
+          {
+            var destID = 32;
+          }
+          else if(dest == "ท่ากรมเจ้าท่า")
+          {
+            var destID = 33;
+          }
+          else if(dest == "ท่าสี่พระยา")
+          {
+            var destID = 34;
+          }
+          else if(dest == "ท่าวัดม่วงแค")
+          {
+            var destID = 35;
+          }
+          else if(dest == "ท่าโอเรียนเท็ล")
+          {
+            var destID = 36;
+          }
+          else if(dest == "ท่าสาทร (ตากสิน)")
+          {
+            var destID = 37;
+          }
+          else if(dest == "ท่าวัดเศวตฉัตร")
+          {
+            var destID = 38;
+          }
+          else if(dest == "ท่าวัดวธจรรยาวาส")
+          {
+            var destID = 39;
+          }
+          else if(dest == "ท่าวัดราชสิงขร")
+          {
+            var destID = 40;
+          }
+          else if(dest == "ท่าราษฎร์บูรณะ (บิ๊กซี)")
+          {
+            var destID = 41;
+          }
+          
+
       $scope.popflag.show();
       };
 
       $scope.popcloseflag = function(index) {
       $scope.popflag.hide();
+      $scope.Plist.splice(index, 5);    
       };
+
+      $scope.filter = function(index){
+        var savedData = window.localStorage.getItem("begin_pier");       
+        var element = document.getElementById("savedValue");
+        element.innerHTML = "ข้อมูลที่เก็บไว้ = " + savedData;      
+      }
+
+      
  
+  $scope.Plist = [
+    ]
+  localStorage.setItem('products', JSON.stringify($scope.Plist));
+    
+ 
+
 
   $scope.showBegin = function(){  
    var Popup = $ionicPopup.show({
@@ -223,6 +589,8 @@ angular.module('starter.controllers', [])
    }); 
    
  } 
+
+
 
 });
 
