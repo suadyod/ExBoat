@@ -68,10 +68,12 @@ angular.module('starter.controllers', [])
   
 })
 
-.controller('PopupCtrl',function($scope, $ionicPopup, $ionicModal ) {
 
 
+.controller('PopupCtrl',function($scope, $ionicPopup, $ionicModal, $interval) {
+  
 
+        //list of beginng pier
   $scope.Blist = [
     {id: 1, title: 'ท่าปากเกร็ด', value: "ท่าปากเกร็ด"},
     {id: 2, title: 'ท่าวัดกลางเกร็ด', value: "ท่าวัดกลางเกร็ด"},
@@ -115,7 +117,7 @@ angular.module('starter.controllers', [])
     {id: 40, title: 'ท่าวัดราชสิงขร', value: "ท่าวัดราชสิงขร"},
     {id: 41, title: 'ท่าราษฎร์บูรณะ (บิ๊กซี)', value: "ท่าราษฎร์บูรณะ (บิ๊กซี)"}
   ];
-
+        //list of destination pier
   $scope.Dlist = [
     {id: 1, title: 'ท่าปากเกร็ด', value: "ท่าปากเกร็ด"},
     {id: 2, title: 'ท่าวัดกลางเกร็ด', value: "ท่าวัดกลางเกร็ด"},
@@ -164,7 +166,7 @@ angular.module('starter.controllers', [])
   $scope.data = {
     Blist: ''
   };
-
+        //call popup flag filter
   $ionicModal.fromTemplateUrl('templates/popup/Flag.html', {
         id: '999',
         backdropClickToClose: false,
@@ -173,15 +175,93 @@ angular.module('starter.controllers', [])
         $scope.popflag = modal;
       });
 
+
+        //Manage about geolocation
+      $scope.lat = 0;
+      $scope.lng = 0;
+      $scope.latbegin = 0;
+      $scope.lngbegin = 0;
+      $scope.accuracy = "0";
+      $scope.error = "";
+      $scope.Math = window.Math
+      $scope.diff = 0;
+
+      $scope.showPosition = function (position){
+       $scope.lat = position.coords.latitude;
+       $scope.lng = position.coords.longitude;
+       $scope.accuracy = position.coords.accuracy;
+       $scope.latbegin = window.localStorage.getItem("latbegin");
+       $scope.lngbegin = window.localStorage.getItem("lngbegin");
+       $scope.getDistance();
+       $scope.$apply();
+      }
+      $scope.showResult = function () {
+            return $scope.error == "";
+        }
+      $scope.showError = function (error) {
+            switch (error.code) {
+                case error.PERMISSION_DENIED:
+                    $scope.error = "User denied the request for Geolocation."
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    $scope.error = "Location information is unavailable."
+                    break;
+                case error.TIMEOUT:
+                    $scope.error = "The request to get user location timed out."
+                    break;
+                case error.UNKNOWN_ERROR:
+                    $scope.error = "An unknown error occurred."
+                    break;
+            }
+            $scope.$apply();
+        }
+        
+          
+      $scope.getLocation = function () {
+            $interval(function() {       
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition($scope.showPosition, $scope.showError); 
+                $window.location.reload();         
+              }
+            else {
+                $scope.error = "Geolocation is not supported by this browser.";
+              }}, 1000)
+              }
+          
+
+
+
+        //Calculate distance between current location and each per 
+      $scope.getDistance = function() {
+            $scope.R = 6371; // Radius of the earth in km
+            $scope.dLat = ($scope.lat-$scope.latbegin)* (Math.PI/180);  // deg2rad below
+            $scope.dLon = ($scope.lng-$scope.lngbegin)* (Math.PI/180); 
+            $scope.a = 
+            Math.sin($scope.dLat/2) * Math.sin($scope.dLat/2) +
+            Math.cos(($scope.latbegin)* (Math.PI/180)) * Math.cos(($scope.lat)* (Math.PI/180)) * 
+            Math.sin($scope.dLon/2) * Math.sin($scope.dLon/2)
+            ; 
+            $scope.c = 2 * Math.atan2(Math.sqrt($scope.a), Math.sqrt(1-$scope.a)); 
+            $scope.diff  = $scope.R * $scope.c; // Distance in km 
+          }
+      
+
+        //open popup and filter flag
       $scope.popopenflag = function(index) {
           var begin = document.getElementById("input1").value;
           var dest = document.getElementById("input2").value;
+       
 
           if(begin == "ท่าปากเกร็ด" && dest == "ท่าวัดกลางเกร็ด" || dest == "ท่าปากเกร็ด" && begin == "ท่าวัดกลางเกร็ด")
           {
                 window.localStorage.setItem("begin_pier", begin);
-                window.localStorage.setItem("dest_pier", dest);   
-            
+                window.localStorage.setItem("dest_pier", dest);
+                //$scope.getLocation(); 
+                
+                $scope.latbegin = 13.915332;
+                $scope.lngbegin = 100.494624;
+                window.localStorage.setItem("latbegin",$scope.latbegin);
+                window.localStorage.setItem("lngbegin",$scope.lngbegin);
 
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
@@ -193,12 +273,135 @@ angular.module('starter.controllers', [])
                   value: "greenline",
                   image: 'http://wwweb.com.au/images/blue-flag.png'
               });
+
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
+
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
           
               
           }
-          else if(begin == "ท่าวัดกลางเกร็ด")
+          else if(begin == "ท่าปากเกร็ด" && dest == "ท่ากระทรวงพาณิชย์" || dest == "ท่ากระทรวงพาณิชย์" && begin == "ท่าปากเกร็ด")
           {
-            var beginID = 2;
+                window.localStorage.setItem("begin_pier", begin);
+                window.localStorage.setItem("dest_pier", dest);
+                //$scope.getLocation(); 
+                
+                $scope.latbegin = 13.883051;
+                $scope.lngbegin = 100.484511;
+                window.localStorage.setItem("latbegin",$scope.latbegin);
+                window.localStorage.setItem("lngbegin",$scope.lngbegin);
+
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Green',
+                  price: 13,
+                  value: "greenline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Yellow',
+                  price: 29,
+                  value: "yellowline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
+
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
+
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
+
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Normal',
+                  price: 14,
+                  value: "normalline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
           }
           else if(begin == "ท่ากระทรวงพาณิชย์")
           {
@@ -528,14 +731,10 @@ angular.module('starter.controllers', [])
 
       $scope.popcloseflag = function(index) {
       $scope.popflag.hide();
-      $scope.Plist.splice(index, 5);    
+      $scope.Plist.splice(index, 10);    
       };
 
-      $scope.filter = function(index){
-        var savedData = window.localStorage.getItem("begin_pier");       
-        var element = document.getElementById("savedValue");
-        element.innerHTML = "ข้อมูลที่เก็บไว้ = " + savedData;      
-      }
+      
 
       
  

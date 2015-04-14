@@ -3,6 +3,7 @@
 <ion-content>
 	<head>
 		<meta charset="UTF-8" />
+		<!--<meta http-equiv="refresh" content="3" -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title>Green Line</title>
@@ -11,14 +12,19 @@
 	<body>
 		<div class="container">
 			<header class="clearfix" style="color:#228B22">
-				<span>ExBoat</span>
+				<button class="button button-block button-positive" ng-click = "getLocation()">เปิดใช้งานตำแหน่งปัจจุบัน</button>
+				<br>
+				<span>ExBoat</span> 
+				<br>
 				<h1 style="color:#228B22">เรือด่วนธงเขียว</h1>
 			</header>	
 			<div class="main">
 				<ul class="cbp_greentimeline">
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N33</span> <span>ท่าปากเกร็ด</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
+						<time class="cbp_tmtime" ><span>N33</span> <span>ท่าปากเกร็ด</span></time>
+						<div class="cbp_tmicon ion-help-buoy" ng-if="diff >= 3.423"></div>
+						<div class="cbp_tmicon ion-help-buoy" ng-if="diff == 0"></div>
+						<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diff <= 3.423"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าปากเกร็ด</h2>
 							<p></p>
@@ -26,7 +32,7 @@
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N32</span> <span>ท่าวัดกลางเกร็ด</span></time>
+						<time class="cbp_tmtime" ><span>N32</span> <span>ท่าวัดกลางเกร็ด</span></time>
 						<div class="cbp_tmicon ion-help-buoy"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าวัดกลางเกร็ด</h2>
@@ -35,7 +41,7 @@
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N31</span> <span>ท่ากระทรวงพาณิชย์</span></time>
+						<time class="cbp_tmtime" ><span>N31</span> <span>ท่ากระทรวงพาณิชย์</span></time>
 						<div class="cbp_tmicon ion-help-buoy"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่ากระทรวงพาณิชย์</h2>
@@ -44,7 +50,7 @@
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N30</span> <span>ท่านนทบุรี(พิบูลย์3)</span></time>
+						<time class="cbp_tmtime" ><span>N30</span> <span>ท่านนทบุรี(พิบูลย์3)</span></time>
 						<div class="cbp_tmicon ion-help-buoy"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่านนทบุรี(พิบูลย์3)</h2>
@@ -53,7 +59,7 @@
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>N24</span> <span>ท่าพระราม 7</span></time>
+						<time class="cbp_tmtime" ><span>N24</span> <span>ท่าพระราม 7</span></time>
 						<div class="cbp_tmicon ion-help-buoy blink_me"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าพระราม 7</h2>
@@ -61,7 +67,7 @@
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N16</span> <span>ท่าสะพานกรุงธน (ซังฮี้)</span></time>
+						<time class="cbp_tmtime" ><span>N16</span> <span>ท่าสะพานกรุงธน (ซังฮี้)</span></time>
 						<div class="cbp_tmicon ion-help-buoy"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าสะพานกรุงธน (ซังฮี้)</h2>
@@ -70,7 +76,7 @@
 					</li>
 
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N15</span> <span>ท่าเทเวศร์</span></time>
+						<time class="cbp_tmtime" ><span>N15</span> <span>ท่าเทเวศร์</span></time>
 						<div class="cbp_tmicon ion-help-buoy"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าเทเวศร์</h2>
@@ -78,7 +84,7 @@
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N12</span> <span>ท่าพระปิ่นเกล้า</span></time>
+						<time class="cbp_tmtime" ><span>N12</span> <span>ท่าพระปิ่นเกล้า</span></time>
 						<div class="cbp_tmicon ion-help-buoy"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าพระปิ่นเกล้า</h2>
@@ -87,7 +93,7 @@
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>N10</span> <span>ท่าวังหลัง (พรานนก)</span></time>
+						<time class="cbp_tmtime" ><span>N10</span> <span>ท่าวังหลัง (พรานนก)</span></time>
 						<div class="cbp_tmicon ion-help-buoy"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าวังหลัง (พรานนก)</h2>
@@ -95,7 +101,7 @@
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>N9</span> <span>ท่าช้าง</span></time>
+						<time class="cbp_tmtime" ><span>N9</span> <span>ท่าช้าง</span></time>
 						<div class="cbp_tmicon ion-help-buoy"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าช้าง</h2>
@@ -103,7 +109,7 @@
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>N5</span> <span>ท่าราชวงศ์</span></time>
+						<time class="cbp_tmtime" ><span>N5</span> <span>ท่าราชวงศ์</span></time>
 						<div class="cbp_tmicon ion-help-buoy"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าราชวงศ์</h2>
@@ -111,7 +117,7 @@
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N3</span> <span>ท่าสี่พระยา</span></time>
+						<time class="cbp_tmtime" ><span>N3</span> <span>ท่าสี่พระยา</span></time>
 						<div class="cbp_tmicon ion-help-buoy"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าสี่พระยา</h2>
@@ -120,7 +126,7 @@
 					</li>
 
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>CENTRAL</span> <span>ท่าสาทร (ตากสิน)</span></time>
+						<time class="cbp_tmtime" ><span>CENTRAL</span> <span>ท่าสาทร (ตากสิน)</span></time>
 						<div class="cbp_tmicon ion-help-buoy"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าสาทร (ตากสิน)</h2>
@@ -129,6 +135,12 @@
 					</li>
 				</ul>
 			</div>
+			<div class="row" >
+	               Latitude: {{lat}} <br />
+	               Longitude: {{lng}} <br />
+	               Distance: {{diff}} km<br />
+	               Accuracy: {{accuracy}}
+            	</div><br/>
 		</div>
 	</body>
 </ion-content>
