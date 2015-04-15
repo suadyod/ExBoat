@@ -1,6 +1,6 @@
 angular.module('starter.map', [])
 
-.controller('MapCtrl', function($scope, $ionicLoading, $compile, $ionicModal) {
+.controller('MapCtrl', function($scope, $ionicLoading, $compile, $ionicModal,$ionicScrollDelegate, $location, $ionicActionSheet) {
 
       function initialize() {
         var pier1 = new google.maps.LatLng(13.723298,100.513541);
@@ -1442,5 +1442,14 @@ angular.module('starter.map', [])
         alert('วัดพระแก้ว')
       };
 
+      $scope.scrollMe = function(id) {
+        $location.hash(id);
+        var delegateHandle = $ionicScrollDelegate.$getByHandle('content');
+        delegateHandle.anchorScroll(id);      
+      };
+
+       
+
       
     });
+

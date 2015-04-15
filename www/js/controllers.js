@@ -1,10 +1,13 @@
 angular.module('starter.controllers', [])
 
+//controller for map point page
 .controller('SlideboxCtrl', function($scope, $ionicSlideBoxDelegate) {
   $scope.nextSlide = function() {
     $ionicSlideBoxDelegate.next();
   }             
 })   
+
+
 
 
 .controller('PlaylistsCtrl', function($scope) {
@@ -21,10 +24,59 @@ angular.module('starter.controllers', [])
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 })
 
+//controller for advertiment page
+.controller('AdsCtrl', function($scope, Friends) {
+  $scope.friends = Friends.getFriends();
+  $scope.doRefresh = function() {
+    Friends.refresh();
+    $scope.$broadcast('scroll.refreshComplete');
+  }
+  
+  $scope.delete = function(id) {
+    Friends.delete(id);
+  }
+})
+
+.service('Friends', function(){
+  
+  var friends = [
+      { id: 0, first_name: 'Jack', last_name: "Miller", phone: '416-232-6733' },
+      { id: 1, first_name: 'Rich', last_name: "Johnson", phone: '416-622-7788' }
+  ];
+  
+  var newFriends = [
+      { id: 2, first_name: 'Jill', last_name: "Strong", phone: '416-342-2242' },
+      { id: 3, first_name: 'Andrew', last_name: "Smith", phone: '416-776-2452' },
+      { id: 4, first_name: 'Alice', last_name: "Grant", phone: '416-332-3424' },
+      { id: 5, first_name: 'Mary', last_name: "Moore", phone: '416-953-7721' },
+      { id: 6, first_name: 'Mike', last_name: "Strong", phone: '416-342-2242' },
+      { id: 7, first_name: 'Heather', last_name: "Smith", phone: '416-776-8842' },
+      { id: 8, first_name: 'James', last_name: "Grant", phone: '416-332-3424' },
+      { id: 9, first_name: 'Brad', last_name: "Moore", phone: '416-953-4764' }
+    
+  ];
+  
+  this.getFriends = function(){
+    return friends;
+  }
+  
+  this.refresh = function() {
+    friends.push(newFriends.shift());
+  }
+  
+  this.delete = function(id) {
+    for(var i=0; i < friends.length; i++){
+        if(friends[i].id == id){
+            friends.splice(i,1);
+        }
+    }
+  }
+})
+
+//controller for settings page
 .controller('SettingsCtrl', function($scope) {
 
   $scope.settingsList = [
-    { text: "Wireless", checked: true },
     { text: "GPS", checked: false },
     { text: "Vibration", checked: false }
   ];
@@ -34,11 +86,10 @@ angular.module('starter.controllers', [])
   };
   
   $scope.pushNotification = { checked: true };
-  $scope.emailNotification = 'Subscribed';
   
 })
 
-
+//controller for emergency page
 .controller('EmergencyCtrl', function($scope) {
   $scope.groups = [];
   for (var i=0; i<10; i++) {
@@ -46,11 +97,11 @@ angular.module('starter.controllers', [])
       name: i,
       items: []
     };
-    for (var j=0; j<3; j++) {
-      $scope.groups[i].items.push(i + '-' + j);
-    }
+    $scope.groups[i].items.push(i + ' - ' + 'tel:');
   }
-  
+  $scope.CallTel = function(tel) {
+            window.location.href = 'tel:'+ 0875957750;
+        }
   /*
    * if given group is the selected group, deselect it
    * else, select the given group
@@ -69,7 +120,7 @@ angular.module('starter.controllers', [])
 })
 
 
-
+//controller for main page
 .controller('PopupCtrl',function($scope, $ionicPopup, $ionicModal, $interval) {
   
 
@@ -252,11 +303,33 @@ angular.module('starter.controllers', [])
           var dest = document.getElementById("input2").value;
        
 
-          if(begin == "ท่าปากเกร็ด" && dest == "ท่าวัดกลางเกร็ด" || dest == "ท่าปากเกร็ด" && begin == "ท่าวัดกลางเกร็ด")
+          if(begin == "ท่าปากเกร็ด" && dest == "ท่าวัดกลางเกร็ด")
           {
                 window.localStorage.setItem("begin_pier", begin);
                 window.localStorage.setItem("dest_pier", dest);
                 //$scope.getLocation(); 
+                
+                $scope.latbegin = 13.915332;
+                $scope.lngbegin = 100.494624;
+                window.localStorage.setItem("latbegin",$scope.latbegin);
+                window.localStorage.setItem("lngbegin",$scope.lngbegin);
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 290,
+                  available_for_order: 1,
+                  name: 'Green',
+                  price: 13,
+                  value: "greenline",
+                  image: 'http://wwweb.com.au/images/blue-flag.png'
+              });
+          
+              
+          }
+          else if(dest == "ท่าปากเกร็ด" && begin == "ท่าวัดกลางเกร็ด"){
+                window.localStorage.setItem("begin_pier", begin);
+                window.localStorage.setItem("dest_pier", dest);
                 
                 $scope.latbegin = 13.915332;
                 $scope.lngbegin = 100.494624;
@@ -297,9 +370,9 @@ angular.module('starter.controllers', [])
                   value: "greenline",
                   image: 'http://wwweb.com.au/images/blue-flag.png'
               });
-          
-              
           }
+
+
           else if(begin == "ท่าปากเกร็ด" && dest == "ท่ากระทรวงพาณิชย์" || dest == "ท่ากระทรวงพาณิชย์" && begin == "ท่าปากเกร็ด")
           {
                 window.localStorage.setItem("begin_pier", begin);

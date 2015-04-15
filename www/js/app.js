@@ -87,7 +87,8 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map'])
     url: "/ads",
     views: {
       'menuContent': {
-        templateUrl: "templates/ads.html"
+        templateUrl: "templates/ads.html",
+        controller: 'AdsCtrl'
       }
     }
   })
