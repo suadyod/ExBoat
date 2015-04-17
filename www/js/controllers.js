@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ['ngCordova'])
 
 //controller for map point page
 .controller('SlideboxCtrl', function($scope, $ionicSlideBoxDelegate) {
@@ -6,6 +6,8 @@ angular.module('starter.controllers', [])
     $ionicSlideBoxDelegate.next();
   }             
 })   
+
+
 
 
 
@@ -121,7 +123,7 @@ angular.module('starter.controllers', [])
 
 
 //controller for main page
-.controller('PopupCtrl',function($scope, $ionicPopup, $ionicModal, $interval) {
+.controller('PopupCtrl',function($scope, $ionicPopup, $ionicModal, $interval, $cordovaLocalNotification) {
   
 
         //list of beginng pier
@@ -322,7 +324,7 @@ angular.module('starter.controllers', [])
                   name: 'Green',
                   price: 13,
                   value: "greenline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/greenflag.png'
               });
           
               
@@ -344,7 +346,7 @@ angular.module('starter.controllers', [])
                   name: 'Green',
                   price: 13,
                   value: "greenline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/greenflag.png'
               });
 
 
@@ -356,7 +358,7 @@ angular.module('starter.controllers', [])
                   name: 'Green',
                   price: 20,
                   value: "greenline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/greenflag.png'
               });
 
 
@@ -368,7 +370,7 @@ angular.module('starter.controllers', [])
                   name: 'Green',
                   price: 32,
                   value: "greenline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/greenflag.png'
               });
           }
 
@@ -393,7 +395,7 @@ angular.module('starter.controllers', [])
                   name: 'Green',
                   price: 13,
                   value: "greenline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/greenflag.png'
               });
 
                 $scope.Plist.push({
@@ -404,7 +406,7 @@ angular.module('starter.controllers', [])
                   name: 'Blue',
                   price: 40,
                   value: "blueline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/blueflag.png'
               });
 
                 $scope.Plist.push({
@@ -415,7 +417,7 @@ angular.module('starter.controllers', [])
                   name: 'Orange',
                   price: 15,
                   value: "orangeline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/orangeflag.png'
               });
 
                 $scope.Plist.push({
@@ -426,7 +428,7 @@ angular.module('starter.controllers', [])
                   name: 'Yellow',
                   price: 20,
                   value: "yellowline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/yellowflag.png'
               });
 
                 $scope.Plist.push({
@@ -437,7 +439,7 @@ angular.module('starter.controllers', [])
                   name: 'Yellow',
                   price: 29,
                   value: "yellowline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/yellowflag.png'
               });
 
 
@@ -449,7 +451,7 @@ angular.module('starter.controllers', [])
                   name: 'Normal',
                   price: 10,
                   value: "normalline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/normalflag.png'
               });
 
 
@@ -461,7 +463,7 @@ angular.module('starter.controllers', [])
                   name: 'Normal',
                   price: 12,
                   value: "normalline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/normalflag.png'
               });
 
 
@@ -473,7 +475,7 @@ angular.module('starter.controllers', [])
                   name: 'Normal',
                   price: 14,
                   value: "normalline",
-                  image: 'http://wwweb.com.au/images/blue-flag.png'
+                  image: 'img/normalflag.png'
               });
           }
           else if(begin == "ท่ากระทรวงพาณิชย์")
@@ -860,7 +862,41 @@ angular.module('starter.controllers', [])
     }]
    }); 
    
- } 
+ }
+
+
+    $scope.$on("$cordovaLocalNotification:added", function(id, state, json) {
+        alert("Added a notification");
+    });
+
+
+    $scope.add = function() {
+        var dest = window.localStorage.getItem("dest_pier");
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 1);
+        $cordovaLocalNotification.add({
+            id: "1234",
+            date: alarmTime,
+            message: "You have arrived your destination" + dest,
+            title: "ExBoat Notification service!",
+            autoCancel: true,
+            sound: null
+        }).then(function () {
+          alert("The notification has been set");
+            console.log("The notification has been set");
+        });
+    };
+ 
+    $scope.isScheduled = function() {
+        $cordovaLocalNotification.isScheduled("1234").then(function(isScheduled) {
+            alert("Notification Scheduled: " + isScheduled);
+        });
+    } 
+
+    $scope.notify = function() {
+        var dest = window.localStorage.getItem("dest_pier");
+        alert("You have arrived your destination : " + dest);
+    }
 
 
 

@@ -4,9 +4,9 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map'])
+angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCordova'])
 
-.run(function($ionicPlatform) {
+.run(function($ionicPlatform, $rootScope, $timeout) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -17,19 +17,35 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map'])
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
-    //if (window.Connection) {
-     //           if(navigator.connection.type == Connection.NONE) {
-     //               $ionicPopup.confirm({
-     //                   title: "Internet Disconnected",
-     //                   content: "The internet is disconnected on your device. Please connect the Internet"
-     //               })
-     //               .then(function(result) {
-     //                   if(!result) {
-     //                       ionic.Platform.exitApp();
-     //                   }
-     //               });
-     //           }
-     //       }
+      // Get permissions on first launch for notifications
+    if(device.platform === "iOS") {
+      window.plugin.notification.local.promptForPermission();
+    }
+        // Trigger alert when notification is fired but app is in foreground
+    window.plugin.notification.local.onadd = function (id, state, json) {
+            var notification = {
+                id: id,
+                state: state,
+                json: json
+            };
+            $timeout(function() {
+                $rootScope.$broadcast("$cordovaLocalNotification:added", notification);
+            });
+    };
+      // Check for network connection
+    if (window.Connection) {
+                if(navigator.connection.type == Connection.NONE) {
+                    $ionicPopup.confirm({
+                        title: "Internet Disconnected",
+                        content: "The internet is disconnected on your device. Please connect the Internet"
+                    })
+                    .then(function(result) {
+                        if(!result) {
+                            ionic.Platform.exitApp();
+                        }
+                    });
+                }
+           }
   });
 })
 
@@ -191,5 +207,5 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map'])
     })
   ;
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/search');
+  $urlRouterProvider.otherwise('/app/map');
 });

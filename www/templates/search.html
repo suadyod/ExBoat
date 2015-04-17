@@ -22,7 +22,8 @@
   </head>
   <body class="padding" ng-controller="PopupCtrl">
         <div class="container">
-          <br><br><br><br><br>
+
+          <br><br><br>
            <button class="button button-block button-positive" ng-click="showBegin()">
             ต้นทาง
            </button>
@@ -43,6 +44,7 @@
            <button class="button button-block button-positive" ng-click="showDest()">
             ปลายทาง
            </button> 
+
   
 
 
@@ -50,6 +52,10 @@
          
   </body>
   </ion-content>
+  <ion-footer-bar class="bar-positive">
+      <button class="button" ng-click="add()">Add notification</button>
+    <button class="button" ng-click="isScheduled()">Is Scheduled</button>
+    </ion-footer-bar>
 </ion-view>
 
 

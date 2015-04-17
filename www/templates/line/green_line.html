@@ -12,7 +12,7 @@
 	<body>
 		<div class="container">
 			<header class="clearfix" style="color:#228B22">
-				<button class="button button-block button-positive" ng-click = "getLocation()">เปิดใช้งานตำแหน่งปัจจุบัน</button>
+				<button class="button button-block button-positive" ng-click = "getLocation()">เปิดใช้งานตำแหน่งปัจจุบันและแจ้งเตือน</button>
 				<br>
 				<span>ExBoat</span> 
 				<br>
@@ -23,7 +23,7 @@
 					<li>
 						<time class="cbp_tmtime" ><span>N33</span> <span>ท่าปากเกร็ด</span></time>
 						<div class="cbp_tmicon ion-help-buoy" ng-if="diff >= 3.423"></div>
-						<div class="cbp_tmicon ion-help-buoy" ng-if="diff == 0"></div>
+						<div class="cbp_tmicon ion-help-buoy" ng-if="diff == 0" ng-click = "notify()"></div>
 						<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diff <= 3.423"></div>
 						<div class="cbp_tmlabel">
 							<h2 style="color:#fff">ท่าปากเกร็ด</h2>

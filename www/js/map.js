@@ -1,6 +1,6 @@
 angular.module('starter.map', [])
 
-.controller('MapCtrl', function($scope, $ionicLoading, $compile, $ionicModal,$ionicScrollDelegate, $location, $ionicActionSheet) {
+.controller('MapCtrl', function($scope, $ionicLoading, $compile, $ionicModal,$ionicScrollDelegate, $location,$state) {
 
       function initialize() {
         var pier1 = new google.maps.LatLng(13.723298,100.513541);
@@ -17,15 +17,15 @@ angular.module('starter.map', [])
         //var contentString = "<div><a ng-click='clickTest()'>Click me!</a></div>";
         //var compiled = $compile(contentString)($scope);
         
-        //var img = {
-        //  url: 'img/ios7-location-outline.png',
-        //  scaledSize: new google.maps.Size(50, 50)
-        //};
+        var img = {
+          url: 'img/portmarker.png',
+          scaledSize: new google.maps.Size(40, 40)
+        };
         var marker1 = new google.maps.Marker({
           position: pier1,
           map: map,
           animation: google.maps.Animation.DROP,
-          //icon: img,
+          icon: img,
           title: 'point1'
         });
         var infoText1 = "<div><a ng-click='popopen1()'><br><h1>ท่าโอเรียนเท็ล</h1></a></div>";
@@ -42,6 +42,7 @@ angular.module('starter.map', [])
         var marker0 = new google.maps.Marker({
           position: pier0,
           map: map ,
+          icon: img,
           title:"point0"
         })
         var infoText0 = "<div><a ng-click='popopen0()'><br><h1>ท่าสาทร(ตากสิน)</h1></a></div>";
@@ -58,6 +59,7 @@ angular.module('starter.map', [])
         var marker2 = new google.maps.Marker({
           position: pier2,
           map: map ,
+          icon: img,
           title:"point2"
         })
         var infoText2 = "<div><a ng-click='popopen2()'><br><h1>ท่าวัดม่วงแค</h1></a></div>";
@@ -74,6 +76,7 @@ angular.module('starter.map', [])
         var marker3 = new google.maps.Marker({
           position: pier3,
           map: map ,
+          icon: img,
           title:"point3"
         })
         var infoText3 = "<div><a ng-click='popopen3()'><br><h1>ท่าสี่พระยา</h1></a></div>";
@@ -90,6 +93,7 @@ angular.module('starter.map', [])
         var marker4 = new google.maps.Marker({
           position: pier4,
           map: map ,
+          icon: img,
           title:"point4"
         })
         var infoText4 = "<div><a ng-click='popopen4()'><br><h1>ท่ากรมเจ้าท่า</h1></a></div>";
@@ -106,6 +110,7 @@ angular.module('starter.map', [])
         var marker5 = new google.maps.Marker({
           position: pier5,
           map: map ,
+          icon: img,
           title:"point5"
         })
         var infoText5 = "<div><a ng-click='popopen5()'><br><h1>ท่าราชวงศ์</h1></a></div>";
@@ -122,6 +127,7 @@ angular.module('starter.map', [])
         var marker6 = new google.maps.Marker({
           position: pier6,
           map: map ,
+          icon: img,
           title:"point6"
         })
         var infoText6 = "<div><a ng-click='popopen6()'><br><h1>ท่าสะพานพุทธ</h1></a></div>";
@@ -138,6 +144,7 @@ angular.module('starter.map', [])
         var marker7 = new google.maps.Marker({
           position: pier7,
           map: map ,
+          icon: img,
           title:"point7"
         })
         var infoText7 = "<div><a ng-click='popopen7()'><br><h1>ท่าราชินี</h1></a></div>";
@@ -154,6 +161,7 @@ angular.module('starter.map', [])
         var marker8 = new google.maps.Marker({
           position: pier8,
           map: map ,
+          icon: img,
           title:"point8"
         })
         var infoText8 = "<div><a ng-click='popopen8()'><br><h1>ท่าเตียน</h1></a></div>";
@@ -170,6 +178,7 @@ angular.module('starter.map', [])
         var marker9 = new google.maps.Marker({
           position: pier9,
           map: map ,
+          icon: img,
           title:"point9"
         })
         var infoText9 = "<div><a ng-click='popopen9()'><br><h1>ท่าช้าง</h1></a></div>";
@@ -186,6 +195,7 @@ angular.module('starter.map', [])
         var marker9s = new google.maps.Marker({
           position: pier9s,
           map: map ,
+          icon: img,
           title:"point9s"
         })
         var infoText9s = "<div><a ng-click='popopen9s()'><br><h1>ท่ามหาราช</h1></a></div>";
@@ -202,6 +212,7 @@ angular.module('starter.map', [])
         var marker10 = new google.maps.Marker({
           position: pier10,
           map: map ,
+          icon: img,
           title:"point10"
         })
         var infoText10 = "<div><a ng-click='popopen10()'><br><h1>ท่าวังหลัง(พรานนก)</h1></a></div>";
@@ -218,6 +229,7 @@ angular.module('starter.map', [])
         var marker11 = new google.maps.Marker({
           position: pier11,
           map: map ,
+          icon: img,
           title:"point11"
         })
         var infoText11 = "<div><a ng-click='popopen11()'><br><h1>ท่ารถไฟ</h1></a></div>";
@@ -234,6 +246,7 @@ angular.module('starter.map', [])
         var marker12 = new google.maps.Marker({
           position: pier12,
           map: map ,
+          icon: img,
           title:"point12"
         })
         var infoText12 = "<div><a ng-click='popopen12()'><br><h1>ท่าปิ่นเกล้า</h1></a></div>";
@@ -250,6 +263,7 @@ angular.module('starter.map', [])
         var marker13 = new google.maps.Marker({
           position: pier13,
           map: map ,
+          icon: img,
           title:"point13"
         })
         var infoText13 = "<div><a ng-click='popopen13()'><br><h1>ท่าพระอาทิตย์</h1></a></div>";
@@ -266,6 +280,7 @@ angular.module('starter.map', [])
         var marker14 = new google.maps.Marker({
           position: pier14,
           map: map ,
+          icon: img,
           title:"point14"
         })
         var infoText14 = "<div><a ng-click='popopen14()'><br><h1>ท่าพระราม 8</h1></a></div>";
@@ -282,6 +297,7 @@ angular.module('starter.map', [])
         var marker15 = new google.maps.Marker({
           position: pier15,
           map: map ,
+          icon: img,
           title:"point15"
         })
         var infoText15 = "<div><a ng-click='popopen15()'><br><h1>ท่าเทเวศร์</h1></a></div>";
@@ -298,6 +314,7 @@ angular.module('starter.map', [])
         var marker16 = new google.maps.Marker({
           position: pier16,
           map: map ,
+          icon: img,
           title:"point16"
         })
         var infoText16 = "<div><a ng-click='popopen16()'><br><h1>ท่าสะพานกรุงธน (ซังฮี้)</h1></a></div>";
@@ -314,6 +331,7 @@ angular.module('starter.map', [])
         var marker17 = new google.maps.Marker({
           position: pier17,
           map: map ,
+          icon: img,
           title:"point17"
         })
         var infoText17 = "<div><a ng-click='popopen17()'><br><h1>ท่าวัดเทพนารี</h1></a></div>";
@@ -330,6 +348,7 @@ angular.module('starter.map', [])
         var marker17s = new google.maps.Marker({
           position: pier17s,
           map: map ,
+          icon: img,
           title:"point17s"
         })
         var infoText17s = "<div><a ng-click='popopen17s()'><br><h1>ท่าวัดเทพากร</h1></a></div>";
@@ -346,6 +365,7 @@ angular.module('starter.map', [])
         var marker18 = new google.maps.Marker({
           position: pier18,
           map: map ,
+          icon: img,
           title:"point18"
         })
         var infoText18 = "<div><a ng-click='popopen18()'><br><h1>ท่าพายัพ</h1></a></div>";
@@ -362,6 +382,7 @@ angular.module('starter.map', [])
         var marker19 = new google.maps.Marker({
           position: pier19,
           map: map ,
+          icon: img,
           title:"point19"
         })
         var infoText19 = "<div><a ng-click='popopen19()'><br><h1>ท่ากรมชลประทาน</h1></a></div>";
@@ -378,6 +399,7 @@ angular.module('starter.map', [])
         var marker20 = new google.maps.Marker({
           position: pier20,
           map: map ,
+          icon: img,
           title:"point20"
         })
         var infoText20 = "<div><a ng-click='popopen20()'><br><h1>ท่าเขียวไข่กา</h1></a></div>";
@@ -394,6 +416,7 @@ angular.module('starter.map', [])
         var marker21 = new google.maps.Marker({
           position: pier21,
           map: map ,
+          icon: img,
           title:"point21"
         })
         var infoText21 = "<div><a ng-click='popopen21()'><br><h1>ท่าเกียกกาย</h1></a></div>";
@@ -410,6 +433,7 @@ angular.module('starter.map', [])
         var marker22 = new google.maps.Marker({
           position: pier22,
           map: map ,
+          icon: img,
           title:"point22"
         })
         var infoText22 = "<div><a ng-click='popopen22()'><br><h1>ท่าบางโพ</h1></a></div>";
@@ -426,6 +450,7 @@ angular.module('starter.map', [])
         var marker23 = new google.maps.Marker({
           position: pier23,
           map: map ,
+          icon: img,
           title:"point23"
         })
         var infoText23 = "<div><a ng-click='popopen23()'><br><h1>ท่าวัดสร้อยทอง</h1></a></div>";
@@ -442,6 +467,7 @@ angular.module('starter.map', [])
         var marker24 = new google.maps.Marker({
           position: pier24,
           map: map ,
+          icon: img,
           title:"point24"
         })
         var infoText24 = "<div><a ng-click='popopen24()'><br><h1>ท่าพระราม 7</h1></a></div>";
@@ -458,6 +484,7 @@ angular.module('starter.map', [])
         var marker25 = new google.maps.Marker({
           position: pier25,
           map: map ,
+          icon: img,
           title:"point25"
         })
         var infoText25 = "<div><a ng-click='popopen25()'><br><h1>ท่าพิบูลย์สงคราม 1</h1></a></div>";
@@ -474,6 +501,7 @@ angular.module('starter.map', [])
         var marker26 = new google.maps.Marker({
           position: pier26,
           map: map ,
+          icon: img,
           title:"point26"
         })
         var infoText26 = "<div><a ng-click='popopen26()'><br><h1>ท่าวัดเขมา</h1></a></div>";
@@ -490,6 +518,7 @@ angular.module('starter.map', [])
         var marker27 = new google.maps.Marker({
           position: pier27,
           map: map ,
+          icon: img,
           title:"point27"
         })
         var infoText27 = "<div><a ng-click='popopen27()'><br><h1>ท่าวัดตึก</h1></a></div>";
@@ -506,6 +535,7 @@ angular.module('starter.map', [])
         var marker28 = new google.maps.Marker({
           position: pier28,
           map: map ,
+          icon: img,
           title:"point28"
         })
         var infoText28 = "<div><a ng-click='popopen28()'><br><h1>ท่าเขียน</h1></a></div>";
@@ -522,6 +552,7 @@ angular.module('starter.map', [])
         var marker29 = new google.maps.Marker({
           position: pier29,
           map: map ,
+          icon: img,
           title:"point29"
         })
         var infoText29 = "<div><a ng-click='popopen29()'><br><h1>ท่าพิบูลย์สงคราม 2</h1></a></div>";
@@ -539,6 +570,7 @@ angular.module('starter.map', [])
         var marker29s = new google.maps.Marker({
           position: pier29s,
           map: map ,
+          icon: img,
           title:"point29s"
         })
         var infoText29s = "<div><a ng-click='popopen29s()'><br><h1>ท่าพระราม 5</h1></a></div>";
@@ -556,6 +588,7 @@ angular.module('starter.map', [])
         var marker30 = new google.maps.Marker({
           position: pier30,
           map: map ,
+          icon: img,
           title:"point30"
         })
         var infoText30 = "<div><a ng-click='popopen30()'><br><h1>ท่านนทบุรี (พิบูลย์สงคราม 3)</h1></a></div>";
@@ -573,6 +606,7 @@ angular.module('starter.map', [])
         var marker31 = new google.maps.Marker({
           position: pier31,
           map: map ,
+          icon: img,
           title:"point31"
         })
         var infoText31 = "<div><a ng-click='popopen31()'><br><h1>ท่ากระทรวงพาณิชย์</h1></a></div>";
@@ -589,6 +623,7 @@ angular.module('starter.map', [])
         var marker32 = new google.maps.Marker({
           position: pier32,
           map: map ,
+          icon: img,
           title:"point32"
         })
         var infoText32 = "<div><a ng-click='popopen32()'><br><h1>ท่าวัดกลางเกร็ด</h1></a></div>";
@@ -605,9 +640,10 @@ angular.module('starter.map', [])
         var marker33 = new google.maps.Marker({
           position: pier33,
           map: map ,
+          icon: img,
           title:"point33"
         })
-        var infoText33 = "<div><a ng-click='popopen33()'><br><h1>ท่าปากเกร็ด</h1></a></div>";
+        var infoText33 = "<div><a ng-click='popopen33()' ><br><h1>ท่าปากเกร็ด</h1></a></div>";
         var compiled33 = $compile(infoText33)($scope);
         var infowindow33 = new google.maps.InfoWindow({
           content: compiled33[0]
@@ -621,6 +657,7 @@ angular.module('starter.map', [])
         var markerT1 = new google.maps.Marker({
           position: pierT1,
           map: map ,
+          icon: img,
           title:"pointT1"
         })
         var infoTextT1 = "<div><a ng-click='popopenT1()'><br><h1>ท่าวัดเศวตฉัตร</h1></a></div>";
@@ -637,6 +674,7 @@ angular.module('starter.map', [])
         var markerT2 = new google.maps.Marker({
           position: pierT2,
           map: map ,
+          icon: img,
           title:"pointT2"
         })
         var infoTextT2 = "<div><a ng-click='popopenT2()'><br><h1>ท่าวัดวธจรรยาวาส</h1></a></div>";
@@ -653,6 +691,7 @@ angular.module('starter.map', [])
         var markerT3 = new google.maps.Marker({
           position: pierT3,
           map: map ,
+          icon: img,
           title:"pointT3"
         })
         var infoTextT3 = "<div><a ng-click='popopenT3()'><br><h1>ท่าวัดราชสิงขร</h1></a></div>";
@@ -669,6 +708,7 @@ angular.module('starter.map', [])
         var markerT4 = new google.maps.Marker({
           position: pierT4,
           map: map ,
+          icon: img,
           title:"pointT4"
         })
         var infoTextT4 = "<div><a ng-click='popopenT4()'><br><h1>ท่าราษฎร์บูรณะ (บิ๊กซี)</h1></a></div>";
@@ -870,6 +910,7 @@ angular.module('starter.map', [])
 
       $scope.popopen9 = function(index) {
       $scope.pop9.show();
+
       };
 
       $scope.popclose9 = function(index) {
@@ -1209,6 +1250,7 @@ angular.module('starter.map', [])
       });
 
       $scope.popopen27 = function(index) {
+
       $scope.pop27.show();
       };
 
@@ -1442,11 +1484,18 @@ angular.module('starter.map', [])
         alert('วัดพระแก้ว')
       };
 
+     
+     
       $scope.scrollMe = function(id) {
         $location.hash(id);
-        var delegateHandle = $ionicScrollDelegate.$getByHandle('content');
-        delegateHandle.anchorScroll(id);      
+        $scope.delegateHandle = $ionicScrollDelegate.$getByHandle('content');
+        $scope.delegateHandle.anchorScroll(id); 
+        //$scope.delegateHandle.remove();
+        id = null;
+
       };
+
+
 
        
 
