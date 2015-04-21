@@ -1,30 +1,34 @@
-<ion-view view-title="Emergency Call">
-<ion-content>
+<ion-view view-title="{{ 'Emergency_call_side_menu' | translate }}">
 
   <body ng-controller="EmergencyCtrl">
- 
-
-
+     <ion-nav-buttons side="right">
+          <button class="button button-icon button-clear" ng-click = "scrollBottom()">{{"ScrollBottom" | translate}}</button>
+      </ion-nav-buttons>
+    <ion-header-bar class="bar-light bar-subheader">
+      <input type="search"
+             placeholder="Filter contacts..."
+             ng-model="search"
+             ng-focus="searchFocused = true"
+             ng-blur="searchFocused = false"
+             class="full-width">
+      <button ng-if="search.length"
+              class="button button-icon ion-android-close input-button"
+              ng-click="clearSearch()">
+      </button>
+    </ion-header-bar>
+    <ion-content>
       <ion-list>
-        <div ng-repeat="group in groups">
-          <ion-item class="item-stable"
-                    ng-click="toggleGroup(group)"
-                    ng-class="{active: isGroupShown(group)}">
-              <i class="icon" ng-class="isGroupShown(group) ? 'ion-minus' : 'ion-plus'"></i>
-            &nbsp;
-            Group {{group.name}}
-          </ion-item>
-          <ion-item class="item-accordion"
-                    ng-repeat="item in group.items"
-                    ng-show="isGroupShown(group)">
-            {{item}}
-          </ion-item>
-        </div>
+        <a class="item my-item"
+           ng-repeat="item in getContacts()"
+           item-height="getItemHeight(item)"
+           item-width="'100%'"
+           id="{{ item.isLetter ? (item.letter + '_divider') : ''}}"
+           ng-style="{'line-height': getItemHeight(item) + 'px'}"
+           ng-class="{'item-divider': item.isLetter}" ng-href="tel: {{item.phoneno}}">
+          <img ng-if="!item.isLetter" ng-src="{{item.img}}">
+          {{item.letter || (item.first_name+' '+item.last_name)}}
+        </a>
       </ion-list>
-      <a href="tel:+66975957750" class="button button-positive">Call me</a>
-
-      
- </body>
-</ion-content>
-
+    </ion-content>
+  </body>
 </ion-view>

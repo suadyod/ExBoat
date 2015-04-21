@@ -1,6 +1,6 @@
 <ion-modal-view>
   <ion-header-bar>
-    <h1 class="title">กรุณาเลือกธง</h1>
+    <h1 class="title">{{"Choose_flag" | translate}}</h1>
     <div class="buttons">
       <button class="button button-clear" ng-click="popcloseflag()">Close</button>
     </div>
@@ -13,8 +13,8 @@
                <img ng-src="{{p.image}}" alt="">
               <h2>{{p.name}}</h2>
               <p class="subdued">Time estimate : <span class="royal">{{p.time}}</span><br/>
-              {{p.distance}} kilometers away</p></p>
-              <p class="available"><span class="balanced" ng-if="p.available_for_order == 1">Available</span><span class="assertive" ng-if="p.available_for_order != 1">Out of stock</span></p>
+              Distance : {{p.distance}} kilometers away</p></p>
+              <p class="available"><span class="balanced" ng-if="p.available_for_order != 1">Available</span></p>
               <h2>Price : <span class="royal">{{p.price}} </span>baht</h2>
             </ion-item>
           </div>

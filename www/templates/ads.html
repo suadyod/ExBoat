@@ -1,41 +1,13 @@
 <ion-view view-title="Advertisements">
   <title>Advertisement</title>
 
-    
-  </head>
-  
   <body ng-controller="AdsCtrl">
-
-    <ion-header-bar class="bar-positive">
-      <h1 class="title">Friends</h1>
-    </ion-header-bar>
-
     <ion-content>
-      
-        <ion-refresher
-          pulling-text="Pull to refresh..."
-          on-refresh="doRefresh()">
-        </ion-refresher>
-      
-        <ion-list>
-          <ion-item ng-repeat="friend in friends"
-                    ng-init = "show = false"
-                    on-swipe-right="show = true" 
-                    on-swipe-left="show = false">
-
-            <button class="button button-assertive delete-button" ng-click="delete(friend.id)" ng-show="show">
-              Delete
-            </button>
-
-            <span ng-bind="friend.first_name"></span>
-            <span ng-bind="friend.last_name"></span>
-            <p>
-              <span ng-bind="friend.phone"></span>
-            </p>
-
-          </ion-item>
-        </ion-list>
-      
+             <div class="list">
+                <a class="item" href="#" onclick="window.open('http://www.chaophrayaexpressboat.com/th/promotions/index.aspx', '_blank', 'location=yes'); return false;">
+                    Open a Twitter Client or Browser
+                </a>
+        </div>
     </ion-content>
 </body>
 </ion-view>

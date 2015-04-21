@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCordova'])
+angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCordova','ngSanitize'])
 
 .run(function($ionicPlatform, $rootScope, $timeout) {
   $ionicPlatform.ready(function() {
@@ -57,7 +57,8 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCord
   .state('app', {
     url: "/app",
     abstract: true,
-    templateUrl: "templates/menu.html"
+    templateUrl: "templates/menu.html",
+    controller: 'SettingsCtrl'
   })
 
   .state('app.search', {
@@ -84,7 +85,8 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCord
     url: "/history",
     views: {
       'menuContent': {
-        templateUrl: "templates/history.html"
+        templateUrl: "templates/history.html",
+        controller: 'HisCtrl'        
       }
     }
   })
@@ -109,15 +111,6 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCord
     }
   })
 
-  .state('app.settings', {
-    url: "/settings",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/settings.html",
-        controller: 'SettingsCtrl'
-      }
-    }
-  })
 
   .state('app.map_point', {
       url: "/map_point",
@@ -135,26 +128,6 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCord
       'menuContent': {
         templateUrl: "templates/contact.html"
 
-      }
-    }
-  })
-  
-    .state('app.playlists', {
-      url: "/playlists",
-      views: {
-        'menuContent': {
-          templateUrl: "templates/playlists.html",
-          controller: 'PlaylistsCtrl'
-        }
-      }
-    })
-
-  .state('app.single', {
-    url: "/playlists/:playlistId",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/playlist.html",
-        controller: 'PlaylistCtrl'
       }
     }
   })
@@ -205,7 +178,16 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCord
         }
       }
     })
-  ;
+
+  .state('app.mappoint', {
+      url: "/mappoint",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/map_point.html"
+        }
+      }
+    })
+    ;
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/map');
 });

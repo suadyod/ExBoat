@@ -18,28 +18,34 @@
     </ion-header-bar>
     <ion-content class ="dark">
       <ion-list>
-        <a nav-clear menu-close class="item" href="#/app/search">
-          Search
+        <a nav-clear menu-close class="item item-icon-left icon ion-search" href="#/app/search" translate="Search_side_menu">
+            Search 
         </a>
-        <a nav-clear menu-close class="item" href="#/app/map">
-          Map
+        <a nav-clear menu-close class="item icon ion-map" href="#/app/map" translate="Map_side_menu">
+            Map
         </a>
-        <a nav-clear menu-close class="item" href="#/app/history">
-          History
+        <a nav-clear menu-close class="item icon ion-clipboard" href="#/app/map_point" translate="Map_Schedule_side_menu">
+            Map Schedule
         </a>
-        <a nav-clear menu-close class="item" href="#/app/emergency_call">
-          Emergency Call
+        <a nav-clear menu-close class="item icon ion-help-buoy" href="#/app/history" translate="History_side_menu">
+            History
         </a>
-        <a nav-clear menu-close class="item" href="#/app/ads">
-          Advertisements
+        <a nav-clear menu-close class="item icon ion-alert-circled" href="#/app/emergency_call" translate="Emergency_call_side_menu">
+            Emergency Call
         </a>
-        <a nav-clear menu-close class="item" href="#/app/settings">
-          Settings
+        <a nav-clear menu-close class="item icon ion-speakerphone" href="#" onclick="window.open('http://www.chaophrayaexpressboat.com/th/promotions/index.aspx', '_blank', 'location=yes'); return false;" translate="Advertisement_side_menu">
+            Announcement
         </a>
-        <a nav-clear menu-close class="item" href="#/app/contact">
-          Contact us
+         
+        <a nav-clear menu-close class="item icon ion-paper-airplane" href="#/app/contact" translate="Contact_us_side_menu">
+            Contact us
         </a>
       </ion-list>
     </ion-content>
+    <ion-footer-bar class="bar-positive">
+      <button class="button" ng-click="ChangeLanguage('th')">TH</button>
+      <button class="button" ng-click="ChangeLanguage('en')">EN</button>
+      <button class="button icon ion-refresh" ng-click = "refresher()"></button>
+    </ion-footer-bar>
   </ion-side-menu>
 </ion-side-menus>

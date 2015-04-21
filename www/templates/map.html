@@ -1,20 +1,15 @@
-  <ion-view view-title="Map">
-  <head>
-    <title>Map</title>
-  
-  </head>
+  <ion-view view-title="{{ 'Map_side_menu' | translate }}">
 
-        <ion-nav-buttons side="right">
-          <button class="button button-icon button-clear ion-help-buoy" ng-click = "popmappointopen()"></button>
-        </ion-nav-buttons>
 
   <body>
+
+
     <ion-content>
       <div id="map" data-tap-disabled="true"></div>
     </ion-content>
 
     <ion-footer-bar class="bar-positive">
-      <a ng-click="centerOnMe()" class="button button-icon icon ion-navigate" >Find Me</a>
+      <a ng-click="centerOnMe()" class="button button-icon icon ion-navigate" >{{"Find_Me" | translate}}</a>
     </ion-footer-bar>
 
     

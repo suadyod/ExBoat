@@ -1,5 +1,5 @@
-<ion-view view-title="Search">
-  <ion-content>
+<ion-view view-title="{{ 'Search_side_menu' | translate }}">
+  <ion-content class ="padding scroll-bg">
 
   <head>
     <meta charset="utf-8">
@@ -8,6 +8,10 @@
     </title>
     
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <style>
+          
+    </style>
 
 
      <script id="popup.html" type="text/ng-template">
@@ -20,42 +24,38 @@
 
     
   </head>
-  <body class="padding" ng-controller="PopupCtrl">
+  <body ng-controller="PopupCtrl" class = "searchbody">
         <div class="container">
-
-          <br><br><br>
-           <button class="button button-block button-positive" ng-click="showBegin()">
-            ต้นทาง
-           </button>
-           <br>
-           <input class="item item-divider" id = "input1" value ="{{ data.Blist }}">
+                      <br><br>
+          <div class="row">
+              <button class="col button button-positive btn md" ng-click="showBegin()">{{"Start" | translate}}</button>
+           <input class="col col-75" id = "input1" value ="{{ data.Blist }}">
            </input>
-            <br><br>
+          </div> 
+            <br>
 
-           <button on-touch="touch()" class="button button-block button-positive" ng-click="popopenflag()" >
-           เลือกธงเดินทาง
-           </button> 
+            
+            <div class="row">
+              <div class="col text-center">
+                <div class="pulse1"></div>
+                <div class="iconmenu" ng-click="popopenflag()"></div>
+                <!--<img ng-src = "img/go.png" ng-click="popopenflag()">-->
+              </div>
+            </div>
+ 
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+           <div class="row">
+              <button class="col button button-positive btn md" ng-click="showDest()">{{"To" | translate}}</button>
+               <input class="col col-75" id ="input2" value ="{{ data.Dlist }}"></input>
            </div>
-           
-           <br><br>
-           <input class="item item-divider" id = "input2" value ="{{ data.Dlist }}">
-           </input>
-           <br>
-           <button class="button button-block button-positive" ng-click="showDest()">
-            ปลายทาง
-           </button> 
-
-  
+          
 
 
 
-         
+      </div>
   </body>
   </ion-content>
-  <ion-footer-bar class="bar-positive">
-      <button class="button" ng-click="add()">Add notification</button>
-    <button class="button" ng-click="isScheduled()">Is Scheduled</button>
-    </ion-footer-bar>
+ 
 </ion-view>
 
 

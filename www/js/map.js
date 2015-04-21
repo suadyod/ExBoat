@@ -1490,9 +1490,6 @@ angular.module('starter.map', [])
         $location.hash(id);
         $scope.delegateHandle = $ionicScrollDelegate.$getByHandle('content');
         $scope.delegateHandle.anchorScroll(id); 
-        //$scope.delegateHandle.remove();
-        id = null;
-
       };
 
 

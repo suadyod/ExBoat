@@ -1,89 +1,184 @@
-<ion-view view-title="All Piers">
-
-      <ion-header-bar class="bar-positive">
-
-                <button class="button button-icon button-clear ion-map" ng-click = "popmappointclose()"></button>
-
-          <h1 class="title">Point</h1>
-      </ion-header-bar>
+<ion-view view-title="{{ 'Map_Schedule_side_menu' | translate }}">
+	  <ion-content>
+		
+  
       
-      <ion-content>
         <ion-slide-box>
           <ion-slide>
             <div class="box">
                
 		<div class="container">
-			<header class="clearfix" style="color:#47a3da">
-				<span>ExBoat</span>
-				<h1 style="color:#47a3da">เรือด่วนธงฟ้า</h1>
+			<header class="clearfix" style="color:#696969">
+				<h1 style="color:#696969">{{"Normal_flag" | translate}}</h1>
 			</header>	
 			<div class="main">
-				<ul class="cbp_tmtimeline">
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N13</span> <span>ท่าพระอาทิตย์</span></time>
-						<div class="cbp_tmicon ion-help-buoy blink_me"></div>
-						<div class="cbp_tmlabel" >
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>N10</span> <span>ท่าวังหลัง (พรานนก)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>N9s</span> <span>ท่ามหาราช</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>N9</span> <span>ท่าช้าง</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-						
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>N8</span> <span>ท่าเตียน</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>N5</span> <span>ท่าราชวงศ์</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N3</span> <span>ท่าสี่พระยา</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N1</span> <span>ท่าโอเรียนเท็ล</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>CENTRAL</span> <span>ท่าสาทร (ตากสิน)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
+				<ul class="cbp_normaltimeline">
+					<div class="item item-divider row">
+					    <div class="col col-30">รหัส</div>
+					  	<div class="col col-60">ท่าเรือ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N30</div>
+					  	<div class="col col-60">ท่านนทบุรี(พิบูลย์3)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N29</div>
+					  	<div class="col col-60">ท่าพิบูลย์สงคราม 2</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N28</div>
+					  	<div class="col col-60">ท่าวัดเขียน</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N27</div>
+					  	<div class="col col-60">ท่าวัดตึก</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N26</div>
+					  	<div class="col col-60">ท่าวัดเขมา</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N25</div>
+					  	<div class="col col-60">ท่าพิบูลย์สงคราม 1</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N24</div>
+					  	<div class="col col-60">ท่าพระราม 7</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N23</div>
+					  	<div class="col col-60">ท่าวัดสร้อยทอง</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N22</div>
+					  	<div class="col col-60">ท่าบางโพ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N21</div>
+					  	<div class="col col-60">ท่าเกียกกาย</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N20</div>
+					  	<div class="col col-60">ท่าเขียวไข่กา</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N19</div>
+					  	<div class="col col-60">ท่ากรมชลประทาน</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N18</div>
+					  	<div class="col col-60">ท่าพายัพ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N17s</div>
+					  	<div class="col col-60">ท่าเทพากร</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N17</div>
+					  	<div class="col col-60">ท่าเทพนารี</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N16</div>
+					  	<div class="col col-60">ท่าสะพานกรุงธน (ซังฮี้)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N15</div>
+					  	<div class="col col-60">ท่าเทเวศร์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N14</div>
+					  	<div class="col col-60">ท่าพระราม 8</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N13</div>
+					  	<div class="col col-60">ท่าพระอาทิตย์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N12</div>
+					  	<div class="col col-60">ท่าพระปิ่นเกล้า</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N11</div>
+					  	<div class="col col-60">ท่ารถไฟ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N10</div>
+					  	<div class="col col-60">ท่าวังหลัง (พรานนก)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N9</div>
+					  	<div class="col col-60">ท่าช้าง</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N8</div>
+					  	<div class="col col-60">ท่าเตียน</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N7</div>
+					  	<div class="col col-60">ท่าราชินี</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N6</div>
+					  	<div class="col col-60">ท่าสะพานพุทธ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N5</div>
+					  	<div class="col col-60">ท่าราชวงศ์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N4</div>
+					  	<div class="col col-60">ท่ากรมเจ้าท่า</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N3</div>
+					  	<div class="col col-60">ท่าสี่พระยา</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N2</div>
+					  	<div class="col col-60">ท่าวัดม่วงแค</div>
+					  </div>
+					   <div class="item row">
+					  	<div class="col col-30">N1</div>
+					  	<div class="col col-60">ท่าโอเรียนเท็ล</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">CENTRAL</div>
+					  	<div class="col col-60">ท่าสาทร (ตากสิน)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">T1</div>
+					  	<div class="col col-60">ท่าเศวตฉัตร</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">T2</div>
+					  	<div class="col col-60">ท่าวธรรยาวาส</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">T3</div>
+					  	<div class="col col-60">ท่าวัดราชสิงขร</div>
+					  </div>
 				</ul>
+				<br>
+				<ul class="cbp_tmtimeline">
+					  <div class="item item-divider row">
+					    <div class="col col-25">บริการ</div>
+					  	<div class="col col-25">เส้นทาง</div>
+					  	<div class="col col-60">ออกทุก(นาที)</div>
+
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N30 - T3</div>
+					  	<div class="col col-60">06.45-07.30(20)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N30 - T3</div>
+					  	<div class="col col-60">16.00-16.30(25)</div>
+					  </div>
+				</ul>
+				
+
 			</div>
 		</div>
 	
@@ -93,164 +188,172 @@
             <div class="box">
                 <div class="container">
 			<header class="clearfix" style="color:#FF6600">
-				<span>ExBoat</span>
-				<h1 style="color:#FF6600">เรือด่วนธงส้ม</h1>
+				<h1 style="color:#FF6600">{{"Orange_flag" | translate}}</h1>
 			</header>	
 			<div class="main">
 				<ul class="cbp_orangetimeline">
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N30</span> <span>ท่านนทบุรี(พิบูลย์3)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>N29/1</span> <span>ท่าพระราม 5</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>N24</span> <span>ท่าพระราม 7</span></time>
-						<div class="cbp_tmicon ion-help-buoy blink_me"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>N22</span> <span>ท่าบางโพ</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>N21</span> <span>ท่าเกียกกาย</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>N18</span> <span>ท่าพายัพ</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N16</span> <span>ท่าสะพานกรุงธน (ซังฮี้)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
+					<div class="item item-divider row">
+					    <div class="col col-30">รหัส</div>
+					  	<div class="col col-60">ท่าเรือ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N30</div>
+					  	<div class="col col-60">ท่านนทบุรี(พิบูลย์3)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N29s</div>
+					  	<div class="col col-60">ท่าพระราม 5</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N24</div>
+					  	<div class="col col-60">ท่าพระราม 7</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N22</div>
+					  	<div class="col col-60">ท่าบางโพ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N21</div>
+					  	<div class="col col-60">ท่าเกียกกาย</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N18</div>
+					  	<div class="col col-60">ท่าพายัพ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N16</div>
+					  	<div class="col col-60">ท่าสะพานกรุงธน (ซังฮี้)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N15</div>
+					  	<div class="col col-60">ท่าเทเวศร์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N13</div>
+					  	<div class="col col-60">ท่าพระอาทิตย์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N12</div>
+					  	<div class="col col-60">ท่าพระปิ่นเกล้า</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N10</div>
+					  	<div class="col col-60">ท่าวังหลัง (พรานนก)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N9</div>
+					  	<div class="col col-60">ท่าช้าง</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N8</div>
+					  	<div class="col col-60">ท่าเตียน</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N6</div>
+					  	<div class="col col-60">ท่าสะพานพุทธ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N5</div>
+					  	<div class="col col-60">ท่าราชวงศ์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N4</div>
+					  	<div class="col col-60">ท่ากรมเจ้าท่า</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N3</div>
+					  	<div class="col col-60">ท่าสี่พระยา</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N1</div>
+					  	<div class="col col-60">ท่าโอเรียนเท็ล</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">CENTRAL</div>
+					  	<div class="col col-60">ท่าสาทร (ตากสิน)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">T2</div>
+					  	<div class="col col-60">ท่าวธรรยาวาส</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">T3</div>
+					  	<div class="col col-60">ท่าวัดราชสิงขร</div>
+					  </div>
+				</ul>
+				<br>
+				<ul class="cbp_tmtimeline">
+					  <div class="item item-divider row">
+					    <div class="col col-25">บริการ</div>
+					  	<div class="col col-25">เส้นทาง</div>
+					  	<div class="col col-60">ออกทุก(นาที)</div>
 
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N15</span> <span>ท่าเทเวศร์</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N13</span> <span>ท่าพระอาทิตย์</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N12</span> <span>ท่าพระปิ่นเกล้า</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>N10</span> <span>ท่าวังหลัง (พรานนก)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N9</span> <span>ท่าช้าง</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>N8</span> <span>ท่าเตียน</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>N6</span> <span>ท่าสะพานพุทธ</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>N5</span> <span>ท่าราชวงศ์</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>N4</span> <span>ท่ากรมเจ้าท่า</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N3</span> <span>ท่าสี่พระยา</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-						
-						</div>
-					</li>
-
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N1</span> <span>ท่าโอเรียนเท็ล</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>CENTRAL</span> <span>ท่าสาทร (ตากสิน)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>T2</span> <span>ท่าวัดวธจรรยาวาส</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>T3</span> <span>ท่าราชสิงขร</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">ส.อา.นข.</div>
+					  	<div class="col col-25">T3 - N30</div>
+					  	<div class="col col-60">06.00-19.00(20)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">T3 - N30</div>
+					  	<div class="col col-60">06.00-08.00(12)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">T3 - N30</div>
+					  	<div class="col col-60">08.00-09.00(15)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">T3 - N30</div>
+					  	<div class="col col-60">09.00-15.00(20)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">T3 - N30</div>
+					  	<div class="col col-60">15.00-16.00(15)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">T3 - N30</div>
+					  	<div class="col col-60">16.00-19.00(10)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">ส.อา.นข.</div>
+					  	<div class="col col-25">N30 - T3</div>
+					  	<div class="col col-60">06.00-19.00(20)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N30 - T3</div>
+					  	<div class="col col-60">05.50-07.00(10)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N30 - T3</div>
+					  	<div class="col col-60">07.00-08.00(5)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N30 - T3</div>
+					  	<div class="col col-60">08.00-09.00(15)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N30 - T3</div>
+					  	<div class="col col-60">09.00-15.00(20)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N30 - T3</div>
+					  	<div class="col col-60">15.00-18.00(15)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N30 - T3</div>
+					  	<div class="col col-60">18.00-19.00(20)</div>
+					  </div>
 				</ul>
 			</div>
 		</div>
@@ -260,84 +363,90 @@
             <div class="box">
                 <div class="container">
 			<header class="clearfix" style="color:#EEEE00">
-				<span>ExBoat</span>
-				<h1 style="color:#EEEE00">เรือด่วนธงเหลือง</h1>
+				<h1 style="color:#EEEE00">{{"Yellow_flag" | translate}}</h1>
 			</header>	
 			<div class="main">
 				<ul class="cbp_yellowtimeline">
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N30</span> <span>ท่านนทบุรี(พิบูลย์3)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>N24</span> <span>ท่าพระราม 7</span></time>
-						<div class="cbp_tmicon ion-help-buoy blink_me"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>N22</span> <span>ท่าบางโพ</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N15</span> <span>ท่าเทเวศร์</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N12</span> <span>ท่าพระปิ่นเกล้า</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>N10</span> <span>ท่าวังหลัง (พรานนก)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>N5</span> <span>ท่าราชวงศ์</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N3</span> <span>ท่าสี่พระยา</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>CENTRAL</span> <span>ท่าสาทร (ตากสิน)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>T4</span> <span>ท่าราษฎร์บูรณะ (บิ๊กซี)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
+					<div class="item item-divider row">
+					    <div class="col col-30">รหัส</div>
+					  	<div class="col col-60">ท่าเรือ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N30</div>
+					  	<div class="col col-60">ท่านนทบุรี(พิบูลย์3)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N24</div>
+					  	<div class="col col-60">ท่าพระราม 7</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N22</div>
+					  	<div class="col col-60">ท่าบางโพ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N15</div>
+					  	<div class="col col-60">ท่าเทเวศร์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N12</div>
+					  	<div class="col col-60">ท่าพระปิ่นเกล้า</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N10</div>
+					  	<div class="col col-60">ท่าวังหลัง (พรานนก)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N5</div>
+					  	<div class="col col-60">ท่าราชวงศ์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N3</div>
+					  	<div class="col col-60">ท่าสี่พระยา</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">CENTRAL</div>
+					  	<div class="col col-60">ท่าสาทร (ตากสิน)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">T4</div>
+					  	<div class="col col-60">ท่าราษฎร์บูรณะ (บิ๊กซี)</div>
+					  </div>
 				</ul>
+				<br>
+				<ul class="cbp_tmtimeline">
+					  <div class="item item-divider row">
+					    <div class="col col-25">บริการ</div>
+					  	<div class="col col-25">เส้นทาง</div>
+					  	<div class="col col-60">ออกทุก(นาที)</div>
+
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N30 - CE</div>
+					  	<div class="col col-60">06.15-07.00(8)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N30 - CE</div>
+					  	<div class="col col-60">17.00-17.30(5)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N30 - CE</div>
+					  	<div class="col col-60">08.00-08.20(10)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">CE - N30</div>
+					  	<div class="col col-60">16.45-17.00</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">CE - N30</div>
+					  	<div class="col col-60">19.00-20.00</div>
+					  </div>
+				</ul>
+
 			</div>
 		</div>
             </div>
@@ -346,106 +455,87 @@
             <div class="box">
                 <div class="container">
 			<header class="clearfix" style="color:#228B22">
-				<span>ExBoat</span> 
-				<br>
-				<h1 style="color:#228B22">เรือด่วนธงเขียว</h1>
+				<h1 style="color:#228B22">{{"Green_flag" | translate}}</h1>
 			</header>	
 			<div class="main">
 				<ul class="cbp_greentimeline">
-					<li>
-						<time class="cbp_tmtime" ><span>N33</span> <span>ท่าปากเกร็ด</span></time>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" ><span>N32</span> <span>ท่าวัดกลางเกร็ด</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" ><span>N31</span> <span>ท่ากระทรวงพาณิชย์</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" ><span>N30</span> <span>ท่านนทบุรี(พิบูลย์3)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" ><span>N24</span> <span>ท่าพระราม 7</span></time>
-						<div class="cbp_tmicon ion-help-buoy blink_me"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" ><span>N16</span> <span>ท่าสะพานกรุงธน (ซังฮี้)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-
-					<li>
-						<time class="cbp_tmtime" ><span>N15</span> <span>ท่าเทเวศร์</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" ><span>N12</span> <span>ท่าพระปิ่นเกล้า</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" ><span>N10</span> <span>ท่าวังหลัง (พรานนก)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" ><span>N9</span> <span>ท่าช้าง</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" ><span>N5</span> <span>ท่าราชวงศ์</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" ><span>N3</span> <span>ท่าสี่พระยา</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-
-					<li>
-						<time class="cbp_tmtime" ><span>CENTRAL</span> <span>ท่าสาทร (ตากสิน)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
+					<div class="item item-divider row">
+					    <div class="col col-30">รหัส</div>
+					  	<div class="col col-60">ท่าเรือ</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N33</div>
+					  	<div class="col col-60">ท่าปากเกร็ด</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N32</div>
+					  	<div class="col col-60">ท่าวัดกลางเกร็ด</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N31</div>
+					  	<div class="col col-60">ท่ากระทรวงพาณิชย์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N30</div>
+					  	<div class="col col-60">ท่านนทบุรี(พิบูลย์3)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N24</div>
+					  	<div class="col col-60">ท่าพระราม 7</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N16</div>
+					  	<div class="col col-60">ท่าสะพานกรุงธน (ซังฮี้)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N15</div>
+					  	<div class="col col-60">ท่าเทเวศร์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N12</div>
+					  	<div class="col col-60">ท่าพระปิ่นเกล้า</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N10</div>
+					  	<div class="col col-60">ท่าวังหลัง (พรานนก)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N9</div>
+					  	<div class="col col-60">ท่าช้าง</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N5</div>
+					  	<div class="col col-60">ท่าราชวงศ์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N3</div>
+					  	<div class="col col-60">ท่าสี่พระยา</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">CENTRAL</div>
+					  	<div class="col col-60">ท่าสาทร (ตากสิน)</div>
+					  </div>
 				</ul>
+				<br>
+				<ul class="cbp_tmtimeline">
+					  <div class="item item-divider row">
+					    <div class="col col-25">บริการ</div>
+					  	<div class="col col-25">เส้นทาง</div>
+					  	<div class="col col-60">ออกทุก(นาที)</div>
+
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">N33 - CE</div>
+					  	<div class="col col-60">06.10-8.10(15)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">จ. - ศ.</div>
+					  	<div class="col col-25">CE - N33</div>
+					  	<div class="col col-60">16.05-18.05(20)</div>
+					  </div>
+				</ul>
+
 			</div>
 		</div>
             </div>
@@ -453,77 +543,67 @@
           <ion-slide>
             <div class="box">
                 <div class="container">
-			<header class="clearfix" style="color:#696969">
-				<span>ExBoat</span>
-				<h1 style="color:#696969">เรือด่วนไม่มีธง</h1>
+			<header class="clearfix" style="color:#47a3da">
+				<h1 style="color:#47a3da">{{"Blue_flag" | translate}}</h1>
 			</header>	
 			<div class="main">
-				<ul class="cbp_normaltimeline">
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N13</span> <span>ท่าพระอาทิตย์</span></time>
-						<div class="cbp_tmicon ion-help-buoy blink_me"></div>
-						<div class="cbp_tmlabel" >
-							
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>N10</span> <span>ท่าวังหลัง (พรานนก)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>N9s</span> <span>ท่ามหาราช</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>N9</span> <span>ท่าช้าง</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>N8</span> <span>ท่าเตียน</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>N5</span> <span>ท่าราชวงศ์</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N3</span> <span>ท่าสี่พระยา</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
+				<ul class="cbp_tmtimeline">
+					  <div class="item item-divider row">
+					    <div class="col col-30">รหัส</div>
+					  	<div class="col col-60">ท่าเรือ</div>
+					  	
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N13</div>
+					  	<div class="col col-60">ท่าพระอาทิตย์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N10</div>
+					  	<div class="col col-60">ท่าวังหลัง (พรานนก)</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N9s</div>
+					  	<div class="col col-60">ท่ามหาราช</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N8</div>
+					  	<div class="col col-60">ท่าเตียน</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N5</div>
+					  	<div class="col col-60">ท่าราชวงศ์</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N3</div>
+					  	<div class="col col-60">ท่าสี่พระยา</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">N1</div>
+					  	<div class="col col-60">ท่าโอเรียนเท็ล</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-30">CENTRAL</div>
+					  	<div class="col col-60">ท่าสาทร (ตากสิน)</div>
+					  </div>
+				</ul>
+				<br>
+				<ul class="cbp_tmtimeline">
+					  <div class="item item-divider row">
+					    <div class="col col-25">บริการ</div>
+					  	<div class="col col-25">เส้นทาง</div>
+					  	<div class="col col-60">ออกทุก(นาที)</div>
 
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N1</span> <span>ท่าโอเรียนเท็ล</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
-					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>CENTRAL</span> <span>ท่าสาทร (ตากสิน)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
-						<div class="cbp_tmlabel">
-							
-						</div>
-					</li>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">ทุกวัน</div>
+					  	<div class="col col-25">CE - N13</div>
+					  	<div class="col col-60">09.30-17.00</div>
+					  </div>
+					  <div class="item row">
+					  	<div class="col col-25">ทุกวัน</div>
+					  	<div class="col col-25">CE - T1</div>
+					  	<div class="col col-60">16.00-17.30</div>
+					  </div>
 				</ul>
 			</div>
 		</div>
