@@ -1017,6 +1017,16 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     $scope.notifyn33 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn33)       
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "33",
+            date: alarmTime,
+            message: "You have arrived your destination : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1069,9 +1079,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     $scope.notifyn31 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn31)       
-        alert("You have arrived your destination : " + $scope.dest);
         var alarmTime = new Date();
-        alarmTime.setMinutes(alarmTime.getMinutes() + 0.1);
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaLocalNotification.add({
             id: "31",
             date: alarmTime,
@@ -1079,7 +1088,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             title: "ExBoat",
             autoCancel: true,
             sound: true
-        });
+        }); 
+        alert("You have arrived your destination : " + $scope.dest);
     }
 
 
