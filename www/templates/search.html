@@ -27,7 +27,7 @@
   <body ng-controller="PopupCtrl" class = "searchbody">
         <div class="container">
                       <br><br>
-          <div class="row">
+          <div class="row" style="position:absolute; top:4em;">
               <button class="col button button-positive btn md" ng-click="showBegin()">{{"Start" | translate}}</button>
            <input class="col col-75" id = "input1" value ="{{ data.Blist }}">
            </input>
@@ -43,8 +43,7 @@
               </div>
             </div>
  
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-           <div class="row">
+           <div class="row" style="position:absolute; bottom:4em;">
               <button class="col button button-positive btn md" ng-click="showDest()">{{"To" | translate}}</button>
                <input class="col col-75" id ="input2" value ="{{ data.Dlist }}"></input>
            </div>

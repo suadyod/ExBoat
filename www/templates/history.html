@@ -6,23 +6,15 @@
 			background-color: #00c0e4; 
 			margin-top: 0px;
 			width: 100%;
-			height: 800px;
+			height: 1400px;
 			box-sizing: border-box;
 			padding: 20px;
 			overflow: hidden;
 		}
-		section#Chaophraya2 { 
-			background-color: #eac14d; 
-			width: 100%;
-		  	height: 800px;
-		  	box-sizing: border-box;
-		  	padding: 20px;
-		  	overflow: hidden;
-		}
 		section#Chaophraya3 { 
 			background-color: #e6567a; 
 			width: 100%;
-		  	height: 800px;
+		  	height: 1000px;
 		  	box-sizing: border-box;
 		  	padding: 20px;
 		  	overflow: hidden;
@@ -30,7 +22,7 @@
 		section#Chaophraya4 { 
 			background-color: #5bd999; 
 			width: 100%;
-		  	height: 800px;
+		  	height: 2200px;
 		  	box-sizing: border-box;
 		  	padding: 20px;
 		  	overflow: hidden;
@@ -58,6 +50,41 @@
 		  margin-top: 15px;
 		}
 
+		section .illustration3 {
+		  width: 100%;
+		  height: 300px;
+		  background: url("img/wallpaper/chaophraya3.png") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration4 {
+		  width: 100%;
+		  height: 300px;
+		  background: url("img/wallpaper/chaophraya4.png") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration5 {
+		  width: 100%;
+		  height: 300px;
+		  background: url("img/wallpaper/chaophraya5.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration6 {
+		  width: 100%;
+		  height: 600px;
+		  background: url("img/wallpaper/chaophraya6.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration7 {
+		  width: 100%;
+		  height: 600px;
+		  background: url("img/wallpaper/chaophraya7.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
 		section p {
 		  color: white;
 		  font-family: 'Open Sans', sans-serif;
@@ -70,30 +97,40 @@
 <ion-content delegate-handle="content">
 
 <section id="Chaophraya1">
-  <h2 class="ion-chevron-down" ng-click="scrollMe('Chaophraya2')"> {{"Description" | translate}}</h2>
+  <h2 class="ion-chevron-down" ng-click="scrollMe('Chaophraya3')"> {{"Description" | translate}}</h2>
   <div class="illustration1"></div><br>
-  <h2> Chaophraya River</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis diam id nulla dictum rhoncus. Praesent interdum, diam sit amet pretium fermentum, libero lacus porttitor justo, vitae molestie velit justo et est. Sed ut urna aliquet leo ornare viverra eu a est. Vivamus dignissim nisl sed metus hendrerit scelerisque. Nam facilisis velit id velit congue vitae venenatis orci tempor. Nam vel est id orci feugiat rhoncus. Duis tempus lectus non urna aliquam mollis. In at lacinia eros. Nam sed lorem est.<br/><br/>
+  <h2>{{"History_0" | translate}}</h2>
+  <p>{{ 'History_1_1' | translate }}<br/><br/>
+	{{ 'History_1_2' | translate }}<br/><br/>
+	<div class="illustration2"></div>
+	
+</p>
+</section>
 
-Nullam condimentum felis eu quam molestie sit amet dignissim justo tempus. Mauris ultricies massa aliquam lorem viverra in tristique purus fermentum. Mauris dictum erat eu ipsum rhoncus laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id orci ante. <br/><br/>Fusce ut risus a ligula scelerisque fermentum porttitor a tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent sodales lobortis neque, id convallis purus pharetra a. Nullam aliquam tristique urna vel molestie. Vestibulum eu nisl magna.</p>
-</section>
-<section id="Chaophraya2">
-  <h2 class="ion-chevron-down" ng-click="scrollMe('Chaophraya3')"> {{"Nearby_Places" | translate}}</h2>
-  <div class="illustration2"></div>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel est id orci feugiat rhoncus. Duis tempus lectus non urna aliquam mollis. In at lacinia eros. Nam sed lorem est. Vestibulum placerat lorem in massa facilisis et mattis lacus mollis. Morbi nec dui ac magna dignissim euismod.Nullam condimentum felis eu quam molestie sit amet dignissim justo tempus. Mauris ultricies massa aliquam lorem viverra in tristique purus fermentum. Mauris dictum erat eu ipsum rhoncus laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id orci ante. <br/><br/>Fusce ut risus a ligula scelerisque fermentum porttitor a tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent sodales lobortis neque, id convallis purus pharetra a. Nullam aliquam tristique urna vel molestie. Vestibulum eu nisl magna. Suspendisse justo sem, dapibus eu dapibus vitae, mollis nec tellus. Duis volutpat ligula metus. <br/><br/>Vivamus placerat, purus et aliquet vehicula, leo odio tempor dui, quis interdum augue leo quis quam. Maecenas facilisis viverra risus, id interdum sem elementum nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-</section>
 
 <section id="Chaophraya3">
-  <h2 class="ion-chevron-down" ng-click="scrollMe('Chaophraya4')"> {{"Transportation" | translate}}</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel est id orci feugiat rhoncus. Duis tempus lectus non urna aliquam mollis. In at lacinia eros. Nam sed lorem est. Vestibulum placerat lorem in massa facilisis et mattis lacus mollis. Morbi nec dui ac magna dignissim euismod.<br/><br/>
+  <h2 class="ion-chevron-down" ng-click="scrollMe('Chaophraya4')"> {{"Transportation2" | translate}}</h2></br>
+  <p>{{ 'History_1_3' | translate }}<br/><br/>
+  	{{ 'History_1_4' | translate }}<br/>
+	{{ 'History_1_5' | translate }}<br/>
+	{{ 'History_1_6' | translate }}<br/>
+	{{ 'History_1_7' | translate }}<br/>
+	<div class="illustration7"></div><br>
 
-Nullam condimentum felis eu quam molestie sit amet dignissim justo tempus. Mauris ultricies massa aliquam lorem viverra in tristique purus fermentum. Mauris dictum erat eu ipsum rhoncus laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id orci ante. <br/><br/>Nullam aliquam tristique urna vel molestie. Vestibulum eu nisl magna. Suspendisse justo sem, dapibus eu dapibus vitae, mollis nec tellus. Duis volutpat ligula metus. <br/><br/>Vivamus placerat, purus et aliquet vehicula, leo odio tempor dui, quis interdum augue leo quis quam. Maecenas facilisis viverra risus, id interdum sem elementum nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Vestibulum placerat lorem in massa facilisis et mattis lacus mollis. Morbi nec dui ac magna dignissim euismod.Nullam condimentum felis eu quam molestie sit amet dignissim justo tempus. Mauris ultricies massa aliquam lorem viverra in tristique purus fermentum. </p></section>
+</p></section>
 
 <section id="Chaophraya4">
   <h2 class="ion-chevron-up" ng-click="scrollMe('Chaophraya1')"> {{"Activities" | translate}}</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis diam id nulla dictum rhoncus. Praesent interdum, diam sit amet pretium fermentum, libero lacus porttitor justo, vitae molestie velit justo et est. Sed ut urna aliquet leo ornare viverra eu a est. Vivamus dignissim nisl sed metus hendrerit scelerisque. Nam facilisis velit id velit congue vitae venenatis orci tempor. Nam vel est id orci feugiat rhoncus. Duis tempus lectus non urna aliquam mollis. In at lacinia eros. Nam sed lorem est. Vestibulum placerat lorem in massa facilisis et mattis lacus mollis. Morbi nec dui ac magna dignissim euismod.<br/><br/>
+  <div class="illustration3"></div><br>
+  <h2>{{"History_4" | translate}}</h2>
+  <p>{{"History_4_1" | translate}}<br/><br/>
+  <div class="illustration4"></div><br/><br/>
+  <div class="illustration5"></div><br/><br/>
+  <div class="illustration6"></div><br/><br/>
 
-Nullam condimentum felis eu quam molestie sit amet dignissim justo tempus. Mauris ultricies massa aliquam lorem viverra in tristique purus fermentum. Mauris dictum erat eu ipsum rhoncus laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id orci ante. <br/><br/>Fusce ut risus a ligula scelerisque fermentum porttitor a tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent sodales lobortis neque, id convallis purus pharetra a. Nullam aliquam tristique urna vel molestie. Vestibulum eu nisl magna. Suspendisse justo sem, dapibus eu dapibus vitae, mollis nec tellus. Duis volutpat ligula metus. Vivamus placerat, purus et aliquet vehicula, leo odio tempor dui, quis interdum augue leo quis quam. Maecenas facilisis viverra risus, id interdum sem elementum nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+
+
+</p>
 </section>  
   </ion-content>
     

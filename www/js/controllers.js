@@ -11,6 +11,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Map_Schedule_side_menu: "Map Schedule",
             Map_side_menu: "Map",
             Search_side_menu: "Search",
+            User_guide: "User Guide",
             Follow_us_on: "Follow us on",
             ScrollBottom: "Scroll",
             Find_Me: "Find Me",
@@ -20,6 +21,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Nearby_Places: "Nearby Places",
             Activities: "Activities",
             Transportation: "Transportation",
+            Transportation2: "Transportation",
             Choose_flag: "Please select a flag to start",
             Time_estimate: "Time estimate",
             kilometers_away: "kilometers away",
@@ -30,7 +32,102 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Green_flag: "Green Flag",
             Yellow_flag: "Yellow Flag",
             Open_Noti: "Open Notification Service",
-            Is_Scheduled: "Is Scheduled"
+            Is_Scheduled: "Is Scheduled",
+            History_0: "The Chao Phraya River",
+            History_1_1: "The Chao Phraya (Thai: แม่น้ำเจ้าพระยา) is a major river in Thailand, with its low alluvial river plain marking the mainland of the country.",
+            History_1_2: " The Chao Phraya runs from north to south for 372 km from the central plains to Bangkok and the Gulf of Thailand. However in Chainat the river splits into the main river course and the Tha Chin river, which then flows parallel to the main river and exits to Gulf of Thailand the about 35 km west of Bangkok in Samut Sakhon. In the low alluvial plain which begins below the Chainat dam many small canals (khlong) split off from the main river, used for the irrigation of the rice paddies.",
+            History_1_3: "Chao Phraya Express Boat Co., Ltd. (CPEX) was established by Khunying Supatra Singhulaka in September 1971. A concession right was granted to CPEX to provide river transportation service to passengers by the Harbor Department.",
+            History_1_4: "1. Local Line Boat (Normal color) - Round trip services from Nonthaburi Pier to Wat Rajsingkorn Pier stopping at 34 piers",
+            History_1_5: "2. Express Boat (Orange Flag) - Round trip services from Nonthaburi Pier to Wat Rajsingkorn Pier stopping at 18 piers",
+            History_1_6: "3. Express Boat (Yellow Flag) - Round trip services from Nonthaburi Pier to Ratburana Pier stopping at 10 piers",
+            History_1_7: "4. Express Boat (Green-Yellow Flag) - Round trip services from Pakkret Pier to Sathon Pier stopping at 12 piers",
+            History_4: "Loy Krathong",
+            History_4_1: "Loy Krathong takes place on the evening of the full moon of the 12th month in the traditional Thai lunar calendar. In the Western calendar this usually falls in November. On the night of the full moon, Thais launch their krathong on a river, canal or a pond, making a wish as they do so. The festival may originate from an ancient ritual paying respect to the water spirits.",
+            Pakkret: "Pakkret",
+            Pakkret_desc: " ",
+            Watklangkret: "Wat Klang Kret",
+            Watklangkret_desc: " ",
+            Ministryofcommerce: "Ministry of Commerce",
+            Ministryofcommerce_desc: " ",
+            Nonthaburi_Pibul3: "Nonthaburi (Pibul 3)",
+            Nonthaburi_Pibul3_desc: " ",
+            Rama5: "Rama 5 Bridge",
+            Rama5_desc: " ",
+            Pibul2: "Pibul 2",
+            Pibul2_desc: " ",
+            Watkien:"Wat Kien",
+            Watkien_desc: " ",
+            Wattuek: "Wat Tuek",
+            Wattuek_desc: " ",
+            Watkhema: "Wat Khema",
+            Watkhema_desc: " ",
+            Pibul1: "Pibul 1",
+            Pibul1_desc: " ",
+            Rama7: "Rama 7 Bridge",
+            Rama7_desc: " ",
+            Watsoithong: "Wat Soi Thong",
+            Watsoithong_desc: " ",
+            Bangpo: "Bang Po",
+            Bangpo_desc: " ",
+            Kjakkai: "Kjak Kai",
+            Kjakkai_desc: " ",
+            Kheawkhaika: "Kheaw Khai Ka",
+            Kheawkhaika_desc: " ",
+            Irrigationdept: "Irrigation Dept.",
+            Irrigationdept_desc: " ",
+            Payap: "Payap",
+            Payap_desc: " ",
+            Watthepnahree: "Wat Thepnahree",
+            Watthepnahree_desc: " ",
+            Watthepakorn: "Wat Thepakorn",
+            Watthepakorn_desc: " ",
+            Krungthonburibridge: "Krung Thon Bridge(Sung Hi)",
+            Krungthonburibridge_desc: " ",
+            Thewej: "Thewej",
+            Thewej_desc: " ",
+            Rama8: "Rama 8 Bridge",
+            Rama8_desc: " ",
+            Phraarthit: "Phra Arthit",
+            Phraarthit_desc: " ",
+            Phrapinklaobridge: "Phra Pin Klao Bridge",
+            Phrapinklaobridge_desc: " ",
+            Thonburirailway: "Thonburi Railway",
+            Thonburirailway_desc: " ",
+            Wanglang: "Wang Lang(Siriraj)",
+            Wanglang_desc: " ",
+            Maharaj: "Maharaj",
+            Maharaj_desc: " ",
+            Thachang: "Tha Chang",
+            Thachang_desc: " ",
+            Thatien: "Tha Tien",
+            Thatien_desc: " ",
+            Rajinee: "Rajinee",
+            Rajinee_desc: " ",
+            Memorialbridge: "Memorial Bridge",
+            Memorialbridge_desc: " ",
+            Rajchawongse: "Rajchawongse",
+            Rajchawongse_desc: " ",
+            Marinedept: "Marine Dept.",
+            Marinedept_desc: " ",
+            Siphraya: "Si Phraya",
+            Siphraya_desc: " ",
+            Watmuangkae: "Wat Muang Kae",
+            Watmuangkae_desc: " ",
+            Oriental: "Oriental",
+            Oriental_desc: " ",
+            Sathorn: "Sathorn",
+            Sathorn_desc: " ",
+            Watsawetachat: "Wat Sawetachat",
+            Watsawetachat_desc: " ",
+            Watworachanyawas: "Wat Worachanyawas",
+            Watworachanyawas_desc: " ",
+            Watrajsingkorn: "Wat Rajsingkorn",
+            Watrajsingkorn_desc: " ",
+            Rajburana: "Rajburana",
+            Rajburana_desc: " "
+
+
+
 
 
 
@@ -44,6 +141,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Map_Schedule_side_menu: "ตารางเดินเรือ",
             Map_side_menu: "แผนที่",
             Search_side_menu: "ค้นหา",
+            User_guide: "ช่วยเหลือ",
             Follow_us_on: "ติดตามเราได้ที่",
             ScrollBottom: "เลื่อนลง",
             Find_Me: "ค้นหาตำแหน่งปัจจุบัน",
@@ -53,6 +151,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Nearby_Places: "สถานที่ใกล้เคียง",
             Activities: "กิจกรรม",
             Transportation: "ระบบขนส่งที่เชื่อมต่อ",
+            Transportation2: "ระบบขนส่ง",
             Choose_flag: "กรุณาเลือกธง",
             Time_estimate: "เวลาโดยประมาณ",
             kilometers_away: "จะถึง",
@@ -63,13 +162,105 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Green_flag: "เรือด่วนธงเขียว",
             Yellow_flag: "เรือด่วนธงเหลือง",
             Open_Noti: "เปิดใช้งานแจ้งเตือน",
-            Is_Scheduled: "เช็คการแจ้งเตือน"
+            Is_Scheduled: "เช็คการแจ้งเตือน",
+            History_0: "แม่น้ำเจ้าพระยา",
+            History_1_1: "เจ้าพระยา เป็นชื่อแม่น้ำที่สำคัญ โดยแม่น้ำเจ้าพระยาเกิดจากการรวมตัวของแม่น้ำหลักสีสาย ได้แก่ แม่น้ำปิง แม่น้ำวัง แม่น้ำยม และแม่น้ำน่าน ไหลมาบรรจบกันที่ตำบลปากน้ำโพ ด้านหน้าเขื่อนในตัวเมือง จ.นครสวรรค์ มีความยาวประมาณ 372 กิโลเมตร เมื่อไหลมาบรรจบกันแล้วจึงค่อย ๆ รวมตัวกันกลายเป็นแม่น้ำสายใหญ่ที่สำคัญของประเทศ ไหลผ่านจังหวัดต่าง ๆ ในภาคกลาง เรื่อยมาจนถึงกรุงเทพมหานคร และลงสู่ทะเลอ่าวไทยที่ อ.ปากน้ำ จังหวัดสมุทรปราการ",
+            History_1_2: "แม่น้ำเจ้าพระยา ถือเป็นแหล่งท่องเที่ยวที่น่าสนใจในกรุงเทพมหานคร ในปัจจุบัน การท่องเที่ยวแม่น้ำเจ้าพระยาด้วยเรือท่องเที่ยว เป็นที่นิยมมาก นอกจากจะได้ชมทัศนียภาพ และชีวิตความเป็นอยู่ของประชาชนริมสองฝั่งแม่น้ำเจ้าพระยาแล้ว ยังเป็นการย้อนให้เห็นถึงประวัติศาสตร์ต่าง ๆ บนสายน้ำเจ้าพระยาแห่งนี้ จึงไม่น่าแปลกใจที่จะมีบริษัทนำเที่ยว บริษัททัวร์ต่าง ๆ มากมาย ทำธุรกิจเกี่ยวกับการล่องเรือชมแม่น้ำเจ้าพระยา รวมถึงธุรกิจร้านอาหาร และโรงแรมที่พักแถวบริเวณแม่น้ำเจ้าพระยา",
+            History_1_3: "ปัจจุบันให้ บริการเดินเรือโดยสารเส้นทางระหว่าง ปากเกร็ด (นนทบุรี) ถึงราษฎร์บูรณะรวมระยะทางประมาณ 32 กิโลเมตร กับ 4 สายการเดินเรือหลักได้แก่",
+            History_1_4: "1.สายเรือประจำทาง (ธงไม่มีสี) - ให้บริการในเส้นทางท่าน้ำนนทบุรี-วัดราชสิงขร โดยจอดรับ-ส่งทุกท่าเรือ ทั้ง 34 ท่า",
+            History_1_5: "2.สายเรือด่วนพิเศษธงส้ม - ให้บริการในเส้นทางท่าน้ำนนทบุรี-วัดราชสิงขร โดยจอดรับ-ส่ง 21 ท่า",
+            History_1_6: "3.สายเรือด่วนพิเศษธงเหลือง - ให้บริการในเส้นทางท่าน้ำนนทบุรี-สาทร-ราษฎร์บูรณะ โดยจอดรับ-ส่ง 10 ท่า",
+            History_1_7: "4.สายเรือด่วนพิเศษธงเขียว - ให้บริการในเส้นทางท่าเรือปากเกร็ด-ท่าน้ำนนทบุรี-สาทร โดยจอดรับ-ส่ง 14 ท่า",
+            History_4: "ประเพณีลอยกระทง",
+            History_4_1: "เป็นวันสำคัญวันหนึ่งของชาวไทย ตรงกับวันขึ้น 15 ค่ำ เดือน 12 ตามปฏิทินจันทรคติไทย ตามปฏิทินจันทรคติล้านนา มักจะตกอยู่ในราวเดือนพฤศจิกายน ตามปฏิทินสุริยคติ ประเพณีนี้กำหนดขึ้นเพื่อเป็นการสะเดาะเคราะห์และขอขมาต่อพระแม่คงคา บางหลักฐานเชื่อว่าเป็นการบูชารอยพระพุทธบาทที่ริมฝั่งแม่น้ำนัมทามหานที และบางหลักฐานก็ว่าเป็นการบูชาพระอุปคุตอรหันต์หรือพระมหาสาวก สำหรับประเทศไทยประเพณีลอยกระทงได้กำหนดจัดในทุกพื้นที่ทั่วประเทศ โดยเฉพาะอย่างยิ่งบริเวณที่ติดกับแม่น้ำ ลำคลอง หรือ แหล่งน้ำต่าง ๆ ซึ่งแต่ละพื้นที่ก็จะมีเอกลักษณ์ที่น่าสนใจแตกต่างกันไป",
+            Pakkret: "ท่าปากเกร็ด",
+            Pakkret_desc: " ",
+            Watklangkret: "ท่าวัดกลางเกร็ด",
+            Watklangkret_desc: " ",
+            Ministryofcommerce: "ท่ากระทรวงพาณิชย์",
+            Ministryofcommerce_desc: " ",
+            Nonthaburi_Pibul3: "ท่านนทบุรี (พิบูลย์3)",
+            Nonthaburi_Pibul3_desc: " ",
+            Rama5: "ท่าพระราม 5",
+            Rama5_desc: " ",
+            Pibul2: "ท่าพิบูลย์สงคราม 2",
+            Pibul2_desc: " ",
+            Watkien:"ท่าวัดเขียน",
+            Watkien_desc: " ",
+            Wattuek: "ท่าวัดตึก",
+            Wattuek_desc: " ",
+            Watkhema: "ท่าวัดเขมา",
+            Watkhema_desc: " ",
+            Pibul1: "ท่าพิบูลย์สงคราม 1",
+            Pibul1_desc: " ",
+            Rama7: "ท่าพระราม 7",
+            Rama7_desc: " ",
+            Watsoithong: "ท่าวัดสร้อยทอง",
+            Watsoithong_desc: " ",
+            Bangpo: "ท่าบางโพ",
+            Bangpo_desc: " ",
+            Kjakkai: "ท่าเกียกกาย",
+            Kjakkai_desc: " ",
+            Kheawkhaika: "ท่าเขียวไก่กา",
+            Kheawkhaika_desc: " ",
+            Irrigationdept: "ท่ากรมชลประทาน",
+            Irrigationdept_desc: " ",
+            Payap: "ท่าพายัพ",
+            Payap_desc: " ",
+            Watthepnahree: "ท่าวัดเทพนารี",
+            Watthepnahree_desc: " ",
+            Watthepakorn: "ท่าวัดเทพากร",
+            Watthepakorn_desc: " ",
+            Krungthonburibridge: "ท่าสะพานกรุงธน (ซังฮี้)",
+            Krungthonburibridge_desc: " ",
+            Thewej: "ท่าเทเวศร์",
+            Thewej_desc: " ",
+            Rama8: "ท่าพระราม 8",
+            Rama8_desc: " ",
+            Phraarthit: "ท่าพระอาทิตย์",
+            Phraarthit_desc: " ",
+            Phrapinklaobridge: "ท่าพระปิ่นเกล้า",
+            Phrapinklaobridge_desc: " ",
+            Thonburirailway: "ท่ารถไฟ",
+            Thonburirailway_desc: " ",
+            Wanglang: "ท่าวังหลัง (พรานนก)",
+            Wanglang_desc: " ",
+            Maharaj: "ท่ามหาราช",
+            Maharaj_desc: " ",
+            Thachang: "ท่าช้าง",
+            Thachang_desc: " ",
+            Thatien: "ท่าเตียน",
+            Thatien_desc: " ",
+            Rajinee: "ท่าราชินี",
+            Rajinee_desc: " ",
+            Memorialbridge: "ท่าสะพานพุทธ",
+            Memorialbridge_desc: " ",
+            Rajchawongse: "ท่าราชวงศ์",
+            Rajchawongse_desc: " ",
+            Marinedept: "ท่ากรมเจ้าท่า",
+            Marinedept_desc: " ",
+            Siphraya: "ท่าสี่พระยา",
+            Siphraya_desc: " ",
+            Watmuangkae: "ท่าวัดม่วงแค",
+            Watmuangkae_desc: " ",
+            Oriental: "ท่าโอเรียนเท็ล",
+            Oriental_desc: " ",
+            Sathorn: "ท่าสาทร (ตากสิน)",
+            Sathorn_desc: " ",
+            Watsawetachat: "ท่าวัดเศวตฉัตร",
+            Watsawetachat_desc: " ",
+            Watworachanyawas: "ท่าวัดวธจรรยาวาส",
+            Watworachanyawas_desc: " ",
+            Watrajsingkorn: "ท่าวัดราชสิงขร",
+            Watrajsingkorn_desc: " ",
+            Rajburana: "ท่าราษฎร์บูรณะ (บิ๊กซี)",
+            Rajburana_desc: " "
 
 
 
         });
-        $translateProvider.preferredLanguage("en");
-        $translateProvider.fallbackLanguage("en");
+        $translateProvider.preferredLanguage("th");
+        $translateProvider.fallbackLanguage("th");
     })
 
 //controller for map point page
@@ -96,13 +287,25 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
 
 //controller for settings page
-.controller('SettingsCtrl', function($scope , $ionicSideMenuDelegate, $translate ,$location) {
+.controller('SettingsCtrl', function($scope , $ionicSideMenuDelegate, $translate, $ionicModal) {
     $scope.ChangeLanguage = function(lang){
     $translate.use(lang);
   }
-    $scope.refresher = function(){
-    $location.reload();
-  }
+    $ionicModal.fromTemplateUrl('templates/popup/information.html', {
+        id: '11111',
+        backdropClickToClose: false,
+        scope: $scope
+      }).then(function(modal) {
+        $scope.popinfor = modal;
+      });
+
+      $scope.popopeninfor = function(index) {
+      $scope.popinfor.show();
+      };
+
+      $scope.popcloseinfor = function(index) {
+      $scope.popinfor.hide();
+      };
 
 })
 
@@ -208,91 +411,91 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
     //list of beginng pier
   $scope.Blist = [
-    {id: 1, title: 'ท่าปากเกร็ด', value: "ท่าปากเกร็ด"},
-    {id: 2, title: 'ท่าวัดกลางเกร็ด', value: "ท่าวัดกลางเกร็ด"},
-    {id: 3, title: 'ท่ากระทรวงพาณิชย์', value: "ท่ากระทรวงพาณิชย์"},
-    {id: 4, title: 'ท่านนทบุรี (พิบูลย์สงคราม 3)', value: "ท่านนทบุรี (พิบูลย์สงคราม 3)"},
-    {id: 5, title: 'ท่าพระราม 5', value: "ท่าพระราม 5"},
-    {id: 6, title: 'ท่าพิบูลย์สงคราม 2', value: "ท่าพิบูลย์สงคราม 2"},
-    {id: 7, title: 'ท่าวัดเขียน', value: "ท่าวัดเขียน"},
-    {id: 8, title: 'ท่าวัดตึก', value: "ท่าวัดตึก"},
-    {id: 9, title: 'ท่าวัดเขมา', value: "ท่าวัดเขมา"},
-    {id: 10, title: 'ท่าพิบูลย์สงคราม 1', value: "ท่าพิบูลย์สงคราม 1"},
-    {id: 11, title: 'ท่าพระราม 7', value: "ท่าพระราม 7"},
-    {id: 12, title: 'ท่าวัดสร้อยทอง', value: "ท่าวัดสร้อยทอง"},
-    {id: 13, title: 'ท่าบางโพ', value: "ท่าบางโพ"},
-    {id: 14, title: 'ท่าเกียกกาย', value: "ท่าเกียกกาย"},
-    {id: 15, title: 'ท่าเขียวไก่กา', value: "ท่าเขียวไก่กา"},
-    {id: 16, title: 'ท่ากรมชลประทาน', value: "ท่ากรมชลประทาน"},
-    {id: 17, title: 'ท่าพายัพ', value: "ท่าพายัพ"},
-    {id: 18, title: 'ท่าวัดเทพากร', value: "ท่าวัดเทพากร"},
-    {id: 19, title: 'ท่าวัดเทพนารี', value: "ท่าวัดเทพนารี"},
-    {id: 20, title: 'ท่าสะพานกรุงธน (ซังฮี้)', value: "ท่าสะพานกรุงธน (ซังฮี้)"},
-    {id: 21, title: 'ท่าเทเวศร์', value: "ท่าเทเวศร์"},
-    {id: 22, title: 'ท่าพระราม 8', value: "ท่าพระราม 8"},
-    {id: 23, title: 'ท่าพระอาทิตย์', value: "ท่าพระอาทิตย์"},
-    {id: 24, title: 'ท่าพระปิ่นเกล้า', value: "ท่าพระปิ่นเกล้า"},
-    {id: 25, title: 'ท่ารถไฟ', value: "ท่ารถไฟ"},
-    {id: 26, title: 'ท่าวังหลัง (พรานนก)', value: "ท่าวังหลัง (พรานนก)"},
-    {id: 27, title: 'ท่ามหาราช', value: "ท่ามหาราช"},
-    {id: 28, title: 'ท่าช้าง', value: "ท่าช้าง"},
-    {id: 29, title: 'ท่าเตียน', value: "ท่าเตียน"},
-    {id: 30, title: 'ท่าราชินี', value: "ท่าราชินี"},
-    {id: 31, title: 'ท่าสะพานพุทธ', value: "ท่าสะพานพุทธ"},
-    {id: 32, title: 'ท่าราชวงศ์', value: "ท่าราชวงศ์"},
-    {id: 33, title: 'ท่ากรมเจ้าท่า', value: "ท่ากรมเจ้าท่า"},
-    {id: 34, title: 'ท่าสี่พระยา', value: "ท่าสี่พระยา"},
-    {id: 35, title: 'ท่าวัดม่วงแค', value: "ท่าวัดม่วงแค"},
-    {id: 36, title: 'ท่าโอเรียนเท็ล', value: "ท่าโอเรียนเท็ล"},
-    {id: 37, title: 'ท่าสาทร (ตากสิน)', value: "ท่าสาทร (ตากสิน)"},
-    {id: 38, title: 'ท่าวัดเศวตฉัตร', value: "ท่าวัดเศวตฉัตร"},
-    {id: 39, title: 'ท่าวัดวธจรรยาวาส', value: "ท่าวัดวธจรรยาวาส"},
-    {id: 40, title: 'ท่าวัดราชสิงขร', value: "ท่าวัดราชสิงขร"},
-    {id: 41, title: 'ท่าราษฎร์บูรณะ (บิ๊กซี)', value: "ท่าราษฎร์บูรณะ (บิ๊กซี)"}
+    {id: 1, title: 'ท่าปากเกร็ด', value: "n33"},
+    {id: 2, title: 'ท่าวัดกลางเกร็ด', value: "n32"},
+    {id: 3, title: 'ท่ากระทรวงพาณิชย์', value: "n31"},
+    {id: 4, title: 'ท่านนทบุรี (พิบูลย์สงคราม 3)', value: "n30"},
+    {id: 5, title: 'ท่าพระราม 5', value: "n29s"},
+    {id: 6, title: 'ท่าพิบูลย์สงคราม 2', value: "n29"},
+    {id: 7, title: 'ท่าวัดเขียน', value: "n28"},
+    {id: 8, title: 'ท่าวัดตึก', value: "n27"},
+    {id: 9, title: 'ท่าวัดเขมา', value: "n26"},
+    {id: 10, title: 'ท่าพิบูลย์สงคราม 1', value: "n25"},
+    {id: 11, title: 'ท่าพระราม 7', value: "n24"},
+    {id: 12, title: 'ท่าวัดสร้อยทอง', value: "n23"},
+    {id: 13, title: 'ท่าบางโพ', value: "n22"},
+    {id: 14, title: 'ท่าเกียกกาย', value: "n21"},
+    {id: 15, title: 'ท่าเขียวไก่กา', value: "n20"},
+    {id: 16, title: 'ท่ากรมชลประทาน', value: "n19"},
+    {id: 17, title: 'ท่าพายัพ', value: "n18"},
+    {id: 18, title: 'ท่าวัดเทพากร', value: "n17s"},
+    {id: 19, title: 'ท่าวัดเทพนารี', value: "n17"},
+    {id: 20, title: 'ท่าสะพานกรุงธน (ซังฮี้)', value: "n16"},
+    {id: 21, title: 'ท่าเทเวศร์', value: "n15"},
+    {id: 22, title: 'ท่าพระราม 8', value: "n14"},
+    {id: 23, title: 'ท่าพระอาทิตย์', value: "n13"},
+    {id: 24, title: 'ท่าพระปิ่นเกล้า', value: "n12"},
+    {id: 25, title: 'ท่ารถไฟ', value: "n11"},
+    {id: 26, title: 'ท่าวังหลัง (พรานนก)', value: "n10"},
+    {id: 27, title: 'ท่ามหาราช', value: "n9s"},
+    {id: 28, title: 'ท่าช้าง', value: "n9"},
+    {id: 29, title: 'ท่าเตียน', value: "n8"},
+    {id: 30, title: 'ท่าราชินี', value: "n7"},
+    {id: 31, title: 'ท่าสะพานพุทธ', value: "n6"},
+    {id: 32, title: 'ท่าราชวงศ์', value: "n5"},
+    {id: 33, title: 'ท่ากรมเจ้าท่า', value: "n4"},
+    {id: 34, title: 'ท่าสี่พระยา', value: "n3"},
+    {id: 35, title: 'ท่าวัดม่วงแค', value: "n2"},
+    {id: 36, title: 'ท่าโอเรียนเท็ล', value: "n1"},
+    {id: 37, title: 'ท่าสาทร (ตากสิน)', value: "n0"},
+    {id: 38, title: 'ท่าวัดเศวตฉัตร', value: "t1"},
+    {id: 39, title: 'ท่าวัดวธจรรยาวาส', value: "t2"},
+    {id: 40, title: 'ท่าวัดราชสิงขร', value: "t3"},
+    {id: 41, title: 'ท่าราษฎร์บูรณะ (บิ๊กซี)', value: "t4"}
   ];
     //list of destination pier
   $scope.Dlist = [
-    {id: 1, title: 'ท่าปากเกร็ด', value: "ท่าปากเกร็ด"},
-    {id: 2, title: 'ท่าวัดกลางเกร็ด', value: "ท่าวัดกลางเกร็ด"},
-    {id: 3, title: 'ท่ากระทรวงพาณิชย์', value: "ท่ากระทรวงพาณิชย์"},
-    {id: 4, title: 'ท่านนทบุรี (พิบูลย์สงคราม 3)', value: "ท่านนทบุรี (พิบูลย์สงคราม 3)"},
-    {id: 5, title: 'ท่าพระราม 5', value: "ท่าพระราม 5"},
-    {id: 6, title: 'ท่าพิบูลย์สงคราม 2', value: "ท่าพิบูลย์สงคราม 2"},
-    {id: 7, title: 'ท่าวัดเขียน', value: "ท่าวัดเขียน"},
-    {id: 8, title: 'ท่าวัดตึก', value: "ท่าวัดตึก"},
-    {id: 9, title: 'ท่าวัดเขมา', value: "ท่าวัดเขมา"},
-    {id: 10, title: 'ท่าพิบูลย์สงคราม 1', value: "ท่าพิบูลย์สงคราม 1"},
-    {id: 11, title: 'ท่าพระราม 7', value: "ท่าพระราม 7"},
-    {id: 12, title: 'ท่าวัดสร้อยทอง', value: "ท่าวัดสร้อยทอง"},
-    {id: 13, title: 'ท่าบางโพ', value: "ท่าบางโพ"},
-    {id: 14, title: 'ท่าเกียกกาย', value: "ท่าเกียกกาย"},
-    {id: 15, title: 'ท่าเขียวไก่กา', value: "ท่าเขียวไก่กา"},
-    {id: 16, title: 'ท่ากรมชลประทาน', value: "ท่ากรมชลประทาน"},
-    {id: 17, title: 'ท่าพายัพ', value: "ท่าพายัพ"},
-    {id: 18, title: 'ท่าวัดเทพากร', value: "ท่าวัดเทพากร"},
-    {id: 19, title: 'ท่าวัดเทพนารี', value: "ท่าวัดเทพนารี"},
-    {id: 20, title: 'ท่าสะพานกรุงธน (ซังฮี้)', value: "ท่าสะพานกรุงธน (ซังฮี้)"},
-    {id: 21, title: 'ท่าเทเวศร์', value: "ท่าเทเวศร์"},
-    {id: 22, title: 'ท่าพระราม 8', value: "ท่าพระราม 8"},
-    {id: 23, title: 'ท่าพระอาทิตย์', value: "ท่าพระอาทิตย์"},
-    {id: 24, title: 'ท่าพระปิ่นเกล้า', value: "ท่าพระปิ่นเกล้า"},
-    {id: 25, title: 'ท่ารถไฟ', value: "ท่ารถไฟ"},
-    {id: 26, title: 'ท่าวังหลัง (พรานนก)', value: "ท่าวังหลัง (พรานนก)"},
-    {id: 27, title: 'ท่ามหาราช', value: "ท่ามหาราช"},
-    {id: 28, title: 'ท่าช้าง', value: "ท่าช้าง"},
-    {id: 29, title: 'ท่าเตียน', value: "ท่าเตียน"},
-    {id: 30, title: 'ท่าราชินี', value: "ท่าราชินี"},
-    {id: 31, title: 'ท่าสะพานพุทธ', value: "ท่าสะพานพุทธ"},
-    {id: 32, title: 'ท่าราชวงศ์', value: "ท่าราชวงศ์"},
-    {id: 33, title: 'ท่ากรมเจ้าท่า', value: "ท่ากรมเจ้าท่า"},
-    {id: 34, title: 'ท่าสี่พระยา', value: "ท่าสี่พระยา"},
-    {id: 35, title: 'ท่าวัดม่วงแค', value: "ท่าวัดม่วงแค"},
-    {id: 36, title: 'ท่าโอเรียนเท็ล', value: "ท่าโอเรียนเท็ล"},
-    {id: 37, title: 'ท่าสาทร (ตากสิน)', value: "ท่าสาทร (ตากสิน)"},
-    {id: 38, title: 'ท่าวัดเศวตฉัตร', value: "ท่าวัดเศวตฉัตร"},
-    {id: 39, title: 'ท่าวัดวธจรรยาวาส', value: "ท่าวัดวธจรรยาวาส"},
-    {id: 40, title: 'ท่าวัดราชสิงขร', value: "ท่าวัดราชสิงขร"},
-    {id: 41, title: 'ท่าราษฎร์บูรณะ (บิ๊กซี)', value: "ท่าราษฎร์บูรณะ (บิ๊กซี)"}
+    {id: 1, title: 'ท่าปากเกร็ด', value: "n33"},
+    {id: 2, title: 'ท่าวัดกลางเกร็ด', value: "n32"},
+    {id: 3, title: 'ท่ากระทรวงพาณิชย์', value: "n31"},
+    {id: 4, title: 'ท่านนทบุรี (พิบูลย์สงคราม 3)', value: "n30"},
+    {id: 5, title: 'ท่าพระราม 5', value: "n29s"},
+    {id: 6, title: 'ท่าพิบูลย์สงคราม 2', value: "n29"},
+    {id: 7, title: 'ท่าวัดเขียน', value: "n28"},
+    {id: 8, title: 'ท่าวัดตึก', value: "n27"},
+    {id: 9, title: 'ท่าวัดเขมา', value: "n26"},
+    {id: 10, title: 'ท่าพิบูลย์สงคราม 1', value: "n25"},
+    {id: 11, title: 'ท่าพระราม 7', value: "n24"},
+    {id: 12, title: 'ท่าวัดสร้อยทอง', value: "n23"},
+    {id: 13, title: 'ท่าบางโพ', value: "n22"},
+    {id: 14, title: 'ท่าเกียกกาย', value: "n21"},
+    {id: 15, title: 'ท่าเขียวไก่กา', value: "n20"},
+    {id: 16, title: 'ท่ากรมชลประทาน', value: "n19"},
+    {id: 17, title: 'ท่าพายัพ', value: "n18"},
+    {id: 18, title: 'ท่าวัดเทพากร', value: "n17s"},
+    {id: 19, title: 'ท่าวัดเทพนารี', value: "n17"},
+    {id: 20, title: 'ท่าสะพานกรุงธน (ซังฮี้)', value: "n16"},
+    {id: 21, title: 'ท่าเทเวศร์', value: "n15"},
+    {id: 22, title: 'ท่าพระราม 8', value: "n14"},
+    {id: 23, title: 'ท่าพระอาทิตย์', value: "n13"},
+    {id: 24, title: 'ท่าพระปิ่นเกล้า', value: "n12"},
+    {id: 25, title: 'ท่ารถไฟ', value: "n11"},
+    {id: 26, title: 'ท่าวังหลัง (พรานนก)', value: "n10"},
+    {id: 27, title: 'ท่ามหาราช', value: "n9s"},
+    {id: 28, title: 'ท่าช้าง', value: "n9"},
+    {id: 29, title: 'ท่าเตียน', value: "n8"},
+    {id: 30, title: 'ท่าราชินี', value: "n7"},
+    {id: 31, title: 'ท่าสะพานพุทธ', value: "n6"},
+    {id: 32, title: 'ท่าราชวงศ์', value: "n5"},
+    {id: 33, title: 'ท่ากรมเจ้าท่า', value: "n4"},
+    {id: 34, title: 'ท่าสี่พระยา', value: "n3"},
+    {id: 35, title: 'ท่าวัดม่วงแค', value: "n2"},
+    {id: 36, title: 'ท่าโอเรียนเท็ล', value: "n1"},
+    {id: 37, title: 'ท่าสาทร (ตากสิน)', value: "n0"},
+    {id: 38, title: 'ท่าวัดเศวตฉัตร', value: "t1"},
+    {id: 39, title: 'ท่าวัดวธจรรยาวาส', value: "t2"},
+    {id: 40, title: 'ท่าวัดราชสิงขร', value: "t3"},
+    {id: 41, title: 'ท่าราษฎร์บูรณะ (บิ๊กซี)', value: "t4"}
   ];
 
   
@@ -386,38 +589,25 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
           $scope.dest = document.getElementById("input2").value;
        
 
-          if($scope.begin == "ท่าปากเกร็ด" && $scope.dest == "ท่าวัดกลางเกร็ด")
+          if($scope.begin == "n33" && $scope.dest == "n32" || $scope.begin == "n32" && $scope.dest == "n33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
-                //$scope.getLocation(); 
                 
-                $scope.latbegin = 13.905270;
-                $scope.lngbegin = 100.491325;
-                window.localStorage.setItem("latbegin",$scope.latbegin);
-                window.localStorage.setItem("lngbegin",$scope.lngbegin);
-
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 3 minutes",
-                  distance: 1.17,
-                  name: 'Green',
-                  price: 10,
-                  value: "greenline",
-                  image: 'img/flags/greenflag.png'
-              });
-          
-              
-          }
-          else if($scope.begin == "ท่าวัดกลางเกร็ด" && $scope.dest == "ท่าปากเกร็ด"){
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                $scope.latbegin = 13.915332;
-                $scope.lngbegin = 100.494624;
-                window.localStorage.setItem("latbegin",$scope.latbegin);
-                window.localStorage.setItem("lngbegin",$scope.lngbegin);
-
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
                   time: "0 hour 3 minutes",
@@ -430,30 +620,1004 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
           }
 
 
-          else if($scope.begin == "ท่าปากเกร็ด" && $scope.dest == "ท่ากระทรวงพาณิชย์" || $scope.dest == "ท่ากระทรวงพาณิชย์" && $scope.begin == "ท่าปากเกร็ด")
+          else if($scope.begin == "n33" && $scope.dest == "n31" || $scope.begin == "n31" && $scope.dest == "n33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
-                //$scope.getLocation(); 
                 
-                $scope.latbegin = 13.883051;
-                $scope.lngbegin = 100.484511;
-                window.localStorage.setItem("latbegin",$scope.latbegin);
-                window.localStorage.setItem("lngbegin",$scope.lngbegin);
-
-
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 10 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 3.75,
                   name: 'Green',
                   price: 10,
                   value: "greenline",
                   image: 'img/flags/greenflag.png'
               });
-
-                
           }
+
+           else if($scope.begin == "n33" && $scope.dest == "n30" || $scope.begin == "n30" && $scope.dest == "n33")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.842068;
+                    $scope.lngbegin = 100.491147;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n30")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 21 minutes",
+                  distance: 8.16,
+                  name: 'Green',
+                  price: 13,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n33" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n33")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n24")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 28 minutes",
+                  distance: 11.57,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n33" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n33")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 34 minutes",
+                  distance: 14.86,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n33" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n33")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 39 minutes",
+                  distance: 15.93,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n33" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n33")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 43 minutes",
+                  distance: 16.94,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n33" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n33")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 46 minutes",
+                  distance: 17.74,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n33" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n33")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 51 minutes",
+                  distance: 18.13,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n33" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n33")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 54 minutes",
+                  distance: 19.68,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n33" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n33")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 57 minutes",
+                  distance: 20.88,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n33" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n33")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n33")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.915332;
+                    $scope.lngbegin = 100.494624;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "1 hour 0 minutes",
+                  distance: 21.93,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n32" && $scope.dest == "n31" || $scope.begin == "n31" && $scope.dest == "n32")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 11 minutes",
+                  distance: 2.58,
+                  name: 'Green',
+                  price: 10,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n32" && $scope.dest == "n30" || $scope.begin == "n30" && $scope.dest == "n32")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.842068;
+                    $scope.lngbegin = 100.491147;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 18 minutes",
+                  distance: 7.03,
+                  name: 'Green',
+                  price: 13,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n32" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n32")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n24")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 25 minutes",
+                  distance: 10.55,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n32" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n32")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 31 minutes",
+                  distance: 13.76,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n32" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n32")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 36 minutes",
+                  distance: 14.83,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n32" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n32")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 40 minutes",
+                  distance: 15.82,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n32" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n32")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 43 minutes",
+                  distance: 16.6,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n32" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n32")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 48 minutes",
+                  distance: 17,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n32" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n32")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 51 minutes",
+                  distance: 18.58,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n32" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n32")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 54 minutes",
+                  distance: 19.81,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n32" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n32")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n32")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.905270;
+                    $scope.lngbegin = 100.491325;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 57 minutes",
+                  distance: 20.86,
+                  name: 'Green',
+                  price: 32,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n31" && $scope.dest == "n30" || $scope.begin == "n30" && $scope.dest == "n31")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.842068;
+                    $scope.lngbegin = 100.491147;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n30")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 7 minutes",
+                  distance: 4.61,
+                  name: 'Green',
+                  price: 10,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n31" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n31")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n24")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 14 minutes",
+                  distance: 8.41,
+                  name: 'Green',
+                  price: 30,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n31" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n31")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 20 minutes",
+                  distance: 11.39,
+                  name: 'Green',
+                  price: 30,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n31" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n31")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 25 minutes",
+                  distance: 12.45,
+                  name: 'Green',
+                  price: 30,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n31" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n31")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 29 minutes",
+                  distance: 13.36,
+                  name: 'Green',
+                  price: 30,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n31" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n31")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 32 minutes",
+                  distance: 14.13,
+                  name: 'Green',
+                  price: 30,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n31" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n31")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 37 minutes",
+                  distance: 14.53,
+                  name: 'Green',
+                  price: 30,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n31" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n31")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 40 minutes",
+                  distance: 16.2,
+                  name: 'Green',
+                  price: 30,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n31" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n31")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 43 minutes",
+                  distance: 17.47,
+                  name: 'Green',
+                  price: 30,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n31" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n31")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n31")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.883051;
+                    $scope.lngbegin = 100.484511;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 46 minutes",
+                  distance: 18.51,
+                  name: 'Green',
+                  price: 30,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+          }
+
+          else if($scope.begin == "n30" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n30")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n30")
+                {
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n24")
+                {
+                    $scope.latbegin = 13.842068;
+                    $scope.lngbegin = 100.491147;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 46 minutes",
+                  distance: 18.51,
+                  name: 'Green',
+                  price: 30,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+
+          }
+
+
+
+
+
+
+
+
           else if($scope.begin == "ท่ากระทรวงพาณิชย์" && $scope.dest == "ท่าปากเกร็ด")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -476,328 +1640,61 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                   image: 'img/flags/greenflag.png'
               });
 
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 3.75,
+                  name: 'Blue',
+                  price: 10,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 3.75,
+                  name: 'Yellow',
+                  price: 10,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 3.75,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 10 minutes",
+                  distance: 3.75,
+                  name: 'Orange',
+                  price: 10,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
                 
           }
-          else if(begin == "ท่ากระทรวงพาณิชย์")
+          
+          else
           {
-            var beginID = 3;
-          }
-          else if(begin == "ท่านนทบุรี (พิบูลย์สงคราม 3)")
-          {
-            var beginID = 4;
-          }
-          else if(begin == "ท่าพระราม 5")
-          {
-            var beginID = 5;
-          }
-          else if(begin == "ท่าพิบูลย์สงคราม 2")
-          {
-            var beginID = 6;
-          }
-          else if(begin == "ท่าวัดเขียน")
-          {
-            var beginID = 7;
-          }
-          else if(begin == "ท่าวัดตึก")
-          {
-            var beginID = 8;
-          }
-          else if(begin == "ท่าวัดเขมา")
-          {
-            var beginID = 9;
-          }
-          else if(begin == "ท่าพิบูลย์สงคราม 1")
-          {
-            var beginID = 10;
-          }
-          else if(begin == "ท่าพระราม 7")
-          {
-            var beginID = 11;
-          }
-          else if(begin == "ท่าวัดสร้อยทอง")
-          {
-            var beginID = 12;
-          }
-          else if(begin == "ท่าบางโพ")
-          {
-            var beginID = 13;
-          }
-          else if(begin == "ท่าเกียกกาย")
-          {
-            var beginID = 14;
-          }
-          else if(begin == "ท่าเขียวไก่กา")
-          {
-            var beginID = 15;
-          }
-          else if(begin == "ท่ากรมชลประทาน")
-          {
-            var beginID = 16;
-          }
-          else if(begin == "ท่าพายัพ")
-          {
-            var beginID = 17;
-          }
-          else if(begin == "ท่าวัดเทพากร")
-          {
-            var beginID = 18;
-          }
-          else if(begin == "ท่าวัดเทพนารี")
-          {
-            var beginID = 19;
-          }
-          else if(begin == "ท่าสะพานกรุงธน (ซังฮี้)")
-          {
-            var beginID = 20;
-          }
-          else if(begin == "ท่าเทเวศร์")
-          {
-            var beginID = 21;
-          }
-          else if(begin == "ท่าพระราม 8")
-          {
-            var beginID = 22;
-          }
-          else if(begin == "ท่าพระอาทิตย์")
-          {
-            var beginID = 23;
-          }
-          else if(begin == "ท่าพระปิ่นเกล้า")
-          {
-            var beginID = 24;
-          }
-          else if(begin == "ท่ารถไฟ")
-          {
-            var beginID = 25;
-          }
-          else if(begin == "ท่าวังหลัง (พรานนก)")
-          {
-            var beginID = 26;
-          }
-          else if(begin == "ท่ามหาราช")
-          {
-            var beginID = 27;
-          }
-          else if(begin == "ท่าช้าง")
-          {
-            var beginID = 28;
-          }
-          else if(begin == "ท่าเตียน")
-          {
-            var beginID = 29;
-          }
-          else if(begin == "ท่าราชินี")
-          {
-            var beginID = 30;
-          }
-          else if(begin == "ท่าสะพานพุทธ")
-          {
-            var beginID = 31;
-          }
-          else if(begin == "ท่าราชวงศ์")
-          {
-            var beginID = 32;
-          }
-          else if(begin == "ท่ากรมเจ้าท่า")
-          {
-            var beginID = 33;
-          }
-          else if(begin == "ท่าสี่พระยา")
-          {
-            var beginID = 34;
-          }
-          else if(begin == "ท่าวัดม่วงแค")
-          {
-            var beginID = 35;
-          }
-          else if(begin == "ท่าโอเรียนเท็ล")
-          {
-            var beginID = 36;
-          }
-          else if(begin == "ท่าสาทร (ตากสิน)")
-          {
-            var beginID = 37;
-          }
-          else if(begin == "ท่าวัดเศวตฉัตร")
-          {
-            var beginID = 38;
-          }
-          else if(begin == "ท่าวัดวธจรรยาวาส")
-          {
-            var beginID = 39;
-          }
-          else if(begin == "ท่าวัดราชสิงขร")
-          {
-            var beginID = 40;
-          }
-          else if(begin == "ท่าราษฎร์บูรณะ (บิ๊กซี)")
-          {
-            var beginID = 41;
-          }
+              $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0,
+                  name: 'There is no boat from here to go there',
+                  price: 0,
+                  value: "",
+                  image: ''
+              });
 
-          else if(dest == "ท่าปากเกร็ด")
-          {
-            var destID = 1;
-          }
-          else if(dest == "ท่าวัดกลางเกร็ด")
-          {
-            var destID = 2;
-          }
-          else if(dest == "ท่ากระทรวงพาณิชย์")
-          {
-            var destID = 3;
-          }
-          else if(dest == "ท่านนทบุรี (พิบูลย์สงคราม 3)")
-          {
-            var destID = 4;
-          }
-          else if(dest == "ท่าพระราม 5")
-          {
-            var destID = 5;
-          }
-          else if(dest == "ท่าพิบูลย์สงคราม 2")
-          {
-            var destID = 6;
-          }
-          else if(dest == "ท่าวัดเขียน")
-          {
-            var destID = 7;
-          }
-          else if(dest == "ท่าวัดตึก")
-          {
-            var destID = 8;
-          }
-          else if(dest == "ท่าวัดเขมา")
-          {
-            var destID = 9;
-          }
-          else if(dest == "ท่าพิบูลย์สงคราม 1")
-          {
-            var destID = 10;
-          }
-          else if(dest == "ท่าพระราม 7")
-          {
-            var destID = 11;
-          }
-          else if(dest == "ท่าวัดสร้อยทอง")
-          {
-            var destID = 12;
-          }
-          else if(dest == "ท่าบางโพ")
-          {
-            var destID = 13;
-          }
-          else if(dest == "ท่าเกียกกาย")
-          {
-            var destID = 14;
-          }
-          else if(dest == "ท่าเขียวไก่กา")
-          {
-            var destID = 15;
-          }
-          else if(dest == "ท่ากรมชลประทาน")
-          {
-            var destID = 16;
-          }
-          else if(dest == "ท่าพายัพ")
-          {
-            var destID = 17;
-          }
-          else if(dest == "ท่าวัดเทพากร")
-          {
-            var destID = 18;
-          }
-          else if(dest == "ท่าวัดเทพนารี")
-          {
-            var destID = 19;
-          }
-          else if(dest == "ท่าสะพานกรุงธน (ซังฮี้)")
-          {
-            var destID = 20;
-          }
-          else if(dest == "ท่าเทเวศร์")
-          {
-            var destID = 21;
-          }
-          else if(dest == "ท่าพระราม 8")
-          {
-            var destID = 22;
-          }
-          else if(dest == "ท่าพระอาทิตย์")
-          {
-            var destID = 23;
-          }
-          else if(dest == "ท่าพระปิ่นเกล้า")
-          {
-            var destID = 24;
-          }
-          else if(dest == "ท่ารถไฟ")
-          {
-            var destID = 25;
-          }
-          else if(dest == "ท่าวังหลัง (พรานนก)")
-          {
-            var destID = 26;
-          }
-          else if(dest == "ท่ามหาราช")
-          {
-            var destID = 27;
-          }
-          else if(dest == "ท่าช้าง")
-          {
-            var destID = 28;
-          }
-          else if(dest == "ท่าเตียน")
-          {
-            var destID = 29;
-          }
-          else if(dest == "ท่าราชินี")
-          {
-            var destID = 30;
-          }
-          else if(dest == "ท่าสะพานพุทธ")
-          {
-            var destID = 31;
-          }
-          else if(dest == "ท่าราชวงศ์")
-          {
-            var destID = 32;
-          }
-          else if(dest == "ท่ากรมเจ้าท่า")
-          {
-            var destID = 33;
-          }
-          else if(dest == "ท่าสี่พระยา")
-          {
-            var destID = 34;
-          }
-          else if(dest == "ท่าวัดม่วงแค")
-          {
-            var destID = 35;
-          }
-          else if(dest == "ท่าโอเรียนเท็ล")
-          {
-            var destID = 36;
-          }
-          else if(dest == "ท่าสาทร (ตากสิน)")
-          {
-            var destID = 37;
-          }
-          else if(dest == "ท่าวัดเศวตฉัตร")
-          {
-            var destID = 38;
-          }
-          else if(dest == "ท่าวัดวธจรรยาวาส")
-          {
-            var destID = 39;
-          }
-          else if(dest == "ท่าวัดราชสิงขร")
-          {
-            var destID = 40;
-          }
-          else if(dest == "ท่าราษฎร์บูรณะ (บิ๊กซี)")
-          {
-            var destID = 41;
           }
           
 
@@ -912,7 +1809,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyt4 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destt4)       
+        if($scope.dest == $scope.destt4)    
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "t4",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: null
+        });   
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -938,7 +1845,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyt3 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destt3)       
+        if($scope.dest == $scope.destt3)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "t3",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: null
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -964,7 +1881,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyt2 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destt2)       
+        if($scope.dest == $scope.destt2) 
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "t2",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: null
+        });      
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -990,7 +1917,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyt1 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destt1)       
+        if($scope.dest == $scope.destt1)  
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "t1",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: null
+        });     
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1022,10 +1959,10 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "33",
             date: alarmTime,
-            message: "You have arrived your destination : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
             title: "ExBoat",
             autoCancel: true,
-            sound: true
+            sound: null
         });
         alert("You have arrived your destination : " + $scope.dest);
     }
@@ -1052,7 +1989,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn32 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn32)       
+        if($scope.dest == $scope.destn32)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "32",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: null
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1084,10 +2031,10 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "31",
             date: alarmTime,
-            message: "You have arrived your destination : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
             title: "ExBoat",
             autoCancel: true,
-            sound: true
+            sound: null
         }); 
         alert("You have arrived your destination : " + $scope.dest);
     }
@@ -1114,7 +2061,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn30 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn30)       
+        if($scope.dest == $scope.destn30)    
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "30",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });   
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1141,6 +2098,16 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     $scope.notifyn29s = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn29s)       
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "29s",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });  
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1166,7 +2133,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn29 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn29)       
+        if($scope.dest == $scope.destn29)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "29",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1192,7 +2169,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn28 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn28)       
+        if($scope.dest == $scope.destn28)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "28",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1218,7 +2205,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn27 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn27)       
+        if($scope.dest == $scope.destn27)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "27",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1244,7 +2241,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn26 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn26)       
+        if($scope.dest == $scope.destn26)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "26",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1270,7 +2277,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn25 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn25)       
+        if($scope.dest == $scope.destn25)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "25",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1296,7 +2313,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn24 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn24)       
+        if($scope.dest == $scope.destn24) 
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "24",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });      
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1322,7 +2349,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn23 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn23)       
+        if($scope.dest == $scope.destn23) 
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "23",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });      
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1348,7 +2385,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn22 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn22)       
+        if($scope.dest == $scope.destn22) 
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "22",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });      
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1374,7 +2421,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn21 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn21)       
+        if($scope.dest == $scope.destn21)  
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "21",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });     
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1400,7 +2457,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn20 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn20)       
+        if($scope.dest == $scope.destn20) 
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "20",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });      
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1426,7 +2493,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn19 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn19s)       
+        if($scope.dest == $scope.destn19)  
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "19",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });     
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1452,7 +2529,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn18 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn19)       
+        if($scope.dest == $scope.destn18) 
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "18",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });      
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1478,7 +2565,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn17s = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn18)       
+        if($scope.dest == $scope.destn17s)   
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "17s",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });    
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1530,7 +2627,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn16 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn16)       
+        if($scope.dest == $scope.destn16)   
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "16",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });    
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1556,7 +2663,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn15 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn15)       
+        if($scope.dest == $scope.destn15)  
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "15",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });     
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1582,7 +2699,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn14 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn14)       
+        if($scope.dest == $scope.destn14) 
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "14",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });      
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1608,7 +2735,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn13 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn13)       
+        if($scope.dest == $scope.destn13)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "13",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1634,7 +2771,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn12 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn12)       
+        if($scope.dest == $scope.destn12)   
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "12",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });    
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1660,7 +2807,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn11 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn11)       
+        if($scope.dest == $scope.destn11)   
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "11",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });    
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1686,7 +2843,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn10 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn10)       
+        if($scope.dest == $scope.destn10)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "10",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1712,7 +2879,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn9s = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn9s)       
+        if($scope.dest == $scope.destn9s)  
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "9s",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });     
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1738,7 +2915,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn9 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn9)       
+        if($scope.dest == $scope.destn9) 
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "9",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });      
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1764,7 +2951,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn8 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn8)       
+        if($scope.dest == $scope.destn8)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "8",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1791,6 +2988,16 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     $scope.notifyn7 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn7)       
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "7",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });  
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1816,7 +3023,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn6 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn6)       
+        if($scope.dest == $scope.destn6)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "6",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1842,7 +3059,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn5 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn5)       
+        if($scope.dest == $scope.destn5)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "5",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1868,7 +3095,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn4 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn4)       
+        if($scope.dest == $scope.destn4) 
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "4",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });      
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1894,7 +3131,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn3 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn3)       
+        if($scope.dest == $scope.destn3)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "3",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });       
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1920,7 +3167,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn2 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn2)       
+        if($scope.dest == $scope.destn2)   
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "2",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });    
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1946,7 +3203,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn1 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn1)       
+        if($scope.dest == $scope.destn1) 
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "1",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });      
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -1972,7 +3239,17 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn0 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn0)       
+        if($scope.dest == $scope.destn0) 
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "0",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });      
         alert("You have arrived your destination : " + $scope.dest);
     }
 
@@ -2028,33 +3305,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
 //list of emergency contacts  
 window.CONTACTS = 
-[{"id":1,"first_name":"Chaotha Department","last_name":"(กรมเจ้าท่า)","country":"Cyprus","ip_address":"153.88.89.148","email":"progers@yata.net","phoneno":"0812311311","img":"img/ionic.png"},
-{"id":2,"first_name":"Police Station","last_name":"(สถานีตำรวจ)","country":"Croatia","ip_address":"209.73.121.212","email":"jgordon@skivee.biz","phoneno":"191","img":"img/ionic.png"},
-{"id":3,"first_name":"Ambulance","last_name":"(รถพยาบาล)","country":"Armenia","ip_address":"164.214.217.162","email":"khamilton@rhynyx.biz","phoneno":"1669","img":"img/ionic.png"},
-{"id":4,"first_name":"Stephanie","last_name":"Dennis","country":"Mauritius","ip_address":"8.199.242.67","email":"sjohnson@jabbertype.mil","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":5,"first_name":"Jerry","last_name":"Edwards","country":"Thailand","ip_address":"230.207.100.163","email":"jpalmer@avamm.org","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":6,"first_name":"Lillian","last_name":"Franklin","country":"Germany","ip_address":"150.190.116.1","email":"lfranklin@eare.mil","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":7,"first_name":"Melissa","last_name":"Gordon","country":"Serbia","ip_address":"162.156.29.99","email":"mgordon@flashset.org","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":8,"first_name":"Sarah","last_name":"Harris","country":"Grenada","ip_address":"13.177.156.223","email":"sburns@eimbee.info","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":9,"first_name":"Willie","last_name":"Ingles","country":"Croatia","ip_address":"115.133.81.82","email":"wburton@dynazzy.info","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":10,"first_name":"Tina","last_name":"Johnson","country":"United States Virgin Islands","ip_address":"113.49.63.18","email":"tsimmons@devpulse.mil","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":11,"first_name":"Kenneth","last_name":"Kent","country":"Mexico","ip_address":"92.89.76.196","email":"klarson@browseblab.info","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":12,"first_name":"Philip","last_name":"Lyles","country":"Cuba","ip_address":"223.180.48.70","email":"pwelch@skippad.edu","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":13,"first_name":"Nicholas","last_name":"Marker","country":"British Indian Ocean Territory","ip_address":"200.150.119.13","email":"nparker@twitternation.net","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":14,"first_name":"Nicole","last_name":"Nebb","country":"Moldova","ip_address":"47.66.237.205","email":"nwebb@midel.biz","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":15,"first_name":"Clarence","last_name":"Olsen","country":"China","ip_address":"134.84.246.67","email":"cschmidt@dazzlesphere.net","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":16,"first_name":"Jessica","last_name":"Peterson","country":"Sao Tome and Principe","ip_address":"211.30.32.109","email":"jmurray@jumpxs.net","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":17,"first_name":"Willie","last_name":"Quite","country":"US Minor Outlying Islands","ip_address":"158.40.109.208","email":"wschmidt@babbleset.edu","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":18,"first_name":"Margaret","last_name":"Robertson","country":"Bhutan","ip_address":"252.123.77.101","email":"mevans@voolia.info","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":19,"first_name":"Arthur","last_name":"Simmons","country":"Faroe Islands","ip_address":"116.5.126.29","email":"amorales@brainlounge.biz","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":20,"first_name":"Charles","last_name":"55063","country":"Italy","ip_address":"10.43.255.4","email":"cperez@avaveo.net","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":21,"first_name":"Jeffrey","last_name":"Turner","country":"Liechtenstein","ip_address":"55.140.114.8","email":"jwebb@mynte.net","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":22,"first_name":"Andrea","last_name":"Upton","country":"Nauru","ip_address":"22.243.12.86","email":"asimpson@browsetype.mil","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":23,"first_name":"Steve","last_name":"15063","country":"Morocco","ip_address":"21.166.38.112","email":"sreynolds@topiclounge.biz","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":24,"first_name":"Gerald","last_name":"Veyes","country":"Isle of Man","ip_address":"235.115.15.46","email":"greyes@voolith.biz","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":25,"first_name":"Judy","last_name":"Washington","country":"Sweden","ip_address":"39.120.240.182","email":"jwashington@oyondu.net","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":26,"first_name":"Brandon","last_name":"Xi","country":"Vietnam","ip_address":"18.176.165.38","email":"bpatterson@skyba.org","phoneno":"+66875957750","img":"img/ionic.png"},
-{"id":27,"first_name":"Brandon","last_name":"Yore","country":"Vietnam","ip_address":"18.176.165.38","email":"batterson@skyba.org","phoneno":"+66875957750","img":"img/ionic.png"},                  
-{"id":28,"first_name":"Brandon","last_name":"Zeff","country":"Vietnam","ip_address":"18.176.165.38","email":"bpatterson@skyba.org","phoneno":"+66875957750","img":"img/ionic.png"}];
+[{"id":1,"first_name":"Emergency medical sevice Vajira hospital","last_name":"(หน่วยแพทย์กู้ชีวิต วชิรพยาบาล)","country":"Cyprus","ip_address":"153.88.89.148","email":"progers@yata.net","phoneno":"1554","img":"img/emergency/e04.png"},
+{"id":2,"first_name":"Police Station","last_name":"(สถานีตำรวจ)","country":"Croatia","ip_address":"209.73.121.212","email":"jgordon@skivee.biz","phoneno":"191","img":"img/emergency/e08.png"},
+{"id":3,"first_name":"Narenthorn EMS Center","last_name":"(เจ็บป่วยฉุกเฉิน​ (ศูนย์นเรนทร))","country":"Armenia","ip_address":"164.214.217.162","email":"khamilton@rhynyx.biz","phoneno":"1669","img":"img/emergency/e01.png"},
+{"id":4,"first_name":"Tourist police","last_name":"(สายด่วนตำรวจท่องเที่ยว)","country":"Mauritius","ip_address":"8.199.242.67","email":"sjohnson@jabbertype.mil","phoneno":"1155","img":"img/emergency/e07.png"},
+{"id":5,"first_name":"Marine police","last_name":"(อุบัติเหตุทางน้ำ กองบัญชาการตำรวจ)","country":"Thailand","ip_address":"230.207.100.163","email":"jpalmer@avamm.org","phoneno":"1196","img":"img/emergency/e06.png"},
+{"id":6,"first_name":"Harbor Department","last_name":"(สายด่วนกรมเจ้าท่า (เหตุด่วนทางน้ำ))","country":"Germany","ip_address":"150.190.116.1","email":"lfranklin@eare.mil","phoneno":"1199","img":"img/emergency/e05.png"},
+{"id":7,"first_name":"Erawan Bangkok Emergency Medical Service","last_name":"(ศูนย์เอราวัณ สำนักการแพทย์)","country":"Serbia","ip_address":"162.156.29.99","email":"mgordon@flashset.org","phoneno":"1646","img":"img/emergency/e03.png"},
+{"id":8,"first_name":"Bangkok mass transit authority","last_name":"(องค์การขนส่งมวลชนกรุงเทพ (ขสมก.))","country":"Grenada","ip_address":"13.177.156.223","email":"sburns@eimbee.info","phoneno":"1348","img":"img/emergency/e09.png"},
+{"id":9,"first_name":"BUG telephone service","last_name":"(บริการสอบถามข้อมูลโทรศัพท์ BUG)","country":"Croatia","ip_address":"115.133.81.82","email":"wburton@dynazzy.info","phoneno":"1113","img":"img/emergency/e10.png"},
+{"id":10,"first_name":"Js100 radio","last_name":"(สถานีวิทยุ จส.100)","country":"United States Virgin Islands","ip_address":"113.49.63.18","email":"tsimmons@devpulse.mil","phoneno":"*1808","img":"img/emergency/e11.png"},
+{"id":11,"first_name":"POH TECK TUNG Foundation","last_name":"(ปอเต็กติ้ง)","country":"Mexico","ip_address":"92.89.76.196","email":"klarson@browseblab.info","phoneno":"​0-2226-4444-8","img":"img/emergency/e12.png"},
+{"id":12,"first_name":"Ruamkatanyu Foundation","last_name":"(มูลนิธิร่วมกตัญญู)","country":"Cuba","ip_address":"223.180.48.70","email":"pwelch@skippad.edu","phoneno":"0-2751-0951-3","img":"img/emergency/e13.png"},
+{"id":13,"first_name":"Emergency medical service","last_name":"(หน่วยแพทย์กู้ชีพ กทม.)","country":"British Indian Ocean Territory","ip_address":"200.150.119.13","email":"nparker@twitternation.net","phoneno":"1555","img":"img/emergency/e02.png"}
+];
 
 

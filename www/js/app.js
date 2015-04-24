@@ -137,7 +137,8 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCord
       url: "/orangeline",
       views: {
         'menuContent': {
-          templateUrl: "templates/line/orange_line.html"
+          templateUrl: "templates/line/orange_line.html",
+          controller: 'PopupCtrl'
         }
       }
     })
@@ -146,7 +147,8 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCord
       url: "/blueline",
       views: {
         'menuContent': {
-          templateUrl: "templates/line/blue_line.html"
+          templateUrl: "templates/line/blue_line.html",
+          controller: 'PopupCtrl'
         }
       }
     })
@@ -165,7 +167,8 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCord
       url: "/yellowline",
       views: {
         'menuContent': {
-          templateUrl: "templates/line/yellow_line.html"
+          templateUrl: "templates/line/yellow_line.html",
+          controller: 'PopupCtrl'
         }
       }
     })
@@ -174,7 +177,8 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCord
       url: "/normalline",
       views: {
         'menuContent': {
-          templateUrl: "templates/line/normal_line.html"
+          templateUrl: "templates/line/normal_line.html",
+          controller: 'PopupCtrl'
         }
       }
     })

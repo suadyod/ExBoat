@@ -26,7 +26,7 @@
            ng-style="{'line-height': getItemHeight(item) + 'px'}"
            ng-class="{'item-divider': item.isLetter}" ng-href="tel: {{item.phoneno}}">
           <img ng-if="!item.isLetter" ng-src="{{item.img}}">
-          {{item.letter || (item.first_name+' '+item.last_name)}}
+          {{item.letter || (item.first_name) +' '+(item.last_name)}}
         </a>
       </ion-list>
     </ion-content>

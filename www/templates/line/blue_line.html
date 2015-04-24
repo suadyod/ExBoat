@@ -11,87 +11,214 @@
 	<body>
 		<div class="container">
 			<header class="clearfix" style="color:#47a3da">
+				<button class="button button-block button-positive" ng-click = "add()">{{"Open_Noti" | translate}}</button>
+				<br>
 				<span>ExBoat</span>
+				<br>
 				<h1 style="color:#47a3da">{{"Blue_flag" | translate}}</h1>
 			</header>	
 			<div class="main">
 				<ul class="cbp_tmtimeline">
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>N13</span> <span>ท่าพระอาทิตย์</span></time>
-						<div class="cbp_tmicon ion-help-buoy blink_me"></div>
+						<time class="cbp_tmtime"><span>N13</span> <span>{{"Phraarthit" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink13(13.763544,100.494038)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink13 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink13 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink13 < 0.3 && diffforblink13 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn13()"></div>
+									</div>
+							</div>
+						</div>
+						
+
 						<div class="cbp_tmlabel" >
-							<h2 style="color:#fff">ท่าพระอาทิตย์</h2>
-							<p>Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.</p>
+							<h2 style="color:#fff">{{"Phraarthit" | translate}}</h2>
+							<p>{{"Phraarthit_desc" | translate}}</p>
 							
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-11T12:04"><span>N10</span> <span>ท่าวังหลัง (พรานนก)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
+						<time class="cbp_tmtime"><span>N10</span> <span>{{"Wanglang" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink10(13.756003,100.486950)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink10 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink10 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink10 < 0.3 && diffforblink10 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn10()"></div>
+									</div>
+							</div>
+						</div>
+
+
 						<div class="cbp_tmlabel">
-							<h2 style="color:#fff">ท่าวังหลัง (พรานนก)</h2>
-							<p>Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.</p>
+							<h2 style="color:#fff">{{"Wanglang" | translate}}</h2>
+							<p>{{"Wanglang_desc" | translate}}</p>
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-13 05:36"><span>N9s</span> <span>ท่ามหาราช</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
+						<time class="cbp_tmtime"><span>N9s</span> <span>{{"Maharaj" | translate}}</span></time>
+
+
+						
+						<div ng-init = "checkblink9s(13.756655,100.488660)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink9s > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink9s == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink9s < 0.3 && diffforblink9s > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn9s()"></div>
+									</div>
+							</div>
+						</div>
+
+
 						<div class="cbp_tmlabel">
-							<h2 style="color:#fff">ท่ามหาราช</h2>
-							<p>Parsnip lotus root celery yarrow seakale tomato collard greens tigernut epazote ricebean melon tomatillo soybean chicory broccoli beet greens peanut salad. Lotus root burdock bell pepper chickweed shallot groundnut pea sprouts welsh onion wattle seed pea salsify turnip scallion peanut arugula bamboo shoot onion swiss chard. Avocado tomato peanut soko amaranth grape fennel chickweed mung bean soybean endive squash beet greens carrot chicory green bean. Tigernut dandelion sea lettuce garlic daikon courgette celery maize parsley komatsuna black-eyed pea bell pepper aubergine cauliflower zucchini. Quandong pea chickweed tomatillo quandong cauliflower spinach water spinach.</p>
+							<h2 style="color:#fff">{{"Maharaj" | translate}}</h2>
+							<p>{{"Maharaj_desc" | translate}}</p>
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-15 13:15"><span>N9</span> <span>ท่าช้าง</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
+						<time class="cbp_tmtime"><span>N9</span> <span>{{"Thachang" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink9(13.752411,100.488293)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink9 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink9 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink9 < 0.3 && diffforblink9 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn9()"></div>
+									</div>
+							</div>
+						</div>
+
+
 						<div class="cbp_tmlabel">
-							<h2 style="color:#fff">ท่าช้าง</h2>
-							<p>Peanut gourd nori welsh onion rock melon mustard jícama. Desert raisin amaranth kombu aubergine kale seakale brussels sprout pea. Black-eyed pea celtuce bamboo shoot salad kohlrabi leek squash prairie turnip catsear rock melon chard taro broccoli turnip greens. Fennel quandong potato watercress ricebean swiss chard garbanzo. Endive daikon brussels sprout lotus root silver beet epazote melon shallot.</p>
+							<h2 style="color:#fff">{{"Thachang" | translate}}</h2>
+							<p>{{"Thachang_desc" | translate}}</p>
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-16 21:30"><span>N8</span> <span>ท่าเตียน</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
+						<time class="cbp_tmtime"><span>N8</span> <span>{{"Thatien" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink8(13.746285,100.489872)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink8 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink8 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink8 < 0.3 && diffforblink8 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn8()"></div>
+									</div>
+							</div>
+						</div>
+
+
 						<div class="cbp_tmlabel">
-							<h2 style="color:#fff">ท่าเตียน</h2>
-							<p>Parsley amaranth tigernut silver beet maize fennel spinach. Ricebean black-eyed pea maize scallion green bean spinach cabbage jícama bell pepper carrot onion corn plantain garbanzo. Sierra leone bologi komatsuna celery peanut swiss chard silver beet squash dandelion maize chicory burdock tatsoi dulse radish wakame beetroot.</p>
+							<h2 style="color:#fff">{{"Thatien" | translate}}</h2>
+							<p>{{"Thatien_desc" | translate}}</p>
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-17 12:11"><span>N5</span> <span>ท่าราชวงศ์</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
+						<time class="cbp_tmtime"><span>N5</span> <span>{{"Rajchawongse" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink5(13.738621,100.504260)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink5 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink5 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink5 < 0.3 && diffforblink5 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn5()"></div>
+									</div>
+							</div>
+						</div>
+
+
 						<div class="cbp_tmlabel">
-							<h2 style="color:#fff">ท่าราชวงศ์</h2>
-							<p>Caulie dandelion maize lentil collard greens radish arugula sweet pepper water spinach kombu courgette lettuce. Celery coriander bitterleaf epazote radicchio shallot winter purslane collard greens spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea brussels sprout garlic kohlrabi.</p>
+							<h2 style="color:#fff">{{"Rajchawongse" | translate}}</h2>
+							<p>{{"Rajchawongse_desc" | translate}}</p>
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N3</span> <span>ท่าสี่พระยา</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
+						<time class="cbp_tmtime"><span>N3</span> <span>{{"Siphraya" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink3(13.728414,100.513182)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink3 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink3 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink3 < 0.3 && diffforblink3 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn3()"></div>
+									</div>
+							</div>
+						</div>
+
+
 						<div class="cbp_tmlabel">
-							<h2 style="color:#fff">ท่าสี่พระยา</h2>
-							<p>Parsnip lotus root celery yarrow seakale tomato collard greens tigernut epazote ricebean melon tomatillo soybean chicory broccoli beet greens peanut salad. Lotus root burdock bell pepper chickweed shallot groundnut pea sprouts welsh onion wattle seed pea salsify turnip scallion peanut arugula bamboo shoot onion swiss chard. Avocado tomato peanut soko amaranth grape fennel chickweed mung bean soybean endive squash beet greens carrot chicory green bean. Tigernut dandelion sea lettuce garlic daikon courgette celery maize parsley komatsuna black-eyed pea bell pepper aubergine cauliflower zucchini. Quandong pea chickweed tomatillo quandong cauliflower spinach water spinach.</p>
+							<h2 style="color:#fff">{{"Siphraya" | translate}}</h2>
+							<p>{{"Siphraya_desc" | translate}}</p>
 						</div>
 					</li>
 
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>N1</span> <span>ท่าโอเรียนเท็ล</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
+						<time class="cbp_tmtime"><span>N1</span> <span>{{"Oriental" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink1(13.723298,100.513541)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink1 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink1 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink1 < 0.3 && diffforblink1 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn1()"></div>
+									</div>
+							</div>
+						</div>
+
+
 						<div class="cbp_tmlabel">
-							<h2 style="color:#fff">ท่าโอเรียนเท็ล</h2>
-							<p>Parsnip lotus root celery yarrow seakale tomato collard greens tigernut epazote ricebean melon tomatillo soybean chicory broccoli beet greens peanut salad. Lotus root burdock bell pepper chickweed shallot groundnut pea sprouts welsh onion wattle seed pea salsify turnip scallion peanut arugula bamboo shoot onion swiss chard. Avocado tomato peanut soko amaranth grape fennel chickweed mung bean soybean endive squash beet greens carrot chicory green bean. Tigernut dandelion sea lettuce garlic daikon courgette celery maize parsley komatsuna black-eyed pea bell pepper aubergine cauliflower zucchini. Quandong pea chickweed tomatillo quandong cauliflower spinach water spinach.</p>
+							<h2 style="color:#fff">{{"Oriental" | translate}}</h2>
+							<p>{{"Oriental_desc" | translate}}</p>
 						</div>
 					</li>
 					<li>
-						<time class="cbp_tmtime" datetime="2013-04-18 09:56"><span>CENTRAL</span> <span>ท่าสาทร (ตากสิน)</span></time>
-						<div class="cbp_tmicon ion-help-buoy"></div>
+						<time class="cbp_tmtime"><span>CENTRAL</span> <span>{{"Sathorn" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink0(13.718858,100.512720)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink0 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink0 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink0 < 0.3 && diffforblink0 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn0()"></div>
+									</div>
+							</div>
+						</div>
+
+
 						<div class="cbp_tmlabel">
-							<h2 style="color:#fff">ท่าสาทร (ตากสิน)</h2>
-							<p>Parsnip lotus root celery yarrow seakale tomato collard greens tigernut epazote ricebean melon tomatillo soybean chicory broccoli beet greens peanut salad. Lotus root burdock bell pepper chickweed shallot groundnut pea sprouts welsh onion wattle seed pea salsify turnip scallion peanut arugula bamboo shoot onion swiss chard. Avocado tomato peanut soko amaranth grape fennel chickweed mung bean soybean endive squash beet greens carrot chicory green bean. Tigernut dandelion sea lettuce garlic daikon courgette celery maize parsley komatsuna black-eyed pea bell pepper aubergine cauliflower zucchini. Quandong pea chickweed tomatillo quandong cauliflower spinach water spinach.</p>
+							<h2 style="color:#fff">{{"Sathorn" | translate}}</h2>
+							<p>{{"Sathorn_desc" | translate}}</p>
 						</div>
 					</li>
 				</ul>
 			</div>
+			<div class="row" >
+	               your current Latitude: {{lat}} <br />
+	               your current Longitude: {{lng}} <br />
+	               Distance from your destination to current location: {{diff}} km<br />
+	               Accuracy: {{accuracy}}<br />
+	               Distance between pier13 to current: {{diffforblink13}}<br />
+	               Distance between pier10 to current: {{diffforblink10}}<br />
+	               Distance between pier9s to current: {{diffforblink9s}}<br />
+	               Distance between pier8 to current: {{diffforblink8}}<br />
+	               Distance between pier5 to current: {{diffforblink5}}<br />
+	               Distance between pier3 to current: {{diffforblink3}}<br />
+	               Distance between pier1 to current: {{diffforblink1}}<br />
+	               Distance between pier0 to current: {{diffforblink0}}<br />
+            	</div><br/>
+		</div>
 		</div>
 	</body>
 </ion-content>
