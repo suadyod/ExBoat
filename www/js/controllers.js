@@ -4162,15 +4162,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n29")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4199,8 +4199,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4229,8 +4229,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4259,8 +4259,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4289,8 +4289,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4319,8 +4319,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4349,8 +4349,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4379,8 +4379,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4409,8 +4409,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4439,8 +4439,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4469,8 +4469,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4499,8 +4499,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4529,8 +4529,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -4559,8 +4559,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.832842;
+                    $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5123,15 +5123,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n28")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5160,8 +5160,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5190,8 +5190,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5220,8 +5220,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5250,8 +5250,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5280,8 +5280,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5310,8 +5310,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5340,8 +5340,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5370,8 +5370,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5400,8 +5400,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5430,8 +5430,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5460,8 +5460,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5490,8 +5490,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -5520,8 +5520,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.828306;
+                    $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6053,15 +6053,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n27")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6090,8 +6090,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6120,8 +6120,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6150,8 +6150,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6180,8 +6180,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6210,8 +6210,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6240,8 +6240,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6270,8 +6270,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6300,8 +6300,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6330,8 +6330,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6360,8 +6360,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6390,8 +6390,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6420,8 +6420,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6450,8 +6450,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.824440;
+                    $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6953,15 +6953,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n26")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -6990,8 +6990,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7020,8 +7020,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7050,8 +7050,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7080,8 +7080,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7110,8 +7110,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7140,8 +7140,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7170,8 +7170,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7200,8 +7200,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7230,8 +7230,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7260,8 +7260,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7290,8 +7290,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7320,8 +7320,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7350,8 +7350,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.822288;
+                    $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7823,15 +7823,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n25")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7860,8 +7860,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7890,8 +7890,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7920,8 +7920,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7950,8 +7950,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -7980,8 +7980,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8010,8 +8010,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8040,8 +8040,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8070,8 +8070,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8100,8 +8100,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8130,8 +8130,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8160,8 +8160,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8190,8 +8190,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8220,8 +8220,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.817649;
+                    $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8780,15 +8780,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n24")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8844,8 +8844,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8892,8 +8892,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8931,8 +8931,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -8961,8 +8961,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9000,8 +9000,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9057,8 +9057,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9096,8 +9096,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9153,8 +9153,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9183,8 +9183,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9222,8 +9222,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9279,8 +9279,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9309,8 +9309,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9348,8 +9348,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9387,8 +9387,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812884;
+                    $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9800,15 +9800,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n23")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9837,8 +9837,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9867,8 +9867,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9897,8 +9897,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9927,8 +9927,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9957,8 +9957,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -9987,8 +9987,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10017,8 +10017,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10047,8 +10047,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10077,8 +10077,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10107,8 +10107,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10137,8 +10137,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10167,8 +10167,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10197,8 +10197,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.812064;
+                    $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10652,15 +10652,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n22")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10707,8 +10707,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10746,8 +10746,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10785,8 +10785,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10815,8 +10815,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10854,8 +10854,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10902,8 +10902,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10941,8 +10941,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -10989,8 +10989,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11019,8 +11019,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11058,8 +11058,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11106,8 +11106,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11136,8 +11136,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11175,8 +11175,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11214,8 +11214,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.806427;
+                    $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11612,15 +11612,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n21")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11658,8 +11658,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11697,8 +11697,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11736,8 +11736,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11766,8 +11766,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11805,8 +11805,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11844,8 +11844,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11883,8 +11883,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11922,8 +11922,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11952,8 +11952,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -11991,8 +11991,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12030,8 +12030,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12060,8 +12060,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12099,8 +12099,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.798805;
+                    $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12431,15 +12431,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n20")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12468,8 +12468,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12498,8 +12498,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12528,8 +12528,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12558,8 +12558,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12588,8 +12588,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12618,8 +12618,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12648,8 +12648,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12678,8 +12678,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12708,8 +12708,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12738,8 +12738,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12768,8 +12768,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12798,8 +12798,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -12828,8 +12828,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.791118;
+                    $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13121,15 +13121,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n19")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13158,8 +13158,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13188,8 +13188,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13218,8 +13218,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13248,8 +13248,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13278,8 +13278,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13308,8 +13308,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13338,8 +13338,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13368,8 +13368,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13398,8 +13398,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13428,8 +13428,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13458,8 +13458,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13488,8 +13488,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13518,8 +13518,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.788765;
+                    $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13818,15 +13818,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n18")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13864,8 +13864,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13903,8 +13903,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13942,8 +13942,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -13972,8 +13972,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14011,8 +14011,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14050,8 +14050,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14089,8 +14089,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14128,8 +14128,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14158,8 +14158,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14197,8 +14197,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14236,8 +14236,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14266,8 +14266,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14305,8 +14305,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.787513;
+                    $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14547,15 +14547,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n17s")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14584,8 +14584,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14614,8 +14614,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14644,8 +14644,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14674,8 +14674,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14704,8 +14704,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14734,8 +14734,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14764,8 +14764,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14794,8 +14794,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14824,8 +14824,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14854,8 +14854,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14884,8 +14884,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14914,8 +14914,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -14944,8 +14944,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.785604;
+                    $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15147,15 +15147,15 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 if($scope.begin == "n17")
                 {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
                 else if($scope.begin == "n10")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15184,8 +15184,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n9")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15214,8 +15214,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n8")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15244,8 +15244,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n7")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15274,8 +15274,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n6")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15304,8 +15304,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n5")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15334,8 +15334,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n4")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15364,8 +15364,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15394,8 +15394,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15424,8 +15424,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15454,8 +15454,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "n0")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15484,8 +15484,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t1")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15514,8 +15514,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t2")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15544,8 +15544,8 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 else if($scope.begin == "t3")
                 {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
+                    $scope.latbegin = 13.783995;
+                    $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
@@ -15560,87 +15560,7623 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          else if($scope.begin == "ท่ากระทรวงพาณิชย์" && $scope.dest == "ท่าปากเกร็ด")
+          else if($scope.begin == "n16" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
-                //$scope.getLocation(); 
                 
-                $scope.latbegin = 13.915332;
-                $scope.lngbegin = 100.494624;
-                window.localStorage.setItem("latbegin",$scope.latbegin);
-                window.localStorage.setItem("lngbegin",$scope.lngbegin);
-
-
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 10 minutes",
-                  distance: 3.75,
-                  name: 'Green',
+                  time: "0 hour 0 minutes",
+                  distance: 1.09,
+                  name: 'Normal',
                   price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.09,
+                  name: 'Green',
+                  price: 20,
                   value: "greenline",
                   image: 'img/flags/greenflag.png'
               });
-
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 10 minutes",
-                  distance: 3.75,
-                  name: 'Blue',
-                  price: 10,
-                  value: "blueline",
-                  image: 'img/flags/blueflag.png'
+                  time: "0 hour 0 minutes",
+                  distance: 1.09,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
               });
 
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 10 minutes",
-                  distance: 3.75,
-                  name: 'Yellow',
-                  price: 10,
-                  value: "yellowline",
-                  image: 'img/flags/yellowflag.png'
-              });
-
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 10 minutes",
-                  distance: 3.75,
+                  time: "0 hour 0 minutes",
+                  distance: 1.63,
                   name: 'Normal',
                   price: 10,
                   value: "normalline",
                   image: 'img/flags/normalflag.png'
               });
 
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 10 minutes",
-                  distance: 3.75,
-                  name: 'Orange',
+                  time: "0 hour 0 minutes",
+                  distance: 2.17,
+                  name: 'Normal',
                   price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.17,
+                  name: 'Orange',
+                  price: 15,
                   value: "orangeline",
                   image: 'img/flags/orangeflag.png'
               });
 
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
                 
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.38,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.38,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.38,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.91,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.26,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.26,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.26,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.55,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.55,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.55,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.14,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.14,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.55,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.7,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.7,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.82,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.82,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.82,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.61,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.61,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.09,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.09,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.09,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.35,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.65,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.65,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 7.12,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 7.12,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 7.12,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 7.72,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 8.1,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 8.1,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n16" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n16")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n16")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.781860;
+                    $scope.lngbegin = 100.501076;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 8.38,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 8.38,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.58,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.16,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.16,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.44,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.44,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.44,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.44,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.98,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.29,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.29,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.29,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.29,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.54,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.54,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.54,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.08,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.08,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.46,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.61,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.61,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.75,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.75,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.75,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.75,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.59,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.59,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.06,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.06,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.06,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.06,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.33,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.62,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.62,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.08,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.08,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.08,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.08,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.66,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 7.03,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 7.03,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 7.3,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 7.3,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n15" && $scope.dest == "t4" || $scope.begin == "t3" && $scope.dest == "n15")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n15")
+                {
+                    $scope.latbegin = 13.685184;
+                    $scope.lngbegin = 100.500157;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t4")
+                {
+                    $scope.latbegin = 13.772132;
+                    $scope.lngbegin = 100.500097;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 9.67,
+                  name: 'Yellow',
+                  price: 29,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+
+          }
+
+          else if($scope.begin == "n14" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.58,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.9,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.42,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.71,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.96,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.51,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.92,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.1,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.3,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.2,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.68,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.94,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.22,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.66,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.2,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.57,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n14" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n14")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n14")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.767593;
+                    $scope.lngbegin = 100.497456;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.82,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.37,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.37,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.85,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.14,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.14,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.14,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n9s" || $scope.begin == "n9s" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.756655;
+                    $scope.lngbegin = 100.488660;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9s")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.26,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.39,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.39,
+                  name: 'Orange',
+                  price: 15,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.97,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.97,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.97,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.44,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.69,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.69,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.98,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.98,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.98,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.95,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.95,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.42,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.42,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.42,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.67,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.95,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.95,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.95,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.36,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.36,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.36,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.83,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.19,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.19,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n13" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n13")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n13")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.763544;
+                    $scope.lngbegin = 100.494038;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.43,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.43,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.54,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.87,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.87,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.87,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.87,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.2,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.2,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.2,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.86,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.86,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.41,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.72,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.72,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.09,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.09,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.09,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.09,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.09,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.09,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.55,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.55,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.55,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.55,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.8,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.06,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.06,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.46,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.46,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.46,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.46,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.88,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.23,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.23,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.44,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.44,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n12" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n12")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n12")
+                {
+                    $scope.latbegin = 13.685184;
+                    $scope.lngbegin = 100.500157;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t4")
+                {
+                    $scope.latbegin = 13.763006;
+                    $scope.lngbegin = 100.490625;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 8.23,
+                  name: 'Yellow',
+                  price: 29,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.36,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.76,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.46,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.08,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.47,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.92,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.97,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.41,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.64,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.89,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.25,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.6,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.93,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n11" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n11")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n11")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.759227;
+                    $scope.lngbegin = 100.487517;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 6.12,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "n9s" || $scope.begin == "n10" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.756655;
+                    $scope.lngbegin = 100.488660;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9s")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.2,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+                
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.42,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.42,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.42,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.13,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.13,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.13,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.77,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.19,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.19,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.69,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.69,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.69,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.69,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.69,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.75,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.75,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.18,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.18,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.18,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.18,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.18,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.4,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.63,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.63,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.63,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.98,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.98,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.98,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.98,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.98,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.29,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.62,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.62,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.8,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.8,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n10" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n10")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n10")
+                {
+                    $scope.latbegin = 13.685184;
+                    $scope.lngbegin = 100.500157;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t4")
+                {
+                    $scope.latbegin = 13.756003;
+                    $scope.lngbegin = 100.486950;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 8.0,
+                  name: 'Yellow',
+                  price: 29,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9s" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n9s")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9s")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.756655;
+                    $scope.lngbegin = 100.488660;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.16,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
           }
           
+          else if($scope.begin == "n9s" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n9s")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9s")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.756655;
+                    $scope.lngbegin = 100.488660;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.62,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9s" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n9s")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9s")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.756655;
+                    $scope.lngbegin = 100.488660;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.11,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9s" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n9s")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9s")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.756655;
+                    $scope.lngbegin = 100.488660;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.58,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9s" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n9s")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9s")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.756655;
+                    $scope.lngbegin = 100.488660;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.94,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.7,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.7,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.35,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.79,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.79,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.31,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.31,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.31,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.37,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.37,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.79,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.79,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.79,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.01,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.23,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.23,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.57,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.57,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.57,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.87,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.2,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.2,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n9" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n9")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n9")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.752411;
+                    $scope.lngbegin = 100.488293;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.37,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.37,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n8" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n8")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.69,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n8" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n8")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.18,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.18,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n8" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n8")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.77,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.77,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.77,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n8" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n8")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.83,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.83,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n8" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n8")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.21,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.21,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.21,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n8" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n8")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.41,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n8" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n8")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.62,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.62,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.62,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n8" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n8")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.92,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.92,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.92,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n8" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n8")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.18,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n8" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n8")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.5,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.5,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n8" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n8")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n8")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.746285;
+                    $scope.lngbegin = 100.489872;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.67,
+                  name: 'Normal',
+                  price: 12,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.67,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n7" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n7")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.52,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n7" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n7")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.16,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n7" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n7")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.18,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n7" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n7")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.54,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n7" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n7")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.73,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n7" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n7")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.93,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n7" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n7")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.24,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n7" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n7")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.52,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n7" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n7")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.85,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n7" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n7")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n7")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.741572;
+                    $scope.lngbegin = 100.493959;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 4.04,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n6" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n6")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.64,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.64,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n6" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n6")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.66,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.66,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n6" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n6")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.03,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.03,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n6" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n6")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.23,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n6" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n6")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.45,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.45,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n6" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n6")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.79,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.79,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n6" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n6")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.15,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n6" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n6")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.51,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.51,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n6" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n6")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n6")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.739703;
+                    $scope.lngbegin = 100.498394;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.73,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.73,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n5" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n5")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.732493;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.07,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.07,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n5" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n5")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.49,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.49,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.49,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.49,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.49,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n5" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n5")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.72,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n5" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n5")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.98,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.98,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.98,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n5" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n5")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.38,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.38,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.38,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.38,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.38,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n5" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n5")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.9,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n5" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n5")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.28,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.28,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n5" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n5")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.57,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.57,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n5" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n5")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n5")
+                {
+                    $scope.latbegin = 13.685184;
+                    $scope.lngbegin = 100.500157;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t4")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.504260;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.96,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+
+          }
+          else if($scope.begin == "n4" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n4")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.48,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.48,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n4" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n4")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.74,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n4" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n4")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.04,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.04,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n4" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n4")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.52,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.52,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n4" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n4")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.26,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n4" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n4")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.65,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.65,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n4" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n4")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n4")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.738621;
+                    $scope.lngbegin = 100.511836;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.01,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.01,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n3" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n3")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.27,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n3" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n3")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.57,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.57,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.57,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n3" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n3")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.06,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.06,
+                  name: 'Green',
+                  price: 20,
+                  value: "greenline",
+                  image: 'img/flags/greenflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.06,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.06,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.06,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n3" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n3")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.87,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n3" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n3")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.25,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.25,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n3" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n3")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.63,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.63,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n3" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n3")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n3")
+                {
+                    $scope.latbegin = 13.685184;
+                    $scope.lngbegin = 100.500157;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t4")
+                {
+                    $scope.latbegin = 13.728414;
+                    $scope.lngbegin = 100.513182;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 5.0,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+
+          }
+          else if($scope.begin == "n2" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n2")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.3,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n2" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n2")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.8,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n2" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n2")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.64,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n2" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n2")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.01,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n2" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n2")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n2")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.726021;
+                    $scope.lngbegin = 100.513535;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.41,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n1" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n1")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.5,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.5,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.5,
+                  name: 'Blue',
+                  price: 40,
+                  value: "blueline",
+                  image: 'img/flags/blueflag.png'
+              });
+
+          }
+          else if($scope.begin == "n1" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n1")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.37,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n1" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n1")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.74,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.74,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n1" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n1")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n1")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.723298;
+                    $scope.lngbegin = 100.513541;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.14,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 2.14,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n0" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n0")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.91,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "n0" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n0")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.26,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.26,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n0" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n0")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.67,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 1.67,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
+          else if($scope.begin == "n0" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n0")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "n0")
+                {
+                    $scope.latbegin = 13.685184;
+                    $scope.lngbegin = 100.500157;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t4")
+                {
+                    $scope.latbegin = 13.718858;
+                    $scope.lngbegin = 100.512720;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 3.98,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
+              });
+
+          }
+          else if($scope.begin == "t1" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "t1")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.39,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "t1" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "t1")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "t1")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.712662;
+                    $scope.lngbegin = 100.507183;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.77,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+
+          }
+          else if($scope.begin == "t2" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "t2")
+          {
+                window.localStorage.setItem("begin_pier", $scope.begin);
+                window.localStorage.setItem("dest_pier", $scope.dest);
+                
+                if($scope.begin == "t2")
+                {
+                    $scope.latbegin = 13.706542;
+                    $scope.lngbegin = 100.503840;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                else if($scope.begin == "t3")
+                {
+                    $scope.latbegin = 13.709201;
+                    $scope.lngbegin = 100.506626;
+                    window.localStorage.setItem("latbegin",$scope.latbegin);
+                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
+                }
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.42,
+                  name: 'Normal',
+                  price: 10,
+                  value: "normalline",
+                  image: 'img/flags/normalflag.png'
+              });
+                $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 0 minutes",
+                  distance: 0.42,
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
+              });
+
+          }
           else
           {
               $scope.Plist.push({
