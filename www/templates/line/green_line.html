@@ -1,0 +1,312 @@
+<ion-view view-title="ExBoat">
+
+<ion-content>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Green Line</title>
+		<link rel="stylesheet" type="text/css" href="css/component_green.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix" style="color:#228B22">
+				<button class="button button-block button-positive" ng-click = "add()">{{"Open_Noti" | translate}}</button>
+				<br>
+				<span>ExBoat</span> 
+				<br>
+				<h1 style="color:#228B22">{{"Green_flag" | translate}}</h1>
+			</header>	
+			<div class="main">
+				<ul class="cbp_greentimeline">
+					<li>
+						<time class="cbp_tmtime" ><span>N33</span> <span>{{"Pakkret" | translate}}</span></time>
+
+						<div ng-init = "checkblink33(13.915332,100.494624)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink33 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink33 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink33 < 0.3 && diffforblink33 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn33()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Pakkret" | translate}}</h2>
+							<p>{{"Pakkret_desc" | translate}}</p>
+						</div>
+					</li>
+					<li>
+						<time class="cbp_tmtime" ><span>N32</span> <span>{{"Watklangkret" | translate}}</span></time>
+
+						
+						<div ng-init = "checkblink32(13.905270,100.491325)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink32 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink32 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink32 < 0.3 && diffforblink32 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn32()"></div>
+									</div>
+							</div>
+						</div>
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Watklangkret" | translate}}</h2>
+							<p>{{"Watklangkret_desc" | translate}}</p>
+							
+						</div>
+					</li>
+					<li>
+						<time class="cbp_tmtime" ><span>N31</span> <span>{{"Ministryofcommerce" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink31(13.883051,100.484511)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink31 > 0.8"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink31 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink31 < 0.8 && diffforblink31 > 0">
+									<div ng-if = "diff < 0.8">
+										<div ng-init = "notifyn31()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Ministryofcommerce" | translate}}</h2>
+							<p>{{"Ministryofcommerce_desc" | translate}}</p>
+							
+						</div>
+					</li>
+					<li>
+						<time class="cbp_tmtime" ><span>N30</span> <span>{{"Nonthaburi_Pibul3" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink30(13.842068,100.491147)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink30 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink30 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink30 < 0.3 && diffforblink30 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn30()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Nonthaburi_Pibul3" | translate}}</h2>
+							<p>{{"Nonthaburi_Pibul3_desc" | translate}}</p>
+							
+						</div>
+					</li>
+					<li>
+						<time class="cbp_tmtime" ><span>N24</span> <span>{{"Rama7" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink24(13.812884,100.513469)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink24 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink24 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink24 < 0.3 && diffforblink24 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn24()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Rama7" | translate}}</h2>
+							<p>{{"Rama7_desc" | translate}}</p>
+						</div>
+					</li>
+					<li>
+						<time class="cbp_tmtime" ><span>N16</span> <span>{{"Krungthonburibridge" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink16(13.781860,100.501076)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink16 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink16 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink16 < 0.3 && diffforblink16 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn16()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Krungthonburibridge" | translate}}</h2>
+							<p>{{"Krungthonburibridge_desc" | translate}}</p>
+						</div>
+					</li>
+
+					<li>
+						<time class="cbp_tmtime" ><span>N15</span> <span>{{"Thewej" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink15(13.772132,100.500097)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink15 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink15 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink15 < 0.3 && diffforblink15 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn15()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Thewej" | translate}}</h2>
+							<p>{{"Thewej_desc" | translate}}</p>
+						</div>
+					</li>
+					<li>
+						<time class="cbp_tmtime" ><span>N12</span> <span>{{"Phrapinklaobridge" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink12(13.763006,100.490625)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink12 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink12 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink12 < 0.3 && diffforblink12 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn12()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Phrapinklaobridge" | translate}}</h2>
+							<p>{{"Phrapinklaobridge_desc" | translate}}</p>
+							
+						</div>
+					</li>
+					<li>
+						<time class="cbp_tmtime" ><span>N10</span> <span>{{"Wanglang" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink10(13.756003,100.486950)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink10 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink10 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink10 < 0.3 && diffforblink10 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn10()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Wanglang" | translate}}</h2>
+							<p>{{"Wanglang_desc" | translate}}</p>
+						</div>
+					</li>
+					<li>
+						<time class="cbp_tmtime" ><span>N9</span> <span>{{"Thachang" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink9(13.752411,100.488293)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink9 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink9 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink9 < 0.3 && diffforblink9 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn9()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Thachang" | translate}}</h2>
+							<p>{{"Thachang_desc" | translate}}</p>
+						</div>
+					</li>
+					<li>
+						<time class="cbp_tmtime" ><span>N5</span> <span>{{"Rajchawongse" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink5(13.738621,100.504260)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink5 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink5 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink5 < 0.3 && diffforblink5 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn5()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Rajchawongse" | translate}}</h2>
+							<p>{{"Rajchawongse_desc" | translate}}</p>
+						</div>
+					</li>
+					<li>
+						<time class="cbp_tmtime" ><span>N3</span> <span>{{"Siphraya" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink3(13.728414,100.513182)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink3 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink3 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink3 < 0.3 && diffforblink3 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn3()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Siphraya" | translate}}</h2>
+							<p>{{"Siphraya_desc" | translate}}</p>
+						</div>
+					</li>
+
+					<li>
+						<time class="cbp_tmtime" ><span>CENTRAL</span> <span>{{"Sathorn" | translate}}</span></time>
+
+
+						<div ng-init = "checkblink0(13.718858,100.512720)">
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink0 > 0.3"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink0 == 0"></div>
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink0 < 0.3 && diffforblink0 > 0">
+									<div ng-if = "diff < 0.3">
+										<div ng-init = "notifyn0()"></div>
+									</div>
+							</div>
+						</div>
+
+
+						<div class="cbp_tmlabel">
+							<h2 style="color:#fff">{{"Sathorn" | translate}}</h2>
+							<p>{{"Sathorn_desc" | translate}}</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="row" >
+	               your current Latitude: {{lat}} <br />
+	               your current Longitude: {{lng}} <br />
+	               Distance from your destination to current location: {{diff}} km<br />
+	               Accuracy: {{accuracy}}<br />
+	               Distance between pier33 to current: {{diffforblink33}}<br />
+	               Distance between pier32 to current: {{diffforblink32}}<br />
+	               Distance between pier31 to current: {{diffforblink31}}<br />
+	               Distance between pier30 to current: {{diffforblink30}}<br />
+	               Distance between pier24 to current: {{diffforblink24}}<br />
+	               Distance between pier16 to current: {{diffforblink16}}<br />
+	               Distance between pier15 to current: {{diffforblink15}}<br />
+	               Distance between pier12 to current: {{diffforblink12}}<br />
+	               Distance between pier10 to current: {{diffforblink10}}<br />
+	               Distance between pier9 to current: {{diffforblink9}}<br />
+	               Distance between pier5 to current: {{diffforblink5}}<br />
+	               Distance between pier3 to current: {{diffforblink3}}<br />
+	               Distance between pier0 to current: {{diffforblink0}}<br />
+            	</div><br/>
+		</div>
+	</body>
+</ion-content>
+ 
+</ion-view>
+
