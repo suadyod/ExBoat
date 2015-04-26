@@ -43,88 +43,416 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             History_1_7: "4. Express Boat (Green-Yellow Flag) - Round trip services from Pakkret Pier to Sathon Pier stopping at 12 piers",
             History_4: "Loy Krathong",
             History_4_1: "Loy Krathong takes place on the evening of the full moon of the 12th month in the traditional Thai lunar calendar. In the Western calendar this usually falls in November. On the night of the full moon, Thais launch their krathong on a river, canal or a pond, making a wish as they do so. The festival may originate from an ancient ritual paying respect to the water spirits.",
+            
             Pakkret: "Pakkret",
-            Pakkret_desc: " ",
+            Pakkret_desc: "Pakkret pier can be called Chaeng Wattana pier or Rama IV bridge pier have many Chao Phraya Express line pass because it is the center of transportation between Pakkret distict, Nonthaburi city and Bangkok and also it is the terminal pier of the Chao Phraya Express boats too.",
+            Pakkret_place1: "Rama IV bridge",
+            Pakkret_place2: "Kret island",
+            Pakkret_place3: "Pakkret school",
+            Pakkret_place4: "Pakkret district office",
+            Pakkret_place5: "Pakkret city hall",
+            Pakkret_connectivity1: "Bus-stop Chaeng Wattana road under Rama IV bridge line 100",
+            Pakkret_connectivity2: "Tuk Tuk line “Pakkret pier-Muang Thong Thani”, “Pakkret pier – Chonlapratarn”",
+            Pakkret_connectivity3: "Red bus",
+            Pakkret_connectivity4: "Mini Van “Pakkret pier-Muang Thong Thani”, “Pakkret pier- Victory Monument”, “Pakkret pier-Ngamvongvan”",
+            
             Watklangkret: "Wat Klang Kret",
-            Watklangkret_desc: " ",
+            Watklangkret_desc: "Watklangkret pier is a pier that is behind the watklangkret which historians assume that was built when the king came to build a small canal during the Ayudhaya Era and now the canal have become a river.",
+            Watklangkret_place1: "Wat klangkret temple",
+            Watklangkret_connectivity1: "Motorcycle taxi",
+            Watklangkret_connectivity2: "Taxi",
+
             Ministryofcommerce: "Ministry of Commerce",
-            Ministryofcommerce_desc: " ",
+            Ministryofcommerce_desc: "It is the pier at the back of ministry of commerce.",
+            Ministryofcommerce_place1: "Ministry of commerce",
+            Ministryofcommerce_place2: "Wat Khaenok temple",
+            Ministryofcommerce_connectivity1: "None",
+
             Nonthaburi_Pibul3: "Nonthaburi (Pibul 3)",
-            Nonthaburi_Pibul3_desc: " ",
+            Nonthaburi_Pibul3_desc: "Nonthaburi pier or nont pier or Pibul 3 pier is located in front of the old Nonthaburi city hall and watch tower Nonthaburi province, Pracharat road",
+            Nonthaburi_Pibul3_place1: "Nonthaburipier",
+            Nonthaburi_Pibul3_place2: "Nont market",
+            Nonthaburi_Pibul3_place3: "Old Nonthaburi city hall",
+            Nonthaburi_Pibul3_place4: "Chao Phraya dam",
+            Nonthaburi_Pibul3_place5: "Department of Corrections",
+            Nonthaburi_Pibul3_place6: "Father Tao Kong Mother Tub Tim Shrine",
+            Nonthaburi_Pibul3_connectivity1: "Bus Stop Prachachart road Nonthaburi clock tower line 63 64 97 114 117 203 1024ข.ปอ.543",
+            Nonthaburi_Pibul3_connectivity2: "Tuktuk line “Nonthaburi pier – Reawadee”,”Nonthaburi pier- Nont market”, “Nonthaburi pier”-“Ministry of commerce”",
+            Nonthaburi_Pibul3_connectivity3: "Red bus line”Nonthaburi pier – Reawadee”,”Nonthaburi pier- Nont market”, “Nonthaburi pier”-“Ministry of commerce”",
+            Nonthaburi_Pibul3_connectivity4: "Minivan line “Nonthaburi pier-Muang Thong Thani”,”Nonthaburi pier-Victory Monument”,”Nonthaburi pier-Pakkret”,”Nonthaburi pier-Pinkloa Bridge”.",
+
             Rama5: "Rama 5 Bridge",
             Rama5_desc: " ",
+
+
             Pibul2: "Pibul 2",
-            Pibul2_desc: " ",
+            Pibul2_desc: "It is a pier under Rama V bridge and behind Pibulsongklam road",
+            Pibul2_place1: "Rama V bridge",
+            Pibul2_place2: "Wat Nakhon In temple",
+            Pibul2_connectivity1: "Bus stop line 32, 33, 63, 64, 65, 90, 97, 117, 175, 203, 506, 15",
+            Pibul2_connectivity2: "Motorcycle taxi",
+            Pibul2_connectivity3: "Taxi",
+
+
             Watkien:"Wat Kien",
-            Watkien_desc: " ",
+            Watkien_desc: "It is located at behind Wat Khien and near Nakhon In road",
+            Watkien_place1: "Wat Nakhon In temple",
+            Watkien_connectivity1: "Motorcycle taxi",
+            Watkien_connectivity2: "Taxi",
+
             Wattuek: "Wat Tuek",
-            Wattuek_desc: " ",
+            Wattuek_desc: "Located behind Wat Tuek",
+            Wattuek_place1: "Wat Tuek temple",
+            Wattuek_connectivity1: "Motorcycle Taxi",
+            Wattuek_connectivity2: "Taxi",
+
             Watkhema: "Wat Khema",
-            Watkhema_desc: " ",
+            Watkhema_desc: "Located behind Wat Khema and Kalahomeuthit School",
+            WatKhema_place1: "Wat Khema temple",
+            WatKhema_place2: "Kalahomeuthit School",
+            WatKhema_connectivity1: "Bus stop line 32, 33, 63, 64, 65, 90, 97, 117, 175, 203, 506, 543, 15",
+            WatKhema_connectivity2: "Motorcycle Taxi",
+            WatKhema_connectivity3: "Taxi",
+            WatKhema_connectivity4: "Mini Van “Mochit-Bangbua Thong”",
+
             Pibul1: "Pibul 1",
-            Pibul1_desc: " ",
+            Pibul1_desc: "It is located behind Riyadis Sunan Mosque and it is near King Mongkut's University of Technology North Bangkok. The pier can be connected to the main road (Pibulsongklam road) with Soi Pibulsongklam 1",
+            Pibul1_place1: "Riyadis Sunan Mosque",
+            Pibul1_place2: "King Mongkut's University of Technology North Bangkok",
+            Pibul1_place3: "Wat Paknam School (Pibool Songkhram)",
+            Pibul1_place4: "Satree Nonthaburi School",
+            Pibul1_place5: "Wat Plubpla temple",
+            Pibul1_place6: "Wat Pak Nam Nonthaburi temple",
+            Pibul1_connectivity1: "Bus line 32, 33, 63, 64, 65, 90, 97, 117, 175, 203, 506, 543, 15",
+            Pibul1_connectivity2: "Mini van “Ladprao-Nont pier”",
+            Pibul1_connectivity3: "Motorcycle taxi",
+
             Rama7: "Rama 7 Bridge",
-            Rama7_desc: " ",
+            Rama7_desc: "It is located near Rama VII bridge. It is connected with Charan Sanitwong road. Having Wimutayaram Pittayakorn School, Wat Wimutayaram School,Rama 6 Technology School and Yanhee international hospital located near the pier.",
+            Rama7_place1: "Rama VII bridge",
+            Rama7_place2: "Wimutayaram Pittayakorn School",
+            Rama7_place3: "Wat Wimutayaram School",
+            Rama7_place4: "Rama 6 Technology School",
+            Rama7_place5: "Yanhee international hospital",
+            Rama7_connectivity1: "Bus line 18, 49, 50, 110, 15",
+            Rama7_connectivity2: "Motorcycle taxi",
+            Rama7_connectivity3: "Taxi",
+
             Watsoithong: "Wat Soi Thong",
-            Watsoithong_desc: " ",
+            Watsoithong_desc: "Located at the back of Wat Soi Thong and Wat Soi Thong school. It is near White Mall, Rama VII Bridge, Sapan Rama VII public park",
+            Watsoithong_place1: "Wat Soi Thong temple",
+            Watsoithong_place2: "Wat Soi Thong school",
+            Watsoithong_place3: "White Mall",
+            Watsoithong_place4: "Rama VII Bridge",
+            Watsoithong_place5: "Sapan Rama VII public park",
+            Watsoithong_connectivity1: "Bus line 5, 32, 33, 49, 64, 90, 117, 506",
+            Watsoithong_connectivity2: "Motorcycle Taxi",
+            Watsoithong_connectivity3: "Taxi",
+
             Bangpo: "Bang Po",
-            Bangpo_desc: " ",
+            Bangpo_desc: "It is located behind Wat Bang Po and Quartermaster Generals School Quarter Master Royal Thai Army. It is connected by Phracha Rat Sai 2 Road. It is near Bang Pho Police Station, Bang Po General Hospital and Bang Lamphu Department Store.",
+            Bangpo_place1: "Wat Bang Po temple",
+            Bangpo_place2: "Quartermaster Generals School Quarter Master Royal Thai Army",
+            Bangpo_place3: "Bang Pho Police Station",
+            Bangpo_place4: "Bang Po General Hospital",
+            Bangpo_place5: "Bang Lamphu Department Store",
+            Bangpo_connectivity1: "Bus line 32, 33, 49, 64, 90, 117, 506",
+            Bangpo_connectivity2: "Motorcycle Taxi",
+            Bangpo_connectivity3: "Taxi",
+
+
             Kjakkai: "Kjak Kai",
-            Kjakkai_desc: " ",
+            Kjakkai_desc: "Located at the back of the new Thai Parliament and Wat Keao Fa. In the area have many military base and the pier is connected to the Samsen road.",
+            Kiakkai_place1: "New Thai Parliarment",
+            Kiakkai_place2: "Wat Keao Fa temple",
+            Kiakkai_place3: "Chaloem Phrakiat Kiakkai Park",
+            Kiakkai_place4: "Defence Industrial Department",
+            Kiakkai_place5: "Royal Thai Air Force Defense Artillery Battalion",
+            Kiakkai_place6: "Office of the Permanent Secretary of Defence",
+            Kiakkai_place7: "Battalion Calvary 3rd",
+            Kiakkai_place8: "Battalion Calvary 4th Palace Guard",
+            Kiakkai_place9: "Calvary Battalion 4",
+            Kiakkai_place10: "Boon Rawd Brewery Company Limited",
+            Kiakkai_connectivity1: "Bus line3, 16, 64, 65, 66, 90, 117, 505",
+            Kiakkai_connectivity2: "Mrt Purple line “National Assembly” station(Future 2020)",
+            Kiakkai_connectivity3: "Mini van",
+            Kiakkai_connectivity4: "Motorcycle Taxi",
+            Kiakkai_connectivity5: "Taxi",
+
+
             Kheawkhaika: "Kheaw Khai Ka",
-            Kheawkhaika_desc: " ",
+            Kheawkhaika_desc: "Located at the back of Soi Kheaw Khai Ka. It is near Makro Sam Sen Branch,Rajinee Bon School, Supreme complex Sam Sen.",
+            Kheawkhaika_place1: "Makro Sam Sen Branch",
+            Kheawkhaika_place2: "Rajinee Bon School",
+            Kheawkhaika_place3: "Supreme complex Sam Sen",
+            Kheawkhaika_connectivity1: "Bus line 3, 16, 30, 32, 33, 49, 64, 65, 66, 90, 117, 505, 506",
+            Kheawkhaika_connectivity2: "Mini van",
+            Kheawkhaika_connectivity3: "Motorcycle Taxi",
+            Kheawkhaika_connectivity4: "Taxi",
+
+
             Irrigationdept: "Irrigation Dept.",
-            Irrigationdept_desc: " ",
+            Irrigationdept_desc: "Located behind the Irrigation Department and Royal Irrigation Hospital.",
+            Irrigationdept_place1: "Irrigation Department",
+            Irrigationdept_place2: "Royal Irrigation Hospital",
+            Irrigationdept_connectivity1: "Bus line 3, 16, 30, 32, 33, 49, 64, 65, 66 , 505, 506",
+            Irrigationdept_connectivity2: "MRT Purple line“Sri Yan”Station (Future 2020)",
+            Irrigationdept_connectivity3: "Mini van",
+
+
             Payap: "Payap",
-            Payap_desc: " ",
+            Payap_desc: "Located behind Metropolitan Electricity Authority Hospital and Metropolitan Electricity Authority Samsen. It is connected with Nakhon Chaisi Road.",
+            Payap_place1: "Metropolitan Electricity Authority Hospital",
+            Payap_place2: "Metropolitan Electricity Authority Samsen",
+            Payap_connectivity1: "Bus line 3, 16, 30, 32, 33, 49, 64, 65, 66 ,505, 506",
+            Payap_connectivity2: "MRT Purple line“Sri Yan”Station (Future 2020)",
+            Payap_connectivity3: "Mini van",
+            Payap_connectivity4: "Motorcycle taxi",
+            Payap_connectivity5: "Taxi",
+
+
+            
             Watthepnahree: "Wat Thepnahree",
-            Watthepnahree_desc: " ",
+            Watthepnahree_desc: "Located at the back of Wat Thepnarhee and Nakhonluang Polytechnic College.",
+            Watthepnarhee_place1: "Wat Thepnarhee temple",
+            Watthepnarhee_place2: "Nakhonluang Polytechnic College",
+            Watthepnarhee_connectivity1: "Bus line 18, 175, 203",
+            Watthepnarhee_connectivity2: "Motorcycle taxi",
+            Watthepnarhee_connectivity3: "Taxi",
+
+
             Watthepakorn: "Wat Thepakorn",
             Watthepakorn_desc: " ",
+
+
             Krungthonburibridge: "Krung Thon Bridge(Sung Hi)",
-            Krungthonburibridge_desc: " ",
+            Krungthonburibridge_desc: "Located beside Krung Thon bridge. It is near Riverside hotel and Khema Siri Anusorn School.",
+            Krungthonburibridge_place1: "Krung Thon bridge",
+            Krungthonburibridge_place2: "Riverside hote",
+            Krungthonburibridge_place3: "Khema Siri Anusorn School",
+            Krungthonburibridge_connectivity1: "Bus line 18, 28, 56, 66, 108, 110, 125, 164 , 510, 515 , 4",
+            Krungthonburibridge_connectivity2: "Motorcycle Taxi",
+            Krungthonburibridge_connectivity3: "Taxi",
+
             Thewej: "Thewej",
-            Thewej_desc: " ",
+            Thewej_desc: "Located behind krung kasem road. Many government office and school located near the area. And it is near Tha wad junction.",
+            Thewej_place1: "Mathayom Wat Makutkasat School",
+            Thewej_place2: "Department of Cooperatives Auditing",
+            Thewej_place3: "Department of Cooperatives Promotion",
+            Thewej_place4: "Rajamangala University of Technology Thewet Campus",
+            Thewej_place5: "Wat Thewarat Kunchorn Worawihan temple",
+            Thewej_place6: "National Library",
+            Thewej_connectivity1: "Bus line 3, 9, 19, 30, 32, 33, 43, 49, 53, 64, 65 / 32, 64, 506, 524",
+            Thewej_connectivity2: "MRT purple line “National Library” Station (Future 2020)",
+            Thewej_connectivity3: "Mini van",
+            Thewej_connectivity4: "Motorcycle Taxi",
+            Thewej_connectivity5: "Taxi",
+
             Rama8: "Rama 8 Bridge",
-            Rama8_desc: " ",
+            Rama8_desc: "Located beside Rama IIX Bridge. Connected with Soi Samsen 5. Bank of Thailand (Head Office) is located near the area.",
+            Rama8_place1: "Rama IIX Bridge",
+            Rama8_place2: "Bank of Thailand (Head Office)",
+            Rama8_place3: "Bank of Thailand Museum",
+            Rama8_place4: "Bang Khun PhromPalace",
+            Rama8_connectivity1: "Bus line 3, 9, 19, 30, 32, 33, 43, 49, 53, 64, 65 , 32, 64, 506, 524",
+            Rama8_connectivity2: "MRT purple line “Bang Khun Phrom” station(Future 2020)",
+            Rama8_connectivity3: "Mini van",
+            Rama8_connectivity4: "Motorcycle Taxi",
+            Rama8_connectivity5: "Taxi",
+
             Phraarthit: "Phra Arthit",
-            Phraarthit_desc: " ",
+            Phraarthit_desc: "Phara Athit pier is located is located at the back of Phra Athit road. The area is a cultural and historical area wherethere are a lot of royal houses and there is Phra Sumen Fort. The fort was built since King Rama I along with other 14 forts but all of them been torn down and there are only 2 of the forts left.",
+            Phraarthit_place1: "Phra Sumen Fort",
+            Phraarthit_place2: "Wat Chana Songkhram",
+            Phraarthit_place3: "Khaosan Road",
+            Phraarthit_place4: "Phra Arthit Road",
+            Phraarthit_connectivity1: "Bus line 3, 6, 15, 43, 82",
+            Phraarthit_connectivity2: "Mini van",
+            Phraarthit_connectivity3: "Motorcycle Taxi",
+            Phraarthit_connectivity4: "Taxi",
+
             Phrapinklaobridge: "Phra Pin Klao Bridge",
-            Phrapinklaobridge_desc: " ",
+            Phrapinklaobridge_desc: "Located beside Phra Pinklao Bridge.",
+            Phrapinklaobridge_place1: "Dusitaram Secondary School",
+            Phrapinklaobridge_connectivity1: "Bus line 19, 30, 42, 57, 68, 79, 80, 123, 124, 127, 165, 169, 201, 203, 170, 171, 174, 183, 503, 507, 509, 511, 516 , 10",
+            Phrapinklaobridge_connectivity2: "Mini van",
+            Phrapinklaobridge_connectivity3: "Motorcycle Taxi",
+            Phrapinklaobridge_connectivity4: "Taxi",
+
             Thonburirailway: "Thonburi Railway",
-            Thonburirailway_desc: " ",
+            Thonburirailway_desc: "Located behind Siriraj Hospital.",
+            Thonburirailway_place1: "Siriraj Hospital",
+            Thonburirailway_place2: "Chaloem Phrakiat 72 th year Park",
+            Thonburirailway_connectivity1: "Bus line 19, 56, 57, 91, 149, 157",
+            Thonburirailway_connectivity2: "MRT Orange line “Siriraj” Station (Future)",
+            Thonburirailway_connectivity3: "Motorcycle Taxi",
+            Thonburirailway_connectivity4: "Taxi",
+
+
             Wanglang: "Wang Lang(Siriraj)",
-            Wanglang_desc: " ",
+            Wanglang_desc: "Wang Lang (Prannok) Pier is on the west bank of the Chao Phraya River. Connected with Wang Lang Road in Siriraj sub-district Bangkok-Noi District Bangkok.",
+            Wanglang_place1: "Wang lang market",
+            Wanglang_place2: "Siriraj Hospital",
+            Wanglang_connectivity1: "Bus line 19 57 81 ปอ.91 146 TFEX 149 ปอ.157 ปอ.177",
+            Wanglang_connectivity2: "Tuk Tuk bus route “Siriraj pier – Thon-Commerce”, “Wat Dong Mul Lhek”, “Wat Rakang-Poh Sam Ton”",
+            Wanglang_connectivity3: "Local bus route “Siriraj pier – Thon-Commerce”, “Bangkunsri”, “Bangkunnon”, “Talatphlu”, “Klongsan”",
+            Wanglang_connectivity4: "Mini van route “Siriraj pier-Bang Bua Thong”",
+
             Maharaj: "Maharaj",
             Maharaj_desc: " ",
+
             Thachang: "Tha Chang",
-            Thachang_desc: " ",
+            Thachang_desc: "It is located at the end of the Nha Phralarn Road.",
+            Thachang_place1: "Grand Palace",
+            Thachang_place2: "Sanam Luang",
+            Thachang_place3: "Silpakorn University",
+            Thachang_place4: "Ministry of Defense",
+            Thachang_place5: "City Pillar Shine",
+            Thachang_place6: "The Supreme Court",
+            Thachang_place7: "Bangkok South Criminal Court",
+            Thachang_connectivity1: "Bus line 1 25 32 44 47 53 64 82 91 123 508 524 ปอ.พ.25",
+            Thachang_connectivity2: "MRT Orange line “Sanam Luang” station(Future)",
+            Thachang_connectivity3: "Motorcycle Taxi",
+            Thachang_connectivity4: "Taxi",
+
             Thatien: "Tha Tien",
-            Thatien_desc: " ",
+            Thatien_desc: "Tha Tien pier is a historic pier on the river banks of Chao Phraya river. Located opposite of the Grand Palace and Wat Pho. In King Rama I reign this area is where the royal family houses along with peasants houses. And during King Rama IV reign this area becomes the largest market on the river banks of Chao Phraya River.",
+            Thatien_place1: "Wat Pho temple",
+            Thatien_place2: "Department of Internal Trade",
+            Thatien_place3: "Naval Welfare Department",
+            Thatien_place4: "Grand Palace",
+            Thatien_place5: "Infantry Battalion Reserve Affair Center",
+            Thatien_place6: "Saranrom Park",
+            Thatien_connectivity1: "Bus line 1, 25, 32, 44, 48, 53, 508, 512",
+            Thatien_connectivity2: "Mini van",
+            Thatien_connectivity3: "Motorcycle Taxi",
+            Thatien_connectivity4: "Taxi",
+
             Rajinee: "Rajinee",
-            Rajinee_desc: " ",
+            Rajinee_desc: "Located at the back of Rajini school and beside khlong talat. Originally this pier is Rajini school but Mrs.Kiam Tumsab bought this area to make a pier transporting passenger from Talat Phlu pier to Rajini pier in1958. In present day it is use by Chao Phraya Express boat and ferry between the river bank.",
+            Rajinee_place1: "Rajini school",
+            Rajinee_place2: "Museum Siam",
+            Rajinee_place3: "Pak Khlong Talat",
+            Rajinee_place4: "Yodpiman River Walk",
+            Rajinee_place5: "Department of Foreign Trade",
+            Rajinee_place6: "Chak Kraphong Palace",
+            Rajinee_place7: "Phra Ratchawang police station",
+            Rajinee_connectivity1: "Bus line 7ก, 8, 12, 42, 43, 73, 73ก, 82",
+            Rajinee_connectivity2: "MRT Blue line extension “Sanam Chai” station(Future 2018)",
+            Rajinee_connectivity3: "Motorcycle Taxi",
+            Rajinee_connectivity4: "Taxi",
+
             Memorialbridge: "Memorial Bridge",
-            Memorialbridge_desc: " ",
+            Memorialbridge_desc: "Located between Phra Phuttha Yodfa Bridge and Phra Pok Klao Bridge. Small public park is located behind the pier.",
+            Memorialbridge_place1: "Phra Phuttha Yodfa Bridge",
+            Memorialbridge_place2: "Phra Pok Klao Bridge",
+            Memorialbridge_place3: "Small public park",
+            Memorialbridge_place4: "Saphan Phut Night Market(19:00-1:00 Tuesday-Sunday)",
+            Memorialbridge_place5: "Suankularb Wittayalai School",
+            Memorialbridge_place6: "Wat Ratchaburana Ratchaworawihan (Wat Liap) temple",
+            Memorialbridge_place7: "The Constitution Court of the Kingdom of Thailand",
+            Memorialbridge_connectivity1: "Bus line 7ก, 8, 12, 42, 43, 73, 73ก, 82",
+            Memorialbridge_connectivity2: "Motorcycle Taxi",
+            Memorialbridge_connectivity3: "Taxi",
+
             Rajchawongse: "Rajchawongse",
-            Rajchawongse_desc: " ",
+            Rajchawongse_desc: "Located at the end of Rachavongse road, it have history that determine the Chinese society in Thailand. In the past Rachovongse is an important pier where all the passengers and cargos ship must dock at this pier. So it is filled with foreigner who came to trade at that time. All the royals that will study abroad have to board the ships at this pier. Importantly this pier is the main pier for passengers ships from Shantou, China. These Chinese that escaped poverty from Mainland China came through this very pier.",
+            Rajchawongse_place1: "Yaowarat road(China Town)",
+            Rajchawongse_place2: "Sampeng market",
+            Rajchawongse_connectivity1: "Bus line 204",
+            Rajchawongse_connectivity2: "Mini van",
+            Rajchawongse_connectivity3: "Motorcycle Taxi",
+            Rajchawongse_connectivity4: "Taxi",
+
             Marinedept: "Marine Dept.",
-            Marinedept_desc: " ",
+            Marinedept_desc: "Located at the back of Marine Department. In that area there is Talat Noi and the first Siam Commercial Bank in Thailand.",
+            Marinedept_place1: "Marine Department",
+            Marinedept_place2: "Talat Noi",
+            Marinedept_place3: "Siam Commercial Bank",
+            Marinedept_place4: "Si Phraya Polytechnic College",
+            Marinedept_connectivity1: "Bus line 1, 35, 75",
+            Marinedept_connectivity2: "Motorcycle Taxi",
+            Marinedept_connectivity3: "Taxi",
+
             Siphraya: "Si Phraya",
-            Siphraya_desc: " ",
+            Siphraya_desc: "Located besideRoyal Orchid Sheraton Hotel. In that area have tourist spot and hotels.",
+            Siphraya_place1: "Rivercity Shopping Complex",
+            Siphraya_place2: "Royal Orchid Sheraton",
+            Siphraya_place3: "Kanwa Church",
+            Siphraya_place4: "The Embassy of Portugal",
+            Siphraya_connectivity1: "Bus line 1, 16, 35, 36, 45, 75, 93, 187",
+            Siphraya_connectivity2: "Mini van “Si Phraya – Lum Lukka – Rangsit” “Si Phraya – ABAC”",
+            Siphraya_connectivity3: "Motorcycle Taxi",
+            Siphraya_connectivity4: "Taxi",
+
             Watmuangkae: "Wat Muang Kae",
-            Watmuangkae_desc: " ",
+            Watmuangkae_desc: "Located behind Wat Muang Kae and beside Cat Telecom Public Company Limited Bang Rak.",
+            Watmuangkae_place1: "Cat Telecom Public Company Limited Bang Rak",
+            Watmuangkae_place2: "Central Post Office",
+            Watmuangkae_place3: "Wat Muang Kae temple",
+            Watmuangkae_connectivity1: "Bus line 1, 16, 35, 36, 45, 75, 93, 187",
+            Watmuangkae_connectivity2: "Mini van“Si Phraya – Lum Lukka – Rangsit”",
+            Watmuangkae_connectivity3: "Motorcycle Taxi",
+            Watmuangkae_connectivity4: "Taxi",
+
             Oriental: "Oriental",
-            Oriental_desc: " ",
+            Oriental_desc: "Located beside Mandarin Oriental Bangkok. In its area have some historic places.",
+            Oriental_place1: "Mandarin Oriental, Bangkok",
+            Oriental_place2: "Assumption Convent School",
+            Oriental_place3: "Assumption College",
+            Oriental_place4: "Assumptionsuksa School",
+            Oriental_place5: "Catholic Mission of Bangkok",
+            Oriental_place6: "Embassy of France",
+            Oriental_connectivity1: "Bus line 1, 35, 75",
+            Oriental_connectivity2: "Motorcycle Taxi",
+            Oriental_connectivity3: "Taxi",
+
             Sathorn: "Sathorn",
-            Sathorn_desc: " ",
+            Sathorn_desc: "Located under the Somdedprajaotaksinmahalad Bridge. It is the center of marine transportation in Bangkok.",
+            Sathorn_place1: "Sathorn Pier",
+            Sathorn_place2: "Somdedprajaotaksinmahalad Bridge",
+            Sathorn_place3: "Robinson Bangrak",
+            Sathorn_place4: "Shangri-la Hotel",
+            Sathorn_connectivity1: "BTS “Saphan Taksin” Station",
+            Sathorn_connectivity2: "Bus line 1, 15, 17, 35, 75, 115, 116, 163 ,504 ,20",
+            Sathorn_connectivity3: "Motorcycle Taxi",
+            Sathorn_connectivity4: "Taxi",
+
             Watsawetachat: "Wat Sawetachat",
-            Watsawetachat_desc: " ",
+            Watsawetachat_desc: "Located behind Wat Sawetachat.",
+            Watsawetachat_place1: "Wat Sawetachat temple",
+            Watsawetachat_connectivity1: "Bus line 3, 89, 111",
+            Watsawetachat_connectivity2: "Motorcycle Taxi",
+            Watsawetachat_connectivity3: "Taxi",
+
             Watworachanyawas: "Wat Worachanyawas",
-            Watworachanyawas_desc: " ",
+            Watworachanyawas_desc: "Located behind Wat Worachanyawas",
+            Watworachanyawas_place1: "Wat Worachanyawas temple",
+            Watworachanyawas_place2: "Pra Nakorn Tai District Court",
+            Watworachanyawas_place3: "Ramada Plaza Bangkok Menam Riverside",
+            Watworachanyawas_place4: "Department of Probation Pranakorn Tai",
+            Watworachanyawas_connectivity1: "Bus line 1, 15, 17, 22, 75, 163 , 504 , 20",
+            Watworachanyawas_connectivity2: "Mini van",
+            Watworachanyawas_connectivity3: "Motorcycle Taxi",
+            Watworachanyawas_connectivity4: "Taxi",
+
             Watrajsingkorn: "Wat Rajsingkorn",
-            Watrajsingkorn_desc: " ",
+            Watrajsingkorn_desc: "Located at the back of Wat Rajsingkorn.",
+            Watrajsingkorn_place1: "Wat Rajsingkorn temple",
+            Watrajsingkorn_place2: "ASIATIQUE THE RIVERFRONT",
+            Watrajsingkorn_connectivity1: "Bus line 1, 15, 17, 22, 75, 163 ,504, 20",
+            Watrajsingkorn_connectivity2: "Mini van",
+            Watrajsingkorn_connectivity3: "Motorcycle Taxi",
+            Watrajsingkorn_connectivity4: "Taxi",
+
+
             Rajburana: "Rajburana",
-            Rajburana_desc: " "
+            Rajburana_desc: "Located behind Big C Supercenter Ratburana.",
+            Rajburana_place1: "Big C Supercenter Ratburana",
+            Rajburana_place2: "Rat Burana Police Station",
+            Rajburana_connectivity1: "Bus line 6, 17, 88",
+            Rajburana_connectivity2: "Motorcycle Taxi",
+            Rajburana_connectivity3: "Taxi"
 
 
 
@@ -174,87 +502,400 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             History_4: "ประเพณีลอยกระทง",
             History_4_1: "เป็นวันสำคัญวันหนึ่งของชาวไทย ตรงกับวันขึ้น 15 ค่ำ เดือน 12 ตามปฏิทินจันทรคติไทย ตามปฏิทินจันทรคติล้านนา มักจะตกอยู่ในราวเดือนพฤศจิกายน ตามปฏิทินสุริยคติ ประเพณีนี้กำหนดขึ้นเพื่อเป็นการสะเดาะเคราะห์และขอขมาต่อพระแม่คงคา บางหลักฐานเชื่อว่าเป็นการบูชารอยพระพุทธบาทที่ริมฝั่งแม่น้ำนัมทามหานที และบางหลักฐานก็ว่าเป็นการบูชาพระอุปคุตอรหันต์หรือพระมหาสาวก สำหรับประเทศไทยประเพณีลอยกระทงได้กำหนดจัดในทุกพื้นที่ทั่วประเทศ โดยเฉพาะอย่างยิ่งบริเวณที่ติดกับแม่น้ำ ลำคลอง หรือ แหล่งน้ำต่าง ๆ ซึ่งแต่ละพื้นที่ก็จะมีเอกลักษณ์ที่น่าสนใจแตกต่างกันไป",
             Pakkret: "ท่าปากเกร็ด",
-            Pakkret_desc: " ",
+            Pakkret_desc: "ท่าเรือปากเกร็ด หรือ ท่าน้ำแจ้งวัฒนะ หรือ ท่าน้ำสะพานพระราม 4 เป็นท่าเรือที่มีเรือด่วนเจ้าพระยาหลายสายมาจอด เนื่องจากเป็นจุดเชื่อมต่อการคมนาคมระหว่าง อำเภอปากเกร็ด อำเภอเมืองนนทบุรี และ กรุงเทพมหานคร และยังเป็นท่าเรือปลายทางของเรือด่วนเจ้าพระยาอีกด้วย",
+            Pakkret_place1: "สะพานพระราม 4",
+            Pakkret_place2: "เกาะเกร็ด",
+            Pakkret_place3: "โรงเรียนปากเกร็ด",
+            Pakkret_place4: "ที่ว่าการอำเภอปากเกร็ด",
+            Pakkret_place5: "เทศบาลนครปากเกร็ด",
+            Pakkret_connectivity1: "ป้ายรถประจำทาง ถนนแจ้งวัฒนะ ใต้สะพานพระราม 4 สาย 100",
+            Pakkret_connectivity2: "รถตุ๊กตุ๊กสองแถว ในเส้นทางท่าเรือปากเกร็ด-เมืองทองธานี, ท่าเรือปากเกร็ด-ชลประทาน",
+            Pakkret_connectivity3: "รถสี่ล้อสองแถว",
+            Pakkret_connectivity4: "รถตู้ ในเส้นทางท่าเรือปากเกร็ด-เมืองทองธานี, ท่าเรือปากเกร็ด-อนุสาวรีย์ชัยสมรภูมิ, ท่าเรือปากเกร็ด-งามวงศ์วาน",
+
             Watklangkret: "ท่าวัดกลางเกร็ด",
-            Watklangkret_desc: " ",
+            Watklangkret_desc: "เป็นท่าเรือที่อยู่ข้างหลังวัดกลางเกร็ดซึ่งเป็นวัดที่สันนิษฐานว่าสร้างขึ้นตั้งแต่ครั้งที่พระเจ้าอยู่หัวท้ายสระทรงโปรดฯ ให้ขุดคลองลัดในสมัยอยุธยา ปัจจุบันคลองลัดได้ขยายใหญ่ขึ้นจนกลายเป็นแม่น้ำ",
+            Watklangkret_place1: "วัดกลางเกร็ด",
+            Watklangkret_connectivity1: "มอเตอร์ไซค์รับจ้าง",
+            Watklangkret_connectivity2: "แท็กซี่",
+
             Ministryofcommerce: "ท่ากระทรวงพาณิชย์",
-            Ministryofcommerce_desc: " ",
+            Ministryofcommerce_desc: "เป็นท่าเรือที่อยู่ข้างหลังกระทรวงพาณิชย์",
+            Ministryofcommerce_place1: "กระทรวงพาณิชย์",
+            Ministryofcommerce_place2: "วัดแคนอก",
+            Ministryofcommerce_connectivity1: "ไม่มี",
+
             Nonthaburi_Pibul3: "ท่านนทบุรี (พิบูลย์3)",
-            Nonthaburi_Pibul3_desc: " ",
+            Nonthaburi_Pibul3_desc: "ท่าน้ำนนทบุรี หรือ ท่าน้ำนนท์ หรือ ท่าน้ำพิบูลสงคราม 3 ตั้งอยู่บริเวณหน้าศาลากลางจังหวัดนนทบุรีหลังเก่าและหอนาฬิกาจังหวัดนนทบุรี ถนนประชาราษฎร์ เขตเทศบาลนครนนทบุรี จังหวัดนนทบุรี",
+            Nonthaburi_Pibul3_place1: "ท่าน้ำนนทบุรี",
+            Nonthaburi_Pibul3_place2: "ตลาดนนท์",
+            Nonthaburi_Pibul3_place3: "ศาลากลางหลังเก่า",
+            Nonthaburi_Pibul3_place4: "เขื่อนริมแม่น้ำเจ้าพระยา",
+            Nonthaburi_Pibul3_place5: "กรมราชทัณฑ์",
+            Nonthaburi_Pibul3_place6: "ศาลเจ้าพ่อปึงเถ่ากงม่าเจ้าแม่ทับทิม",
+            Nonthaburi_Pibul3_connectivity1: "ป้ายรถประจำทาง ถนนประชาราษฎร์ หอนาฬิกาจังหวัดนนทบุรี สาย 63 64 97 114 117 203 1024ข. ปอ.543",
+            Nonthaburi_Pibul3_connectivity2: "รถตุ๊กตุ๊กสองแถว ในเส้นทางท่าน้ำนนทบุรี-เรวดี, ท่าน้ำนนทบุรี-ตลาดนนท์, ท่าน้ำนนทบุรี-กระทรวงพาณิชย์,",
+            Nonthaburi_Pibul3_connectivity3: "รถสี่ล้อสองแถว ในเส้นทางท่าน้ำนนทบุรี-เรวดี, ท่าน้ำนนทบุรี-ตลาดนนท์, ท่าน้ำนนทบุรี-กระทรวงพาณิชย์,",
+            Nonthaburi_Pibul3_connectivity4: "รถตู้ ในเส้นทางท่าน้ำนนทบุรี-เมืองทองธานี, ท่าน้ำนนทบุรี-อนุสาวรีย์ชัยสมรภูมิ, ท่าน้ำนนทบุรี-ปากเกร็ด, ท่าน้ำนนทบุรี-สะพานพระปิ่นเกล้า",
+
             Rama5: "ท่าพระราม 5",
             Rama5_desc: " ",
+
+
             Pibul2: "ท่าพิบูลย์สงคราม 2",
-            Pibul2_desc: " ",
+            Pibul2_desc: "อยู่ใต้สะพานพระราม 5ข้างหลังถนนพิบูลสงคราม",
+            Pibul2_place1: "สะพานพระราม 5",
+            Pibul2_place2: "วัดนครอินทร์",
+            Pibul2_connectivity1: "รถเมล์สาย32, 33, 63, 64, 65, 90, 97, 117, 175, 203, 506, 15",
+            Pibul2_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            Pibul2_connectivity2: "แท็กซี่",
+
             Watkien:"ท่าวัดเขียน",
-            Watkien_desc: " ",
+            Watkien_desc: "ตั้งอยู่ด้านหลังวัดเขียน ใกล้ถนนนครอินทร์",
+            Watkien_place1: "วัดนครอินทร์",
+            Watkien_connectivity1: "มอเตอร์ไซค์รับจ้าง",
+            Watkien_connectivity2: "แท็กซี่",
+
             Wattuek: "ท่าวัดตึก",
-            Wattuek_desc: " ",
+            Wattuek_desc: "อยู่ข้างหลังวัดตึก",
+            Wattuek_place1: "วัดตึก",
+            Wattuek_connectivity1: "มอเตอร์ไซค์รับจ้าง",
+            Wattuek_connectivity2: "รับจ้าง",
+
             Watkhema: "ท่าวัดเขมา",
-            Watkhema_desc: " ",
+            Watkhema_desc: "ตั้งอยู่ด้านหลังวัดเขมา โรงเรียนกลาโหมอุทิศ และถนนพิบูลสงคราม",
+            WatKhema_place1: "วัดเขมา ",
+            WatKhema_place2: "โรงเรียนกลาโหมอุทิศ",
+            WatKhema_connectivity1: "รถเมล์สาย 32, 33, 63, 64, 65, 90, 97, 117, 175, 203, 506, 543, 15",
+            WatKhema_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            WatKhema_connectivity3: "แท็กซี่",
+            WatKhema_connectivity4: "รถตู้ สถานีรถไฟฟ้าหมอชิต – บางบัวทอง",
+
             Pibul1: "ท่าพิบูลย์สงคราม 1",
-            Pibul1_desc: " ",
+            Pibul1_desc: "ท่าพิบูลสงคราม 1 ตั้งอยู่ด้านหลังมัสยิดรียาติ้สสุนัน และใกล้กับมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือด้วยมีซอยพิบูลสงคราม 1 มาเชื่อมกับท่าเรือจากถนนพิบุลสงคราม",
+            Pibul1_place1: "มันยิดรียาติ้สสุนัน",
+            Pibul1_place2: "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+            Pibul1_place3: "โรงเรียนวัดปากน้ำ(พิบูลสงคราม)",
+            Pibul1_place4: "โรงเรียนสตรีนนทบุรี",
+            Pibul1_place5: "วัดพลับเพลา",
+            Pibul1_place6: "วัดปากน้ำนนทบุรี",
+            Pibul1_connectivity1: "รถเมล์สาย 32, 33, 63, 64, 65, 90, 97, 117, 175, 203, 506, 543, 15",
+            Pibul1_connectivity2: "รถตู้ ลาดพร้าว-ท่าน้ำนนท์",
+            Pibul1_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+
             Rama7: "ท่าพระราม 7",
-            Rama7_desc: " ",
+            Rama7_desc: "ตั้งอยู่ข้างๆสะพานพระราม 7 มีถนนจรัญสนิทวงศ์มาเชื่อมต่อกับท่าเรือ มีโรงเรียนวิมุตยารามพิทยากรกับ โรงเรียนวิมุตยาราม โรงเรียนพระรามหกเทคโนโลยี และโรงพยาบาลยันฮีตั้งอยู่ใกล้ๆกับท่า",
+            Rama7_place1: "สะพานพระราม 7",
+            Rama7_place2: "โรงเรียนวิมุตยารามพิทยากร",
+            Rama7_place3: "โรงเรียนวิมุตยาราม",
+            Rama7_place4: "โรงเรียนพระรามหกเทคโนโลยี",
+            Rama7_place5: "โรงพยาบาลยันฮี",
+            Rama7_connectivity1: "รถเมล์สาย 18, 49, 50, 110, 15",
+            Rama7_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            Rama7_connectivity3: "แท็กซี่",
+
             Watsoithong: "ท่าวัดสร้อยทอง",
-            Watsoithong_desc: " ",
+            Watsoithong_desc: "ตั้งอยู่บริเวณข้างหลังวัดสร้อยทองและโรงเรียนสร้อยทอง เชื่อมกับถนนประชาราษฎร์สาย 1 มีไวท์ มอลล์ สะพานพระราม 7กับสวนสาธารณะสะพานพระราม 7 อยู่ใกล้ๆ",
+            Watsoithong_place1: "วัดสร้อยทอง",
+            Watsoithong_place2: "โรงเรียนวัดสร้อยทอง",
+            Watsoithong_place3: "ไวท์ มอลล์",
+            Watsoithong_place4: "สะพานพระราม 7",
+            Watsoithong_place5: "สวนสาธารณะสะพานพระราม 7",
+            Watsoithong_connectivity1: "รถเมล์สาย 5, 32, 33, 49, 64, 90, 117, 506",
+            Watsoithong_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            Watsoithong_connectivity3: "แท็กซี่",
+
             Bangpo: "ท่าบางโพ",
-            Bangpo_desc: " ",
+            Bangpo_desc: "ตั้งอยู่ข้างหลังวัดบางโพและโรงเรียนทหารพลาธิการ กรมพลาธิการทหารบก มีถนนประชาราษฎร์สาย 2มาเชื่อม มีสถานีตำรวจนครบาลบางโพ โรงพยาบาลบางโพและบางลำภูห้างสรรพสินค้าในบริเวณใกล้เคียง",
+            Bangpo_place1: "วัดบางโพ",
+            Bangpo_place2: "โรงเรียนทหารพลาธิการ กรมพลาธิการทหารบก",
+            Bangpo_place3: "สถานีตำรวจนครบาลบางโพ",
+            Bangpo_place4: "โรงพยาบาลบางโพ",
+            Bangpo_place5: "บางลำภูห้างสรรพสินค้า",
+            Bangpo_connectivity1: "รถเมล์สาย 32, 33, 49, 64, 90, 117, 506",
+            Bangpo_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            Bangpo_connectivity3: "แท็กซี่",
+
             Kjakkai: "ท่าเกียกกาย",
-            Kjakkai_desc: " ",
+            Kjakkai_desc: "ตั้งอยู่บริเวณด้านหลังของรัฐสภาหลังใหม่และวัดแก้วฟ้าจุฬามณี อยู่ใกล้กับสถานที่ราชการทหารหลายกรม และมีถนนสามเสนเชื่อมอยู่ด้านหลังท่า",
+            Kiakkai_place1: "สัปปายะสภาสถาน(รัฐสภาหลังใหม่)",
+            Kiakkai_place2: "วัดแก้วฟ้าจุฬามณี",
+            Kiakkai_place3: "สวนเฉลิมพระเกียรติเกียกกาย",
+            Kiakkai_place4: "กรมการอุตสาหกรรมทหาร",
+            Kiakkai_place5: "กองพันทหารปืนใหญ่ต่อสู้อากาศยาน",
+            Kiakkai_place6: "สำนักงานปลัดกระทรวงกลาโหม กรมการอุตสาหกรรมทหาร",
+            Kiakkai_place7: "กองพันทหารม้าที่ 3",
+            Kiakkai_place8: "กองพันทหารม้าที่ 4 รักษาพระองค์",
+            Kiakkai_place9: "ม.พัน 4",
+            Kiakkai_place10: "บริษัทบุญรอดบริวเวอรี่ จำกัด",
+
+
             Kheawkhaika: "ท่าเขียวไก่กา",
-            Kheawkhaika_desc: " ",
+            Kheawkhaika_desc: "ตั้งอยู่บริเวณด้านหลังซอยเขียวไข่กา มีแม็คโคร สาขาสามเสน โรงเรียนราชินีบน ศูนย์การค้าสุพรีม คอมเพล็กซ์ สามเสนตั้งอยู่ในบริเวณใกล้เคียง",
+            Kheawkhaika_place1: "แม็คโคร สาขาสามเสน",
+            Kheawkhaika_place2: "โรงเรียนราชินีบน",
+            Kheawkhaika_place3: "ศูนย์การค้าสุพรีม คอมเพล็กซ์",
+            Kheawkhaika_connectivity1: "รถเมล์สาย 3, 16, 30, 32, 33, 49, 64, 65, 66, 90, 117, 505, 506",
+            Kheawkhaika_connectivity2: "รถตู้",
+            Kheawkhaika_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Kheawkhaika_connectivity4: "แท็กซี่",
+
             Irrigationdept: "ท่ากรมชลประทาน",
-            Irrigationdept_desc: " ",
+            Irrigationdept_desc: "ตั้งอยู่บริเวณด้านหลังกรมชลประทานและโรงพยาบาลกรมชลประทาน",
+            Irrigationdept_place1: "กรมชลประทาน",
+            Irrigationdept_place2: "โรงพยาบาลกรมชลประทาน",
+            Irrigationdept_connectivity1: "รถเมล์สาย 3, 16, 30, 32, 33, 49, 64, 65, 66 , 505, 506",
+            Irrigationdept_connectivity2: "รถไฟฟ้าใต้ดินสายสีม่วง สถานีศรีย่าน (อนาคต 2563)",
+            Irrigationdept_connectivity3: "รถตู้",
+
+
             Payap: "ท่าพายัพ",
-            Payap_desc: " ",
+            Payap_desc: "ตั้งอยู่บริเวณด้านหลังโรงพยาบาลการไฟฟ้านครหลวง กับการไฟฟ้านครหลวง เขตสามเสนมีถนนนครชัยศรีมาเชื่อมกับท่าเรือ",
+            Payap_place1: "โรงพยาบาลการไฟฟ้านครหลวง",
+            Payap_place2: "การไฟฟ้านครหลวง เขตสามเสน",
+            Payap_connectivity1: "รถเมล์สาย 3, 16, 30, 32, 33, 49, 64, 65, 66 ,505, 506",
+            Payap_connectivity2: "รถไฟฟ้าใต้ดินสายสีม่วง สถานีศรีย่าน (อนาคต 2563)",
+            Payap_connectivity3: "รถตู้",
+            Payap_connectivity4: "มอเตอร์ไซค์รับจ้าง",
+            Payap_connectivity5: "แท็กซี่",
+
             Watthepnahree: "ท่าวัดเทพนารี",
-            Watthepnahree_desc: " ",
+            Watthepnahree_desc: "ตั้งอยู่ด้านหลังวัดเทพนารี ตั้งอยู่ใกล้ๆกับวิทยาลัยสารพัดช่างนครหลวง",
+            Watthepnarhee_place1: "วัดเทพนารี",
+            Watthepnarhee_place2: "วิทยาลัยสารพัดช่างนครหลวง",
+            Watthepnarhee_connectivity1: "รถเมล์สาย 18, 175, 203",
+            Watthepnarhee_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            Watthepnarhee_connectivity3: "แท็กซี่",
+
             Watthepakorn: "ท่าวัดเทพากร",
             Watthepakorn_desc: " ",
+
             Krungthonburibridge: "ท่าสะพานกรุงธน (ซังฮี้)",
-            Krungthonburibridge_desc: " ",
+            Krungthonburibridge_desc: "ตั้งอยู่ข้างๆสะพานกรุงธน(ซังฮี้) มีโรงแรมริเวอร์ไซต์ โรงเรียนเขมะสิริอนุสรณ์อยู่ในบริเวณใกล้เคียง",
+            Krungthonburibridge_place1: "สะพานกรุงธน(ซังฮี้)",
+            Krungthonburibridge_place2: "โรงแรมริเวอร์ไซต์",
+            Krungthonburibridge_place3: "โรงเรียนเขมะสิริอนุสรณ์",
+            Krungthonburibridge_connectivity1: "รถเมล์สาย 18, 28, 56, 66, 108, 110, 125, 164 , 510, 515 , 4",
+            Krungthonburibridge_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            Krungthonburibridge_connectivity3: "แท็กซี่",
+
             Thewej: "ท่าเทเวศร์",
-            Thewej_desc: " ",
+            Thewej_desc: "ตั้งอยู่บริเวณด้านหลังถนนกรุงเกษม มีสถานศึกษาและสถานที่ราชการตั้งอยู่ใกล้จำนวนมาก และแยกเทเวศน์",
+            Thewej_place1: "กรมสามัญศึกษา โรงเรียนมัธยมวัดมกุฏกษัตริย์",
+            Thewej_place2: "กรมตรวจบัญชีสหกรณ์",
+            Thewej_place3: "กรมส่งเสริมสหกรณ์",
+            Thewej_place4: "มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร",
+            Thewej_place5: "วัดเทวราชกุญชร วรวิหาร",
+            Thewej_place6: "หอสมุดแห่งชาติ",
+            Thewej_connectivity1: "รถเมล์สาย 3, 9, 19, 30, 32, 33, 43, 49, 53, 64, 65 / 32, 64, 506, 524",
+            Thewej_connectivity2: "รถไฟฟ้าใต้ดินสายสีม่วง สถานีหอสมุดแห่งชาติ (อนาคต 2563)",
+            Thewej_connectivity3: "รถตู้",
+            Thewej_connectivity4: "มอเตอร์ไซค์รับจ้าง",
+            Thewej_connectivity5: "แท็กซี่",
+
             Rama8: "ท่าพระราม 8",
-            Rama8_desc: " ",
+            Rama8_desc: "ตั้งอยู่ข้างๆสะพานพระราม 8 เชื่อมกับซอยสามเสน 5 มีสำนักงานใหญ่ธนาคารแห่งประเทศไทยตั้งอยู่ในบริเวณใกล้เคียง",
+            Rama8_place1: "สะพานพระราม 8",
+            Rama8_place2: "สำนักงานใหญ่ธนาคารแห่งประเทศไทย",
+            Rama8_place3: "พิพิธภัณฑ์ธนาคารแห่งประเทศไทย",
+            Rama8_place4: "วังบางขุนพรหม",
+            Rama8_connectivity1: "รถเมล์สาย 3, 9, 19, 30, 32, 33, 43, 49, 53, 64, 65 , 32, 64, 506, 524",
+            Rama8_connectivity2: "รถไฟฟ้าใต้ดินสายสีม่วง สถานีบางขุนพรหม(อนาคต 2563)",
+            Rama8_connectivity3: "รถตู้",
+            Rama8_connectivity4: "มอเตอร์ไซค์รับจ้าง",
+            Rama8_connectivity5: "แท็กซี่",
+
             Phraarthit: "ท่าพระอาทิตย์",
-            Phraarthit_desc: " ",
+            Phraarthit_desc: "ท่าเรื่อพระอาทิตย์อยู่บริเวณด้านหลังของถนนพระอาทิตย์ พื้นที่บริเวณนี้มีศิลปวัฒนธรรมที่ทรงคุณค่า มีวังเจ้านาย เรือนข้าราชบริพารเรียงรายเคียงคู่กับบ้านเรือนราษฎร และจุดเด่นอีกจุด คือ ป้อมพระสุเมรุที่ก่อสร้างตั้งแต่สมัยรัชกาลที่ ๑ ซึ่งในอดีตได้สร้างไว้ทั้งหมด ๑๔ ป้อม แต่ปัจจุบันเหลือมาอยู่แค่ ๒ ป้อม",
+            Phraarthit_place1: "ป้อมพระสุเมรุ",
+            Phraarthit_place2: "วัดชนะสงคราม",
+            Phraarthit_place3: "ถนนข้าวสาร",
+            Phraarthit_place4: "ถนนพระอาทิตย์",
+            Phraarthit_connectivity1: "รถเมล์สาย 3, 6, 15, 43, 82",
+            Phraarthit_connectivity2: "รถตู้",
+            Phraarthit_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Phraarthit_connectivity4: "แท็กซี่",
+
             Phrapinklaobridge: "ท่าพระปิ่นเกล้า",
-            Phrapinklaobridge_desc: " ",
+            Phrapinklaobridge_desc: "ตั้งอยู่ข้างๆสะพานพระปิ่นเกล้า",
+            Phrapinklaobridge_place1: "โรงเรียนมัธยมวัดดุสิตาราม",
+            Phrapinklaobridge_connectivity1: "รถเมล์สาย 19, 30, 42, 57, 68, 79, 80, 123, 124, 127, 165, 169, 201, 203, 170, 171, 174, 183, 503, 507, 509, 511, 516 , 10",
+            Phrapinklaobridge_connectivity2: "รถตู้",
+            Phrapinklaobridge_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Phrapinklaobridge_connectivity4: "แท็กซี่",
+
             Thonburirailway: "ท่ารถไฟ",
-            Thonburirailway_desc: " ",
+            Thonburirailway_desc: "ตั้งอยู่บริเวณด้านหลังโรงพยาบาลศิริราช",
+            Thonburirailway_place1: "โรงพยาบาลศิริราช",
+            Thonburirailway_place2: "สวนเฉลิมพระเกรียรติ 72 พรรษา",
+            Thonburirailway_connectivity1: "รถเมล์สาย 19, 56, 57, 91, 149, 157",
+            Thonburirailway_connectivity2: "รถไฟฟ้าใต้ดินสายสีส้ม สถานีศิริราช(อนาคต)",
+            Thonburirailway_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Thonburirailway_connectivity4: "แท็กซี่",
+
             Wanglang: "ท่าวังหลัง (พรานนก)",
-            Wanglang_desc: " ",
+            Wanglang_desc: "ท่าวังหลัง หรือ ท่าพรานนก หรือ ท่าศิริราช เป็นท่าน้ำริมฝั่งแม่น้ำเจ้าพระยาฝั่งตะวันตกหรือฝั่งธนบุรี บริเวณปลายถนนวังหลัง ในพื้นที่แขวงศิริราช เขตบางกอกน้อย กรุงเทพมหานคร",
+            Wanglang_place1: "ตลาดวังหลัง",
+            Wanglang_place2: "โรงพยาบาลศิริราช",
+            Wanglang_connectivity1: "ป้ายรถประจำทางหน้าโรงพยาบาลศิริราช ถนนอรุณอมรินทร์ สาย 19 57 81 ปอ.91 146 TFEX 149 ปอ.157 ปอ.177",
+            Wanglang_connectivity2: "รถตุ๊กตุ๊กสองแถว เส้นทางท่าน้ำศิริราช-พาณิชย์ธน, วัดดงมูลเหล็ก, วัดระฆัง-โพธิ์สามต้น",
+            Wanglang_connectivity3: "รถสี่ล้อสองแถว เส้นทางท่าน้ำศิริราช-พาณิชย์ธน, บางขุนศรี, บางขุนนนท์, ตลาดพลู, คลองสาน",
+            Wanglang_connectivity4: "รถตู้ เส้นทางท่าน้ำศิริราช-บางบัวทอง",
+
             Maharaj: "ท่ามหาราช",
             Maharaj_desc: " ",
+
             Thachang: "ท่าช้าง",
-            Thachang_desc: " ",
+            Thachang_desc: "ท่าช้างวังหลวง เป็นท่าเรือริมฝั่งแม่น้ำเจ้าพระยา ตั้งอยู่บริเวณสุดถนนหน้าพระลาน แขวงพระบรมมหาราชวัง เขตพระนคร กรุงเทพมหานคร",
+            Thachang_place1: "พระบรมมหาราชวัง",
+            Thachang_place2: "สนามหลวง",
+            Thachang_place3: "มหาวิทยาลัยศิลปากร",
+            Thachang_place4: "กระทรวงกลาโหม",
+            Thachang_place5: "เสาหลักเมือง",
+            Thachang_place6: "ศาลฎีกา",
+            Thachang_place7: "ศาลอาญากรุงเทพใต้",
+            Thachang_connectivity1: "รถเมล์สาย 1 25 32 44 47 53 64 82 91 123 508 524 ปอ.พ.25",
+            Thachang_connectivity2: "รถไฟฟ้าใต้ดินสายสีส้ม สถานีสนามหลวง (อนาคต 2563)",
+            Thachang_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Thachang_connectivity4: "แท็กซี่",
+
             Thatien: "ท่าเตียน",
-            Thatien_desc: " ",
+            Thatien_desc: "ท่าเตียนเป็นท่าเรือเก่าแก่ตั้งอยู่ริมแม่น้ำเจ้าพระยา ติดกับท้ายพระมหาบรมราชวังและข้างวัดเชตุพนวิมลมังคลาราม ในรัชสมัยรัชกาลที่ ๑ พื้นที่แห่งนี้เป็นวังประทับของพระบรมวงศานุวงศ์และบ้านเรือนราษฎร ต่อมาในรัชกาลสมัยที่ ๔ ได้กลายเป็นตลาดริมน้ำที่ใหญ่ที่สุดของกรุงเทพมหานคร",
+            Thatien_place1: "วัดเชตุพนวิมลมังคลาราม",
+            Thatien_place2: "กรมการค้าภายใน",
+            Thatien_place3: "กรมสวัสดิการทหารเรือ",
+            Thatien_place4: "พระบรมมหาราชวัง",
+            Thatien_place5: "กองพันทหารราบ ศูนย์การกำลังสำรอง",
+            Thatien_place6: "สวนสราญรมย์",
+            Thatien_connectivity1: "รถเมล์สาย 1, 25, 32, 44, 48, 53, 508, 512",
+            Thatien_connectivity2: "รถตู้",
+            Thatien_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Thatien_connectivity4: "แท็กซี่",
+
             Rajinee: "ท่าราชินี",
-            Rajinee_desc: " ",
+            Rajinee_desc: "ตั้งอยู่บริเวณด้านหลังโรงเรียนราชินี และติดกับคลองตลาด แต่เดิมที่ดินของโรงเรียนนี้เป็นของโรงเรียนราชินี ภายหลังนางเคี้ยม ตุ้มทรัพย์ ขอซื้อเพื่อทำเป็นท่าเรือหางยาวเพื่อรับส่งผู้โดยสาร จากท่าเรือราชินีไปตลาดพลูในปี 2501 ปัจจุบันใช้เป็นท่าเรือด่วนและเรือข้ามฟาก",
+            Rajinee_place1: "โรงเรียนราชินี",
+            Rajinee_place2: "มิวเซียมสยาม",
+            Rajinee_place3: "ปากคลองตลาด",
+            Rajinee_place4: "ตลาดยอดพิมาน",
+            Rajinee_place5: "กรมการค้าต่างประเทศ",
+            Rajinee_place6: "วังจักรพงศ์",
+            Rajinee_place7: "สถานีตำรวจนครบาลพระราชวัง",
+            Rajinee_connectivity1: "รถเมล์สาย 7ก, 8, 12, 42, 43, 73, 73ก, 82",
+            Rajinee_connectivity2: "รถไฟฟ้าใต้ดินสายสีน้ำเงินส่วนต่อขยาย สถานีสนามไชย (อนาคต 61)",
+            Rajinee_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Rajinee_connectivity4: "แท็กซี่",
+
             Memorialbridge: "ท่าสะพานพุทธ",
             Memorialbridge_desc: " ",
+            Memorialbridge_place1: "สะพานพระพุทธยอดฟ้า",
+            Memorialbridge_place2: "สะพานพระปกเกล้า",
+            Memorialbridge_place3: "สวนหย่อมเชิงสะพานพุทธยอดฟ้า",
+            Memorialbridge_place4: "ตลาดสะพานพุทธ (19:00-1:00 อังคาร-อาทิตย์)",
+            Memorialbridge_place5: "โรงเรียนสวนกุหลาบวิทยาลัย",
+            Memorialbridge_place6: "วัดราชบูรณะราชวรวิหาร(วัดเลียบ)",
+            Memorialbridge_place7: "ศาลรัฐธรรมนูญ",
+            Memorialbridge_connectivity1: "รถเมล์สาย 7ก, 8, 12, 42, 43, 73, 73ก, 82",
+            Memorialbridge_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            Memorialbridge_connectivity3: "แท็กซี่",
+
             Rajchawongse: "ท่าราชวงศ์",
-            Rajchawongse_desc: " ",
+            Rajchawongse_desc: "ตั้งอยู่ปลายถนนราชวงศ์ มีประวัติที่สำคัญต่อสังคมจีนในไทยในปัจจุบัน ในอดีตมีท่าน้ำราชวงศ์เป็นท่าเรือสำคัญ ที่เรือบรรทุกสินค้าและเรือโดยสาร ที่เดินทางมาจากทั่วโลก ต้องแวะจอดขนส่งสินค้า และรับ-ส่งผู้โดยสารที่ท่าน้ำแห่งนี้",
+            Rajchawongse_place1: "ถนนเยาวราช",
+            Rajchawongse_place2: "ตลาดสำเพ็ง",
+            Rajchawongse_connectivity1: "รถเมล์สาย 204",
+            Rajchawongse_connectivity2: "รถตู้",
+            Rajchawongse_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Rajchawongse_connectivity4: "แท็กซี่",
+
             Marinedept: "ท่ากรมเจ้าท่า",
-            Marinedept_desc: " ",
+            Marinedept_desc: "ตั้งอยู่บริเวณด้านกรมการขนส่งทางน้ำและพาณิชย์นาวี ในบริเวณนั้นมีตลาดน้อย กับธนาคารไทยพาณิชย์แห่งแรกของประเทศ",
+            Marinedept_place1: "กรมการขนส่งทางน้ำและพาณิชย์นาวี",
+            Marinedept_place2: "ตลาดน้อย",
+            Marinedept_place3: "ธนาคารไทยพาณิชย์",
+            Marinedept_place4: "วิทยาลัยสารพัดช่างสี่พระยา",
+            Marinedept_connectivity1: "รถเมล์สาย 1, 35, 75",
+            Marinedept_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            Marinedept_connectivity3: "แท็กซี่",
+
             Siphraya: "ท่าสี่พระยา",
-            Siphraya_desc: " ",
+            Siphraya_desc: "ตั้งอยู่บริเวณด้านข้างโรงแรมรอยัล ออร์คิด เชอร์ราตัน ในบริเวณนั้นมีแหล่งท่องเที่ยวและโรงแรมอยู่จำนวนหนึ่ง",
+            Siphraya_place1: "ศูนย์การค้าริเวอร์ซิตี้",
+            Siphraya_place2: "โรงแรมรอยัล ออรคิด เชอร์ราตัน",
+            Siphraya_place3: "โบสถ์กาลหวาร์",
+            Siphraya_place4: "สถานฑูตโปรตุเกส",
+            Siphraya_connectivity1: "รถเมล์สาย 1, 16, 35, 36, 45, 75, 93, 187",
+            Siphraya_connectivity2: "รถตู้ “สี่พระยา – ลำลูกกา – รังสิต” “สี่พระยา – ABAC”",
+            Siphraya_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Siphraya_connectivity4: "แท็กซี่",
+
             Watmuangkae: "ท่าวัดม่วงแค",
-            Watmuangkae_desc: " ",
+            Watmuangkae_desc: "ตั้งอยู่บริเวณด้านหลังวัดม่วงแค และติดกับตึกกสท.โทรคมนาคม จำกัด บางรัก",
+            Watmuangkae_place1: "กสท.โทรคมนาคม จำกัด บารัก",
+            Watmuangkae_place2: "ไปรษณีย์กลาง",
+            Watmuangkae_place3: "วัดม่วงแค",
+            Watmuangkae_connectivity1: "รถเมล์สาย 1, 16, 35, 36, 45, 75, 93, 187",
+            Watmuangkae_connectivity2: "รถตู้ “สี่พระยา – ลำลูกกา – รังสิต”",
+            Watmuangkae_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Watmuangkae_connectivity4: "แท็กซี่",
+
             Oriental: "ท่าโอเรียนเท็ล",
-            Oriental_desc: " ",
+            Oriental_desc: "ตั้งอยู่บริเวณด้านข้างโรงแรมแมนดาริน โอเรียนเต็ล มีสถานที่ทางประวัติศาสตร์อยู่ประปราย",
+            Oriental_place1: "โรงแรมแมนดาริน โอเรียนเต็ล กรุงเทพ",
+            Oriental_place2: "โรงเรียนอัสสัมชัญ คอนแวนต์",
+            Oriental_place3: "โรงเรียนอัสสัมชัญ",
+            Oriental_place4: "โรงเรียนอัสสัมชัญศึกษา",
+            Oriental_place5: "คาทอลิกมิสชั่น ออฟบางกอก",
+            Oriental_place6: "สถานฑูตฝรั่งเศส",
+            Oriental_connectivity1: "รถเมล์สาย 1, 35, 75",
+            Oriental_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            Oriental_connectivity3: "แท็กซี่",
+
             Sathorn: "ท่าสาทร (ตากสิน)",
-            Sathorn_desc: " ",
+            Sathorn_desc: "ตั้งอยู่บริเวณใต้สะพานสมเด็จพระเจ้าตากสินมหาราช เป็นศูนย์รวมการเดินเรือในแม่น้ำเจ้าพระยา",
+            Sathorn_place1: "ท่าเรือสาทร",
+            Sathorn_place2: "สะพานสมเด็จพระเจ้าตากสินมหาราช",
+            Sathorn_place3: "โรบินสันบางรัก",
+            Sathorn_place4: "โรงแรมแชงกรีล่า",
+            Sathorn_connectivity1: "รถไฟฟ้าบีทีเอส สถานีสะพานตากสิน",
+            Sathorn_connectivity2: "รถเมล์สาย 1, 15, 17, 35, 75, 115, 116, 163 ,504 ,20",
+            Sathorn_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Sathorn_connectivity4: "แท็กซี่",
+
             Watsawetachat: "ท่าวัดเศวตฉัตร",
-            Watsawetachat_desc: " ",
+            Watsawetachat_desc: "ตั้งอยู่บริเวณหลังวัดเศวตฉัตร วรวิหาร",
+            Watsawetachat_place1: "วัดเศวตฉัตร วรวิหาร",
+            Watsawetachat_connectivity1: "รถเมล์สาย 3, 89, 111",
+            Watsawetachat_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            Watsawetachat_connectivity3: "แท็กซี่",
+
             Watworachanyawas: "ท่าวัดวธจรรยาวาส",
-            Watworachanyawas_desc: " ",
+            Watworachanyawas_desc: "ตั้งอยู่บริเวณด้านหลังวัดวรจรรยาวาส",
+            Watworachanyawas_place1: "วัดวรจรรยาวาส",
+            Watworachanyawas_place2: "ศาลแขวงพระนครใต้",
+            Watworachanyawas_place3: "รามาด้า พลาซ่า บางกอก แม่น้ำ ริเวอร์ไซด์",
+            Watworachanyawas_place4: "สำนักงานคุมประพฤติประจำเขตพระนครใต้",
+            Watworachanyawas_connectivity1: "รถเมล์สาย 1, 15, 17, 22, 75, 163 , 504 , 20",
+            Watworachanyawas_connectivity2: "รถตู้",
+            Watworachanyawas_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Watworachanyawas_connectivity4: "แท็กซี่",
+
             Watrajsingkorn: "ท่าวัดราชสิงขร",
-            Watrajsingkorn_desc: " ",
+            Watrajsingkorn_desc: "ตั้งอยู่ด้านหลังวัดราชสิงขร",
+            Watrajsingkorn_place1: "วัดราชสิงขร",
+            Watrajsingkorn_place2: "เอเชียทีค เดอะ ริเวอร์ฟรอนต์",
+            Watrajsingkorn_connectivity1: "รถเมล์สาย 1, 15, 17, 22, 75, 163 ,504, 20",
+            Watrajsingkorn_connectivity2: "รถตู้",
+            Watrajsingkorn_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Watrajsingkorn_connectivity4: "แท็กซี่",
+
             Rajburana: "ท่าราษฎร์บูรณะ (บิ๊กซี)",
-            Rajburana_desc: " "
+            Rajburana_desc: "ตั้งอยู่บริเวณด้านหลังบิ๊กซี สาขา ราษฏร์บูรณะ",
+            Rajburana_place1: "บิ๊กซี สาขา ราษฏร์บูรณะ",
+            Rajburana_place2: "สถานีตำรวจนครบาลราษฏร์บูรณะ",
+            Rajburana_connectivity1: "รถเมล์สาย 6, 17, 88",
+            Rajburana_connectivity2: "มอเตอร์ไซค์รับจ้าง",
+            Rajburana_connectivity3: "แท็กซี่"
 
 
 
@@ -23309,12 +23950,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "t4",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (T4)ท่าราษฎร์บูรณะ (บิ๊กซี)(Rajburana)",
             title: "ExBoat",
             autoCancel: true,
             sound: null
         });   
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (T4)ท่าราษฎร์บูรณะ (บิ๊กซี)(Rajburana)");
     }
 
 
@@ -23345,12 +23986,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "t3",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (T3)ท่าวัดราชสิงขร(Watrajsingkorn)",
             title: "ExBoat",
             autoCancel: true,
             sound: null
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (T3)ท่าวัดราชสิงขร(Watrajsingkorn)");
     }
 
 
@@ -23381,12 +24022,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "t2",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (T2)ท่าวธรรยาวาส(Watworachanyawas)",
             title: "ExBoat",
             autoCancel: true,
             sound: null
         });      
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (T2)ท่าวธรรยาวาส(Watworachanyawas)");
     }
 
 
@@ -23417,12 +24058,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "t1",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (T1)ท่าเศวตฉัตร(Watsawetachat)",
             title: "ExBoat",
             autoCancel: true,
             sound: null
         });     
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (T1)ท่าเศวตฉัตร(Watsawetachat)");
     }
 
 
@@ -23453,12 +24094,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "33",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N33)ท่าปากเกร็ด(Pakkret)",
             title: "ExBoat",
             autoCancel: true,
             sound: null
         });
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N33)ท่าปากเกร็ด(Pakkret)");
     }
 
 
@@ -23489,12 +24130,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "32",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N32)ท่าวัดกลางเกร็ด(Watklangkret)",
             title: "ExBoat",
             autoCancel: true,
             sound: null
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N32)ท่าวัดกลางเกร็ด(Watklangkret)");
     }
 
 
@@ -23525,12 +24166,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "31",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N31)ท่ากระทรวงพาณิชย์(Ministryofcommerce)",
             title: "ExBoat",
             autoCancel: true,
             sound: null
         }); 
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N31)ท่ากระทรวงพาณิชย์(Ministryofcommerce)");
     }
 
 
@@ -23561,12 +24202,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "30",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N30)ท่านนทบุรี(พิบูลย์3)(Nonthaburi(Pibul3))",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });   
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N30)ท่านนทบุรี(พิบูลย์3)(Nonthaburi(Pibul3))");
     }
 
 
@@ -23597,12 +24238,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "29s",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N29s)ท่าพระราม 5(Rama5)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });  
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N29s)ท่าพระราม 5(Rama5)");
     }
 
 
@@ -23633,12 +24274,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "29",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N29)ท่าพิบูลย์สงคราม 2(Pibul2)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N29)ท่าพิบูลย์สงคราม 2(Pibul2)");
     }
 
 
@@ -23669,12 +24310,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "28",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N28)ท่าวัดเขียน(Watkien)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N28)ท่าวัดเขียน(Watkien)");
     }
 
 
@@ -23705,12 +24346,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "27",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N27)ท่าวัดตึก(Wattuek)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N27)ท่าวัดตึก(Wattuek)");
     }
 
 
@@ -23741,12 +24382,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "26",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N26)ท่าวัดเขมา(WatKhema)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N26)ท่าวัดเขมา(WatKhema)");
     }
 
 
@@ -23777,12 +24418,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "25",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N25)ท่าพิบูลย์สงคราม 1(Pibul1)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N25)ท่าพิบูลย์สงคราม 1(Pibul1)");
     }
 
 
@@ -23813,12 +24454,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "24",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N24)ท่าพระราม 7(Rama7)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });      
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N24)ท่าพระราม 7(Rama7)");
     }
 
 
@@ -23849,12 +24490,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "23",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N23)ท่าวัดสร้อยทอง(Watsoithong)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });      
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N23)ท่าวัดสร้อยทอง(Watsoithong)");
     }
 
 
@@ -23885,12 +24526,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "22",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N22)ท่าบางโพ(Bangpo)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });      
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N22)ท่าบางโพ(Bangpo)");
     }
 
 
@@ -23921,12 +24562,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "21",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N21)ท่าเกียกกาย(Kjakkai)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });     
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N21)ท่าเกียกกาย(Kjakkai)");
     }
 
 
@@ -23957,12 +24598,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "20",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N20)ท่าเขียวไข่กา(Kheawkhaika)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });      
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N20)ท่าเขียวไข่กา(Kheawkhaika)");
     }
 
 
@@ -23993,12 +24634,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "19",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N19)ท่ากรมชลประทาน(Irrigation Dept.)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });     
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N19)ท่ากรมชลประทาน(Irrigation Dept.)");
     }
 
 
@@ -24029,12 +24670,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "18",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N18)ท่าพายัพ(Payap)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });      
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N18)ท่าพายัพ(Payap)");
     }
 
 
@@ -24065,12 +24706,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "17s",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N17s)ท่าเทพากร(Thepakorn)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });    
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N17s)ท่าเทพากร(Thepakorn)");
     }
 
 
@@ -24095,8 +24736,18 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn17 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn17)       
-        alert("You have arrived your destination : " + $scope.dest);
+        if($scope.dest == $scope.destn17)
+        var alarmTime = new Date();
+        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
+        $cordovaLocalNotification.add({
+            id: "17",
+            date: alarmTime,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N17)ท่าเทพนารี(Thepnarhee)",
+            title: "ExBoat",
+            autoCancel: true,
+            sound: true
+        });           
+        alert("You have arrived your destination : (N17)ท่าเทพนารี(Thepnarhee)");
     }
 
 
@@ -24127,12 +24778,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "16",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N16)ท่าสะพานกรุงธน (ซังฮี้)(Krungthonburi Bridge)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });    
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N16)ท่าสะพานกรุงธน (ซังฮี้)(Krungthonburi Bridge)");
     }
 
 
@@ -24163,12 +24814,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "15",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N15)ท่าเทเวศร์(Thewej)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });     
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N15)ท่าเทเวศร์(Thewej)");
     }
 
 
@@ -24199,12 +24850,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "14",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N14)ท่าพระราม 8(Rama8)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });      
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N14)ท่าพระราม 8(Rama8)");
     }
 
 
@@ -24235,12 +24886,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "13",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N13)ท่าพระอาทิตย์(Phraarthit)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N13)ท่าพระอาทิตย์(Phraarthit)");
     }
 
 
@@ -24271,12 +24922,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "12",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N12)ท่าพระปิ่นเกล้า(Phrapinklao Bridge)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });    
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N12)ท่าพระปิ่นเกล้า(Phrapinklao Bridge)");
     }
 
 
@@ -24307,12 +24958,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "11",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N11)ท่ารถไฟ(Thonburirailway)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });    
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N11)ท่ารถไฟ(Thonburirailway)");
     }
 
 
@@ -24343,12 +24994,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "10",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N10)ท่าวังหลัง (พรานนก)(Wanglang)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N10)ท่าวังหลัง (พรานนก)(Wanglang)");
     }
 
 
@@ -24379,12 +25030,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "9s",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N9s)ท่ามหาราช(Maharaj)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });     
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N9s)ท่ามหาราช(Maharaj)");
     }
 
 
@@ -24415,12 +25066,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "9",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N9)ท่าช้าง(Thachang)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });      
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N9)ท่าช้าง(Thachang)");
     }
 
 
@@ -24451,12 +25102,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "8",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N8)ท่าเตียน(Thatien)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N8)ท่าเตียน(Thatien)");
     }
 
 
@@ -24487,12 +25138,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "7",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N7)ท่าราชินี(Rajinee)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });  
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N7)ท่าราชินี(Rajinee)");
     }
 
 
@@ -24523,12 +25174,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "6",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N6)ท่าสะพานพุทธ(Memorial Bridge)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N6)ท่าสะพานพุทธ(Memorial Bridge)");
     }
 
 
@@ -24559,12 +25210,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "5",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N5)ท่าราชวงศ์(Rajchawongse)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N5)ท่าราชวงศ์(Rajchawongse)");
     }
 
 
@@ -24595,12 +25246,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "4",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N4)ท่ากรมเจ้าท่า(Marine Dept.)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });      
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N4)ท่ากรมเจ้าท่า(Marine Dept.)");
     }
 
 
@@ -24631,12 +25282,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "3",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N3)ท่าสี่พระยา(Siphraya)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });       
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N3)ท่าสี่พระยา(Siphraya)");
     }
 
 
@@ -24667,12 +25318,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "2",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N2)ท่าวัดม่วงแค(Watmuangkae)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });    
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N2)ท่าวัดม่วงแค(Watmuangkae)");
     }
 
 
@@ -24703,12 +25354,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "1",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N1)ท่าโอเรียนเท็ล(Oriental)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });      
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (N1)ท่าโอเรียนเท็ล(Oriental)");
     }
 
 
@@ -24739,56 +25390,56 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         $cordovaLocalNotification.add({
             id: "0",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : " + $scope.dest,
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (CENTRAL)ท่าสาทร (ตากสิน)(Sathorn)",
             title: "ExBoat",
             autoCancel: true,
             sound: true
         });      
-        alert("You have arrived your destination : " + $scope.dest);
+        alert("You have arrived your destination : (CENTRAL)ท่าสาทร (ตากสิน)(Sathorn)");
     }
 
 
-    $scope.destt4 = "ท่าราษฎร์บูรณะ (บิ๊กซี)";
-    $scope.destt3 = "ท่าวัดราชสิงขร";
-    $scope.destt2 = "ท่าวธรรยาวาส";
-    $scope.destt1 = "ท่าเศวตฉัตร";
-    $scope.destn33 = "ท่าปากเกร็ด";
-    $scope.destn32 = "ท่าวัดกลางเกร็ด";
-    $scope.destn31 = "ท่ากระทรวงพาณิชย์";
-    $scope.destn30 = "ท่านนทบุรี(พิบูลย์3)";
-    $scope.destn29s = "ท่าพระราม 5";
-    $scope.destn29 = "ท่าพิบูลย์สงคราม 2";
-    $scope.destn28 = "ท่าวัดเขียน";
-    $scope.destn27 = "ท่าวัดตึก";
-    $scope.destn26 = "ท่าวัดเขมา";
-    $scope.destn25 = "ท่าพิบูลย์สงคราม 1";
-    $scope.destn24 = "ท่าพระราม 7";
-    $scope.destn23 = "ท่าวัดสร้อยทอง";
-    $scope.destn22 = "ท่าบางโพ";
-    $scope.destn21 = "ท่าเกียกกาย";
-    $scope.destn20 = "ท่าเขียวไข่กา";
-    $scope.destn19 = "ท่ากรมชลประทาน";
-    $scope.destn18 = "ท่าพายัพ";
-    $scope.destn17s = "ท่าเทพากร";
-    $scope.destn17 = "ท่าเทพนารี";
-    $scope.destn16 = "ท่าสะพานกรุงธน (ซังฮี้)";
-    $scope.destn15 = "ท่าเทเวศร์";
-    $scope.destn14 = "ท่าพระราม 8";
-    $scope.destn13 = "ท่าพระอาทิตย์";
-    $scope.destn12 = "ท่าพระปิ่นเกล้า";
-    $scope.destn11 = "ท่ารถไฟ";
-    $scope.destn10 = "ท่าวังหลัง (พรานนก)";
-    $scope.destn9s = "ท่ามหาราช";
-    $scope.destn9 = "ท่าช้าง";
-    $scope.destn8 = "ท่าเตียน";
-    $scope.destn7 = "ท่าราชินี";
-    $scope.destn6 = "ท่าสะพานพุทธ";
-    $scope.destn5 = "ท่าราชวงศ์";
-    $scope.destn4 = "ท่ากรมเจ้าท่า";
-    $scope.destn3 = "ท่าสี่พระยา";
-    $scope.destn2 = "ท่าวัดม่วงแค";
-    $scope.destn1 = "ท่าโอเรียนเท็ล";
-    $scope.destn0 = "ท่าสาทร (ตากสิน)";
+    $scope.destt4 = "t4";
+    $scope.destt3 = "t3";
+    $scope.destt2 = "t2";
+    $scope.destt1 = "t1";
+    $scope.destn33 = "n33";
+    $scope.destn32 = "n32";
+    $scope.destn31 = "n31";
+    $scope.destn30 = "n30";
+    $scope.destn29s = "n29s";
+    $scope.destn29 = "n29";
+    $scope.destn28 = "n28";
+    $scope.destn27 = "n27";
+    $scope.destn26 = "n26";
+    $scope.destn25 = "n25";
+    $scope.destn24 = "n24";
+    $scope.destn23 = "n23";
+    $scope.destn22 = "n22";
+    $scope.destn21 = "n21";
+    $scope.destn20 = "n20";
+    $scope.destn19 = "n19";
+    $scope.destn18 = "n18";
+    $scope.destn17s = "n17s";
+    $scope.destn17 = "n17";
+    $scope.destn16 = "n16";
+    $scope.destn15 = "n15";
+    $scope.destn14 = "n14";
+    $scope.destn13 = "n13";
+    $scope.destn12 = "n12";
+    $scope.destn11 = "n11";
+    $scope.destn10 = "n10";
+    $scope.destn9s = "n9s";
+    $scope.destn9 = "n9";
+    $scope.destn8 = "n8";
+    $scope.destn7 = "n7";
+    $scope.destn6 = "n6";
+    $scope.destn5 = "n5";
+    $scope.destn4 = "n4";
+    $scope.destn3 = "n3";
+    $scope.destn2 = "n2";
+    $scope.destn1 = "n1";
+    $scope.destn0 = "n0";
 
 
 
