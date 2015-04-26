@@ -1,12 +1,104 @@
 <ion-modal-view>
   <ion-header-bar>
-    <h1 class="title">ท่าวัดวธจรรยาวาส</h1>
+    <h1 class="title">{{"Watworachanyawas" | translate}}</h1>
     <div class="buttons">
       <button class="button button-clear" ng-click="popcloseT2()">Close</button>
     </div>
-   
   </ion-header-bar>
-  <ion-content>
-    
+  <head>
+	<style type="text/css">
+
+		section#descriptionT2 { 
+			background-color: #00c0e4; 
+			margin-top: 0px;
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+		section#nearbyplacesT2 { 
+			background-color: #eac14d; 
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+		section#transportationT2 { 
+			background-color: #e6567a; 
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+
+		section h2 {
+		  color: white;
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: 300;
+		  font-size: 2.5em;
+		  margin: 0px;
+		}
+
+		section .illustration1 {
+		  width: 100%;
+		  height: 240px;
+		  background: url("img/pier/T2/T2_1.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration2 {
+		  width: 100%;
+		  height: 300px;
+		  background: url("img/pier/T2/T2_2.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section p {
+		  color: white;
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: 300;
+		  font-size: 1em; 
+		}
+		
+	</style>
+	</head> 
+
+
+<ion-content delegate-handle="content">
+
+<section id="descriptionT2">
+  <h2 class="ion-chevron-down" ng-click="scrollMe('nearbyplacesT2')">{{"Description" | translate}}</h2>
+  <div class="illustration1"></div>
+  <br/>
+  <p>{{"Watworachanyawas_desc" | translate}}<br/><br/>
+
+</p>
+</section>
+<section id="nearbyplacesT2">
+  <h2 class="ion-chevron-down" ng-click="scrollMe('transportationT2')">{{"Nearby_Places" | translate}}</h2>
+  <div class="illustration2"></div>
+  <p> 
+  	<br/>
+  	{{"Watworachanyawas_place1" | translate}}<br/>
+  	{{"Watworachanyawas_place2" | translate}}<br/>
+  	{{"Watworachanyawas_place3" | translate}}<br/>
+  	{{"Watworachanyawas_place4" | translate}}<br/>
+  </p>
+</section>
+
+<section id="transportationT2">
+  <h2 class="ion-chevron-up" ng-click="scrollMe('descriptionT2')">{{"Transportation" | translate}}</h2>
+  <p>
+  	<br/>
+  	{{"Watworachanyawas_connectivity1" | translate}}<br/>
+  	{{"Watworachanyawas_connectivity2" | translate}}<br/>
+  	{{"Watworachanyawas_connectivity3" | translate}}<br/>
+  	{{"Watworachanyawas_connectivity4" | translate}}<br/>
+  </p>
+</section>
+
   </ion-content>
 </ion-modal-view>

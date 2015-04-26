@@ -1,12 +1,112 @@
 <ion-modal-view>
   <ion-header-bar>
-    <h1 class="title">ท่าสาทร(ตากสิน)</h1>
+    <h1 class="title">{{"Sathorn" | translate}}</h1>
     <div class="buttons">
       <button class="button button-clear" ng-click="popclose0()">Close</button>
     </div>
-   
   </ion-header-bar>
-  <ion-content>
-    
+  <head>
+	<style type="text/css">
+
+		section#description0 { 
+			background-color: #00c0e4; 
+			margin-top: 0px;
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+		section#nearbyplaces0 { 
+			background-color: #eac14d; 
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+		section#transportation0 { 
+			background-color: #e6567a; 
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+
+		section h2 {
+		  color: white;
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: 300;
+		  font-size: 2.5em;
+		  margin: 0px;
+		}
+
+		section .illustration1 {
+		  width: 100%;
+		  height: 240px;
+		  background: url("img/pier/Cen/Cen_1.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration2 {
+		  width: 100%;
+		  height: 300px;
+		  background: url("img/pier/Cen/Cen_2.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration3 {
+		  width: 100%;
+		  height: 300px;
+		  background: url("img/pier/Cen/Cen_3.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section p {
+		  color: white;
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: 300;
+		  font-size: 1em; 
+		}
+		
+	</style>
+	</head> 
+
+
+<ion-content delegate-handle="content">
+
+<section id="description0">
+  <h2 class="ion-chevron-down" ng-click="scrollMe('nearbyplaces0')">{{"Description" | translate}}</h2>
+  <div class="illustration1"></div>
+  <br/>
+  <p>{{"Sathorn_desc" | translate}}<br/><br/>
+
+</p>
+</section>
+<section id="nearbyplaces0">
+  <h2 class="ion-chevron-down" ng-click="scrollMe('transportation0')">{{"Nearby_Places" | translate}}</h2>
+  <div class="illustration2"></div>
+  <p> 
+  	<br/>
+  	{{"Sathorn_place1" | translate}}<br/>
+  	{{"Sathorn_place2" | translate}}<br/>
+  	{{"Sathorn_place3" | translate}}<br/>
+  	{{"Sathorn_place4" | translate}}<br/>
+  </p>
+   <div class="illustration3"></div>
+</section>
+
+<section id="transportation0">
+  <h2 class="ion-chevron-up" ng-click="scrollMe('description0')">{{"Transportation" | translate}}</h2>
+  <p>
+  	<br/>
+  	{{"Sathorn_connectivity1" | translate}}<br/>
+  	{{"Sathorn_connectivity2" | translate}}<br/>
+  	{{"Sathorn_connectivity3" | translate}}<br/>
+  	{{"Sathorn_connectivity4" | translate}}<br/>
+  </p>
+</section>
+
   </ion-content>
 </ion-modal-view>

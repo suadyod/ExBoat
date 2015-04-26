@@ -28,7 +28,7 @@ angular.module('starter.map', [])
           icon: img,
           title: 'point1'
         });
-        var infoText1 = "<div><a ng-click='popopen1()'><br><h1>ท่าโอเรียนเท็ล</h1></a></div>";
+        var infoText1 = "<div><a ng-click='popopen1()'><br><h1>(N1)ท่าโอเรียนเท็ล</h1></a></div>";
         var compiled1 = $compile(infoText1)($scope);
         var infowindow1 = new google.maps.InfoWindow({
           content: compiled1[0]
@@ -45,7 +45,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point0"
         })
-        var infoText0 = "<div><a ng-click='popopen0()'><br><h1>ท่าสาทร(ตากสิน)</h1></a></div>";
+        var infoText0 = "<div><a ng-click='popopen0()'><br><h1>(CENTRAL)ท่าสาทร(ตากสิน)</h1></a></div>";
         var compiled0 = $compile(infoText0)($scope);
         var infowindow0 = new google.maps.InfoWindow({
           content: compiled0[0]
@@ -62,7 +62,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point2"
         })
-        var infoText2 = "<div><a ng-click='popopen2()'><br><h1>ท่าวัดม่วงแค</h1></a></div>";
+        var infoText2 = "<div><a ng-click='popopen2()'><br><h1>(N2)ท่าวัดม่วงแค</h1></a></div>";
         var compiled2 = $compile(infoText2)($scope);
         var infowindow2 = new google.maps.InfoWindow({
           content: compiled2[0]
@@ -79,7 +79,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point3"
         })
-        var infoText3 = "<div><a ng-click='popopen3()'><br><h1>ท่าสี่พระยา</h1></a></div>";
+        var infoText3 = "<div><a ng-click='popopen3()'><br><h1>(N3)ท่าสี่พระยา</h1></a></div>";
         var compiled3 = $compile(infoText3)($scope);
         var infowindow3 = new google.maps.InfoWindow({
           content: compiled3[0]
@@ -96,7 +96,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point4"
         })
-        var infoText4 = "<div><a ng-click='popopen4()'><br><h1>ท่ากรมเจ้าท่า</h1></a></div>";
+        var infoText4 = "<div><a ng-click='popopen4()'><br><h1>(N4)ท่ากรมเจ้าท่า</h1></a></div>";
         var compiled4 = $compile(infoText4)($scope);
         var infowindow4 = new google.maps.InfoWindow({
           content: compiled4[0]
@@ -113,7 +113,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point5"
         })
-        var infoText5 = "<div><a ng-click='popopen5()'><br><h1>ท่าราชวงศ์</h1></a></div>";
+        var infoText5 = "<div><a ng-click='popopen5()'><br><h1>(N5)ท่าราชวงศ์</h1></a></div>";
         var compiled5 = $compile(infoText5)($scope);
         var infowindow5 = new google.maps.InfoWindow({
           content: compiled5[0]
@@ -130,7 +130,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point6"
         })
-        var infoText6 = "<div><a ng-click='popopen6()'><br><h1>ท่าสะพานพุทธ</h1></a></div>";
+        var infoText6 = "<div><a ng-click='popopen6()'><br><h1>(N6)ท่าสะพานพุทธ</h1></a></div>";
         var compiled6 = $compile(infoText6)($scope);
         var infowindow6 = new google.maps.InfoWindow({
           content: compiled6[0]
@@ -147,7 +147,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point7"
         })
-        var infoText7 = "<div><a ng-click='popopen7()'><br><h1>ท่าราชินี</h1></a></div>";
+        var infoText7 = "<div><a ng-click='popopen7()'><br><h1>(N7)ท่าราชินี</h1></a></div>";
         var compiled7 = $compile(infoText7)($scope);
         var infowindow7 = new google.maps.InfoWindow({
           content: compiled7[0]
@@ -164,7 +164,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point8"
         })
-        var infoText8 = "<div><a ng-click='popopen8()'><br><h1>ท่าเตียน</h1></a></div>";
+        var infoText8 = "<div><a ng-click='popopen8()'><br><h1>(N8)ท่าเตียน</h1></a></div>";
         var compiled8 = $compile(infoText8)($scope);
         var infowindow8 = new google.maps.InfoWindow({
           content: compiled8[0]
@@ -181,7 +181,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point9"
         })
-        var infoText9 = "<div><a ng-click='popopen9()'><br><h1>ท่าช้าง</h1></a></div>";
+        var infoText9 = "<div><a ng-click='popopen9()'><br><h1>(N9)ท่าช้าง</h1></a></div>";
         var compiled9 = $compile(infoText9)($scope);
         var infowindow9 = new google.maps.InfoWindow({
           content: compiled9[0]
@@ -198,7 +198,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point9s"
         })
-        var infoText9s = "<div><a ng-click='popopen9s()'><br><h1>ท่ามหาราช</h1></a></div>";
+        var infoText9s = "<div><a ng-click='popopen9s()'><br><h1>(N9s)ท่ามหาราช</h1></a></div>";
         var compiled9s = $compile(infoText9s)($scope);
         var infowindow9s = new google.maps.InfoWindow({
           content: compiled9s[0]
@@ -215,7 +215,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point10"
         })
-        var infoText10 = "<div><a ng-click='popopen10()'><br><h1>ท่าวังหลัง(พรานนก)</h1></a></div>";
+        var infoText10 = "<div><a ng-click='popopen10()'><br><h1>(N10)ท่าวังหลัง(พรานนก)</h1></a></div>";
         var compiled10 = $compile(infoText10)($scope);
         var infowindow10 = new google.maps.InfoWindow({
           content: compiled10[0]
@@ -232,7 +232,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point11"
         })
-        var infoText11 = "<div><a ng-click='popopen11()'><br><h1>ท่ารถไฟ</h1></a></div>";
+        var infoText11 = "<div><a ng-click='popopen11()'><br><h1>(N11)ท่ารถไฟ</h1></a></div>";
         var compiled11 = $compile(infoText11)($scope);
         var infowindow11 = new google.maps.InfoWindow({
           content: compiled11[0]
@@ -249,7 +249,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point12"
         })
-        var infoText12 = "<div><a ng-click='popopen12()'><br><h1>ท่าปิ่นเกล้า</h1></a></div>";
+        var infoText12 = "<div><a ng-click='popopen12()'><br><h1>(N12)ท่าปิ่นเกล้า</h1></a></div>";
         var compiled12 = $compile(infoText12)($scope);
         var infowindow12 = new google.maps.InfoWindow({
           content: compiled12[0]
@@ -266,7 +266,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point13"
         })
-        var infoText13 = "<div><a ng-click='popopen13()'><br><h1>ท่าพระอาทิตย์</h1></a></div>";
+        var infoText13 = "<div><a ng-click='popopen13()'><br><h1>(N13)ท่าพระอาทิตย์</h1></a></div>";
         var compiled13 = $compile(infoText13)($scope);
         var infowindow13 = new google.maps.InfoWindow({
           content: compiled13[0]
@@ -283,7 +283,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point14"
         })
-        var infoText14 = "<div><a ng-click='popopen14()'><br><h1>ท่าพระราม 8</h1></a></div>";
+        var infoText14 = "<div><a ng-click='popopen14()'><br><h1>(N14)ท่าพระราม 8</h1></a></div>";
         var compiled14 = $compile(infoText14)($scope);
         var infowindow14 = new google.maps.InfoWindow({
           content: compiled14[0]
@@ -300,7 +300,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point15"
         })
-        var infoText15 = "<div><a ng-click='popopen15()'><br><h1>ท่าเทเวศร์</h1></a></div>";
+        var infoText15 = "<div><a ng-click='popopen15()'><br><h1>(N15)ท่าเทเวศร์</h1></a></div>";
         var compiled15 = $compile(infoText15)($scope);
         var infowindow15 = new google.maps.InfoWindow({
           content: compiled15[0]
@@ -317,7 +317,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point16"
         })
-        var infoText16 = "<div><a ng-click='popopen16()'><br><h1>ท่าสะพานกรุงธน (ซังฮี้)</h1></a></div>";
+        var infoText16 = "<div><a ng-click='popopen16()'><br><h1>(N16)ท่าสะพานกรุงธน (ซังฮี้)</h1></a></div>";
         var compiled16 = $compile(infoText16)($scope);
         var infowindow16 = new google.maps.InfoWindow({
           content: compiled16[0]
@@ -334,7 +334,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point17"
         })
-        var infoText17 = "<div><a ng-click='popopen17()'><br><h1>ท่าวัดเทพนารี</h1></a></div>";
+        var infoText17 = "<div><a ng-click='popopen17()'><br><h1>(N17)ท่าวัดเทพนารี</h1></a></div>";
         var compiled17 = $compile(infoText17)($scope);
         var infowindow17 = new google.maps.InfoWindow({
           content: compiled17[0]
@@ -351,7 +351,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point17s"
         })
-        var infoText17s = "<div><a ng-click='popopen17s()'><br><h1>ท่าวัดเทพากร</h1></a></div>";
+        var infoText17s = "<div><a ng-click='popopen17s()'><br><h1>(N17s)ท่าวัดเทพากร</h1></a></div>";
         var compiled17s = $compile(infoText17s)($scope);
         var infowindow17s = new google.maps.InfoWindow({
           content: compiled17s[0]
@@ -368,7 +368,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point18"
         })
-        var infoText18 = "<div><a ng-click='popopen18()'><br><h1>ท่าพายัพ</h1></a></div>";
+        var infoText18 = "<div><a ng-click='popopen18()'><br><h1>(N18)ท่าพายัพ</h1></a></div>";
         var compiled18 = $compile(infoText18)($scope);
         var infowindow18 = new google.maps.InfoWindow({
           content: compiled18[0]
@@ -385,7 +385,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point19"
         })
-        var infoText19 = "<div><a ng-click='popopen19()'><br><h1>ท่ากรมชลประทาน</h1></a></div>";
+        var infoText19 = "<div><a ng-click='popopen19()'><br><h1>(N19)ท่ากรมชลประทาน</h1></a></div>";
         var compiled19 = $compile(infoText19)($scope);
         var infowindow19 = new google.maps.InfoWindow({
           content: compiled19[0]
@@ -402,7 +402,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point20"
         })
-        var infoText20 = "<div><a ng-click='popopen20()'><br><h1>ท่าเขียวไข่กา</h1></a></div>";
+        var infoText20 = "<div><a ng-click='popopen20()'><br><h1>(N20)ท่าเขียวไข่กา</h1></a></div>";
         var compiled20 = $compile(infoText20)($scope);
         var infowindow20 = new google.maps.InfoWindow({
           content: compiled20[0]
@@ -419,7 +419,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point21"
         })
-        var infoText21 = "<div><a ng-click='popopen21()'><br><h1>ท่าเกียกกาย</h1></a></div>";
+        var infoText21 = "<div><a ng-click='popopen21()'><br><h1>(N21)ท่าเกียกกาย</h1></a></div>";
         var compiled21 = $compile(infoText21)($scope);
         var infowindow21 = new google.maps.InfoWindow({
           content: compiled21[0]
@@ -436,7 +436,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point22"
         })
-        var infoText22 = "<div><a ng-click='popopen22()'><br><h1>ท่าบางโพ</h1></a></div>";
+        var infoText22 = "<div><a ng-click='popopen22()'><br><h1>(N22)ท่าบางโพ</h1></a></div>";
         var compiled22 = $compile(infoText22)($scope);
         var infowindow22 = new google.maps.InfoWindow({
           content: compiled22[0]
@@ -453,7 +453,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point23"
         })
-        var infoText23 = "<div><a ng-click='popopen23()'><br><h1>ท่าวัดสร้อยทอง</h1></a></div>";
+        var infoText23 = "<div><a ng-click='popopen23()'><br><h1>(N23)ท่าวัดสร้อยทอง</h1></a></div>";
         var compiled23 = $compile(infoText23)($scope);
         var infowindow23 = new google.maps.InfoWindow({
           content: compiled23[0]
@@ -470,7 +470,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point24"
         })
-        var infoText24 = "<div><a ng-click='popopen24()'><br><h1>ท่าพระราม 7</h1></a></div>";
+        var infoText24 = "<div><a ng-click='popopen24()'><br><h1>(N24)ท่าพระราม 7</h1></a></div>";
         var compiled24 = $compile(infoText24)($scope);
         var infowindow24 = new google.maps.InfoWindow({
           content: compiled24[0]
@@ -487,7 +487,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point25"
         })
-        var infoText25 = "<div><a ng-click='popopen25()'><br><h1>ท่าพิบูลย์สงคราม 1</h1></a></div>";
+        var infoText25 = "<div><a ng-click='popopen25()'><br><h1>(N25)ท่าพิบูลย์สงคราม 1</h1></a></div>";
         var compiled25 = $compile(infoText25)($scope);
         var infowindow25 = new google.maps.InfoWindow({
           content: compiled25[0]
@@ -504,7 +504,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point26"
         })
-        var infoText26 = "<div><a ng-click='popopen26()'><br><h1>ท่าวัดเขมา</h1></a></div>";
+        var infoText26 = "<div><a ng-click='popopen26()'><br><h1>(N26)ท่าวัดเขมา</h1></a></div>";
         var compiled26 = $compile(infoText26)($scope);
         var infowindow26 = new google.maps.InfoWindow({
           content: compiled26[0]
@@ -521,7 +521,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point27"
         })
-        var infoText27 = "<div><a ng-click='popopen27()'><br><h1>ท่าวัดตึก</h1></a></div>";
+        var infoText27 = "<div><a ng-click='popopen27()'><br><h1>(N27)ท่าวัดตึก</h1></a></div>";
         var compiled27 = $compile(infoText27)($scope);
         var infowindow27 = new google.maps.InfoWindow({
           content: compiled27[0]
@@ -538,7 +538,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point28"
         })
-        var infoText28 = "<div><a ng-click='popopen28()'><br><h1>ท่าเขียน</h1></a></div>";
+        var infoText28 = "<div><a ng-click='popopen28()'><br><h1>(N28)ท่าเขียน</h1></a></div>";
         var compiled28 = $compile(infoText28)($scope);
         var infowindow28 = new google.maps.InfoWindow({
           content: compiled28[0]
@@ -555,7 +555,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point29"
         })
-        var infoText29 = "<div><a ng-click='popopen29()'><br><h1>ท่าพิบูลย์สงคราม 2</h1></a></div>";
+        var infoText29 = "<div><a ng-click='popopen29()'><br><h1>(N29)ท่าพิบูลย์สงคราม 2</h1></a></div>";
         var compiled29 = $compile(infoText29)($scope);
         var infowindow29 = new google.maps.InfoWindow({
           content: compiled29[0]
@@ -573,7 +573,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point29s"
         })
-        var infoText29s = "<div><a ng-click='popopen29s()'><br><h1>ท่าพระราม 5</h1></a></div>";
+        var infoText29s = "<div><a ng-click='popopen29s()'><br><h1>(N29s)ท่าพระราม 5</h1></a></div>";
         var compiled29s = $compile(infoText29s)($scope);
         var infowindow29s = new google.maps.InfoWindow({
           content: compiled29s[0]
@@ -591,7 +591,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point30"
         })
-        var infoText30 = "<div><a ng-click='popopen30()'><br><h1>ท่านนทบุรี (พิบูลย์สงคราม 3)</h1></a></div>";
+        var infoText30 = "<div><a ng-click='popopen30()'><br><h1>(N30)ท่านนทบุรี (พิบูลย์สงคราม 3)</h1></a></div>";
         var compiled30 = $compile(infoText30)($scope);
         var infowindow30 = new google.maps.InfoWindow({
           content: compiled30[0]
@@ -609,7 +609,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point31"
         })
-        var infoText31 = "<div><a ng-click='popopen31()'><br><h1>ท่ากระทรวงพาณิชย์</h1></a></div>";
+        var infoText31 = "<div><a ng-click='popopen31()'><br><h1>(N31)ท่ากระทรวงพาณิชย์</h1></a></div>";
         var compiled31 = $compile(infoText31)($scope);
         var infowindow31 = new google.maps.InfoWindow({
           content: compiled31[0]
@@ -626,7 +626,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point32"
         })
-        var infoText32 = "<div><a ng-click='popopen32()'><br><h1>ท่าวัดกลางเกร็ด</h1></a></div>";
+        var infoText32 = "<div><a ng-click='popopen32()'><br><h1>(N32)ท่าวัดกลางเกร็ด</h1></a></div>";
         var compiled32 = $compile(infoText32)($scope);
         var infowindow32 = new google.maps.InfoWindow({
           content: compiled32[0]
@@ -643,7 +643,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"point33"
         })
-        var infoText33 = "<div><a ng-click='popopen33()' ><br><h1>ท่าปากเกร็ด</h1></a></div>";
+        var infoText33 = "<div><a ng-click='popopen33()' ><br><h1>(N33)ท่าปากเกร็ด</h1></a></div>";
         var compiled33 = $compile(infoText33)($scope);
         var infowindow33 = new google.maps.InfoWindow({
           content: compiled33[0]
@@ -660,7 +660,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"pointT1"
         })
-        var infoTextT1 = "<div><a ng-click='popopenT1()'><br><h1>ท่าวัดเศวตฉัตร</h1></a></div>";
+        var infoTextT1 = "<div><a ng-click='popopenT1()'><br><h1>(S1)ท่าวัดเศวตฉัตร</h1></a></div>";
         var compiledT1 = $compile(infoTextT1)($scope);
         var infowindowT1 = new google.maps.InfoWindow({
           content: compiledT1[0]
@@ -677,7 +677,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"pointT2"
         })
-        var infoTextT2 = "<div><a ng-click='popopenT2()'><br><h1>ท่าวัดวธจรรยาวาส</h1></a></div>";
+        var infoTextT2 = "<div><a ng-click='popopenT2()'><br><h1>(S2)ท่าวัดวธจรรยาวาส</h1></a></div>";
         var compiledT2 = $compile(infoTextT2)($scope);
         var infowindowT2 = new google.maps.InfoWindow({
           content: compiledT2[0]
@@ -694,7 +694,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"pointT3"
         })
-        var infoTextT3 = "<div><a ng-click='popopenT3()'><br><h1>ท่าวัดราชสิงขร</h1></a></div>";
+        var infoTextT3 = "<div><a ng-click='popopenT3()'><br><h1>(S3)ท่าวัดราชสิงขร</h1></a></div>";
         var compiledT3 = $compile(infoTextT3)($scope);
         var infowindowT3 = new google.maps.InfoWindow({
           content: compiledT3[0]
@@ -711,7 +711,7 @@ angular.module('starter.map', [])
           icon: img,
           title:"pointT4"
         })
-        var infoTextT4 = "<div><a ng-click='popopenT4()'><br><h1>ท่าราษฎร์บูรณะ (บิ๊กซี)</h1></a></div>";
+        var infoTextT4 = "<div><a ng-click='popopenT4()'><br><h1>(S4)ท่าราษฎร์บูรณะ (บิ๊กซี)</h1></a></div>";
         var compiledT4 = $compile(infoTextT4)($scope);
         var infowindowT4 = new google.maps.InfoWindow({
           content: compiledT4[0]
@@ -1463,11 +1463,6 @@ angular.module('starter.map', [])
       //  $scope.pop3.remove();
       //
       //});
-
-
-      $scope.clickTest = function() {
-        alert('วัดพระแก้ว')
-      };
 
      
      

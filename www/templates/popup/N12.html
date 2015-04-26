@@ -1,12 +1,95 @@
 <ion-modal-view>
   <ion-header-bar>
-    <h1 class="title">ท่าปิ่นเกล้า</h1>
+    <h1 class="title">{{"Phrapinklaobridge" | translate}}</h1>
     <div class="buttons">
       <button class="button button-clear" ng-click="popclose12()">Close</button>
     </div>
-   
   </ion-header-bar>
-  <ion-content>
-    
+  <head>
+	<style type="text/css">
+
+		section#description12 { 
+			background-color: #00c0e4; 
+			margin-top: 0px;
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+		section#nearbyplaces12 { 
+			background-color: #eac14d; 
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+		section#transportation12 { 
+			background-color: #e6567a; 
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+
+		section h2 {
+		  color: white;
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: 300;
+		  font-size: 2.5em;
+		  margin: 0px;
+		}
+
+		section .illustration1 {
+		  width: 100%;
+		  height: 240px;
+		  background: url("img/pier/N12/N12_1.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section p {
+		  color: white;
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: 300;
+		  font-size: 1em; 
+		}
+		
+	</style>
+	</head> 
+
+
+<ion-content delegate-handle="content">
+
+<section id="description12">
+  <h2 class="ion-chevron-down" ng-click="scrollMe('nearbyplaces12')">{{"Description" | translate}}</h2>
+  <div class="illustration1"></div>
+  <br/>
+  <p>{{"Phrapinklaobridge_desc" | translate}}<br/><br/>
+
+</p>
+</section>
+<section id="nearbyplaces12">
+  <h2 class="ion-chevron-down" ng-click="scrollMe('transportation12')">{{"Nearby_Places" | translate}}</h2>
+  <div class="illustration2"></div>
+  <p> 
+  	<br/>
+  	{{"Phrapinklaobridge_place1" | translate}}<br/>
+  </p>
+   <div class="illustration3"></div>
+</section>
+
+<section id="transportation12">
+  <h2 class="ion-chevron-up" ng-click="scrollMe('description12')">{{"Transportation" | translate}}</h2>
+  <p>
+  	<br/>
+  	{{"Phrapinklaobridge_connectivity1" | translate}}<br/>
+  	{{"Phrapinklaobridge_connectivity2" | translate}}<br/>
+  	{{"Phrapinklaobridge_connectivity3" | translate}}<br/>
+  	{{"Phrapinklaobridge_connectivity4" | translate}}<br/>
+  </p>
+</section>
+
   </ion-content>
 </ion-modal-view>

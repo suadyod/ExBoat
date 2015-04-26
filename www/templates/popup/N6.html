@@ -1,12 +1,123 @@
 <ion-modal-view>
   <ion-header-bar>
-    <h1 class="title">สะพานพุทธ</h1>
+    <h1 class="title">{{"Memorialbridge" | translate}}</h1>
     <div class="buttons">
       <button class="button button-clear" ng-click="popclose6()">Close</button>
     </div>
-   
   </ion-header-bar>
-  <ion-content>
-    
+  <head>
+	<style type="text/css">
+
+		section#description6 { 
+			background-color: #00c0e4; 
+			margin-top: 0px;
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+		section#nearbyplaces6 { 
+			background-color: #eac14d; 
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+		section#transportation6 { 
+			background-color: #e6567a; 
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+
+		section h2 {
+		  color: white;
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: 300;
+		  font-size: 2.5em;
+		  margin: 0px;
+		}
+
+		section .illustration1 {
+		  width: 100%;
+		  height: 240px;
+		  background: url("img/pier/N6/N6_1.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration2 {
+		  width: 100%;
+		  height: 300px;
+		  background: url("img/pier/N6/N6_2.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration3 {
+		  width: 100%;
+		  height: 300px;
+		  background: url("img/pier/N6/N6_3.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration4 {
+		  width: 100%;
+		  height: 300px;
+		  background: url("img/pier/N6/N6_4.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section p {
+		  color: white;
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: 300;
+		  font-size: 1em; 
+		}
+		
+	</style>
+	</head> 
+
+
+<ion-content delegate-handle="content">
+
+<section id="description6">
+  <h2 class="ion-chevron-down" ng-click="scrollMe('nearbyplaces6')">{{"Description" | translate}}</h2>
+  <div class="illustration1"></div>
+  <br/>
+  <p>{{"Memorialbridge_desc" | translate}}<br/><br/>
+
+</p>
+</section>
+<section id="nearbyplaces6">
+  <h2 class="ion-chevron-down" ng-click="scrollMe('transportation6')">{{"Nearby_Places" | translate}}</h2>
+  <div class="illustration2"></div>
+  <p> 
+  	<br/>
+  	{{"Memorialbridge_place1" | translate}}<br/>
+  	{{"Memorialbridge_place2" | translate}}<br/>
+  	{{"Memorialbridge_place3" | translate}}<br/>
+  	{{"Memorialbridge_place4" | translate}}<br/>
+  	{{"Memorialbridge_place5" | translate}}<br/>
+  	{{"Memorialbridge_place6" | translate}}<br/>
+  	{{"Memorialbridge_place7" | translate}}<br/>
+  </p>
+   <div class="illustration3"></div>
+</section>
+
+<section id="transportation6">
+  <h2 class="ion-chevron-up" ng-click="scrollMe('description6')">{{"Transportation" | translate}}</h2>
+  <div class="illustration4"></div>
+ </br>
+  <p>
+  	<br/>
+  	{{"Memorialbridge_connectivity1" | translate}}<br/>
+  	{{"Memorialbridge_connectivity2" | translate}}<br/>
+  	{{"Memorialbridge_connectivity3" | translate}}<br/>
+  </p>
+</section>
+
   </ion-content>
 </ion-modal-view>

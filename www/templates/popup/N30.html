@@ -1,12 +1,114 @@
 <ion-modal-view>
   <ion-header-bar>
-    <h1 class="title">ท่านนทบุรี (พิบูลย์สงคราม 3)</h1>
+    <h1 class="title">{{"Nonthaburi_Pibul3" | translate}}</h1>
     <div class="buttons">
       <button class="button button-clear" ng-click="popclose30()">Close</button>
     </div>
-   
   </ion-header-bar>
-  <ion-content>
-    
+  <head>
+	<style type="text/css">
+
+		section#description30 { 
+			background-color: #00c0e4; 
+			margin-top: 0px;
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+		section#nearbyplaces30 { 
+			background-color: #eac14d; 
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+		section#transportation30 { 
+			background-color: #e6567a; 
+			width: 100%;
+		  	height: 800px;
+		  	box-sizing: border-box;
+		  	padding: 20px;
+		  	overflow: hidden;
+		}
+
+		section h2 {
+		  color: white;
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: 300;
+		  font-size: 2.5em;
+		  margin: 0px;
+		}
+
+		section .illustration1 {
+		  width: 100%;
+		  height: 240px;
+		  background: url("img/pier/N30/N30_1.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration2 {
+		  width: 100%;
+		  height: 300px;
+		  background: url("img/pier/N30/N30_2.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section .illustration3 {
+		  width: 100%;
+		  height: 300px;
+		  background: url("img/pier/N30/N30_3.jpg") no-repeat top center;
+		  margin-top: 15px;
+		}
+
+		section p {
+		  color: white;
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: 300;
+		  font-size: 1em; 
+		}
+		
+	</style>
+	</head> 
+
+
+<ion-content delegate-handle="content">
+
+<section id="description30">
+  <h2 class="ion-chevron-down" ng-click="scrollMe('nearbyplaces30')">{{"Description" | translate}}</h2>
+  <div class="illustration1"></div>
+  <br/>
+  <p>{{"Nonthaburi_Pibul3_desc" | translate}}<br/><br/>
+
+</p>
+</section>
+<section id="nearbyplaces30">
+  <h2 class="ion-chevron-down" ng-click="scrollMe('transportation30')">{{"Nearby_Places" | translate}}</h2>
+  <div class="illustration2"></div>
+  <p> 
+  	<br/>
+  	{{"Nonthaburi_Pibul3_place1" | translate}}<br/>
+  	{{"Nonthaburi_Pibul3_place2" | translate}}<br/>
+  	{{"Nonthaburi_Pibul3_place3" | translate}}<br/>
+  	{{"Nonthaburi_Pibul3_place4" | translate}}<br/>
+  	{{"Nonthaburi_Pibul3_place5" | translate}}<br/>
+  	{{"Nonthaburi_Pibul3_place6" | translate}}<br/>
+  </p>
+   <div class="illustration3"></div>
+</section>
+
+<section id="transportation30">
+  <h2 class="ion-chevron-up" ng-click="scrollMe('description30')">{{"Transportation" | translate}}</h2>
+  <p>
+  	<br/>
+  	{{"Nonthaburi_Pibul3_connectivity1" | translate}}<br/>
+  	{{"Nonthaburi_Pibul3_connectivity2" | translate}}<br/>
+  	{{"Nonthaburi_Pibul3_connectivity3" | translate}}<br/>
+  	{{"Nonthaburi_Pibul3_connectivity4" | translate}}<br/>
+  </p>
+</section>
+
   </ion-content>
 </ion-modal-view>
