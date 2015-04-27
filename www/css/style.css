@@ -9,3 +9,7 @@
 }
 
 
+@font-face {
+    font-family: 'thaisans_neueregular';
+ src: url('../font/thaisansneue-regular-webfont.eot');src: url('../font/thaisansneue-regular-webfont.eot?#iefix') format('embedded-opentype'),url('../font/thaisansneue-regular-webfont.woff') format('woff'),url('../font/thaisansneue-regular-webfont.ttf') format('truetype'),url('../font/thaisansneue-regular-webfont.svg#thaisans_neueregular') format('svg');font-weight: normal;font-style: normal;
+}

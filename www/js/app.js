@@ -101,16 +101,6 @@ angular.module('starter', ['ionic', 'starter.controllers' ,'starter.map','ngCord
     }
   })
 
-  .state('app.ads', {
-    url: "/ads",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/ads.html",
-        controller: 'AdsCtrl'
-      }
-    }
-  })
-
 
   .state('app.map_point', {
       url: "/map_point",

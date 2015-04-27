@@ -7,8 +7,8 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 
-body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+body,h1,h2,button {
+    font-family: 'thaisans_neueregular', Calibri, Arial, sans-serif;
 }
 
 a {

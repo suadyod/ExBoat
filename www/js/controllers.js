@@ -1,3 +1,4 @@
+
 angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.translate'])
 
 //config language of application
@@ -33,6 +34,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Yellow_flag: "Yellow Flag",
             Open_Noti: "Open Notification Service",
             Is_Scheduled: "Is Scheduled",
+            Code: "Code",
+            Pier: "Pier",
+            Service: "Service",
+            Route: "Route",
+            Out_time: "Time",
+            M_F: "Mon-Fri",
+            E: "Every day",
+            S_S_N: "Sat.Sun.Nah.",
             History_0: "The Chao Phraya River",
             History_1_1: "The Chao Phraya (Thai: แม่น้ำเจ้าพระยา) is a major river in Thailand, with its low alluvial river plain marking the mainland of the country.",
             History_1_2: " The Chao Phraya runs from north to south for 372 km from the central plains to Bangkok and the Gulf of Thailand. However in Chainat the river splits into the main river course and the Tha Chin river, which then flows parallel to the main river and exits to Gulf of Thailand the about 35 km west of Bangkok in Samut Sakhon. In the low alluvial plain which begins below the Chainat dam many small canals (khlong) split off from the main river, used for the irrigation of the rice paddies.",
@@ -161,7 +170,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Bangpo_connectivity3: "Taxi",
 
 
-            Kjakkai: "Kjak Kai",
+            Kjakkai: "Kiak Kai",
             Kjakkai_desc: "Located at the back of the new Thai Parliament and Wat Keao Fa. In the area have many military base and the pier is connected to the Samsen road.",
             Kiakkai_place1: "New Thai Parliarment",
             Kiakkai_place2: "Wat Keao Fa temple",
@@ -491,6 +500,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Yellow_flag: "เรือด่วนธงเหลือง",
             Open_Noti: "เปิดใช้งานแจ้งเตือน",
             Is_Scheduled: "เช็คการแจ้งเตือน",
+            Code: "รหัส",
+            Pier: "ท่าเรือ",
+            Service: "บริการ",
+            Route: "เส้นทาง",
+            Out_time: "เวลา",
+            M_F: "จ. - ศ.",
+            E: "ทุกวัน",
+            S_S_N: "ส.อา.นข.",
             History_0: "แม่น้ำเจ้าพระยา",
             History_1_1: "เจ้าพระยา เป็นชื่อแม่น้ำที่สำคัญ โดยแม่น้ำเจ้าพระยาเกิดจากการรวมตัวของแม่น้ำหลักสีสาย ได้แก่ แม่น้ำปิง แม่น้ำวัง แม่น้ำยม และแม่น้ำน่าน ไหลมาบรรจบกันที่ตำบลปากน้ำโพ ด้านหน้าเขื่อนในตัวเมือง จ.นครสวรรค์ มีความยาวประมาณ 372 กิโลเมตร เมื่อไหลมาบรรจบกันแล้วจึงค่อย ๆ รวมตัวกันกลายเป็นแม่น้ำสายใหญ่ที่สำคัญของประเทศ ไหลผ่านจังหวัดต่าง ๆ ในภาคกลาง เรื่อยมาจนถึงกรุงเทพมหานคร และลงสู่ทะเลอ่าวไทยที่ อ.ปากน้ำ จังหวัดสมุทรปราการ",
             History_1_2: "แม่น้ำเจ้าพระยา ถือเป็นแหล่งท่องเที่ยวที่น่าสนใจในกรุงเทพมหานคร ในปัจจุบัน การท่องเที่ยวแม่น้ำเจ้าพระยาด้วยเรือท่องเที่ยว เป็นที่นิยมมาก นอกจากจะได้ชมทัศนียภาพ และชีวิตความเป็นอยู่ของประชาชนริมสองฝั่งแม่น้ำเจ้าพระยาแล้ว ยังเป็นการย้อนให้เห็นถึงประวัติศาสตร์ต่าง ๆ บนสายน้ำเจ้าพระยาแห่งนี้ จึงไม่น่าแปลกใจที่จะมีบริษัทนำเที่ยว บริษัททัวร์ต่าง ๆ มากมาย ทำธุรกิจเกี่ยวกับการล่องเรือชมแม่น้ำเจ้าพระยา รวมถึงธุรกิจร้านอาหาร และโรงแรมที่พักแถวบริเวณแม่น้ำเจ้าพระยา",
@@ -792,7 +809,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Rajinee_connectivity4: "แท็กซี่",
 
             Memorialbridge: "ท่าสะพานพุทธ",
-            Memorialbridge_desc: " ",
+            Memorialbridge_desc: "ตั้งอยู่บริเวณระหว่างสะพานพระพุทธยอดฟ้า กับสะพานพระปกเกล้า ด้านหลังเป็นสวนหย่อมเชิงสะพานพุทธยอดฟ้า (ลาน ร.1)",
             Memorialbridge_place1: "สะพานพระพุทธยอดฟ้า",
             Memorialbridge_place2: "สะพานพระปกเกล้า",
             Memorialbridge_place3: "สวนหย่อมเชิงสะพานพุทธยอดฟ้า",
@@ -1057,91 +1074,91 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
     //list of beginng pier
   $scope.Blist = [
-    {id: 1, title: '(N33)ท่าปากเกร็ด', value: "n33"},
-    {id: 2, title: '(N32)ท่าวัดกลางเกร็ด', value: "n32"},
-    {id: 3, title: '(N31)ท่ากระทรวงพาณิชย์', value: "n31"},
-    {id: 4, title: '(N30)ท่านนทบุรี (พิบูลย์สงคราม 3)', value: "n30"},
-    {id: 5, title: '(N29s)ท่าพระราม 5', value: "n29s"},
-    {id: 6, title: '(N29)ท่าพิบูลย์สงคราม 2', value: "n29"},
-    {id: 7, title: '(N28)ท่าวัดเขียน', value: "n28"},
-    {id: 8, title: '(N27)ท่าวัดตึก', value: "n27"},
-    {id: 9, title: '(N26)ท่าวัดเขมา', value: "n26"},
-    {id: 10, title: '(N25)ท่าพิบูลย์สงคราม 1', value: "n25"},
-    {id: 11, title: '(N24)ท่าพระราม 7', value: "n24"},
-    {id: 12, title: '(N23)ท่าวัดสร้อยทอง', value: "n23"},
-    {id: 13, title: '(N22)ท่าบางโพ', value: "n22"},
-    {id: 14, title: '(N21)ท่าเกียกกาย', value: "n21"},
-    {id: 15, title: '(N20)ท่าเขียวไก่กา', value: "n20"},
-    {id: 16, title: '(N19)ท่ากรมชลประทาน', value: "n19"},
-    {id: 17, title: '(N18)ท่าพายัพ', value: "n18"},
-    {id: 18, title: '(N17s)ท่าวัดเทพากร', value: "n17s"},
-    {id: 19, title: '(N17)ท่าวัดเทพนารี', value: "n17"},
-    {id: 20, title: '(N16)ท่าสะพานกรุงธน (ซังฮี้)', value: "n16"},
-    {id: 21, title: '(N15)ท่าเทเวศร์', value: "n15"},
-    {id: 22, title: '(N14)ท่าพระราม 8', value: "n14"},
-    {id: 23, title: '(N13)ท่าพระอาทิตย์', value: "n13"},
-    {id: 24, title: '(N12)ท่าพระปิ่นเกล้า', value: "n12"},
-    {id: 25, title: '(N11)ท่ารถไฟ', value: "n11"},
-    {id: 26, title: '(N10)ท่าวังหลัง (พรานนก)', value: "n10"},
-    {id: 27, title: '(N9s)ท่ามหาราช', value: "n9s"},
-    {id: 28, title: '(N9)ท่าช้าง', value: "n9"},
-    {id: 29, title: '(N8)ท่าเตียน', value: "n8"},
-    {id: 30, title: '(N7)ท่าราชินี', value: "n7"},
-    {id: 31, title: '(N6)ท่าสะพานพุทธ', value: "n6"},
-    {id: 32, title: '(N5)ท่าราชวงศ์', value: "n5"},
-    {id: 33, title: '(N4)ท่ากรมเจ้าท่า', value: "n4"},
-    {id: 34, title: '(N3)ท่าสี่พระยา', value: "n3"},
-    {id: 35, title: '(N2)ท่าวัดม่วงแค', value: "n2"},
-    {id: 36, title: '(N1)ท่าโอเรียนเท็ล', value: "n1"},
-    {id: 37, title: '(CENTRAL)ท่าสาทร (ตากสิน)', value: "n0"},
-    {id: 38, title: '(S1)ท่าวัดเศวตฉัตร', value: "t1"},
-    {id: 39, title: '(S2)ท่าวัดวธจรรยาวาส', value: "t2"},
-    {id: 40, title: '(S3)ท่าวัดราชสิงขร', value: "t3"},
-    {id: 41, title: '(S4)ท่าราษฎร์บูรณะ (บิ๊กซี)', value: "t4"}
+    {id: 1, title: '(N33)ท่าปากเกร็ด', value: "N33"},
+    {id: 2, title: '(N32)ท่าวัดกลางเกร็ด', value: "N32"},
+    {id: 3, title: '(N31)ท่ากระทรวงพาณิชย์', value: "N31"},
+    {id: 4, title: '(N30)ท่านนทบุรี (พิบูลย์สงคราม 3)', value: "N30"},
+    {id: 5, title: '(N29s)ท่าพระราม 5', value: "N29s"},
+    {id: 6, title: '(N29)ท่าพิบูลย์สงคราม 2', value: "N29"},
+    {id: 7, title: '(N28)ท่าวัดเขียน', value: "N28"},
+    {id: 8, title: '(N27)ท่าวัดตึก', value: "N27"},
+    {id: 9, title: '(N26)ท่าวัดเขมา', value: "N26"},
+    {id: 10, title: '(N25)ท่าพิบูลย์สงคราม 1', value: "N25"},
+    {id: 11, title: '(N24)ท่าพระราม 7', value: "N24"},
+    {id: 12, title: '(N23)ท่าวัดสร้อยทอง', value: "N23"},
+    {id: 13, title: '(N22)ท่าบางโพ', value: "N22"},
+    {id: 14, title: '(N21)ท่าเกียกกาย', value: "N21"},
+    {id: 15, title: '(N20)ท่าเขียวไก่กา', value: "N20"},
+    {id: 16, title: '(N19)ท่ากรมชลประทาน', value: "N19"},
+    {id: 17, title: '(N18)ท่าพายัพ', value: "N18"},
+    {id: 18, title: '(N17s)ท่าวัดเทพากร', value: "N17s"},
+    {id: 19, title: '(N17)ท่าวัดเทพนารี', value: "N17"},
+    {id: 20, title: '(N16)ท่าสะพานกรุงธน (ซังฮี้)', value: "N16"},
+    {id: 21, title: '(N15)ท่าเทเวศร์', value: "N15"},
+    {id: 22, title: '(N14)ท่าพระราม 8', value: "N14"},
+    {id: 23, title: '(N13)ท่าพระอาทิตย์', value: "N13"},
+    {id: 24, title: '(N12)ท่าพระปิ่นเกล้า', value: "N12"},
+    {id: 25, title: '(N11)ท่ารถไฟ', value: "N11"},
+    {id: 26, title: '(N10)ท่าวังหลัง (พรานนก)', value: "N10"},
+    {id: 27, title: '(N9s)ท่ามหาราช', value: "N9s"},
+    {id: 28, title: '(N9)ท่าช้าง', value: "N9"},
+    {id: 29, title: '(N8)ท่าเตียน', value: "N8"},
+    {id: 30, title: '(N7)ท่าราชินี', value: "N7"},
+    {id: 31, title: '(N6)ท่าสะพานพุทธ', value: "N6"},
+    {id: 32, title: '(N5)ท่าราชวงศ์', value: "N5"},
+    {id: 33, title: '(N4)ท่ากรมเจ้าท่า', value: "N4"},
+    {id: 34, title: '(N3)ท่าสี่พระยา', value: "N3"},
+    {id: 35, title: '(N2)ท่าวัดม่วงแค', value: "N2"},
+    {id: 36, title: '(N1)ท่าโอเรียนเท็ล', value: "N1"},
+    {id: 37, title: '(CENTRAL)ท่าสาทร (ตากสิน)', value: "CENTRAL"},
+    {id: 38, title: '(S1)ท่าวัดเศวตฉัตร', value: "S1"},
+    {id: 39, title: '(S2)ท่าวัดวธจรรยาวาส', value: "S2"},
+    {id: 40, title: '(S3)ท่าวัดราชสิงขร', value: "S3"},
+    {id: 41, title: '(S4)ท่าราษฎร์บูรณะ (บิ๊กซี)', value: "S4"}
   ];
     //list of destination pier
   $scope.Dlist = [
-    {id: 1, title: '(N33)ท่าปากเกร็ด', value: "n33"},
-    {id: 2, title: '(N32)ท่าวัดกลางเกร็ด', value: "n32"},
-    {id: 3, title: '(N31)ท่ากระทรวงพาณิชย์', value: "n31"},
-    {id: 4, title: '(N30)ท่านนทบุรี (พิบูลย์สงคราม 3)', value: "n30"},
-    {id: 5, title: '(N29s)ท่าพระราม 5', value: "n29s"},
-    {id: 6, title: '(N29)ท่าพิบูลย์สงคราม 2', value: "n29"},
-    {id: 7, title: '(N28)ท่าวัดเขียน', value: "n28"},
-    {id: 8, title: '(N27)ท่าวัดตึก', value: "n27"},
-    {id: 9, title: '(N26)ท่าวัดเขมา', value: "n26"},
-    {id: 10, title: '(N25)ท่าพิบูลย์สงคราม 1', value: "n25"},
-    {id: 11, title: '(N24)ท่าพระราม 7', value: "n24"},
-    {id: 12, title: '(N23)ท่าวัดสร้อยทอง', value: "n23"},
-    {id: 13, title: '(N22)ท่าบางโพ', value: "n22"},
-    {id: 14, title: '(N21)ท่าเกียกกาย', value: "n21"},
-    {id: 15, title: '(N20)ท่าเขียวไก่กา', value: "n20"},
-    {id: 16, title: '(N19)ท่ากรมชลประทาน', value: "n19"},
-    {id: 17, title: '(N18)ท่าพายัพ', value: "n18"},
-    {id: 18, title: '(N17s)ท่าวัดเทพากร', value: "n17s"},
-    {id: 19, title: '(N17)ท่าวัดเทพนารี', value: "n17"},
-    {id: 20, title: '(N16)ท่าสะพานกรุงธน (ซังฮี้)', value: "n16"},
-    {id: 21, title: '(N15)ท่าเทเวศร์', value: "n15"},
-    {id: 22, title: '(N14)ท่าพระราม 8', value: "n14"},
-    {id: 23, title: '(N13)ท่าพระอาทิตย์', value: "n13"},
-    {id: 24, title: '(N12)ท่าพระปิ่นเกล้า', value: "n12"},
-    {id: 25, title: '(N11)ท่ารถไฟ', value: "n11"},
-    {id: 26, title: '(N10)ท่าวังหลัง (พรานนก)', value: "n10"},
-    {id: 27, title: '(N9s)ท่ามหาราช', value: "n9s"},
-    {id: 28, title: '(N9)ท่าช้าง', value: "n9"},
-    {id: 29, title: '(N8)ท่าเตียน', value: "n8"},
-    {id: 30, title: '(N7)ท่าราชินี', value: "n7"},
-    {id: 31, title: '(N6)ท่าสะพานพุทธ', value: "n6"},
-    {id: 32, title: '(N5)ท่าราชวงศ์', value: "n5"},
-    {id: 33, title: '(N4)ท่ากรมเจ้าท่า', value: "n4"},
-    {id: 34, title: '(N3)ท่าสี่พระยา', value: "n3"},
-    {id: 35, title: '(N2)ท่าวัดม่วงแค', value: "n2"},
-    {id: 36, title: '(N1)ท่าโอเรียนเท็ล', value: "n1"},
-    {id: 37, title: '(CENTRAL)ท่าสาทร (ตากสิน)', value: "n0"},
-    {id: 38, title: '(S1)ท่าวัดเศวตฉัตร', value: "t1"},
-    {id: 39, title: '(S2)ท่าวัดวธจรรยาวาส', value: "t2"},
-    {id: 40, title: '(S3)ท่าวัดราชสิงขร', value: "t3"},
-    {id: 41, title: '(S4)ท่าราษฎร์บูรณะ (บิ๊กซี)', value: "t4"}
+    {id: 1, title: '(N33)ท่าปากเกร็ด', value: "N33"},
+    {id: 2, title: '(N32)ท่าวัดกลางเกร็ด', value: "N32"},
+    {id: 3, title: '(N31)ท่ากระทรวงพาณิชย์', value: "N31"},
+    {id: 4, title: '(N30)ท่านนทบุรี (พิบูลย์สงคราม 3)', value: "N30"},
+    {id: 5, title: '(N29s)ท่าพระราม 5', value: "N29s"},
+    {id: 6, title: '(N29)ท่าพิบูลย์สงคราม 2', value: "N29"},
+    {id: 7, title: '(N28)ท่าวัดเขียน', value: "N28"},
+    {id: 8, title: '(N27)ท่าวัดตึก', value: "N27"},
+    {id: 9, title: '(N26)ท่าวัดเขมา', value: "N26"},
+    {id: 10, title: '(N25)ท่าพิบูลย์สงคราม 1', value: "N25"},
+    {id: 11, title: '(N24)ท่าพระราม 7', value: "N24"},
+    {id: 12, title: '(N23)ท่าวัดสร้อยทอง', value: "N23"},
+    {id: 13, title: '(N22)ท่าบางโพ', value: "N22"},
+    {id: 14, title: '(N21)ท่าเกียกกาย', value: "N21"},
+    {id: 15, title: '(N20)ท่าเขียวไก่กา', value: "N20"},
+    {id: 16, title: '(N19)ท่ากรมชลประทาน', value: "N19"},
+    {id: 17, title: '(N18)ท่าพายัพ', value: "N18"},
+    {id: 18, title: '(N17s)ท่าวัดเทพากร', value: "N17s"},
+    {id: 19, title: '(N17)ท่าวัดเทพนารี', value: "N17"},
+    {id: 20, title: '(N16)ท่าสะพานกรุงธน (ซังฮี้)', value: "N16"},
+    {id: 21, title: '(N15)ท่าเทเวศร์', value: "N15"},
+    {id: 22, title: '(N14)ท่าพระราม 8', value: "N14"},
+    {id: 23, title: '(N13)ท่าพระอาทิตย์', value: "N13"},
+    {id: 24, title: '(N12)ท่าพระปิ่นเกล้า', value: "N12"},
+    {id: 25, title: '(N11)ท่ารถไฟ', value: "N11"},
+    {id: 26, title: '(N10)ท่าวังหลัง (พรานนก)', value: "N10"},
+    {id: 27, title: '(N9s)ท่ามหาราช', value: "N9s"},
+    {id: 28, title: '(N9)ท่าช้าง', value: "N9"},
+    {id: 29, title: '(N8)ท่าเตียน', value: "N8"},
+    {id: 30, title: '(N7)ท่าราชินี', value: "N7"},
+    {id: 31, title: '(N6)ท่าสะพานพุทธ', value: "N6"},
+    {id: 32, title: '(N5)ท่าราชวงศ์', value: "N5"},
+    {id: 33, title: '(N4)ท่ากรมเจ้าท่า', value: "N4"},
+    {id: 34, title: '(N3)ท่าสี่พระยา', value: "N3"},
+    {id: 35, title: '(N2)ท่าวัดม่วงแค', value: "N2"},
+    {id: 36, title: '(N1)ท่าโอเรียนเท็ล', value: "N1"},
+    {id: 37, title: '(CENTRAL)ท่าสาทร (ตากสิน)', value: "CENTRAL"},
+    {id: 38, title: '(S1)ท่าวัดเศวตฉัตร', value: "S1"},
+    {id: 39, title: '(S2)ท่าวัดวธจรรยาวาส', value: "S2"},
+    {id: 40, title: '(S3)ท่าวัดราชสิงขร', value: "S3"},
+    {id: 41, title: '(S4)ท่าราษฎร์บูรณะ (บิ๊กซี)', value: "S4"}
   ];
 
   
@@ -1235,19 +1252,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
           $scope.dest = document.getElementById("input2").value;
        
 
-          if($scope.begin == "n33" && $scope.dest == "n32" || $scope.begin == "n32" && $scope.dest == "n33")
+          if($scope.begin == "N33" && $scope.dest == "N32" || $scope.begin == "N32" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n32")
+                else if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1266,19 +1283,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
           }
 
 
-          else if($scope.begin == "n33" && $scope.dest == "n31" || $scope.begin == "n31" && $scope.dest == "n33")
+          else if($scope.begin == "N33" && $scope.dest == "N31" || $scope.begin == "N31" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n31")
+                else if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1296,19 +1313,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-           else if($scope.begin == "n33" && $scope.dest == "n30" || $scope.begin == "n30" && $scope.dest == "n33")
+           else if($scope.begin == "N33" && $scope.dest == "N30" || $scope.begin == "N30" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n30")
+                else if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1326,19 +1343,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n33" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n33")
+          else if($scope.begin == "N33" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n24")
+                else if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1356,19 +1373,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n33" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n33")
+          else if($scope.begin == "N33" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1386,19 +1403,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n33" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n33")
+          else if($scope.begin == "N33" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1416,19 +1433,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n33" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n33")
+          else if($scope.begin == "N33" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1446,19 +1463,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n33" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n33")
+          else if($scope.begin == "N33" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1476,19 +1493,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n33" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n33")
+          else if($scope.begin == "N33" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1506,19 +1523,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n33" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n33")
+          else if($scope.begin == "N33" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1536,19 +1553,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n33" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n33")
+          else if($scope.begin == "N33" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1566,19 +1583,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n33" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n33")
+          else if($scope.begin == "N33" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N33")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n33")
+                if($scope.begin == "N33")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.915332;
                     $scope.lngbegin = 100.494624;
@@ -1596,19 +1613,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n32" && $scope.dest == "n31" || $scope.begin == "n31" && $scope.dest == "n32")
+          else if($scope.begin == "N32" && $scope.dest == "N31" || $scope.begin == "N31" && $scope.dest == "N32")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n32")
+                if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n31")
+                else if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
@@ -1626,19 +1643,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n32" && $scope.dest == "n30" || $scope.begin == "n30" && $scope.dest == "n32")
+          else if($scope.begin == "N32" && $scope.dest == "N30" || $scope.begin == "N30" && $scope.dest == "N32")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n32")
+                if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n31")
+                else if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
@@ -1656,19 +1673,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n32" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n32")
+          else if($scope.begin == "N32" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N32")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n32")
+                if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n24")
+                else if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
@@ -1686,19 +1703,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n32" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n32")
+          else if($scope.begin == "N32" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N32")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n32")
+                if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
@@ -1716,19 +1733,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n32" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n32")
+          else if($scope.begin == "N32" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N32")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n32")
+                if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
@@ -1746,19 +1763,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n32" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n32")
+          else if($scope.begin == "N32" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N32")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n32")
+                if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
@@ -1776,19 +1793,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n32" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n32")
+          else if($scope.begin == "N32" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N32")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n32")
+                if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
@@ -1806,19 +1823,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n32" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n32")
+          else if($scope.begin == "N32" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N32")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n32")
+                if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
@@ -1836,19 +1853,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n32" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n32")
+          else if($scope.begin == "N32" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N32")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n32")
+                if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
@@ -1866,19 +1883,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n32" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n32")
+          else if($scope.begin == "N32" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N32")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n32")
+                if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
@@ -1896,19 +1913,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n32" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n32")
+          else if($scope.begin == "N32" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N32")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n32")
+                if($scope.begin == "N32")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.905270;
                     $scope.lngbegin = 100.491325;
@@ -1926,19 +1943,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n31" && $scope.dest == "n30" || $scope.begin == "n30" && $scope.dest == "n31")
+          else if($scope.begin == "N31" && $scope.dest == "N30" || $scope.begin == "N30" && $scope.dest == "N31")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n31")
+                if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n30")
+                else if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
@@ -1956,19 +1973,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n31" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n31")
+          else if($scope.begin == "N31" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N31")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n31")
+                if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n24")
+                else if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
@@ -1986,19 +2003,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n31" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n31")
+          else if($scope.begin == "N31" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N31")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n31")
+                if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
@@ -2016,19 +2033,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n31" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n31")
+          else if($scope.begin == "N31" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N31")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n31")
+                if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
@@ -2046,19 +2063,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n31" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n31")
+          else if($scope.begin == "N31" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N31")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n31")
+                if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
@@ -2076,19 +2093,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n31" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n31")
+          else if($scope.begin == "N31" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N31")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n31")
+                if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
@@ -2106,19 +2123,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n31" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n31")
+          else if($scope.begin == "N31" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N31")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n31")
+                if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
@@ -2136,19 +2153,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n31" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n31")
+          else if($scope.begin == "N31" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N31")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n31")
+                if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
@@ -2166,19 +2183,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n31" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n31")
+          else if($scope.begin == "N31" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N31")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n31")
+                if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
@@ -2196,19 +2213,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n31" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n31")
+          else if($scope.begin == "N31" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N31")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n31")
+                if($scope.begin == "N31")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.883051;
                     $scope.lngbegin = 100.484511;
@@ -2226,19 +2243,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
           }
 
-          else if($scope.begin == "n30" && $scope.dest == "n29s" || $scope.begin == "n29s" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N29s" || $scope.begin == "N29s" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n29s")
+                else if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2257,19 +2274,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "n30" && $scope.dest == "n29" || $scope.begin == "n29" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N29" || $scope.begin == "N29" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n29")
+                else if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2288,19 +2305,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "n30" && $scope.dest == "n28" || $scope.begin == "n28" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N28" || $scope.begin == "N28" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n28")
+                else if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2319,19 +2336,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "n30" && $scope.dest == "n27" || $scope.begin == "n27" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N27" || $scope.begin == "N27" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n27")
+                else if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2350,19 +2367,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "n30" && $scope.dest == "n27" || $scope.begin == "n27" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N27" || $scope.begin == "N27" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n27")
+                else if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2381,19 +2398,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "n30" && $scope.dest == "n26" || $scope.begin == "n26" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n26")
+                else if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2412,19 +2429,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "n30" && $scope.dest == "n25" || $scope.begin == "n25" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n25")
+                else if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2443,19 +2460,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "n30" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n24")
+                else if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2501,19 +2518,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "n30" && $scope.dest == "n23" || $scope.begin == "n23" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N23" || $scope.begin == "N23" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n23")
+                else if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2532,19 +2549,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "n30" && $scope.dest == "n22" || $scope.begin == "n22" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N22" || $scope.begin == "N22" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n22")
+                else if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2581,19 +2598,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "n30" && $scope.dest == "n21" || $scope.begin == "n21" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n21")
+                else if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2620,19 +2637,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
         
           }
-          else if($scope.begin == "n30" && $scope.dest == "n20" || $scope.begin == "n20" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n20")
+                else if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2650,19 +2667,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n19" || $scope.begin == "n19" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n19")
+                else if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2680,19 +2697,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2719,19 +2736,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2749,19 +2766,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2779,19 +2796,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2827,19 +2844,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2875,19 +2892,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2905,19 +2922,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2944,19 +2961,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3001,19 +3018,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3031,19 +3048,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3088,19 +3105,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3136,19 +3153,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3175,19 +3192,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3205,19 +3222,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3244,19 +3261,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3301,19 +3318,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3340,19 +3357,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3397,19 +3414,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3427,19 +3444,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3466,19 +3483,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3523,19 +3540,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3553,19 +3570,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3592,19 +3609,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3631,19 +3648,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n30" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n30")
+          else if($scope.begin == "N30" && $scope.dest == "S4" || $scope.begin == "S4" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n30")
+                if($scope.begin == "N30")
                 {
                     $scope.latbegin = 13.685184;
                     $scope.lngbegin = 100.500157;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t4")
+                else if($scope.begin == "S4")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -3661,19 +3678,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n24")
+                else if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -3691,19 +3708,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n22" || $scope.begin == "n22" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N22" || $scope.begin == "N22" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n22")
+                else if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -3721,19 +3738,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n21" || $scope.begin == "n21" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n21")
+                else if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -3751,19 +3768,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -3781,19 +3798,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -3811,19 +3828,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -3841,19 +3858,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -3871,19 +3888,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -3901,19 +3918,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -3931,19 +3948,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -3961,19 +3978,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -3991,19 +4008,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -4021,19 +4038,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -4051,19 +4068,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -4081,19 +4098,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -4111,19 +4128,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -4141,19 +4158,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -4171,19 +4188,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -4201,19 +4218,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29s" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n29s")
+          else if($scope.begin == "N29s" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N29s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29s")
+                if($scope.begin == "N29s")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.832215;
                     $scope.lngbegin = 100.493824;
@@ -4231,19 +4248,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n28" || $scope.begin == "n28" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N28" || $scope.begin == "N28" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n28")
+                else if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4261,19 +4278,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           } 
-          else if($scope.begin == "n29" && $scope.dest == "n27" || $scope.begin == "n27" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N27" || $scope.begin == "N27" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n27")
+                else if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4291,19 +4308,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n26" || $scope.begin == "n26" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n26")
+                else if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4321,19 +4338,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n25" || $scope.begin == "n25" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n25")
+                else if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4351,19 +4368,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n24")
+                else if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4381,19 +4398,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n23" || $scope.begin == "n23" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N23" || $scope.begin == "N23" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n23")
+                else if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4411,19 +4428,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n22" || $scope.begin == "n22" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N22" || $scope.begin == "N22" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n22")
+                else if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4441,19 +4458,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n21" || $scope.begin == "n21" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n21")
+                else if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4471,19 +4488,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n20" || $scope.begin == "n20" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n20")
+                else if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4501,19 +4518,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n19" || $scope.begin == "n19" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n19")
+                else if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4531,19 +4548,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4561,19 +4578,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4591,19 +4608,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4621,19 +4638,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4651,19 +4668,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4681,19 +4698,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4711,19 +4728,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4741,19 +4758,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4771,19 +4788,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4801,19 +4818,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4831,19 +4848,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4861,19 +4878,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4891,19 +4908,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4921,19 +4938,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4951,19 +4968,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -4981,19 +4998,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -5011,19 +5028,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -5041,19 +5058,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -5071,19 +5088,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -5101,19 +5118,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -5131,19 +5148,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -5161,19 +5178,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -5191,19 +5208,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n29" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n29")
+          else if($scope.begin == "N29" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n29")
+                if($scope.begin == "N29")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.832842;
                     $scope.lngbegin = 100.496391;
@@ -5222,19 +5239,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
           
-          else if($scope.begin == "n28" && $scope.dest == "n27" || $scope.begin == "n27" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N27" || $scope.begin == "N27" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n27")
+                else if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5252,19 +5269,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n26" || $scope.begin == "n26" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n26")
+                else if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5282,19 +5299,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n25" || $scope.begin == "n25" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n25")
+                else if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5312,19 +5329,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n24")
+                else if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5342,19 +5359,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n23" || $scope.begin == "n23" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N23" || $scope.begin == "N23" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n23")
+                else if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5372,19 +5389,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n22" || $scope.begin == "n22" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N22" || $scope.begin == "N22" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n22")
+                else if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5402,19 +5419,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n21" || $scope.begin == "n21" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n21")
+                else if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5432,19 +5449,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n20" || $scope.begin == "n20" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n20")
+                else if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5462,19 +5479,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n19" || $scope.begin == "n19" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n19")
+                else if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5492,19 +5509,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5522,19 +5539,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5552,19 +5569,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5582,19 +5599,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5612,19 +5629,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5642,19 +5659,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5672,19 +5689,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5702,19 +5719,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5732,19 +5749,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5762,19 +5779,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5792,19 +5809,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5822,19 +5839,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5852,19 +5869,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5882,19 +5899,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5912,19 +5929,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5942,19 +5959,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -5972,19 +5989,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -6002,19 +6019,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -6032,19 +6049,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -6062,19 +6079,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -6092,19 +6109,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -6122,19 +6139,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -6152,19 +6169,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n28" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n28")
+          else if($scope.begin == "N28" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n28")
+                if($scope.begin == "N28")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.828306;
                     $scope.lngbegin = 100.496632;
@@ -6182,19 +6199,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n26" || $scope.begin == "n26" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n26")
+                else if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6212,19 +6229,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n25" || $scope.begin == "n25" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n25")
+                else if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6242,19 +6259,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n24")
+                else if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6272,19 +6289,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n23" || $scope.begin == "n23" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N23" || $scope.begin == "N23" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n23")
+                else if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6302,19 +6319,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n22" || $scope.begin == "n22" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N22" || $scope.begin == "N22" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n22")
+                else if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6332,19 +6349,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n21" || $scope.begin == "n21" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n21")
+                else if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6362,19 +6379,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n20" || $scope.begin == "n20" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n20")
+                else if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6392,19 +6409,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n19" || $scope.begin == "n19" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n19")
+                else if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6422,19 +6439,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6452,19 +6469,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6482,19 +6499,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6512,19 +6529,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6542,19 +6559,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6572,19 +6589,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6602,19 +6619,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6632,19 +6649,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6662,19 +6679,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6692,19 +6709,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6722,19 +6739,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6752,19 +6769,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6782,19 +6799,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6812,19 +6829,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6842,19 +6859,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6872,19 +6889,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6902,19 +6919,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6932,19 +6949,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6962,19 +6979,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -6992,19 +7009,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -7022,19 +7039,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -7052,19 +7069,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -7082,19 +7099,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n27" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n27")
+          else if($scope.begin == "N27" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n27")
+                if($scope.begin == "N27")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.824440;
                     $scope.lngbegin = 100.498776;
@@ -7112,19 +7129,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n25" || $scope.begin == "n25" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n25")
+                else if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7142,19 +7159,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n24")
+                else if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7172,19 +7189,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n23" || $scope.begin == "n23" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N23" || $scope.begin == "N23" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n23")
+                else if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7202,19 +7219,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n22" || $scope.begin == "n22" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N22" || $scope.begin == "N22" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n22")
+                else if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7232,19 +7249,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n21" || $scope.begin == "n21" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n21")
+                else if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7262,19 +7279,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n20" || $scope.begin == "n20" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n20")
+                else if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7292,19 +7309,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n19" || $scope.begin == "n19" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n19")
+                else if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7322,19 +7339,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7352,19 +7369,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7382,19 +7399,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7412,19 +7429,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7442,19 +7459,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7472,19 +7489,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7502,19 +7519,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7532,19 +7549,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7562,19 +7579,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7592,19 +7609,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7622,19 +7639,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7652,19 +7669,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7682,19 +7699,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7712,19 +7729,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7742,19 +7759,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7772,19 +7789,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7802,19 +7819,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7832,19 +7849,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7862,19 +7879,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7892,19 +7909,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7922,19 +7939,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7952,19 +7969,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7982,19 +7999,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n26" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n26")
+          else if($scope.begin == "N26" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n26")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -8012,19 +8029,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n24" || $scope.begin == "n24" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n24")
+                else if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8042,19 +8059,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n23" || $scope.begin == "n23" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N23" || $scope.begin == "N23" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n23")
+                else if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8072,19 +8089,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n22" || $scope.begin == "n22" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N22" || $scope.begin == "N22" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n22")
+                else if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8102,19 +8119,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n21" || $scope.begin == "n21" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n21")
+                else if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8132,19 +8149,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n20" || $scope.begin == "n20" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n20")
+                else if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8162,19 +8179,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n19" || $scope.begin == "n19" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n19")
+                else if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8192,19 +8209,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8222,19 +8239,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8252,19 +8269,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8282,19 +8299,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8312,19 +8329,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8342,19 +8359,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8372,19 +8389,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8402,19 +8419,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8432,19 +8449,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8462,19 +8479,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8492,19 +8509,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8522,19 +8539,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8552,19 +8569,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8582,19 +8599,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8612,19 +8629,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8642,19 +8659,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8672,19 +8689,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8702,19 +8719,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8732,19 +8749,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8762,19 +8779,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8792,19 +8809,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8822,19 +8839,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8852,19 +8869,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n25" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n25")
+          else if($scope.begin == "N26" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n25")
+                if($scope.begin == "N26")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.817649;
                     $scope.lngbegin = 100.505528;
@@ -8882,19 +8899,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n23" || $scope.begin == "n23" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N23" || $scope.begin == "N23" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n23")
+                else if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -8912,19 +8929,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n22" || $scope.begin == "n22" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N22" || $scope.begin == "N22" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n22")
+                else if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -8960,19 +8977,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n21" || $scope.begin == "n21" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n21")
+                else if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -8999,19 +9016,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n20" || $scope.begin == "n20" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n20")
+                else if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9029,19 +9046,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n19" || $scope.begin == "n19" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n19")
+                else if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9059,19 +9076,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9098,19 +9115,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9128,19 +9145,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9158,19 +9175,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9206,19 +9223,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9263,19 +9280,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9293,19 +9310,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9332,19 +9349,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9389,19 +9406,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9419,19 +9436,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9476,19 +9493,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9524,19 +9541,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9563,19 +9580,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9593,19 +9610,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9632,19 +9649,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9689,19 +9706,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9728,19 +9745,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9785,19 +9802,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9815,19 +9832,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9854,19 +9871,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9911,19 +9928,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9941,19 +9958,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -9980,19 +9997,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -10019,19 +10036,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n24" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n24")
+          else if($scope.begin == "N24" && $scope.dest == "S4" || $scope.begin == "S4" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n24")
+                if($scope.begin == "N24")
                 {
                     $scope.latbegin = 13.685184;
                     $scope.lngbegin = 100.500157;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t4")
+                else if($scope.begin == "S4")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -10049,19 +10066,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n22" || $scope.begin == "n22" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N22" || $scope.begin == "N22" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n22")
+                else if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10079,19 +10096,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n21" || $scope.begin == "n21" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n21")
+                else if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10109,19 +10126,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n20" || $scope.begin == "n20" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n20")
+                else if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10139,19 +10156,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n19" || $scope.begin == "n19" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n19")
+                else if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10169,19 +10186,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10199,19 +10216,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10229,19 +10246,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10259,19 +10276,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10289,19 +10306,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10319,19 +10336,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10349,19 +10366,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10379,19 +10396,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10409,19 +10426,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10439,19 +10456,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10469,19 +10486,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10499,19 +10516,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10529,19 +10546,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10559,19 +10576,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10589,19 +10606,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10619,19 +10636,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10649,19 +10666,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10679,19 +10696,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10709,19 +10726,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10739,19 +10756,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10769,19 +10786,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10799,19 +10816,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10829,19 +10846,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n23" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n23")
+          else if($scope.begin == "N23" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n23")
+                if($scope.begin == "N23")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -10859,19 +10876,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n21" || $scope.begin == "n21" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n21")
+                else if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -10898,19 +10915,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n20" || $scope.begin == "n20" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n20")
+                else if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -10928,19 +10945,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n19" || $scope.begin == "n19" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n19")
+                else if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -10958,19 +10975,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -10997,19 +11014,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11027,19 +11044,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11057,19 +11074,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11096,19 +11113,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11144,19 +11161,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11174,19 +11191,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11213,19 +11230,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11261,19 +11278,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11291,19 +11308,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11339,19 +11356,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11378,19 +11395,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11417,19 +11434,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11447,19 +11464,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11486,19 +11503,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11534,19 +11551,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11573,19 +11590,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11621,19 +11638,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11651,19 +11668,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11690,19 +11707,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11738,19 +11755,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11768,19 +11785,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11807,19 +11824,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11846,19 +11863,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n22" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n22")
+          else if($scope.begin == "N22" && $scope.dest == "S4" || $scope.begin == "S4" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n22")
+                if($scope.begin == "N22")
                 {
                     $scope.latbegin = 13.685184;
                     $scope.lngbegin = 100.500157;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t4")
+                else if($scope.begin == "S4")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -11876,19 +11893,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n20" || $scope.begin == "n20" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n20")
+                else if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -11906,19 +11923,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n19" || $scope.begin == "n19" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n19")
+                else if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -11936,19 +11953,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -11975,19 +11992,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12005,19 +12022,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12035,19 +12052,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12074,19 +12091,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12113,19 +12130,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12143,19 +12160,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12182,19 +12199,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12221,19 +12238,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12251,19 +12268,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12290,19 +12307,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12329,19 +12346,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12368,19 +12385,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12398,19 +12415,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12437,19 +12454,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12476,19 +12493,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12515,19 +12532,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12554,19 +12571,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12584,19 +12601,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12623,19 +12640,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12662,19 +12679,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12692,19 +12709,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12731,19 +12748,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n21" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n21")
+          else if($scope.begin == "N21" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n21")
+                if($scope.begin == "N21")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -12770,19 +12787,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n19" || $scope.begin == "n19" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n19")
+                else if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -12800,19 +12817,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -12830,19 +12847,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -12860,19 +12877,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -12890,19 +12907,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -12920,19 +12937,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -12950,19 +12967,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -12980,19 +12997,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13010,19 +13027,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13040,19 +13057,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13070,19 +13087,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13100,19 +13117,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13130,19 +13147,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13160,19 +13177,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13190,19 +13207,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13220,19 +13237,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13250,19 +13267,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13280,19 +13297,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13310,19 +13327,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13340,19 +13357,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13370,19 +13387,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13400,19 +13417,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13430,19 +13447,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13460,19 +13477,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n20" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n20")
+          else if($scope.begin == "N20" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n20")
+                if($scope.begin == "N20")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -13490,19 +13507,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n18" || $scope.begin == "n18" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n18")
+                else if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13520,19 +13537,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13550,19 +13567,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13580,19 +13597,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13610,19 +13627,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13640,19 +13657,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13670,19 +13687,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13700,19 +13717,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13730,19 +13747,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13760,19 +13777,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13790,19 +13807,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13820,19 +13837,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13850,19 +13867,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13880,19 +13897,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13910,19 +13927,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13940,19 +13957,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -13970,19 +13987,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -14000,19 +14017,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -14030,19 +14047,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -14060,19 +14077,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -14090,19 +14107,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -14120,19 +14137,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -14150,19 +14167,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n19" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n19")
+          else if($scope.begin == "N19" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n19")
+                if($scope.begin == "N19")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -14180,19 +14197,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n17s" || $scope.begin == "n17s" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17s")
+                else if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14210,19 +14227,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14240,19 +14257,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14279,19 +14296,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14318,19 +14335,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14348,19 +14365,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14387,19 +14404,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14427,19 +14444,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14457,19 +14474,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14496,19 +14513,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14535,19 +14552,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14574,19 +14591,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14604,19 +14621,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14643,19 +14660,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14682,19 +14699,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14721,19 +14738,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14760,19 +14777,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14790,19 +14807,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14829,19 +14846,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14868,19 +14885,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14898,19 +14915,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14937,19 +14954,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n18" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n18")
+          else if($scope.begin == "N18" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n18")
+                if($scope.begin == "N18")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -14976,19 +14993,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n17" || $scope.begin == "n17" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n17")
+                else if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15006,19 +15023,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15036,19 +15053,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15066,19 +15083,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15096,19 +15113,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15126,19 +15143,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15156,19 +15173,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15186,19 +15203,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15216,19 +15233,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15246,19 +15263,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15276,19 +15293,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15306,19 +15323,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15336,19 +15353,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15366,19 +15383,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15396,19 +15413,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15426,19 +15443,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15456,19 +15473,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15486,19 +15503,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15516,19 +15533,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15546,19 +15563,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15576,19 +15593,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17s" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n17s")
+          else if($scope.begin == "N17s" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N17s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17s")
+                if($scope.begin == "N17s")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.785604;
                     $scope.lngbegin = 100.503352;
@@ -15606,19 +15623,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n16" || $scope.begin == "n16" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n16")
+                else if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15636,19 +15653,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15666,19 +15683,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15696,19 +15713,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15726,19 +15743,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15756,19 +15773,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15786,19 +15803,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15816,19 +15833,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15846,19 +15863,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15876,19 +15893,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15906,19 +15923,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15936,19 +15953,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15966,19 +15983,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -15996,19 +16013,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -16026,19 +16043,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -16056,19 +16073,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -16086,19 +16103,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -16116,19 +16133,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -16146,19 +16163,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -16176,19 +16193,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n17" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n17")
+          else if($scope.begin == "N17" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n17")
+                if($scope.begin == "N17")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -16206,19 +16223,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n15" || $scope.begin == "n15" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n15")
+                else if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16254,19 +16271,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16284,19 +16301,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16323,19 +16340,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16371,19 +16388,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16401,19 +16418,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16449,19 +16466,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16497,19 +16514,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16536,19 +16553,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16566,19 +16583,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16605,19 +16622,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16653,19 +16670,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16692,19 +16709,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16740,19 +16757,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16770,19 +16787,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16809,19 +16826,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16857,19 +16874,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16887,19 +16904,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16926,19 +16943,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n16" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n16")
+          else if($scope.begin == "N16" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N16")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n16")
+                if($scope.begin == "N16")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -16965,19 +16982,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n14" || $scope.begin == "n14" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n14")
+                else if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -16995,19 +17012,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17034,19 +17051,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17091,19 +17108,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17121,19 +17138,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17178,19 +17195,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17226,19 +17243,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17265,19 +17282,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17295,19 +17312,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17334,19 +17351,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17391,19 +17408,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17430,19 +17447,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17487,19 +17504,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17517,19 +17534,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17556,19 +17573,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17613,19 +17630,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17643,19 +17660,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17682,19 +17699,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17721,19 +17738,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n15" && $scope.dest == "t4" || $scope.begin == "t3" && $scope.dest == "n15")
+          else if($scope.begin == "N15" && $scope.dest == "S4" || $scope.begin == "S3" && $scope.dest == "N15")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n15")
+                if($scope.begin == "N15")
                 {
                     $scope.latbegin = 13.685184;
                     $scope.lngbegin = 100.500157;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t4")
+                else if($scope.begin == "S4")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -17752,19 +17769,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "n14" && $scope.dest == "n13" || $scope.begin == "n13" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n13")
+                else if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -17782,19 +17799,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -17812,19 +17829,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -17842,19 +17859,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -17872,19 +17889,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -17902,19 +17919,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -17932,19 +17949,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -17962,19 +17979,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -17992,19 +18009,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -18022,19 +18039,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -18052,19 +18069,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -18082,19 +18099,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -18112,19 +18129,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -18142,19 +18159,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -18172,19 +18189,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -18202,19 +18219,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -18232,19 +18249,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n14" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n14")
+          else if($scope.begin == "N14" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N14")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n14")
+                if($scope.begin == "N14")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -18262,19 +18279,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n12" || $scope.begin == "n12" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n12")
+                else if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18302,19 +18319,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18332,19 +18349,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18380,19 +18397,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n9s" || $scope.begin == "n9s" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N9s" || $scope.begin == "N9s" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.756655;
                     $scope.lngbegin = 100.488660;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9s")
+                else if($scope.begin == "N9s")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18410,19 +18427,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18449,19 +18466,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18497,19 +18514,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18527,19 +18544,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18566,19 +18583,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18614,19 +18631,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18653,19 +18670,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18701,19 +18718,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18731,19 +18748,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18779,19 +18796,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18827,19 +18844,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18857,19 +18874,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18896,19 +18913,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n13" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n13")
+          else if($scope.begin == "N13" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N13")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n13")
+                if($scope.begin == "N13")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -18935,19 +18952,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n11" || $scope.begin == "n11" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n11")
+                else if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -18965,19 +18982,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19023,19 +19040,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19071,19 +19088,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19110,19 +19127,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19140,19 +19157,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19179,19 +19196,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19236,19 +19253,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19275,19 +19292,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19332,19 +19349,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19362,19 +19379,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19401,19 +19418,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19458,19 +19475,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19488,19 +19505,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19527,19 +19544,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19566,19 +19583,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n12" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n12")
+          else if($scope.begin == "N12" && $scope.dest == "S4" || $scope.begin == "S4" && $scope.dest == "N12")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n12")
+                if($scope.begin == "N12")
                 {
                     $scope.latbegin = 13.685184;
                     $scope.lngbegin = 100.500157;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t4")
+                else if($scope.begin == "S4")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -19596,19 +19613,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "n10" || $scope.begin == "n10" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n10")
+                else if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19626,19 +19643,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19656,19 +19673,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19686,19 +19703,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19716,19 +19733,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19746,19 +19763,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19776,19 +19793,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19806,19 +19823,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19836,19 +19853,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19866,19 +19883,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19896,19 +19913,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19926,19 +19943,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19956,19 +19973,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -19986,19 +20003,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n11" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n11")
+          else if($scope.begin == "N11" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N11")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n11")
+                if($scope.begin == "N11")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -20016,19 +20033,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "n9s" || $scope.begin == "n10" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "N9s" || $scope.begin == "N10" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.756655;
                     $scope.lngbegin = 100.488660;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9s")
+                else if($scope.begin == "N9s")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20047,19 +20064,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "n9" || $scope.begin == "n9" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n9")
+                else if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20095,19 +20112,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20143,19 +20160,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20173,19 +20190,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20212,19 +20229,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20278,19 +20295,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20317,19 +20334,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20383,19 +20400,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20413,19 +20430,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20461,19 +20478,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20527,19 +20544,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20557,19 +20574,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20596,19 +20613,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20635,19 +20652,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n10" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n10")
+          else if($scope.begin == "N10" && $scope.dest == "S4" || $scope.begin == "S4" && $scope.dest == "N10")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n10")
+                if($scope.begin == "N10")
                 {
                     $scope.latbegin = 13.685184;
                     $scope.lngbegin = 100.500157;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t4")
+                else if($scope.begin == "S4")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -20665,19 +20682,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9s" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n9s")
+          else if($scope.begin == "N9s" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N9s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9s")
+                if($scope.begin == "N9s")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.756655;
                     $scope.lngbegin = 100.488660;
@@ -20696,19 +20713,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
           
-          else if($scope.begin == "n9s" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n9s")
+          else if($scope.begin == "N9s" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N9s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9s")
+                if($scope.begin == "N9s")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.756655;
                     $scope.lngbegin = 100.488660;
@@ -20726,19 +20743,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9s" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n9s")
+          else if($scope.begin == "N9s" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N9s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9s")
+                if($scope.begin == "N9s")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.756655;
                     $scope.lngbegin = 100.488660;
@@ -20756,19 +20773,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9s" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n9s")
+          else if($scope.begin == "N9s" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N9s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9s")
+                if($scope.begin == "N9s")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.756655;
                     $scope.lngbegin = 100.488660;
@@ -20786,19 +20803,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9s" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n9s")
+          else if($scope.begin == "N9s" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N9s")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9s")
+                if($scope.begin == "N9s")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.756655;
                     $scope.lngbegin = 100.488660;
@@ -20817,19 +20834,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "n8" || $scope.begin == "n8" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n8")
+                else if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -20856,19 +20873,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -20886,19 +20903,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -20925,19 +20942,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -20973,19 +20990,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -21012,19 +21029,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -21060,19 +21077,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -21090,19 +21107,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -21129,19 +21146,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -21177,19 +21194,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -21207,19 +21224,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -21246,19 +21263,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n9" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n9")
+          else if($scope.begin == "N9" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N9")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n9")
+                if($scope.begin == "N9")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -21285,19 +21302,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n8" && $scope.dest == "n7" || $scope.begin == "n7" && $scope.dest == "n8")
+          else if($scope.begin == "N8" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N8")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n8")
+                if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n7")
+                else if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -21315,19 +21332,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n8" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n8")
+          else if($scope.begin == "N8" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N8")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n8")
+                if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -21354,19 +21371,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n8" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n8")
+          else if($scope.begin == "N8" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N8")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n8")
+                if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -21402,19 +21419,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n8" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n8")
+          else if($scope.begin == "N8" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N8")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n8")
+                if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -21441,19 +21458,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n8" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n8")
+          else if($scope.begin == "N8" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N8")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n8")
+                if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -21489,19 +21506,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n8" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n8")
+          else if($scope.begin == "N8" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N8")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n8")
+                if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -21519,19 +21536,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n8" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n8")
+          else if($scope.begin == "N8" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N8")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n8")
+                if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -21567,19 +21584,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n8" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n8")
+          else if($scope.begin == "N8" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N8")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n8")
+                if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -21615,19 +21632,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n8" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n8")
+          else if($scope.begin == "N8" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N8")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n8")
+                if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -21645,19 +21662,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n8" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n8")
+          else if($scope.begin == "N8" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N8")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n8")
+                if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -21684,19 +21701,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n8" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n8")
+          else if($scope.begin == "N8" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N8")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n8")
+                if($scope.begin == "N8")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -21723,19 +21740,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n7" && $scope.dest == "n6" || $scope.begin == "n6" && $scope.dest == "n7")
+          else if($scope.begin == "N7" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N7")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n7")
+                if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n6")
+                else if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
@@ -21753,19 +21770,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n7" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n7")
+          else if($scope.begin == "N7" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N7")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n7")
+                if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
@@ -21783,19 +21800,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n7" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n7")
+          else if($scope.begin == "N7" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N7")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n7")
+                if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
@@ -21813,19 +21830,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n7" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n7")
+          else if($scope.begin == "N7" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N7")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n7")
+                if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
@@ -21843,19 +21860,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n7" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n7")
+          else if($scope.begin == "N7" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N7")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n7")
+                if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
@@ -21873,19 +21890,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n7" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n7")
+          else if($scope.begin == "N7" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N7")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n7")
+                if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
@@ -21903,19 +21920,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n7" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n7")
+          else if($scope.begin == "N7" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N7")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n7")
+                if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
@@ -21933,19 +21950,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n7" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n7")
+          else if($scope.begin == "N7" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N7")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n7")
+                if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
@@ -21963,19 +21980,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n7" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n7")
+          else if($scope.begin == "N7" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N7")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n7")
+                if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
@@ -21993,19 +22010,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n7" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n7")
+          else if($scope.begin == "N7" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N7")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n7")
+                if($scope.begin == "N7")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
@@ -22023,19 +22040,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n6" && $scope.dest == "n5" || $scope.begin == "n5" && $scope.dest == "n6")
+          else if($scope.begin == "N6" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N6")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n6")
+                if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n5")
+                else if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
@@ -22062,19 +22079,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n6" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n6")
+          else if($scope.begin == "N6" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N6")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n6")
+                if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
@@ -22101,19 +22118,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n6" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n6")
+          else if($scope.begin == "N6" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N6")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n6")
+                if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
@@ -22140,19 +22157,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n6" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n6")
+          else if($scope.begin == "N6" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N6")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n6")
+                if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
@@ -22170,19 +22187,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n6" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n6")
+          else if($scope.begin == "N6" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N6")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n6")
+                if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
@@ -22209,19 +22226,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n6" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n6")
+          else if($scope.begin == "N6" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N6")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n6")
+                if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
@@ -22248,19 +22265,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n6" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n6")
+          else if($scope.begin == "N6" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N6")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n6")
+                if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
@@ -22278,19 +22295,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n6" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n6")
+          else if($scope.begin == "N6" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N6")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n6")
+                if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
@@ -22317,19 +22334,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n6" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n6")
+          else if($scope.begin == "N6" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N6")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n6")
+                if($scope.begin == "N6")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
@@ -22356,19 +22373,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n5" && $scope.dest == "n4" || $scope.begin == "n4" && $scope.dest == "n5")
+          else if($scope.begin == "N5" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N5")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n5")
+                if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n4")
+                else if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
@@ -22395,19 +22412,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n5" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n5")
+          else if($scope.begin == "N5" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N5")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n5")
+                if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
@@ -22461,19 +22478,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n5" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n5")
+          else if($scope.begin == "N5" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N5")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n5")
+                if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
@@ -22491,19 +22508,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n5" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n5")
+          else if($scope.begin == "N5" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N5")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n5")
+                if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
@@ -22539,19 +22556,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n5" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n5")
+          else if($scope.begin == "N5" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N5")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n5")
+                if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
@@ -22605,19 +22622,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n5" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n5")
+          else if($scope.begin == "N5" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N5")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n5")
+                if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
@@ -22635,19 +22652,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n5" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n5")
+          else if($scope.begin == "N5" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N5")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n5")
+                if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
@@ -22674,19 +22691,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n5" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n5")
+          else if($scope.begin == "N5" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N5")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n5")
+                if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
@@ -22713,19 +22730,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n5" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n5")
+          else if($scope.begin == "N5" && $scope.dest == "S4" || $scope.begin == "S4" && $scope.dest == "N5")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n5")
+                if($scope.begin == "N5")
                 {
                     $scope.latbegin = 13.685184;
                     $scope.lngbegin = 100.500157;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t4")
+                else if($scope.begin == "S4")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
@@ -22743,19 +22760,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n4" && $scope.dest == "n3" || $scope.begin == "n3" && $scope.dest == "n4")
+          else if($scope.begin == "N4" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N4")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n4")
+                if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n3")
+                else if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.511836;
@@ -22782,19 +22799,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n4" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n4")
+          else if($scope.begin == "N4" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N4")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n4")
+                if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.511836;
@@ -22812,19 +22829,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n4" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n4")
+          else if($scope.begin == "N4" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N4")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n4")
+                if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.511836;
@@ -22851,19 +22868,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n4" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n4")
+          else if($scope.begin == "N4" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N4")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n4")
+                if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.511836;
@@ -22890,19 +22907,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n4" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n4")
+          else if($scope.begin == "N4" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N4")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n4")
+                if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.511836;
@@ -22920,19 +22937,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n4" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n4")
+          else if($scope.begin == "N4" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N4")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n4")
+                if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.511836;
@@ -22959,19 +22976,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n4" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n4")
+          else if($scope.begin == "N4" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N4")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n4")
+                if($scope.begin == "N4")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.511836;
@@ -22998,19 +23015,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n3" && $scope.dest == "n2" || $scope.begin == "n2" && $scope.dest == "n3")
+          else if($scope.begin == "N3" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N3")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n3")
+                if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n2")
+                else if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
@@ -23028,19 +23045,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n3" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n3")
+          else if($scope.begin == "N3" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N3")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n3")
+                if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
@@ -23076,19 +23093,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n3" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n3")
+          else if($scope.begin == "N3" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N3")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n3")
+                if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
@@ -23142,19 +23159,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n3" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n3")
+          else if($scope.begin == "N3" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N3")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n3")
+                if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
@@ -23172,19 +23189,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n3" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n3")
+          else if($scope.begin == "N3" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N3")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n3")
+                if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
@@ -23211,19 +23228,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n3" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n3")
+          else if($scope.begin == "N3" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N3")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n3")
+                if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
@@ -23250,19 +23267,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n3" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n3")
+          else if($scope.begin == "N3" && $scope.dest == "S4" || $scope.begin == "S4" && $scope.dest == "N3")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n3")
+                if($scope.begin == "N3")
                 {
                     $scope.latbegin = 13.685184;
                     $scope.lngbegin = 100.500157;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t4")
+                else if($scope.begin == "S4")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
@@ -23280,19 +23297,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n2" && $scope.dest == "n1" || $scope.begin == "n1" && $scope.dest == "n2")
+          else if($scope.begin == "N2" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N2")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n2")
+                if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n1")
+                else if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
@@ -23310,19 +23327,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n2" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n2")
+          else if($scope.begin == "N2" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N2")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n2")
+                if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
@@ -23340,19 +23357,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n2" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n2")
+          else if($scope.begin == "N2" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N2")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n2")
+                if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
@@ -23370,19 +23387,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n2" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n2")
+          else if($scope.begin == "N2" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N2")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n2")
+                if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
@@ -23400,19 +23417,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n2" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n2")
+          else if($scope.begin == "N2" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N2")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n2")
+                if($scope.begin == "N2")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
@@ -23430,19 +23447,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n1" && $scope.dest == "n0" || $scope.begin == "n0" && $scope.dest == "n1")
+          else if($scope.begin == "N1" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N1")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n1")
+                if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "n0")
+                else if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
@@ -23478,19 +23495,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n1" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n1")
+          else if($scope.begin == "N1" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N1")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n1")
+                if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
@@ -23508,19 +23525,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n1" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n1")
+          else if($scope.begin == "N1" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N1")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n1")
+                if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
@@ -23547,19 +23564,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n1" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n1")
+          else if($scope.begin == "N1" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N1")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n1")
+                if($scope.begin == "N1")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
@@ -23586,19 +23603,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n0" && $scope.dest == "t1" || $scope.begin == "t1" && $scope.dest == "n0")
+          else if($scope.begin == "CENTRAL" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "CENTRAL")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n0")
+                if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t1")
+                else if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
@@ -23616,19 +23633,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n0" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "n0")
+          else if($scope.begin == "CENTRAL" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "CENTRAL")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n0")
+                if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
@@ -23655,19 +23672,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n0" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "n0")
+          else if($scope.begin == "CENTRAL" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "CENTRAL")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n0")
+                if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
@@ -23694,19 +23711,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "n0" && $scope.dest == "t4" || $scope.begin == "t4" && $scope.dest == "n0")
+          else if($scope.begin == "CENTRAL" && $scope.dest == "S4" || $scope.begin == "S4" && $scope.dest == "CENTRAL")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "n0")
+                if($scope.begin == "CENTRAL")
                 {
                     $scope.latbegin = 13.685184;
                     $scope.lngbegin = 100.500157;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t4")
+                else if($scope.begin == "S4")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
@@ -23724,19 +23741,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "t1" && $scope.dest == "t2" || $scope.begin == "t2" && $scope.dest == "t1")
+          else if($scope.begin == "S1" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "S1")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "t1")
+                if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t2")
+                else if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
@@ -23754,19 +23771,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "t1" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "t1")
+          else if($scope.begin == "S1" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "S1")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "t1")
+                if($scope.begin == "S1")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
@@ -23784,19 +23801,19 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "t2" && $scope.dest == "t3" || $scope.begin == "t3" && $scope.dest == "t2")
+          else if($scope.begin == "S2" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "S2")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "t2")
+                if($scope.begin == "S2")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "t3")
+                else if($scope.begin == "S3")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
@@ -23831,14 +23848,13 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                   distance: 0,
                   name: 'There is no boat from here to go there',
                   price: 0,
+                  available_for_order: 1,
                   value: "",
                   image: ''
               });
 
           }
-          
-
-      $scope.popflag.show();
+           $scope.popflag.show();
       };
 
 
@@ -25404,47 +25420,47 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     }
 
 
-    $scope.destt4 = "t4";
-    $scope.destt3 = "t3";
-    $scope.destt2 = "t2";
-    $scope.destt1 = "t1";
-    $scope.destn33 = "n33";
-    $scope.destn32 = "n32";
-    $scope.destn31 = "n31";
-    $scope.destn30 = "n30";
-    $scope.destn29s = "n29s";
-    $scope.destn29 = "n29";
-    $scope.destn28 = "n28";
-    $scope.destn27 = "n27";
-    $scope.destn26 = "n26";
-    $scope.destn25 = "n25";
-    $scope.destn24 = "n24";
-    $scope.destn23 = "n23";
-    $scope.destn22 = "n22";
-    $scope.destn21 = "n21";
-    $scope.destn20 = "n20";
-    $scope.destn19 = "n19";
-    $scope.destn18 = "n18";
-    $scope.destn17s = "n17s";
-    $scope.destn17 = "n17";
-    $scope.destn16 = "n16";
-    $scope.destn15 = "n15";
-    $scope.destn14 = "n14";
-    $scope.destn13 = "n13";
-    $scope.destn12 = "n12";
-    $scope.destn11 = "n11";
-    $scope.destn10 = "n10";
-    $scope.destn9s = "n9s";
-    $scope.destn9 = "n9";
-    $scope.destn8 = "n8";
-    $scope.destn7 = "n7";
-    $scope.destn6 = "n6";
-    $scope.destn5 = "n5";
-    $scope.destn4 = "n4";
-    $scope.destn3 = "n3";
-    $scope.destn2 = "n2";
-    $scope.destn1 = "n1";
-    $scope.destn0 = "n0";
+    $scope.destt4 = "S4";
+    $scope.destt3 = "S3";
+    $scope.destt2 = "S2";
+    $scope.destt1 = "S1";
+    $scope.destn33 = "N33";
+    $scope.destn32 = "N32";
+    $scope.destn31 = "N31";
+    $scope.destn30 = "N30";
+    $scope.destn29s = "N29s";
+    $scope.destn29 = "N29";
+    $scope.destn28 = "N28";
+    $scope.destn27 = "N27";
+    $scope.destn26 = "N26";
+    $scope.destn25 = "N25";
+    $scope.destn24 = "N24";
+    $scope.destn23 = "N23";
+    $scope.destn22 = "N22";
+    $scope.destn21 = "N21";
+    $scope.destn20 = "N20";
+    $scope.destn19 = "N19";
+    $scope.destn18 = "N18";
+    $scope.destn17s = "N17s";
+    $scope.destn17 = "N17";
+    $scope.destn16 = "N16";
+    $scope.destn15 = "N15";
+    $scope.destn14 = "N14";
+    $scope.destn13 = "N13";
+    $scope.destn12 = "N12";
+    $scope.destn11 = "N11";
+    $scope.destn10 = "N10";
+    $scope.destn9s = "N9s";
+    $scope.destn9 = "N9";
+    $scope.destn8 = "N8";
+    $scope.destn7 = "N7";
+    $scope.destn6 = "N6";
+    $scope.destn5 = "N5";
+    $scope.destn4 = "N4";
+    $scope.destn3 = "N3";
+    $scope.destn2 = "N2";
+    $scope.destn1 = "N1";
+    $scope.destn0 = "CENTRAL";
 
 
 
@@ -25469,5 +25485,8 @@ window.CONTACTS =
 {"id":12,"first_name":"Ruamkatanyu Foundation","last_name":"(มูลนิธิร่วมกตัญญู)","country":"Cuba","ip_address":"223.180.48.70","email":"pwelch@skippad.edu","phoneno":"0-2751-0951-3","img":"img/emergency/e13.png"},
 {"id":13,"first_name":"Emergency medical service","last_name":"(หน่วยแพทย์กู้ชีพ กทม.)","country":"British Indian Ocean Territory","ip_address":"200.150.119.13","email":"nparker@twitternation.net","phoneno":"1555","img":"img/emergency/e02.png"}
 ];
+
+
+
 
 
