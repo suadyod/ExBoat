@@ -7,11 +7,24 @@
    
   </ion-header-bar>
   <ion-content>
-  <button class = "button button-clear icon ion-android-bicycle"></button>
-  <button class = "button button-clear icon ion-android-bus"></button>
-  <button class = "button button-clear icon ion-android-subway"></button>
-  <button class = "button button-clear icon ion-android-car"></button>
-
-    
-  </ion-content>
+    <ion-list>
+        <div class="card">
+            <ion-item>
+             <h1>{{"User_guide_1" | translate}}</h1>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/wyVM1evRxNw" frameborder="0" width="560" height="315"></iframe>
+                </div>
+            </ion-item>
+        </div>
+        <div class="card">
+            <ion-item>
+            <h1>{{"User_guide_2" | translate}}</h1>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/XxlddwbAvss" frameborder="0" width="560" height="315"></iframe>
+                </div>
+            </ion-item>
+        </div>
+    </ion-list>
+    <p>{{"User_guide_3" | translate}}</p>
+</ion-content>
 </ion-modal-view>
