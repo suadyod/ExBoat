@@ -16,6 +16,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             User_guide_1: "ExBoat Video Promoting",
             User_guide_2: "Chaophraya ExBoat Tip",
             User_guide_3: "***This application will never keep your location data.",
+            User_guide_4: "***The information of this application is refered from Chaophrayaexpressboat.com",
             Follow_us_on: "Follow us on",
             ScrollBottom: "Scroll",
             Find_Me: "Find Me",
@@ -94,7 +95,10 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Nonthaburi_Pibul3_connectivity4: "Mini Van: “Nonthaburi pier-Muang Thong Thani”,”Nonthaburi pier-Victory Monument”,”Nonthaburi pier-Pakkret”,”Nonthaburi pier-Pinkloa Bridge”.",
 
             Rama5: "Rama 5 Bridge",
-            Rama5_desc: " ",
+            Rama5_desc: "It is located beside Rama V pier",
+            Rama5_place1: "Rama V bridge",
+            Rama5_connectivity1: "Bus: ปอ.177",
+            Rama5_connectivity2: "Mini Van: “Lotus Bang Yai Pata Central Pinklao South Bus Terminal”",
 
 
             Pibul2: "Pibul 2",
@@ -233,9 +237,6 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Watthepnarhee_connectivity3: "Taxi",
 
 
-            Watthepakorn: "Wat Thepakorn",
-            Watthepakorn_desc: " ",
-
 
             Krungthonburibridge: "Krung Thon Bridge(Sung Hi)",
             Krungthonburibridge_desc: "Located beside Krung Thon bridge. It is near Riverside hotel and Khema Siri Anusorn School.",
@@ -311,7 +312,18 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Wanglang_connectivity4: "Mini Van: “Siriraj pier-Bang Bua Thong”",
 
             Maharaj: "Maharaj",
-            Maharaj_desc: " ",
+            Maharaj_desc: "It is behind Tha Maharaj pier. In the past Maharaj road was once a road on the east side of the palace. The road was built during the beginning of Rattanakosin era. Then it was developed into low-rise commercial area, creating an open-air shopping and lifestyle market that suits the lifestyle of the new generation. It still have sense of the old lifestyle on the Rattanakosin island that rely on travelling on water.",
+            Maharaj_place1: "Tha Maharaj",
+            Maharaj_place2: "Thammasat University Tha Phrachun Campus",
+            Maharaj_place3: "Bangkok National Museum",
+            Maharaj_place4: "The National Theatre",
+            Maharaj_place5: "Wat Mahathat Yuwaratrangsarit temple",
+            Maharaj_place6: "Sanam Luang",
+            Maharaj_place7: "Tha Phrachun Market",
+            Maharaj_connectivity1: "Bus: 19, 30, 32, 33, 53,60, 70, 201,124, 203  ปอ.32, ปอ.59, ปอ.สาย 3, ปอ.7, ปอ.สาย 80, ปอ.สาย 91, ปอ.503,ปอ.524",
+            Maharaj_connectivity2: "MRT: Orange line “Sanam Luang” station(Future 2020)",
+            Maharaj_connectivity3: "Motorcycle Taxi",
+            Maharaj_connectivity4: "Taxi",
 
             Thachang: "Tha Chang",
             Thachang_desc: "It is located at the end of the Nha Phralarn Road.",
@@ -485,6 +497,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             User_guide_1: "วีดิโอแนะนำ 'ExBoat'",
             User_guide_2: "วิธีโดยสารเรือด่วนเจ้าพระยา",
             User_guide_3: "***แอพพลิเคชั่นนี้จะไม่เก็บหรือบันทึกข้อมูลตำแหน่งใช้ผู้ใช้งาน",
+            User_guide_4: "***ข้อมูลต่างๆในแอพพลิเคชั่นนี้นำมาจาก เว็บไซต์ Chaophrayaexpressboat.com",
             Follow_us_on: "ติดตามเราได้ที่",
             ScrollBottom: "เลื่อนลง",
             Find_Me: "ค้นหาตำแหน่งปัจจุบัน",
@@ -562,7 +575,11 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Nonthaburi_Pibul3_connectivity4: "รถตู้: ในเส้นทางท่าน้ำนนทบุรี-เมืองทองธานี, ท่าน้ำนนทบุรี-อนุสาวรีย์ชัยสมรภูมิ, ท่าน้ำนนทบุรี-ปากเกร็ด, ท่าน้ำนนทบุรี-สะพานพระปิ่นเกล้า",
 
             Rama5: "ท่าพระราม 5",
-            Rama5_desc: " ",
+            Rama5_desc: "อยู่ข้างสะพานพระราม 5",
+            Rama5_place1: "สะพานพระราม 5",
+            Rama5_connectivity1: "ป้ายรถประจำทาง: ปอ.177",
+            Rama5_connectivity2: "รถตู้: “โลตัส บางใหญ่ ปิ่นเกล้า--พาต้า--เซ็นทรัลปิ่นเกล้า—สายใต้ใหม่”",
+
 
 
             Pibul2: "ท่าพิบูลย์สงคราม 2",
@@ -771,7 +788,18 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
             Wanglang_connectivity4: "รถตู้: เส้นทางท่าน้ำศิริราช-บางบัวทอง",
 
             Maharaj: "ท่ามหาราช",
-            Maharaj_desc: " ",
+            Maharaj_desc: "ติดอยู่กับคอมมูนิตี้ มอลล์ท่ามหาราช ในอดีต ถนนมหาราช เคยเป็นถนนข้างกำแพงพระราชวังหลวงด้านตะวันตก ตัดขึ้นในสมัย รัตนโกสินทร์ตอนต้น ต่อมาโครงการได้พัฒนาโดยปรับปรุงเปลี่ยนการใช้พื้นที่และกลุ่มอาคารพาณิชย์ขนาด low-rise ที่มีอยู่ สร้างขึ้นใหม่พัฒนาเป็น open-air shopping & lifestyle market ที่เข้ากับ lifestyle ของคนรุ่นใหม่ และยังคงกลิ่นอายของวิถีชีวิตชุมชนบนเกาะรัตนโกสินทร์ โดยเน้นการสัญจรทางน้ำซึ่งเป็นวิถีชีวิตของคนกรุงในอดีต ซึ่งในลุ่มน้ำของเขตพระนครนั้น",
+            Maharaj_place1: "ท่ามหาราช",
+            Maharaj_place2: "ธรรมศาสตร์ ท่าพระจันทร์",
+            Maharaj_place3: "พิพิธภัณฑ์สถานแห่งชาติ",
+            Maharaj_place4: "โรงละครแห่งชาติ",
+            Maharaj_place5: "วัดมหาธาตุยุวราชรังสฤษฎิ์",
+            Maharaj_place6: "สนามหลวง",
+            Maharaj_place7: "ตลาดท่าพระจันทร์",
+            Maharaj_connectivity1: "ป้ายรถประจำทาง: 19, 30, 32, 33, 53,60, 70, 201,124, 203  ปอ.32, ปอ.59, ปอ.สาย 3, ปอ.7, ปอ.สาย 80, ปอ.สาย 91, ปอ.503,ปอ.524",
+            Maharaj_connectivity2: "รถไฟฟ้าใต้ดิน: สายสีส้ม สถานีศิริราช(อนาคต)",
+            Maharaj_connectivity3: "มอเตอร์ไซค์รับจ้าง",
+            Maharaj_connectivity4: "แท็กซี่",
 
             Thachang: "ท่าช้าง",
             Thachang_desc: "ท่าช้างวังหลวง เป็นท่าเรือริมฝั่งแม่น้ำเจ้าพระยา ตั้งอยู่บริเวณสุดถนนหน้าพระลาน แขวงพระบรมมหาราชวัง เขตพระนคร กรุงเทพมหานคร",
@@ -1097,7 +1125,6 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     {id: 15, title: '(N20)ท่าเขียวไก่กา', value: "N20"},
     {id: 16, title: '(N19)ท่ากรมชลประทาน', value: "N19"},
     {id: 17, title: '(N18)ท่าพายัพ', value: "N18"},
-    {id: 18, title: '(N17s)ท่าวัดเทพากร', value: "N17s"},
     {id: 19, title: '(N17)ท่าวัดเทพนารี', value: "N17"},
     {id: 20, title: '(N16)ท่าสะพานกรุงธน (ซังฮี้)', value: "N16"},
     {id: 21, title: '(N15)ท่าเทเวศร์', value: "N15"},
@@ -1141,7 +1168,6 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     {id: 15, title: '(N20)ท่าเขียวไก่กา', value: "N20"},
     {id: 16, title: '(N19)ท่ากรมชลประทาน', value: "N19"},
     {id: 17, title: '(N18)ท่าพายัพ', value: "N18"},
-    {id: 18, title: '(N17s)ท่าวัดเทพากร', value: "N17s"},
     {id: 19, title: '(N17)ท่าวัดเทพนารี', value: "N17"},
     {id: 20, title: '(N16)ท่าสะพานกรุงธน (ซังฮี้)', value: "N16"},
     {id: 21, title: '(N15)ท่าเทเวศร์', value: "N15"},
@@ -24706,42 +24732,6 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     }
 
 
-    $scope.diffforblink17s = 0;
-    $scope.checkblink17s = function(latpier,lngpier) {
-        $interval(function() {     
-            window.localStorage.setItem("latpier17s",latpier);
-            window.localStorage.setItem("lngpier17s",lngpier);
-            $scope.latpier = window.localStorage.getItem("latpier17s");
-            $scope.lngpier = window.localStorage.getItem("lngpier17s");  
-            $scope.R = 6371; // Radius of the earth in km
-            $scope.dLat = ($scope.lat-$scope.latpier)* (Math.PI/180);  // deg2rad below
-            $scope.dLon = ($scope.lng-$scope.lngpier)* (Math.PI/180); 
-            $scope.a = 
-            Math.sin($scope.dLat/2) * Math.sin($scope.dLat/2) +
-            Math.cos(($scope.latpier)* (Math.PI/180)) * Math.cos(($scope.lat)* (Math.PI/180)) * 
-            Math.sin($scope.dLon/2) * Math.sin($scope.dLon/2)
-            ; 
-            $scope.c = 2 * Math.atan2(Math.sqrt($scope.a), Math.sqrt(1-$scope.a)); 
-            $scope.diffforblink17s  = $scope.R * $scope.c; // Distance in km 
-          }, 500)
-    } 
-    $scope.notifyn17s = function() {
-        $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn17s)   
-        var alarmTime = new Date();
-        alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
-            id: "17s",
-            date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N17s)ท่าเทพากร(Thepakorn)",
-            title: "ExBoat",
-            autoCancel: true,
-            sound: true
-        });    
-        alert("You have arrived your destination : (N17s)ท่าเทพากร(Thepakorn)");
-    }
-
-
     $scope.diffforblink17 = 0;
     $scope.checkblink17 = function(latpier,lngpier) {
         $interval(function() {     
@@ -25447,7 +25437,6 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     $scope.destn20 = "N20";
     $scope.destn19 = "N19";
     $scope.destn18 = "N18";
-    $scope.destn17s = "N17s";
     $scope.destn17 = "N17";
     $scope.destn16 = "N16";
     $scope.destn15 = "N15";

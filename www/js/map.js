@@ -342,23 +342,6 @@ angular.module('starter.map', [])
         google.maps.event.addListener(marker17, 'click', function() {
           infowindow17.open(map,marker17);
         });
-
-
-        var pier17s = new google.maps.LatLng(13.785604,100.503352);
-        var marker17s = new google.maps.Marker({
-          position: pier17s,
-          map: map ,
-          icon: img,
-          title:"point17s"
-        })
-        var infoText17s = "<div><a ng-click='popopen17s()'><br><h1>(N17s){{ 'Watthepakorn' | translate }}</h1></a></div>";
-        var compiled17s = $compile(infoText17s)($scope);
-        var infowindow17s = new google.maps.InfoWindow({
-          content: compiled17s[0]
-        });
-        google.maps.event.addListener(marker17s, 'click', function() {
-          infowindow17s.open(map,marker17s);
-        });
         
 
         var pier18 = new google.maps.LatLng(13.787513,100.508056);
@@ -1070,22 +1053,6 @@ angular.module('starter.map', [])
       $scope.pop17.hide();
       };
 
-      //Modal#17s
-      $ionicModal.fromTemplateUrl('templates/popup/N17s.html', {
-        id: '175',
-        backdropClickToClose: false,
-        scope: $scope
-      }).then(function(modal) {
-        $scope.pop17s = modal;
-      });
-
-      $scope.popopen17s = function(index) {
-      $scope.pop17s.show();
-      };
-
-      $scope.popclose17s = function(index) {
-      $scope.pop17s.hide();
-      };
 
       //Modal#18
       $ionicModal.fromTemplateUrl('templates/popup/N18.html', {
