@@ -2296,7 +2296,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.13,
                   name: 'Orange',
                   price: 15,
@@ -2327,7 +2327,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 1.72,
                   name: 'Normal',
                   price: 10,
@@ -2358,7 +2358,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.64,
                   name: 'Normal',
                   price: 10,
@@ -2389,7 +2389,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 2.13,
                   name: 'Normal',
                   price: 10,
@@ -2399,36 +2399,6 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "N30" && $scope.dest == "N27" || $scope.begin == "N27" && $scope.dest == "N30")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N30")
-                {
-                    $scope.latbegin = 13.824440;
-                    $scope.lngbegin = 100.498776;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N27")
-                {
-                    $scope.latbegin = 13.842068;
-                    $scope.lngbegin = 100.491147;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 2.13,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
 
           else if($scope.begin == "N30" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N30")
           {
@@ -2451,7 +2421,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 2.5,
                   name: 'Normal',
                   price: 10,
@@ -2461,7 +2431,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
           }
 
-          else if($scope.begin == "N30" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N30")
+          else if($scope.begin == "N30" && $scope.dest == "N25" || $scope.begin == "N25" && $scope.dest == "N30")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
@@ -2473,7 +2443,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "N26")
+                else if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.842068;
                     $scope.lngbegin = 100.491147;
@@ -2482,7 +2452,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.1,
                   name: 'Normal',
                   price: 10,
@@ -2513,7 +2483,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.04,
                   name: 'Normal',
                   price: 10,
@@ -2522,7 +2492,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 4.04,
                   name: 'Orange',
                   price: 15,
@@ -2531,7 +2501,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 4.04,
                   name: 'Green',
                   price: 20,
@@ -2540,7 +2510,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 4.04,
                   name: 'Yellow',
                   price: 20,
@@ -2571,7 +2541,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.38,
                   name: 'Normal',
                   price: 10,
@@ -2602,7 +2572,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 4.96,
                   name: 'Normal',
                   price: 10,
@@ -2611,7 +2581,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.96,
                   name: 'Orange',
                   price: 15,
@@ -2620,7 +2590,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 4.96,
                   name: 'Yellow',
                   price: 20,
@@ -2651,7 +2621,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 5.56,
                   name: 'Normal',
                   price: 10,
@@ -2660,7 +2630,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 5.56,
                   name: 'Orange',
                   price: 15,
@@ -2690,7 +2660,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 6.08,
                   name: 'Normal',
                   price: 10,
@@ -2720,7 +2690,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 6.25,
                   name: 'Normal',
                   price: 10,
@@ -2750,7 +2720,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 6.34,
                   name: 'Normal',
                   price: 10,
@@ -2759,42 +2729,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 6.34,
                   name: 'Orange',
                   price: 15,
                   value: "orangeline",
                   image: 'img/flags/orangeflag.png'
-              });
-
-          }
-          else if($scope.begin == "N30" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N30")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N30")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.842068;
-                    $scope.lngbegin = 100.491147;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 6.42,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
               });
 
           }
@@ -2819,7 +2759,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 6.57,
                   name: 'Normal',
                   price: 12,
@@ -2849,7 +2789,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 6.78,
                   name: 'Normal',
                   price: 12,
@@ -2858,7 +2798,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 6.78,
                   name: 'Orange',
                   price: 15,
@@ -2867,7 +2807,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 6.78,
                   name: 'Green',
                   price: 20,
@@ -2897,7 +2837,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 7.84,
                   name: 'Normal',
                   price: 12,
@@ -2906,7 +2846,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 7.84,
                   name: 'Orange',
                   price: 15,
@@ -2915,12 +2855,21 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 7.84,
                   name: 'Green',
                   price: 20,
                   value: "greenline",
                   image: 'img/flags/greenflag.png'
+              });
+                 $scope.Plist.push({
+                  id: $scope.Plist.length + 1,
+                  time: "0 hour 17 minutes",
+                  distance: 7.84,
+                  name: 'Yellow',
+                  price: 20,
+                  value: "yellowline",
+                  image: 'img/flags/yellowflag.png'
               });
 
           }
@@ -2945,7 +2894,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 8.31,
                   name: 'Normal',
                   price: 12,
@@ -2975,7 +2924,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 8.74,
                   name: 'Normal',
                   price: 12,
@@ -2984,12 +2933,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 8.74,
-                  name: 'Green',
-                  price: 20,
-                  value: "greenline",
-                  image: 'img/flags/greenflag.png'
+                  name: 'Orange',
+                  price: 15,
+                  value: "orangeline",
+                  image: 'img/flags/orangeflag.png'
               });
 
           }
@@ -3014,7 +2963,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 8.79,
                   name: 'Normal',
                   price: 12,
@@ -3023,7 +2972,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 8.79,
                   name: 'Orange',
                   price: 15,
@@ -3032,7 +2981,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 8.79,
                   name: 'Green',
                   price: 20,
@@ -3041,7 +2990,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 8.79,
                   name: 'Yellow',
                   price: 20,
@@ -3071,7 +3020,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 9.22,
                   name: 'Normal',
                   price: 12,
@@ -3101,7 +3050,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 9.58,
                   name: 'Normal',
                   price: 12,
@@ -3110,7 +3059,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 9.58,
                   name: 'Orange',
                   price: 15,
@@ -3119,7 +3068,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 9.58,
                   name: 'Green',
                   price: 20,
@@ -3128,7 +3077,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 9.58,
                   name: 'Yellow',
                   price: 20,
@@ -3158,7 +3107,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 39 minutes",
                   distance: 9.97,
                   name: 'Normal',
                   price: 12,
@@ -3167,7 +3116,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 38 minutes",
                   distance: 9.97,
                   name: 'Orange',
                   price: 15,
@@ -3176,7 +3125,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 9.97,
                   name: 'Green',
                   price: 20,
@@ -3206,7 +3155,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 41 minutes",
                   distance: 10.65,
                   name: 'Normal',
                   price: 12,
@@ -3215,7 +3164,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 39 minutes",
                   distance: 10.65,
                   name: 'Orange',
                   price: 15,
@@ -3245,7 +3194,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 42 minutes",
                   distance: 11.18,
                   name: 'Normal',
                   price: 12,
@@ -3275,7 +3224,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 43 minutes",
                   distance: 11.41,
                   name: 'Normal',
                   price: 12,
@@ -3284,7 +3233,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 41 minutes",
                   distance: 11.41,
                   name: 'Orange',
                   price: 15,
@@ -3314,7 +3263,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 44 minutes",
                   distance: 11.59,
                   name: 'Normal',
                   price: 12,
@@ -3323,7 +3272,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 42 minutes",
                   distance: 11.59,
                   name: 'Orange',
                   price: 15,
@@ -3332,7 +3281,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 11.59,
                   name: 'Green',
                   price: 20,
@@ -3341,7 +3290,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 31 minutes",
                   distance: 11.59,
                   name: 'Yellow',
                   price: 20,
@@ -3371,7 +3320,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 46 minutes",
                   distance: 12.39,
                   name: 'Normal',
                   price: 14,
@@ -3380,7 +3329,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 44 minutes",
                   distance: 12.39,
                   name: 'Orange',
                   price: 15,
@@ -3410,7 +3359,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 48 minutes",
                   distance: 12.86,
                   name: 'Normal',
                   price: 14,
@@ -3419,7 +3368,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 46 minutes",
                   distance: 12.86,
                   name: 'Orange',
                   price: 15,
@@ -3428,7 +3377,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 12.86,
                   name: 'Green',
                   price: 20,
@@ -3437,7 +3386,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 12.86,
                   name: 'Yellow',
                   price: 20,
@@ -3467,7 +3416,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 49 minutes",
                   distance: 13.13,
                   name: 'Normal',
                   price: 14,
@@ -3497,7 +3446,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 50 minutes",
                   distance: 13.43,
                   name: 'Normal',
                   price: 14,
@@ -3506,7 +3455,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 47 minutes",
                   distance: 13.43,
                   name: 'Orange',
                   price: 15,
@@ -3536,7 +3485,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 53 minutes",
                   distance: 13.9,
                   name: 'Normal',
                   price: 14,
@@ -3545,7 +3494,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 50 minutes",
                   distance: 13.9,
                   name: 'Orange',
                   price: 15,
@@ -3554,7 +3503,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 39 minutes",
                   distance: 13.9,
                   name: 'Green',
                   price: 20,
@@ -3563,7 +3512,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 37 minutes",
                   distance: 13.9,
                   name: 'Yellow',
                   price: 20,
@@ -3593,7 +3542,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 55 minutes",
                   distance: 14.49,
                   name: 'Normal',
                   price: 14,
@@ -3623,7 +3572,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "1 hour 01 minutes",
                   distance: 14.87,
                   name: 'Normal',
                   price: 14,
@@ -3632,7 +3581,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 54 minutes",
                   distance: 14.87,
                   name: 'Orange',
                   price: 15,
@@ -3662,7 +3611,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "1 hour 02 minutes",
                   distance: 15.13,
                   name: 'Normal',
                   price: 14,
@@ -3671,7 +3620,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 55 minutes",
                   distance: 15.13,
                   name: 'Orange',
                   price: 15,
@@ -3701,7 +3650,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 47 minutes",
                   distance: 17.47,
                   name: 'Yellow',
                   price: 29,
@@ -3731,7 +3680,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 3.02,
                   name: 'Orange',
                   price: 15,
@@ -3761,7 +3710,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 4.96,
                   name: 'Orange',
                   price: 15,
@@ -3791,7 +3740,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 4.48,
                   name: 'Orange',
                   price: 15,
@@ -3821,7 +3770,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 5.2,
                   name: 'Orange',
                   price: 15,
@@ -3851,7 +3800,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 5.65,
                   name: 'Orange',
                   price: 15,
@@ -3881,7 +3830,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 6.72,
                   name: 'Orange',
                   price: 15,
@@ -3911,7 +3860,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 7.64,
                   name: 'Orange',
                   price: 15,
@@ -3941,7 +3890,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 7.7,
                   name: 'Orange',
                   price: 15,
@@ -3971,7 +3920,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 8.51,
                   name: 'Orange',
                   price: 15,
@@ -4001,7 +3950,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 8.89,
                   name: 'Orange',
                   price: 15,
@@ -4031,7 +3980,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 9.57,
                   name: 'Orange',
                   price: 15,
@@ -4061,7 +4010,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 38 minutes",
                   distance: 10.3,
                   name: 'Orange',
                   price: 15,
@@ -4091,7 +4040,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 39 minutes",
                   distance: 10.47,
                   name: 'Orange',
                   price: 15,
@@ -4121,7 +4070,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 41 minutes",
                   distance: 11.26,
                   name: 'Orange',
                   price: 15,
@@ -4151,7 +4100,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 43 minutes",
                   distance: 11.73,
                   name: 'Orange',
                   price: 15,
@@ -4181,7 +4130,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 44 minutes",
                   distance: 12.3,
                   name: 'Orange',
                   price: 15,
@@ -4211,7 +4160,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 47 minutes",
                   distance: 12.77,
                   name: 'Orange',
                   price: 15,
@@ -4241,7 +4190,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 51 minutes",
                   distance: 13.75,
                   name: 'Orange',
                   price: 15,
@@ -4271,7 +4220,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 52 minutes",
                   distance: 14.02,
                   name: 'Orange',
                   price: 15,
@@ -4301,7 +4250,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.51,
                   name: 'Normal',
                   price: 10,
@@ -4331,7 +4280,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 0.97,
                   name: 'Normal',
                   price: 10,
@@ -4361,7 +4310,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.32,
                   name: 'Normal',
                   price: 10,
@@ -4391,7 +4340,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.96,
                   name: 'Normal',
                   price: 10,
@@ -4421,7 +4370,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.87,
                   name: 'Normal',
                   price: 10,
@@ -4451,7 +4400,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.24,
                   name: 'Normal',
                   price: 10,
@@ -4481,7 +4430,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.81,
                   name: 'Normal',
                   price: 10,
@@ -4511,7 +4460,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.39,
                   name: 'Normal',
                   price: 10,
@@ -4541,7 +4490,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.92,
                   name: 'Normal',
                   price: 10,
@@ -4571,7 +4520,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 5.1,
                   name: 'Normal',
                   price: 10,
@@ -4601,7 +4550,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 5.19,
                   name: 'Normal',
                   price: 10,
@@ -4610,36 +4559,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N29" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N29")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N29")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.832842;
-                    $scope.lngbegin = 100.496391;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 5.31,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N29" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N29")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -4661,7 +4581,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 5.47,
                   name: 'Normal',
                   price: 12,
@@ -4691,7 +4611,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 5.69,
                   name: 'Normal',
                   price: 12,
@@ -4721,7 +4641,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 6.76,
                   name: 'Normal',
                   price: 12,
@@ -4751,7 +4671,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 7.26,
                   name: 'Normal',
                   price: 12,
@@ -4781,7 +4701,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 7.71,
                   name: 'Normal',
                   price: 12,
@@ -4811,7 +4731,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 7.79,
                   name: 'Normal',
                   price: 12,
@@ -4841,7 +4761,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 8.24,
                   name: 'Normal',
                   price: 12,
@@ -4871,7 +4791,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 8.6,
                   name: 'Normal',
                   price: 12,
@@ -4901,7 +4821,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 8.99,
                   name: 'Normal',
                   price: 12,
@@ -4931,7 +4851,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 9.65,
                   name: 'Normal',
                   price: 12,
@@ -4961,7 +4881,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 35 minutes",
                   distance: 10.15,
                   name: 'Normal',
                   price: 12,
@@ -4991,7 +4911,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 10.36,
                   name: 'Normal',
                   price: 12,
@@ -5021,7 +4941,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 37 minutes",
                   distance: 10.51,
                   name: 'Normal',
                   price: 12,
@@ -5051,7 +4971,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 39 minutes",
                   distance: 11.28,
                   name: 'Normal',
                   price: 14,
@@ -5081,7 +5001,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 41 minutes",
                   distance: 11.75,
                   name: 'Normal',
                   price: 14,
@@ -5111,7 +5031,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 42 minutes",
                   distance: 12.02,
                   name: 'Normal',
                   price: 14,
@@ -5141,7 +5061,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 43 minutes",
                   distance: 12.32,
                   name: 'Normal',
                   price: 14,
@@ -5171,7 +5091,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 46 minutes",
                   distance: 12.8,
                   name: 'Normal',
                   price: 14,
@@ -5201,7 +5121,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 48 minutes",
                   distance: 13.41,
                   name: 'Normal',
                   price: 14,
@@ -5231,7 +5151,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 54 minutes",
                   distance: 13.79,
                   name: 'Normal',
                   price: 14,
@@ -5261,7 +5181,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 55 minutes",
                   distance: 14.07,
                   name: 'Normal',
                   price: 14,
@@ -5292,7 +5212,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.49,
                   name: 'Normal',
                   price: 10,
@@ -5322,7 +5242,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.87,
                   name: 'Normal',
                   price: 10,
@@ -5352,7 +5272,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.53,
                   name: 'Normal',
                   price: 10,
@@ -5382,7 +5302,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 2.5,
                   name: 'Normal',
                   price: 10,
@@ -5412,7 +5332,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.88,
                   name: 'Normal',
                   price: 10,
@@ -5442,7 +5362,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.42,
                   name: 'Normal',
                   price: 10,
@@ -5472,7 +5392,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.95,
                   name: 'Normal',
                   price: 10,
@@ -5502,7 +5422,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.44,
                   name: 'Normal',
                   price: 10,
@@ -5532,7 +5452,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.61,
                   name: 'Normal',
                   price: 10,
@@ -5562,7 +5482,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.7,
                   name: 'Normal',
                   price: 10,
@@ -5571,36 +5491,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N28" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N28")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N28")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.828306;
-                    $scope.lngbegin = 100.496632;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 4.8,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N28" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N28")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -5622,7 +5513,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.97,
                   name: 'Normal',
                   price: 12,
@@ -5652,7 +5543,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 5.19,
                   name: 'Normal',
                   price: 12,
@@ -5682,7 +5573,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 6.26,
                   name: 'Normal',
                   price: 12,
@@ -5712,7 +5603,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 6.75,
                   name: 'Normal',
                   price: 12,
@@ -5742,7 +5633,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 7.21,
                   name: 'Normal',
                   price: 12,
@@ -5772,7 +5663,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 7.29,
                   name: 'Normal',
                   price: 12,
@@ -5802,7 +5693,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 7.74,
                   name: 'Normal',
                   price: 12,
@@ -5832,7 +5723,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 8.11,
                   name: 'Normal',
                   price: 12,
@@ -5862,7 +5753,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 8.49,
                   name: 'Normal',
                   price: 12,
@@ -5892,7 +5783,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 31 minutes",
                   distance: 9.15,
                   name: 'Normal',
                   price: 12,
@@ -5922,7 +5813,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 9.65,
                   name: 'Normal',
                   price: 12,
@@ -5952,7 +5843,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 9.85,
                   name: 'Normal',
                   price: 12,
@@ -5982,7 +5873,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 10.01,
                   name: 'Normal',
                   price: 12,
@@ -6012,7 +5903,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 10.78,
                   name: 'Normal',
                   price: 14,
@@ -6042,7 +5933,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 38 minutes",
                   distance: 11.25,
                   name: 'Normal',
                   price: 14,
@@ -6072,7 +5963,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 39 minutes",
                   distance: 11.52,
                   name: 'Normal',
                   price: 14,
@@ -6102,7 +5993,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 40 minutes",
                   distance: 11.82,
                   name: 'Normal',
                   price: 14,
@@ -6132,7 +6023,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 43 minutes",
                   distance: 12.29,
                   name: 'Normal',
                   price: 14,
@@ -6162,7 +6053,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 45 minutes",
                   distance: 12.91,
                   name: 'Normal',
                   price: 14,
@@ -6192,7 +6083,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 51 minutes",
                   distance: 13.29,
                   name: 'Normal',
                   price: 14,
@@ -6222,7 +6113,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 52 minutes",
                   distance: 13.56,
                   name: 'Normal',
                   price: 14,
@@ -6252,7 +6143,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.43,
                   name: 'Normal',
                   price: 10,
@@ -6282,7 +6173,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 1.05,
                   name: 'Normal',
                   price: 10,
@@ -6312,7 +6203,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 2.04,
                   name: 'Normal',
                   price: 10,
@@ -6342,7 +6233,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 2.44,
                   name: 'Normal',
                   price: 10,
@@ -6372,7 +6263,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.95,
                   name: 'Normal',
                   price: 10,
@@ -6402,7 +6293,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.47,
                   name: 'Normal',
                   price: 10,
@@ -6432,7 +6323,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.96,
                   name: 'Normal',
                   price: 10,
@@ -6462,7 +6353,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 4.13,
                   name: 'Normal',
                   price: 10,
@@ -6492,7 +6383,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.23,
                   name: 'Normal',
                   price: 10,
@@ -6501,36 +6392,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N27" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N27")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N27")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.824440;
-                    $scope.lngbegin = 100.498776;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 4.35,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N27" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N27")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -6552,7 +6414,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.51,
                   name: 'Normal',
                   price: 12,
@@ -6582,7 +6444,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.74,
                   name: 'Normal',
                   price: 12,
@@ -6612,7 +6474,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 5.81,
                   name: 'Normal',
                   price: 12,
@@ -6642,7 +6504,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 6.32,
                   name: 'Normal',
                   price: 12,
@@ -6672,7 +6534,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 6.79,
                   name: 'Normal',
                   price: 12,
@@ -6702,7 +6564,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 6.89,
                   name: 'Normal',
                   price: 12,
@@ -6732,7 +6594,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 7.35,
                   name: 'Normal',
                   price: 12,
@@ -6762,7 +6624,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 7.72,
                   name: 'Normal',
                   price: 12,
@@ -6792,7 +6654,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 8.09,
                   name: 'Normal',
                   price: 12,
@@ -6822,7 +6684,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 8.74,
                   name: 'Normal',
                   price: 12,
@@ -6852,7 +6714,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 9.23,
                   name: 'Normal',
                   price: 12,
@@ -6882,7 +6744,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 31 minutes",
                   distance: 9.42,
                   name: 'Normal',
                   price: 12,
@@ -6912,7 +6774,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 9.56,
                   name: 'Normal',
                   price: 12,
@@ -6942,7 +6804,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 10.32,
                   name: 'Normal',
                   price: 14,
@@ -6972,7 +6834,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 10.79,
                   name: 'Normal',
                   price: 14,
@@ -7002,7 +6864,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 37 minutes",
                   distance: 11.06,
                   name: 'Normal',
                   price: 14,
@@ -7032,7 +6894,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 38 minutes",
                   distance: 11.36,
                   name: 'Normal',
                   price: 14,
@@ -7062,7 +6924,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 41 minutes",
                   distance: 11.84,
                   name: 'Normal',
                   price: 14,
@@ -7092,7 +6954,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 43 minutes",
                   distance: 12.46,
                   name: 'Normal',
                   price: 14,
@@ -7122,7 +6984,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 49 minutes",
                   distance: 12.84,
                   name: 'Normal',
                   price: 14,
@@ -7152,7 +7014,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 50 minutes",
                   distance: 13.12,
                   name: 'Normal',
                   price: 14,
@@ -7161,7 +7023,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N26" || $scope.begin == "N26" && $scope.dest == "N26")
+          else if($scope.begin == "N26" && $scope.dest == "N25" || $scope.begin == "N25" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
@@ -7173,7 +7035,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                     window.localStorage.setItem("latbegin",$scope.latbegin);
                     window.localStorage.setItem("lngbegin",$scope.lngbegin);
                 }
-                else if($scope.begin == "N26")
+                else if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.822288;
                     $scope.lngbegin = 100.502047;
@@ -7182,7 +7044,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.64,
                   name: 'Normal',
                   price: 10,
@@ -7212,7 +7074,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 1.62,
                   name: 'Normal',
                   price: 10,
@@ -7242,7 +7104,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 2.01,
                   name: 'Normal',
                   price: 10,
@@ -7272,7 +7134,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 2.53,
                   name: 'Normal',
                   price: 10,
@@ -7302,7 +7164,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 3.07,
                   name: 'Normal',
                   price: 10,
@@ -7332,7 +7194,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 3.62,
                   name: 'Normal',
                   price: 10,
@@ -7362,7 +7224,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.81,
                   name: 'Normal',
                   price: 10,
@@ -7392,7 +7254,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.92,
                   name: 'Normal',
                   price: 10,
@@ -7401,36 +7263,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N26")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N26")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.822288;
-                    $scope.lngbegin = 100.502047;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 4.08,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N26" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N26")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -7452,7 +7285,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.26,
                   name: 'Normal',
                   price: 12,
@@ -7482,7 +7315,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.5,
                   name: 'Normal',
                   price: 12,
@@ -7512,7 +7345,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 5.58,
                   name: 'Normal',
                   price: 12,
@@ -7542,7 +7375,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 6.1,
                   name: 'Normal',
                   price: 12,
@@ -7572,7 +7405,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 6.59,
                   name: 'Normal',
                   price: 12,
@@ -7602,7 +7435,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 6.7,
                   name: 'Normal',
                   price: 12,
@@ -7632,7 +7465,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 7.19,
                   name: 'Normal',
                   price: 12,
@@ -7662,7 +7495,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 7.55,
                   name: 'Normal',
                   price: 12,
@@ -7692,7 +7525,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 7.91,
                   name: 'Normal',
                   price: 12,
@@ -7722,7 +7555,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 8.55,
                   name: 'Normal',
                   price: 12,
@@ -7752,7 +7585,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 9.02,
                   name: 'Normal',
                   price: 12,
@@ -7782,7 +7615,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 9.2,
                   name: 'Normal',
                   price: 12,
@@ -7812,7 +7645,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 31 minutes",
                   distance: 9.31,
                   name: 'Normal',
                   price: 12,
@@ -7842,7 +7675,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 10.04,
                   name: 'Normal',
                   price: 14,
@@ -7872,7 +7705,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 35 minutes",
                   distance: 10.51,
                   name: 'Normal',
                   price: 14,
@@ -7902,7 +7735,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 10.78,
                   name: 'Normal',
                   price: 14,
@@ -7932,7 +7765,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 37 minutes",
                   distance: 11.08,
                   name: 'Normal',
                   price: 14,
@@ -7962,7 +7795,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 40 minutes",
                   distance: 11.56,
                   name: 'Normal',
                   price: 14,
@@ -7992,7 +7825,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 42 minutes",
                   distance: 12.2,
                   name: 'Normal',
                   price: 14,
@@ -8022,7 +7855,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 48 minutes",
                   distance: 12.58,
                   name: 'Normal',
                   price: 14,
@@ -8052,7 +7885,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 49 minutes",
                   distance: 12.87,
                   name: 'Normal',
                   price: 14,
@@ -8061,12 +7894,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N26")
+
+
+          else if($scope.begin == "N25" && $scope.dest == "N24" || $scope.begin == "N24" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.812884;
                     $scope.lngbegin = 100.513469;
@@ -8082,7 +7917,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 1.01,
                   name: 'Normal',
                   price: 10,
@@ -8091,12 +7926,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N23" || $scope.begin == "N23" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N23" || $scope.begin == "N23" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.812064;
                     $scope.lngbegin = 100.517409;
@@ -8112,7 +7947,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.43,
                   name: 'Normal',
                   price: 10,
@@ -8121,12 +7956,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N22" || $scope.begin == "N22" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N22" || $scope.begin == "N22" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.806427;
                     $scope.lngbegin = 100.518826;
@@ -8142,7 +7977,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.9,
                   name: 'Normal',
                   price: 10,
@@ -8151,12 +7986,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N21" || $scope.begin == "N21" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.798805;
                     $scope.lngbegin = 100.517013;
@@ -8172,7 +8007,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.44,
                   name: 'Normal',
                   price: 10,
@@ -8181,12 +8016,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N20" || $scope.begin == "N20" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.791118;
                     $scope.lngbegin = 100.511646;
@@ -8202,7 +8037,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.02,
                   name: 'Normal',
                   price: 10,
@@ -8211,12 +8046,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N19" || $scope.begin == "N19" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.788765;
                     $scope.lngbegin = 100.509529;
@@ -8232,7 +8067,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 3.24,
                   name: 'Normal',
                   price: 10,
@@ -8241,12 +8076,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N18" || $scope.begin == "N18" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.787513;
                     $scope.lngbegin = 100.508056;
@@ -8262,7 +8097,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.36,
                   name: 'Normal',
                   price: 10,
@@ -8271,42 +8106,13 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N26")
+         
+          else if($scope.begin == "N25" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.817649;
-                    $scope.lngbegin = 100.505528;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 3.57,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N26" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N26")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.783995;
                     $scope.lngbegin = 100.502285;
@@ -8322,7 +8128,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.76,
                   name: 'Normal',
                   price: 12,
@@ -8331,12 +8137,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.781860;
                     $scope.lngbegin = 100.501076;
@@ -8352,7 +8158,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.01,
                   name: 'Normal',
                   price: 12,
@@ -8361,12 +8167,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.772132;
                     $scope.lngbegin = 100.500097;
@@ -8382,7 +8188,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 5.1,
                   name: 'Normal',
                   price: 12,
@@ -8391,12 +8197,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.767593;
                     $scope.lngbegin = 100.497456;
@@ -8412,7 +8218,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 5.63,
                   name: 'Normal',
                   price: 12,
@@ -8421,12 +8227,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.763544;
                     $scope.lngbegin = 100.494038;
@@ -8442,7 +8248,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 6.14,
                   name: 'Normal',
                   price: 12,
@@ -8451,12 +8257,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.763006;
                     $scope.lngbegin = 100.490625;
@@ -8472,7 +8278,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 6.29,
                   name: 'Normal',
                   price: 12,
@@ -8481,12 +8287,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.759227;
                     $scope.lngbegin = 100.487517;
@@ -8502,7 +8308,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 6.78,
                   name: 'Normal',
                   price: 12,
@@ -8511,12 +8317,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.756003;
                     $scope.lngbegin = 100.486950;
@@ -8532,7 +8338,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 7.14,
                   name: 'Normal',
                   price: 12,
@@ -8541,12 +8347,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.752411;
                     $scope.lngbegin = 100.488293;
@@ -8562,7 +8368,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 7.49,
                   name: 'Normal',
                   price: 12,
@@ -8571,12 +8377,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.746285;
                     $scope.lngbegin = 100.489872;
@@ -8592,7 +8398,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 8.11,
                   name: 'Normal',
                   price: 12,
@@ -8601,12 +8407,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.741572;
                     $scope.lngbegin = 100.493959;
@@ -8622,7 +8428,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 8.55,
                   name: 'Normal',
                   price: 12,
@@ -8631,12 +8437,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.739703;
                     $scope.lngbegin = 100.498394;
@@ -8652,7 +8458,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 8.7,
                   name: 'Normal',
                   price: 12,
@@ -8661,12 +8467,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.738621;
                     $scope.lngbegin = 100.504260;
@@ -8682,7 +8488,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 8.79,
                   name: 'Normal',
                   price: 12,
@@ -8691,12 +8497,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.732493;
                     $scope.lngbegin = 100.511836;
@@ -8712,7 +8518,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 9.49,
                   name: 'Normal',
                   price: 14,
@@ -8721,12 +8527,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.728414;
                     $scope.lngbegin = 100.513182;
@@ -8742,7 +8548,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 9.96,
                   name: 'Normal',
                   price: 14,
@@ -8751,12 +8557,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.726021;
                     $scope.lngbegin = 100.513535;
@@ -8772,7 +8578,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 35 minutes",
                   distance: 10.23,
                   name: 'Normal',
                   price: 14,
@@ -8781,12 +8587,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.723298;
                     $scope.lngbegin = 100.513541;
@@ -8802,7 +8608,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 10.53,
                   name: 'Normal',
                   price: 14,
@@ -8811,12 +8617,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.718858;
                     $scope.lngbegin = 100.512720;
@@ -8832,7 +8638,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 39 minutes",
                   distance: 11.01,
                   name: 'Normal',
                   price: 14,
@@ -8841,12 +8647,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.712662;
                     $scope.lngbegin = 100.507183;
@@ -8862,7 +8668,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 41 minutes",
                   distance: 11.68,
                   name: 'Normal',
                   price: 14,
@@ -8871,12 +8677,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.709201;
                     $scope.lngbegin = 100.506626;
@@ -8892,7 +8698,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 47 minutes",
                   distance: 12.06,
                   name: 'Normal',
                   price: 14,
@@ -8901,12 +8707,12 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N26" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N26")
+          else if($scope.begin == "N25" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N25")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
                 window.localStorage.setItem("dest_pier", $scope.dest);
                 
-                if($scope.begin == "N26")
+                if($scope.begin == "N25")
                 {
                     $scope.latbegin = 13.706542;
                     $scope.lngbegin = 100.503840;
@@ -8922,7 +8728,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 48 minutes",
                   distance: 12.36,
                   name: 'Normal',
                   price: 14,
@@ -8952,7 +8758,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.44,
                   name: 'Normal',
                   price: 10,
@@ -8982,7 +8788,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 0.92,
                   name: 'Normal',
                   price: 10,
@@ -8991,7 +8797,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.92,
                   name: 'Yellow',
                   price: 20,
@@ -9000,7 +8806,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 0.92,
                   name: 'Orange',
                   price: 15,
@@ -9030,7 +8836,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.61,
                   name: 'Normal',
                   price: 10,
@@ -9039,7 +8845,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.61,
                   name: 'Orange',
                   price: 15,
@@ -9069,7 +8875,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.43,
                   name: 'Normal',
                   price: 10,
@@ -9099,7 +8905,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 2.72,
                   name: 'Normal',
                   price: 10,
@@ -9129,7 +8935,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 2.88,
                   name: 'Normal',
                   price: 10,
@@ -9138,7 +8944,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.88,
                   name: 'Orange',
                   price: 15,
@@ -9147,36 +8953,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N24" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N24")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N24")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.812884;
-                    $scope.lngbegin = 100.513469;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 3.22,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N24" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N24")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -9198,7 +8975,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.43,
                   name: 'Normal',
                   price: 12,
@@ -9228,7 +9005,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.7,
                   name: 'Normal',
                   price: 12,
@@ -9237,7 +9014,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 3.7,
                   name: 'Green',
                   price: 20,
@@ -9246,7 +9023,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.7,
                   name: 'Orange',
                   price: 15,
@@ -9276,7 +9053,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.76,
                   name: 'Normal',
                   price: 12,
@@ -9285,7 +9062,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 4.76,
                   name: 'Green',
                   price: 20,
@@ -9294,7 +9071,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 4.76,
                   name: 'Yellow',
                   price: 20,
@@ -9303,7 +9080,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 4.76,
                   name: 'Orange',
                   price: 15,
@@ -9333,7 +9110,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 5.33,
                   name: 'Normal',
                   price: 12,
@@ -9363,7 +9140,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 5.87,
                   name: 'Normal',
                   price: 12,
@@ -9372,7 +9149,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 5.87,
                   name: 'Orange',
                   price: 15,
@@ -9402,7 +9179,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 6.07,
                   name: 'Normal',
                   price: 12,
@@ -9411,7 +9188,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 6.07,
                   name: 'Green',
                   price: 20,
@@ -9420,7 +9197,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 6.07,
                   name: 'Yellow',
                   price: 20,
@@ -9429,7 +9206,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 6.07,
                   name: 'Orange',
                   price: 15,
@@ -9459,7 +9236,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 6.59,
                   name: 'Normal',
                   price: 12,
@@ -9489,7 +9266,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 6.94,
                   name: 'Normal',
                   price: 12,
@@ -9498,7 +9275,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 6.94,
                   name: 'Green',
                   price: 20,
@@ -9507,7 +9284,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 6.94,
                   name: 'Yellow',
                   price: 20,
@@ -9516,7 +9293,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 6.94,
                   name: 'Orange',
                   price: 15,
@@ -9546,7 +9323,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 7.25,
                   name: 'Normal',
                   price: 12,
@@ -9555,7 +9332,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 7.25,
                   name: 'Green',
                   price: 20,
@@ -9564,7 +9341,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 7.25,
                   name: 'Orange',
                   price: 15,
@@ -9594,7 +9371,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 7.83,
                   name: 'Normal',
                   price: 12,
@@ -9603,7 +9380,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 7.83,
                   name: 'Orange',
                   price: 15,
@@ -9633,7 +9410,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 8.21,
                   name: 'Normal',
                   price: 12,
@@ -9663,7 +9440,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 8.3,
                   name: 'Normal',
                   price: 12,
@@ -9672,7 +9449,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 8.3,
                   name: 'Orange',
                   price: 15,
@@ -9702,7 +9479,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 8.32,
                   name: 'Normal',
                   price: 12,
@@ -9711,7 +9488,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 8.32,
                   name: 'Green',
                   price: 20,
@@ -9720,7 +9497,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 8.32,
                   name: 'Yellow',
                   price: 20,
@@ -9729,7 +9506,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 8.32,
                   name: 'Orange',
                   price: 15,
@@ -9759,7 +9536,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 31 minutes",
                   distance: 8.94,
                   name: 'Normal',
                   price: 14,
@@ -9768,7 +9545,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 35 minutes",
                   distance: 8.94,
                   name: 'Orange',
                   price: 15,
@@ -9798,7 +9575,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 9.39,
                   name: 'Normal',
                   price: 14,
@@ -9807,7 +9584,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 9.39,
                   name: 'Green',
                   price: 20,
@@ -9816,7 +9593,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 9.39,
                   name: 'Yellow',
                   price: 20,
@@ -9825,7 +9602,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 37 minutes",
                   distance: 9.39,
                   name: 'Orange',
                   price: 15,
@@ -9855,7 +9632,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 9.66,
                   name: 'Normal',
                   price: 14,
@@ -9885,7 +9662,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 35 minutes",
                   distance: 9.96,
                   name: 'Normal',
                   price: 14,
@@ -9894,7 +9671,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 38 minutes",
                   distance: 9.96,
                   name: 'Orange',
                   price: 15,
@@ -9924,7 +9701,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 38 minutes",
                   distance: 10.46,
                   name: 'Normal',
                   price: 14,
@@ -9933,7 +9710,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 10.46,
                   name: 'Green',
                   price: 20,
@@ -9942,7 +9719,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 10.46,
                   name: 'Yellow',
                   price: 20,
@@ -9951,7 +9728,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 41 minutes",
                   distance: 10.46,
                   name: 'Orange',
                   price: 15,
@@ -9981,7 +9758,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 40 minutes",
                   distance: 11.16,
                   name: 'Normal',
                   price: 14,
@@ -10011,7 +9788,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 46 minutes",
                   distance: 11.55,
                   name: 'Normal',
                   price: 14,
@@ -10020,7 +9797,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 45 minutes",
                   distance: 11.55,
                   name: 'Orange',
                   price: 15,
@@ -10050,7 +9827,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 47 minutes",
                   distance: 11.87,
                   name: 'Normal',
                   price: 14,
@@ -10059,7 +9836,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 46 minutes",
                   distance: 11.87,
                   name: 'Orange',
                   price: 15,
@@ -10089,7 +9866,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 40 minutes",
                   distance: 14.27,
                   name: 'Yellow',
                   price: 29,
@@ -10119,7 +9896,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.65,
                   name: 'Normal',
                   price: 10,
@@ -10149,7 +9926,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.48,
                   name: 'Normal',
                   price: 10,
@@ -10179,7 +9956,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 2.41,
                   name: 'Normal',
                   price: 10,
@@ -10209,7 +9986,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.73,
                   name: 'Normal',
                   price: 10,
@@ -10239,7 +10016,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.91,
                   name: 'Normal',
                   price: 10,
@@ -10248,36 +10025,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N23" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N23")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N23")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.812064;
-                    $scope.lngbegin = 100.517409;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 3.31,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N23" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N23")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -10299,7 +10047,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.52,
                   name: 'Normal',
                   price: 12,
@@ -10329,7 +10077,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 3.79,
                   name: 'Normal',
                   price: 12,
@@ -10359,7 +10107,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 4.82,
                   name: 'Normal',
                   price: 12,
@@ -10389,7 +10137,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 5.39,
                   name: 'Normal',
                   price: 12,
@@ -10419,7 +10167,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 5.96,
                   name: 'Normal',
                   price: 12,
@@ -10449,7 +10197,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 6.17,
                   name: 'Normal',
                   price: 12,
@@ -10479,7 +10227,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 6.7,
                   name: 'Normal',
                   price: 12,
@@ -10509,7 +10257,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 7.05,
                   name: 'Normal',
                   price: 12,
@@ -10539,7 +10287,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 7.34,
                   name: 'Normal',
                   price: 12,
@@ -10569,7 +10317,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 7.9,
                   name: 'Normal',
                   price: 12,
@@ -10599,7 +10347,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 8.24,
                   name: 'Normal',
                   price: 12,
@@ -10629,7 +10377,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 8.3,
                   name: 'Normal',
                   price: 12,
@@ -10659,7 +10407,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 8.59,
                   name: 'Normal',
                   price: 12,
@@ -10689,7 +10437,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 8.87,
                   name: 'Normal',
                   price: 14,
@@ -10719,7 +10467,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 31 minutes",
                   distance: 9.31,
                   name: 'Normal',
                   price: 14,
@@ -10749,7 +10497,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 9.58,
                   name: 'Normal',
                   price: 14,
@@ -10779,7 +10527,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 9.88,
                   name: 'Normal',
                   price: 14,
@@ -10809,7 +10557,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 10.38,
                   name: 'Normal',
                   price: 14,
@@ -10839,7 +10587,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 38 minutes",
                   distance: 11.11,
                   name: 'Normal',
                   price: 14,
@@ -10869,7 +10617,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 44 minutes",
                   distance: 11.5,
                   name: 'Normal',
                   price: 14,
@@ -10899,7 +10647,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 45 minutes",
                   distance: 11.82,
                   name: 'Normal',
                   price: 14,
@@ -10929,7 +10677,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.87,
                   name: 'Normal',
                   price: 10,
@@ -10938,7 +10686,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 0.87,
                   name: 'Orange',
                   price: 15,
@@ -10968,7 +10716,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.87,
                   name: 'Normal',
                   price: 10,
@@ -10998,7 +10746,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 2.21,
                   name: 'Normal',
                   price: 10,
@@ -11028,7 +10776,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 2.4,
                   name: 'Normal',
                   price: 10,
@@ -11037,7 +10785,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.4,
                   name: 'Orange',
                   price: 15,
@@ -11046,36 +10794,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N22" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N22")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N22")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.806427;
-                    $scope.lngbegin = 100.518826;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 2.86,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N22" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N22")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -11097,7 +10816,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 3.07,
                   name: 'Normal',
                   price: 12,
@@ -11127,7 +10846,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 3.34,
                   name: 'Normal',
                   price: 12,
@@ -11136,7 +10855,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.34,
                   name: 'Orange',
                   price: 15,
@@ -11166,7 +10885,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 4.32,
                   name: 'Normal',
                   price: 12,
@@ -11175,7 +10894,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 4.32,
                   name: 'Yellow',
                   price: 20,
@@ -11184,7 +10903,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 4.32,
                   name: 'Orange',
                   price: 15,
@@ -11214,7 +10933,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 4.9,
                   name: 'Normal',
                   price: 12,
@@ -11244,7 +10963,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 5.47,
                   name: 'Normal',
                   price: 12,
@@ -11253,7 +10972,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 5.47,
                   name: 'Orange',
                   price: 15,
@@ -11283,7 +11002,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 5.71,
                   name: 'Normal',
                   price: 12,
@@ -11292,7 +11011,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 5.71,
                   name: 'Yellow',
                   price: 20,
@@ -11301,7 +11020,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 5.71,
                   name: 'Orange',
                   price: 15,
@@ -11331,7 +11050,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 6.24,
                   name: 'Normal',
                   price: 12,
@@ -11361,7 +11080,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 6.58,
                   name: 'Normal',
                   price: 12,
@@ -11370,7 +11089,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 6.58,
                   name: 'Yellow',
                   price: 20,
@@ -11379,7 +11098,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 6.58,
                   name: 'Orange',
                   price: 15,
@@ -11409,7 +11128,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 6.85,
                   name: 'Normal',
                   price: 12,
@@ -11418,7 +11137,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 6.85,
                   name: 'Orange',
                   price: 15,
@@ -11448,7 +11167,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 7.38,
                   name: 'Normal',
                   price: 12,
@@ -11457,7 +11176,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 7.38,
                   name: 'Orange',
                   price: 15,
@@ -11487,7 +11206,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 7.69,
                   name: 'Normal',
                   price: 12,
@@ -11517,7 +11236,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 7.74,
                   name: 'Normal',
                   price: 12,
@@ -11526,7 +11245,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 7.74,
                   name: 'Orange',
                   price: 15,
@@ -11556,7 +11275,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 7.9,
                   name: 'Normal',
                   price: 12,
@@ -11565,7 +11284,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 7.9,
                   name: 'Yellow',
                   price: 20,
@@ -11574,7 +11293,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 7.9,
                   name: 'Orange',
                   price: 15,
@@ -11604,7 +11323,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 8.26,
                   name: 'Normal',
                   price: 14,
@@ -11613,7 +11332,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 35 minutes",
                   distance: 8.26,
                   name: 'Orange',
                   price: 15,
@@ -11643,7 +11362,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 8.7,
                   name: 'Normal',
                   price: 14,
@@ -11652,7 +11371,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 8.7,
                   name: 'Yellow',
                   price: 20,
@@ -11661,7 +11380,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 37 minutes",
                   distance: 8.7,
                   name: 'Orange',
                   price: 15,
@@ -11691,7 +11410,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 8.96,
                   name: 'Normal',
                   price: 14,
@@ -11721,7 +11440,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 9.26,
                   name: 'Normal',
                   price: 14,
@@ -11730,7 +11449,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 38 minutes",
                   distance: 9.26,
                   name: 'Orange',
                   price: 15,
@@ -11760,7 +11479,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 9.76,
                   name: 'Normal',
                   price: 14,
@@ -11769,7 +11488,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 9.76,
                   name: 'Yellow',
                   price: 20,
@@ -11778,7 +11497,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 41 minutes",
                   distance: 9.76,
                   name: 'Orange',
                   price: 15,
@@ -11808,7 +11527,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 35 minutes",
                   distance: 10.05,
                   name: 'Normal',
                   price: 14,
@@ -11838,7 +11557,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 41 minutes",
                   distance: 10.89,
                   name: 'Normal',
                   price: 14,
@@ -11847,7 +11566,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 45 minutes",
                   distance: 10.89,
                   name: 'Orange',
                   price: 15,
@@ -11877,7 +11596,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 42 minutes",
                   distance: 11.22,
                   name: 'Normal',
                   price: 14,
@@ -11886,7 +11605,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 46 minutes",
                   distance: 11.22,
                   name: 'Orange',
                   price: 15,
@@ -11916,7 +11635,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 37 minutes",
                   distance: 13.63,
                   name: 'Yellow',
                   price: 29,
@@ -11946,7 +11665,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 1.03,
                   name: 'Normal',
                   price: 10,
@@ -11976,7 +11695,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.38,
                   name: 'Normal',
                   price: 10,
@@ -12006,7 +11725,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.59,
                   name: 'Normal',
                   price: 10,
@@ -12015,7 +11734,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.59,
                   name: 'Orange',
                   price: 15,
@@ -12024,36 +11743,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N21" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N21")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N21")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.798805;
-                    $scope.lngbegin = 100.517013;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 2.08,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N21" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N21")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -12075,7 +11765,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.29,
                   name: 'Normal',
                   price: 10,
@@ -12105,7 +11795,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.55,
                   name: 'Normal',
                   price: 10,
@@ -12114,7 +11804,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.55,
                   name: 'Orange',
                   price: 15,
@@ -12144,7 +11834,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.48,
                   name: 'Normal',
                   price: 10,
@@ -12153,7 +11843,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                  $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.48,
                   name: 'Orange',
                   price: 15,
@@ -12183,7 +11873,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 4.06,
                   name: 'Normal',
                   price: 10,
@@ -12213,7 +11903,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.64,
                   name: 'Normal',
                   price: 10,
@@ -12222,7 +11912,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.64,
                   name: 'Orange',
                   price: 15,
@@ -12252,7 +11942,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.9,
                   name: 'Normal',
                   price: 10,
@@ -12261,7 +11951,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.9,
                   name: 'Orange',
                   price: 15,
@@ -12291,7 +11981,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 5.43,
                   name: 'Normal',
                   price: 10,
@@ -12321,7 +12011,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 5.76,
                   name: 'Normal',
                   price: 10,
@@ -12330,7 +12020,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 5.76,
                   name: 'Orange',
                   price: 15,
@@ -12360,7 +12050,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 6.02,
                   name: 'Normal',
                   price: 10,
@@ -12369,7 +12059,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 6.02,
                   name: 'Orange',
                   price: 15,
@@ -12399,7 +12089,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 6.53,
                   name: 'Normal',
                   price: 10,
@@ -12408,7 +12098,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 6.53,
                   name: 'Orange',
                   price: 15,
@@ -12438,7 +12128,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 6.83,
                   name: 'Normal',
                   price: 10,
@@ -12468,7 +12158,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 6.87,
                   name: 'Normal',
                   price: 10,
@@ -12477,7 +12167,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 6.87,
                   name: 'Orange',
                   price: 15,
@@ -12507,7 +12197,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 7.07,
                   name: 'Normal',
                   price: 10,
@@ -12516,7 +12206,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 7.07,
                   name: 'Orange',
                   price: 15,
@@ -12546,7 +12236,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 7.39,
                   name: 'Normal',
                   price: 12,
@@ -12555,7 +12245,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 7.39,
                   name: 'Orange',
                   price: 15,
@@ -12585,7 +12275,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 7.84,
                   name: 'Normal',
                   price: 12,
@@ -12594,7 +12284,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 7.84,
                   name: 'Orange',
                   price: 15,
@@ -12624,7 +12314,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 8.1,
                   name: 'Normal',
                   price: 12,
@@ -12654,7 +12344,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 31 minutes",
                   distance: 8.4,
                   name: 'Normal',
                   price: 12,
@@ -12663,7 +12353,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 8.4,
                   name: 'Orange',
                   price: 15,
@@ -12693,7 +12383,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 8.9,
                   name: 'Normal',
                   price: 12,
@@ -12702,7 +12392,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 8.9,
                   name: 'Orange',
                   price: 15,
@@ -12732,7 +12422,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 9.64,
                   name: 'Normal',
                   price: 12,
@@ -12762,7 +12452,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 42 minutes",
                   distance: 10.03,
                   name: 'Normal',
                   price: 12,
@@ -12771,7 +12461,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 40 minutes",
                   distance: 10.03,
                   name: 'Orange',
                   price: 15,
@@ -12801,7 +12491,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 43 minutes",
                   distance: 10.36,
                   name: 'Normal',
                   price: 12,
@@ -12810,7 +12500,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 41 minutes",
                   distance: 10.36,
                   name: 'Orange',
                   price: 15,
@@ -12840,7 +12530,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.35,
                   name: 'Normal',
                   price: 10,
@@ -12870,7 +12560,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 0.56,
                   name: 'Normal',
                   price: 10,
@@ -12879,36 +12569,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N20" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N20")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N20")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.791118;
-                    $scope.lngbegin = 100.511646;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 1.09,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N20" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N20")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -12930,7 +12591,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.28,
                   name: 'Normal',
                   price: 10,
@@ -12960,7 +12621,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.54,
                   name: 'Normal',
                   price: 10,
@@ -12990,7 +12651,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.45,
                   name: 'Normal',
                   price: 10,
@@ -13020,7 +12681,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.03,
                   name: 'Normal',
                   price: 10,
@@ -13050,7 +12711,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.61,
                   name: 'Normal',
                   price: 10,
@@ -13080,7 +12741,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 3.86,
                   name: 'Normal',
                   price: 10,
@@ -13110,7 +12771,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.4,
                   name: 'Normal',
                   price: 10,
@@ -13140,7 +12801,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.73,
                   name: 'Normal',
                   price: 10,
@@ -13170,7 +12831,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 4.99,
                   name: 'Normal',
                   price: 10,
@@ -13200,7 +12861,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 5.51,
                   name: 'Normal',
                   price: 10,
@@ -13230,7 +12891,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 5.83,
                   name: 'Normal',
                   price: 10,
@@ -13260,7 +12921,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 5.89,
                   name: 'Normal',
                   price: 10,
@@ -13290,7 +12951,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 6.09,
                   name: 'Normal',
                   price: 10,
@@ -13320,7 +12981,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 6.52,
                   name: 'Normal',
                   price: 12,
@@ -13350,7 +13011,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 6.74,
                   name: 'Normal',
                   price: 12,
@@ -13380,7 +13041,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 7.24,
                   name: 'Normal',
                   price: 12,
@@ -13410,7 +13071,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 7.54,
                   name: 'Normal',
                   price: 12,
@@ -13440,7 +13101,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 8.04,
                   name: 'Normal',
                   price: 12,
@@ -13470,7 +13131,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 8.74,
                   name: 'Normal',
                   price: 12,
@@ -13500,7 +13161,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 40 minutes",
                   distance: 9.13,
                   name: 'Normal',
                   price: 12,
@@ -13530,7 +13191,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 41 minutes",
                   distance: 9.44,
                   name: 'Normal',
                   price: 12,
@@ -13569,36 +13230,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N19" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N19")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N19")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.788765;
-                    $scope.lngbegin = 100.509529;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 0.75,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N19" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N19")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -13620,7 +13252,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.95,
                   name: 'Normal',
                   price: 10,
@@ -13650,7 +13282,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.19,
                   name: 'Normal',
                   price: 10,
@@ -13680,7 +13312,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 2.11,
                   name: 'Normal',
                   price: 10,
@@ -13710,7 +13342,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 2.69,
                   name: 'Normal',
                   price: 10,
@@ -13740,7 +13372,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 3.27,
                   name: 'Normal',
                   price: 10,
@@ -13770,7 +13402,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 3.52,
                   name: 'Normal',
                   price: 10,
@@ -13800,7 +13432,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 4.01,
                   name: 'Normal',
                   price: 10,
@@ -13830,7 +13462,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 4.38,
                   name: 'Normal',
                   price: 10,
@@ -13860,7 +13492,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.65,
                   name: 'Normal',
                   price: 10,
@@ -13890,7 +13522,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 5.18,
                   name: 'Normal',
                   price: 10,
@@ -13920,7 +13552,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 5.51,
                   name: 'Normal',
                   price: 10,
@@ -13950,7 +13582,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 5.59,
                   name: 'Normal',
                   price: 10,
@@ -13980,7 +13612,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 5.61,
                   name: 'Normal',
                   price: 10,
@@ -14010,7 +13642,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 6.26,
                   name: 'Normal',
                   price: 12,
@@ -14040,7 +13672,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 6.72,
                   name: 'Normal',
                   price: 12,
@@ -14070,7 +13702,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 6.99,
                   name: 'Normal',
                   price: 12,
@@ -14100,7 +13732,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 7.29,
                   name: 'Normal',
                   price: 12,
@@ -14130,7 +13762,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 7.78,
                   name: 'Normal',
                   price: 12,
@@ -14160,7 +13792,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 31 minutes",
                   distance: 8.47,
                   name: 'Normal',
                   price: 12,
@@ -14190,7 +13822,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 37 minutes",
                   distance: 8.85,
                   name: 'Normal',
                   price: 12,
@@ -14220,7 +13852,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 38 minutes",
                   distance: 9.16,
                   name: 'Normal',
                   price: 12,
@@ -14229,36 +13861,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N18" && $scope.dest == "N17s" || $scope.begin == "N17s" && $scope.dest == "N18")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N18")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.787513;
-                    $scope.lngbegin = 100.508056;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 0.55,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N18" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N18")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -14280,7 +13883,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.74,
                   name: 'Normal',
                   price: 10,
@@ -14310,7 +13913,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.98,
                   name: 'Normal',
                   price: 10,
@@ -14319,7 +13922,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 0.98,
                   name: 'Orange',
                   price: 15,
@@ -14349,7 +13952,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.91,
                   name: 'Normal',
                   price: 10,
@@ -14358,7 +13961,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 1.91,
                   name: 'Orange',
                   price: 15,
@@ -14388,7 +13991,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 2.49,
                   name: 'Normal',
                   price: 10,
@@ -14418,7 +14021,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 3.07,
                   name: 'Normal',
                   price: 10,
@@ -14427,7 +14030,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.07,
                   name: 'Orange',
                   price: 15,
@@ -14457,7 +14060,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.31,
                   name: 'Normal',
                   price: 10,
@@ -14466,7 +14069,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 3.31,
                   name: 'Orange',
                   price: 15,
@@ -14497,7 +14100,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 3.85,
                   name: 'Normal',
                   price: 10,
@@ -14527,7 +14130,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 4.18,
                   name: 'Normal',
                   price: 10,
@@ -14536,7 +14139,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.18,
                   name: 'Orange',
                   price: 15,
@@ -14566,7 +14169,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.45,
                   name: 'Normal',
                   price: 10,
@@ -14575,7 +14178,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 4.45,
                   name: 'Orange',
                   price: 15,
@@ -14605,7 +14208,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.99,
                   name: 'Normal',
                   price: 10,
@@ -14614,7 +14217,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 4.99,
                   name: 'Orange',
                   price: 15,
@@ -14644,7 +14247,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 5.33,
                   name: 'Normal',
                   price: 10,
@@ -14674,7 +14277,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 5.42,
                   name: 'Normal',
                   price: 10,
@@ -14683,7 +14286,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 5.42,
                   name: 'Orange',
                   price: 15,
@@ -14713,7 +14316,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 5.45,
                   name: 'Normal',
                   price: 10,
@@ -14722,7 +14325,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 5.45,
                   name: 'Orange',
                   price: 15,
@@ -14752,7 +14355,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 6.13,
                   name: 'Normal',
                   price: 12,
@@ -14761,7 +14364,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 6.13,
                   name: 'Orange',
                   price: 15,
@@ -14791,7 +14394,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 6.6,
                   name: 'Normal',
                   price: 12,
@@ -14800,7 +14403,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 6.6,
                   name: 'Orange',
                   price: 15,
@@ -14830,7 +14433,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 6.86,
                   name: 'Normal',
                   price: 12,
@@ -14860,7 +14463,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 7.17,
                   name: 'Normal',
                   price: 12,
@@ -14869,7 +14472,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 7.17,
                   name: 'Orange',
                   price: 15,
@@ -14899,7 +14502,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 7.65,
                   name: 'Normal',
                   price: 12,
@@ -14908,7 +14511,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 7.65,
                   name: 'Orange',
                   price: 15,
@@ -14938,7 +14541,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 8.32,
                   name: 'Normal',
                   price: 12,
@@ -14968,7 +14571,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 8.71,
                   name: 'Normal',
                   price: 12,
@@ -14977,7 +14580,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 37 minutes",
                   distance: 8.71,
                   name: 'Orange',
                   price: 15,
@@ -15007,7 +14610,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 37 minutes",
                   distance: 9.02,
                   name: 'Normal',
                   price: 12,
@@ -15016,7 +14619,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 38 minutes",
                   distance: 9.02,
                   name: 'Orange',
                   price: 15,
@@ -15025,636 +14628,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
 
           }
-          else if($scope.begin == "N17s" && $scope.dest == "N17" || $scope.begin == "N17" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.783995;
-                    $scope.lngbegin = 100.502285;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N17")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 0.21,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.781860;
-                    $scope.lngbegin = 100.501076;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N16")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 0.48,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N15" || $scope.begin == "N15" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.772132;
-                    $scope.lngbegin = 100.500097;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N15")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 1.54,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N14" || $scope.begin == "N14" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.767593;
-                    $scope.lngbegin = 100.497456;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N14")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 2.1,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N13" || $scope.begin == "N13" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.763544;
-                    $scope.lngbegin = 100.494038;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N13")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 2.65,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N12" || $scope.begin == "N12" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.763006;
-                    $scope.lngbegin = 100.490625;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N12")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 2.86,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N11" || $scope.begin == "N11" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.759227;
-                    $scope.lngbegin = 100.487517;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N11")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 3.4,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N10" || $scope.begin == "N10" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.756003;
-                    $scope.lngbegin = 100.486950;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N10")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 3.74,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N9" || $scope.begin == "N9" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.752411;
-                    $scope.lngbegin = 100.488293;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N9")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 4.03,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N8" || $scope.begin == "N8" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.746285;
-                    $scope.lngbegin = 100.489872;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N8")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 4.61,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N7" || $scope.begin == "N7" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.741572;
-                    $scope.lngbegin = 100.493959;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N7")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 5.0,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N6" || $scope.begin == "N6" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.739703;
-                    $scope.lngbegin = 100.498394;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N6")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 5.13,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N5" || $scope.begin == "N5" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.738621;
-                    $scope.lngbegin = 100.504260;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N5")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 5.23,
-                  name: 'Normal',
-                  price: 10,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N4" || $scope.begin == "N4" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.732493;
-                    $scope.lngbegin = 100.511836;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N4")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 5.98,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N3" || $scope.begin == "N3" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.728414;
-                    $scope.lngbegin = 100.513182;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N3")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 6.48,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N2" || $scope.begin == "N2" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.726021;
-                    $scope.lngbegin = 100.513535;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N2")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 6.72,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "N1" || $scope.begin == "N1" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.723298;
-                    $scope.lngbegin = 100.513541;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "N1")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 7.02,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "CENTRAL" || $scope.begin == "CENTRAL" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.718858;
-                    $scope.lngbegin = 100.512720;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "CENTRAL")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 7.49,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "S1" || $scope.begin == "S1" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.712662;
-                    $scope.lngbegin = 100.507183;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "S1")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 8.12,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "S2" || $scope.begin == "S2" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.709201;
-                    $scope.lngbegin = 100.506626;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "S2")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 8.5,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
-          else if($scope.begin == "N17s" && $scope.dest == "S3" || $scope.begin == "S3" && $scope.dest == "N17s")
-          {
-                window.localStorage.setItem("begin_pier", $scope.begin);
-                window.localStorage.setItem("dest_pier", $scope.dest);
-                
-                if($scope.begin == "N17s")
-                {
-                    $scope.latbegin = 13.706542;
-                    $scope.lngbegin = 100.503840;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                else if($scope.begin == "S3")
-                {
-                    $scope.latbegin = 13.785604;
-                    $scope.lngbegin = 100.503352;
-                    window.localStorage.setItem("latbegin",$scope.latbegin);
-                    window.localStorage.setItem("lngbegin",$scope.lngbegin);
-                }
-                $scope.Plist.push({
-                  id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
-                  distance: 8.79,
-                  name: 'Normal',
-                  price: 12,
-                  value: "normalline",
-                  image: 'img/flags/normalflag.png'
-              });
-
-          }
+          
           else if($scope.begin == "N17" && $scope.dest == "N16" || $scope.begin == "N16" && $scope.dest == "N17")
           {
                 window.localStorage.setItem("begin_pier", $scope.begin);
@@ -15676,7 +14650,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.27,
                   name: 'Normal',
                   price: 10,
@@ -15706,7 +14680,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 1.34,
                   name: 'Normal',
                   price: 10,
@@ -15736,7 +14710,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.9,
                   name: 'Normal',
                   price: 10,
@@ -15766,7 +14740,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 2.44,
                   name: 'Normal',
                   price: 10,
@@ -15796,7 +14770,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.65,
                   name: 'Normal',
                   price: 10,
@@ -15826,7 +14800,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.18,
                   name: 'Normal',
                   price: 10,
@@ -15856,7 +14830,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 3.53,
                   name: 'Normal',
                   price: 10,
@@ -15886,7 +14860,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 3.82,
                   name: 'Normal',
                   price: 10,
@@ -15916,7 +14890,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.4,
                   name: 'Normal',
                   price: 10,
@@ -15946,7 +14920,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.8,
                   name: 'Normal',
                   price: 10,
@@ -15976,7 +14950,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 4.94,
                   name: 'Normal',
                   price: 10,
@@ -16006,7 +14980,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 5.05,
                   name: 'Normal',
                   price: 10,
@@ -16036,7 +15010,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 5.82,
                   name: 'Normal',
                   price: 12,
@@ -16066,7 +15040,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 6.29,
                   name: 'Normal',
                   price: 12,
@@ -16096,7 +15070,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 6.56,
                   name: 'Normal',
                   price: 12,
@@ -16126,7 +15100,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 6.86,
                   name: 'Normal',
                   price: 12,
@@ -16156,7 +15130,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 7.33,
                   name: 'Normal',
                   price: 12,
@@ -16186,7 +15160,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 7.95,
                   name: 'Normal',
                   price: 12,
@@ -16216,7 +15190,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 35 minutes",
                   distance: 8.33,
                   name: 'Normal',
                   price: 12,
@@ -16246,7 +15220,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 36 minutes",
                   distance: 8.61,
                   name: 'Normal',
                   price: 12,
@@ -16276,7 +15250,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 1.09,
                   name: 'Normal',
                   price: 10,
@@ -16285,7 +15259,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.09,
                   name: 'Green',
                   price: 20,
@@ -16294,7 +15268,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.09,
                   name: 'Orange',
                   price: 15,
@@ -16324,7 +15298,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.63,
                   name: 'Normal',
                   price: 10,
@@ -16354,7 +15328,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 2.17,
                   name: 'Normal',
                   price: 10,
@@ -16363,7 +15337,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.17,
                   name: 'Orange',
                   price: 15,
@@ -16393,7 +15367,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.38,
                   name: 'Normal',
                   price: 10,
@@ -16402,7 +15376,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 2.38,
                   name: 'Green',
                   price: 20,
@@ -16411,7 +15385,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 2.38,
                   name: 'Orange',
                   price: 15,
@@ -16441,7 +15415,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.91,
                   name: 'Normal',
                   price: 10,
@@ -16471,7 +15445,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.26,
                   name: 'Normal',
                   price: 10,
@@ -16480,7 +15454,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 3.26,
                   name: 'Green',
                   price: 20,
@@ -16489,7 +15463,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.26,
                   name: 'Orange',
                   price: 15,
@@ -16519,7 +15493,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.55,
                   name: 'Normal',
                   price: 10,
@@ -16528,7 +15502,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 3.55,
                   name: 'Green',
                   price: 20,
@@ -16537,7 +15511,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 3.55,
                   name: 'Orange',
                   price: 15,
@@ -16567,7 +15541,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.14,
                   name: 'Normal',
                   price: 10,
@@ -16576,7 +15550,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 4.14,
                   name: 'Orange',
                   price: 15,
@@ -16606,7 +15580,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.55,
                   name: 'Normal',
                   price: 10,
@@ -16636,7 +15610,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.7,
                   name: 'Normal',
                   price: 10,
@@ -16645,7 +15619,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 4.7,
                   name: 'Orange',
                   price: 15,
@@ -16675,7 +15649,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 4.82,
                   name: 'Normal',
                   price: 10,
@@ -16684,7 +15658,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 4.82,
                   name: 'Green',
                   price: 20,
@@ -16693,7 +15667,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 4.82,
                   name: 'Orange',
                   price: 15,
@@ -16723,7 +15697,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 5.61,
                   name: 'Normal',
                   price: 12,
@@ -16732,7 +15706,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 5.61,
                   name: 'Orange',
                   price: 15,
@@ -16762,7 +15736,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 6.09,
                   name: 'Normal',
                   price: 12,
@@ -16771,7 +15745,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 6.09,
                   name: 'Green',
                   price: 20,
@@ -16780,7 +15754,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 6.09,
                   name: 'Orange',
                   price: 15,
@@ -16810,7 +15784,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 6.35,
                   name: 'Normal',
                   price: 12,
@@ -16840,7 +15814,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 6.65,
                   name: 'Normal',
                   price: 12,
@@ -16849,7 +15823,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 6.65,
                   name: 'Orange',
                   price: 15,
@@ -16879,7 +15853,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 7.12,
                   name: 'Normal',
                   price: 12,
@@ -16888,7 +15862,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 7.12,
                   name: 'Green',
                   price: 20,
@@ -16897,7 +15871,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 7.12,
                   name: 'Orange',
                   price: 15,
@@ -16927,7 +15901,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 7.72,
                   name: 'Normal',
                   price: 12,
@@ -16957,7 +15931,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 8.1,
                   name: 'Normal',
                   price: 12,
@@ -16966,7 +15940,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 8.1,
                   name: 'Orange',
                   price: 15,
@@ -16996,7 +15970,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 35 minutes",
                   distance: 8.38,
                   name: 'Normal',
                   price: 12,
@@ -17005,7 +15979,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 8.38,
                   name: 'Orange',
                   price: 15,
@@ -17035,7 +16009,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.58,
                   name: 'Normal',
                   price: 10,
@@ -17065,7 +16039,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.16,
                   name: 'Normal',
                   price: 10,
@@ -17074,7 +16048,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 1.16,
                   name: 'Orange',
                   price: 15,
@@ -17104,7 +16078,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.44,
                   name: 'Normal',
                   price: 10,
@@ -17113,7 +16087,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.44,
                   name: 'Green',
                   price: 20,
@@ -17122,7 +16096,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.44,
                   name: 'Yellow',
                   price: 20,
@@ -17131,7 +16105,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.44,
                   name: 'Orange',
                   price: 15,
@@ -17161,7 +16135,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 1.98,
                   name: 'Normal',
                   price: 10,
@@ -17191,7 +16165,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.29,
                   name: 'Normal',
                   price: 10,
@@ -17200,7 +16174,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 2.29,
                   name: 'Green',
                   price: 20,
@@ -17209,7 +16183,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.29,
                   name: 'Yellow',
                   price: 20,
@@ -17218,7 +16192,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.29,
                   name: 'Orange',
                   price: 15,
@@ -17248,7 +16222,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 2.54,
                   name: 'Normal',
                   price: 10,
@@ -17257,7 +16231,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 2.54,
                   name: 'Green',
                   price: 20,
@@ -17266,7 +16240,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 2.54,
                   name: 'Orange',
                   price: 15,
@@ -17296,7 +16270,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 3.08,
                   name: 'Normal',
                   price: 10,
@@ -17305,7 +16279,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 3.08,
                   name: 'Orange',
                   price: 15,
@@ -17335,7 +16309,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 3.46,
                   name: 'Normal',
                   price: 10,
@@ -17365,7 +16339,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 3.61,
                   name: 'Normal',
                   price: 10,
@@ -17374,7 +16348,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 3.61,
                   name: 'Orange',
                   price: 15,
@@ -17404,7 +16378,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 3.75,
                   name: 'Normal',
                   price: 10,
@@ -17413,7 +16387,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 3.75,
                   name: 'Green',
                   price: 20,
@@ -17422,7 +16396,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 3.75,
                   name: 'Yellow',
                   price: 20,
@@ -17431,7 +16405,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 3.75,
                   name: 'Orange',
                   price: 15,
@@ -17461,7 +16435,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 4.59,
                   name: 'Normal',
                   price: 12,
@@ -17470,7 +16444,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 4.59,
                   name: 'Orange',
                   price: 15,
@@ -17500,7 +16474,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 5.06,
                   name: 'Normal',
                   price: 12,
@@ -17509,7 +16483,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 5.06,
                   name: 'Green',
                   price: 20,
@@ -17518,7 +16492,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 5.06,
                   name: 'Yellow',
                   price: 20,
@@ -17527,7 +16501,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 5.06,
                   name: 'Orange',
                   price: 15,
@@ -17557,7 +16531,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 5.33,
                   name: 'Normal',
                   price: 12,
@@ -17587,7 +16561,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 5.62,
                   name: 'Normal',
                   price: 12,
@@ -17596,7 +16570,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 5.62,
                   name: 'Orange',
                   price: 15,
@@ -17626,7 +16600,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 6.08,
                   name: 'Normal',
                   price: 12,
@@ -17635,7 +16609,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 6.08,
                   name: 'Green',
                   price: 20,
@@ -17644,7 +16618,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 6.08,
                   name: 'Yellow',
                   price: 20,
@@ -17653,7 +16627,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 6.08,
                   name: 'Orange',
                   price: 15,
@@ -17683,7 +16657,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 6.66,
                   name: 'Normal',
                   price: 12,
@@ -17713,7 +16687,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 33 minutes",
                   distance: 7.03,
                   name: 'Normal',
                   price: 12,
@@ -17722,7 +16696,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 7.03,
                   name: 'Orange',
                   price: 15,
@@ -17752,7 +16726,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 34 minutes",
                   distance: 7.3,
                   name: 'Normal',
                   price: 12,
@@ -17761,7 +16735,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 7.3,
                   name: 'Orange',
                   price: 15,
@@ -17791,7 +16765,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 9.67,
                   name: 'Yellow',
                   price: 29,
@@ -17822,7 +16796,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.58,
                   name: 'Normal',
                   price: 10,
@@ -17852,7 +16826,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 0.9,
                   name: 'Normal',
                   price: 10,
@@ -17882,7 +16856,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.42,
                   name: 'Normal',
                   price: 10,
@@ -17912,7 +16886,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.71,
                   name: 'Normal',
                   price: 10,
@@ -17942,7 +16916,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 1.96,
                   name: 'Normal',
                   price: 10,
@@ -17972,7 +16946,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 2.51,
                   name: 'Normal',
                   price: 10,
@@ -18002,7 +16976,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 2.92,
                   name: 'Normal',
                   price: 10,
@@ -18032,7 +17006,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 3.1,
                   name: 'Normal',
                   price: 10,
@@ -18062,7 +17036,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 3.3,
                   name: 'Normal',
                   price: 10,
@@ -18092,7 +17066,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.2,
                   name: 'Normal',
                   price: 12,
@@ -18122,7 +17096,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 4.68,
                   name: 'Normal',
                   price: 12,
@@ -18152,7 +17126,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 4.94,
                   name: 'Normal',
                   price: 12,
@@ -18182,7 +17156,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 5.22,
                   name: 'Normal',
                   price: 12,
@@ -18212,7 +17186,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 5.66,
                   name: 'Normal',
                   price: 12,
@@ -18242,7 +17216,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 6.2,
                   name: 'Normal',
                   price: 12,
@@ -18272,7 +17246,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 31 minutes",
                   distance: 6.57,
                   name: 'Normal',
                   price: 12,
@@ -18302,7 +17276,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 32 minutes",
                   distance: 6.82,
                   name: 'Normal',
                   price: 12,
@@ -18332,7 +17306,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.37,
                   name: 'Normal',
                   price: 10,
@@ -18341,7 +17315,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.37,
                   name: 'Orange',
                   price: 15,
@@ -18372,7 +17346,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.85,
                   name: 'Normal',
                   price: 10,
@@ -18402,7 +17376,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.14,
                   name: 'Normal',
                   price: 10,
@@ -18411,7 +17385,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.14,
                   name: 'Orange',
                   price: 15,
@@ -18420,7 +17394,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.14,
                   name: 'Blue',
                   price: 40,
@@ -18450,7 +17424,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 1.26,
                   name: 'Blue',
                   price: 40,
@@ -18480,7 +17454,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 1.39,
                   name: 'Normal',
                   price: 10,
@@ -18489,7 +17463,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 1.39,
                   name: 'Orange',
                   price: 15,
@@ -18519,7 +17493,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 1.97,
                   name: 'Normal',
                   price: 10,
@@ -18528,7 +17502,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 1.97,
                   name: 'Orange',
                   price: 15,
@@ -18537,7 +17511,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 1.97,
                   name: 'Blue',
                   price: 40,
@@ -18567,7 +17541,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 2.44,
                   name: 'Normal',
                   price: 10,
@@ -18597,7 +17571,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 2.69,
                   name: 'Normal',
                   price: 10,
@@ -18606,7 +17580,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 2.69,
                   name: 'Orange',
                   price: 15,
@@ -18636,7 +17610,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 2.98,
                   name: 'Normal',
                   price: 10,
@@ -18645,7 +17619,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 2.98,
                   name: 'Orange',
                   price: 15,
@@ -18654,7 +17628,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 2.98,
                   name: 'Blue',
                   price: 40,
@@ -18684,7 +17658,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 3.95,
                   name: 'Normal',
                   price: 12,
@@ -18693,7 +17667,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 3.95,
                   name: 'Orange',
                   price: 15,
@@ -18723,7 +17697,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.42,
                   name: 'Normal',
                   price: 12,
@@ -18732,7 +17706,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 4.42,
                   name: 'Orange',
                   price: 15,
@@ -18741,7 +17715,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 4.42,
                   name: 'Blue',
                   price: 40,
@@ -18771,7 +17745,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 4.67,
                   name: 'Normal',
                   price: 12,
@@ -18801,7 +17775,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 4.95,
                   name: 'Normal',
                   price: 12,
@@ -18810,7 +17784,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 4.95,
                   name: 'Orange',
                   price: 15,
@@ -18819,7 +17793,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 4.95,
                   name: 'Blue',
                   price: 40,
@@ -18849,7 +17823,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 5.36,
                   name: 'Normal',
                   price: 12,
@@ -18858,7 +17832,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 5.36,
                   name: 'Orange',
                   price: 15,
@@ -18867,7 +17841,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 5.36,
                   name: 'Blue',
                   price: 40,
@@ -18897,7 +17871,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 5.83,
                   name: 'Normal',
                   price: 12,
@@ -18927,7 +17901,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 29 minutes",
                   distance: 6.19,
                   name: 'Normal',
                   price: 12,
@@ -18936,7 +17910,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 6.19,
                   name: 'Orange',
                   price: 15,
@@ -18966,7 +17940,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 30 minutes",
                   distance: 6.43,
                   name: 'Normal',
                   price: 12,
@@ -18975,7 +17949,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 6.43,
                   name: 'Orange',
                   price: 15,
@@ -19005,7 +17979,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.54,
                   name: 'Normal',
                   price: 10,
@@ -19035,7 +18009,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.87,
                   name: 'Normal',
                   price: 10,
@@ -19044,7 +18018,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.87,
                   name: 'Green',
                   price: 20,
@@ -19053,7 +18027,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.87,
                   name: 'Yellow',
                   price: 20,
@@ -19062,7 +18036,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.87,
                   name: 'Orange',
                   price: 15,
@@ -19093,7 +18067,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.2,
                   name: 'Normal',
                   price: 10,
@@ -19102,7 +18076,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 1.2,
                   name: 'Green',
                   price: 20,
@@ -19111,7 +18085,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 1.2,
                   name: 'Orange',
                   price: 15,
@@ -19141,7 +18115,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 1.86,
                   name: 'Normal',
                   price: 10,
@@ -19150,7 +18124,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 1.86,
                   name: 'Orange',
                   price: 15,
@@ -19180,7 +18154,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.41,
                   name: 'Normal',
                   price: 10,
@@ -19210,7 +18184,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 2.72,
                   name: 'Normal',
                   price: 10,
@@ -19219,7 +18193,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 2.72,
                   name: 'Orange',
                   price: 15,
@@ -19249,7 +18223,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 3.09,
                   name: 'Normal',
                   price: 10,
@@ -19258,7 +18232,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.09,
                   name: 'Green',
                   price: 20,
@@ -19267,7 +18241,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 3.09,
                   name: 'Yellow',
                   price: 20,
@@ -19276,7 +18250,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.09,
                   name: 'Orange',
                   price: 15,
@@ -19306,7 +18280,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 4.09,
                   name: 'Normal',
                   price: 12,
@@ -19315,7 +18289,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.09,
                   name: 'Orange',
                   price: 15,
@@ -19345,7 +18319,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.55,
                   name: 'Normal',
                   price: 12,
@@ -19354,7 +18328,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.55,
                   name: 'Green',
                   price: 20,
@@ -19363,7 +18337,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.55,
                   name: 'Yellow',
                   price: 20,
@@ -19372,7 +18346,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.55,
                   name: 'Orange',
                   price: 15,
@@ -19402,7 +18376,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.8,
                   name: 'Normal',
                   price: 12,
@@ -19432,7 +18406,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 5.06,
                   name: 'Normal',
                   price: 12,
@@ -19441,7 +18415,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 5.06,
                   name: 'Orange',
                   price: 15,
@@ -19471,7 +18445,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 5.46,
                   name: 'Normal',
                   price: 12,
@@ -19480,7 +18454,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 5.46,
                   name: 'Green',
                   price: 20,
@@ -19489,7 +18463,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 5.46,
                   name: 'Yellow',
                   price: 20,
@@ -19498,7 +18472,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 5.46,
                   name: 'Orange',
                   price: 15,
@@ -19528,7 +18502,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 5.88,
                   name: 'Normal',
                   price: 12,
@@ -19558,7 +18532,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 6.23,
                   name: 'Normal',
                   price: 12,
@@ -19567,7 +18541,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 24 minutes",
                   distance: 6.23,
                   name: 'Orange',
                   price: 15,
@@ -19597,7 +18571,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 28 minutes",
                   distance: 6.44,
                   name: 'Normal',
                   price: 12,
@@ -19606,7 +18580,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 6.44,
                   name: 'Orange',
                   price: 15,
@@ -19636,7 +18610,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 8.23,
                   name: 'Yellow',
                   price: 29,
@@ -19666,7 +18640,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.36,
                   name: 'Normal',
                   price: 10,
@@ -19696,7 +18670,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 0.76,
                   name: 'Normal',
                   price: 10,
@@ -19726,7 +18700,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.46,
                   name: 'Normal',
                   price: 10,
@@ -19756,7 +18730,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.08,
                   name: 'Normal',
                   price: 10,
@@ -19786,7 +18760,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.47,
                   name: 'Normal',
                   price: 10,
@@ -19816,7 +18790,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 2.92,
                   name: 'Normal',
                   price: 10,
@@ -19846,7 +18820,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.97,
                   name: 'Normal',
                   price: 12,
@@ -19876,7 +18850,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.41,
                   name: 'Normal',
                   price: 12,
@@ -19906,7 +18880,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.64,
                   name: 'Normal',
                   price: 12,
@@ -19936,7 +18910,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.89,
                   name: 'Normal',
                   price: 12,
@@ -19966,7 +18940,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 5.25,
                   name: 'Normal',
                   price: 12,
@@ -19996,7 +18970,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 5.6,
                   name: 'Normal',
                   price: 12,
@@ -20026,7 +19000,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 5.93,
                   name: 'Normal',
                   price: 12,
@@ -20056,7 +19030,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 27 minutes",
                   distance: 6.12,
                   name: 'Normal',
                   price: 12,
@@ -20086,7 +19060,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 0.2,
                   name: 'Blue',
                   price: 40,
@@ -20117,7 +19091,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.42,
                   name: 'Normal',
                   price: 10,
@@ -20126,7 +19100,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 0.42,
                   name: 'Green',
                   price: 20,
@@ -20135,7 +19109,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 0.42,
                   name: 'Orange',
                   price: 15,
@@ -20165,7 +19139,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.13,
                   name: 'Normal',
                   price: 10,
@@ -20174,7 +19148,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.13,
                   name: 'Orange',
                   price: 15,
@@ -20183,7 +19157,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.13,
                   name: 'Blue',
                   price: 40,
@@ -20213,7 +19187,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.77,
                   name: 'Normal',
                   price: 10,
@@ -20243,7 +19217,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.19,
                   name: 'Normal',
                   price: 10,
@@ -20252,7 +19226,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.19,
                   name: 'Orange',
                   price: 15,
@@ -20282,7 +19256,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.69,
                   name: 'Normal',
                   price: 10,
@@ -20291,7 +19265,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.69,
                   name: 'Green',
                   price: 20,
@@ -20300,7 +19274,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.69,
                   name: 'Yellow',
                   price: 20,
@@ -20309,7 +19283,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 2.69,
                   name: 'Orange',
                   price: 15,
@@ -20318,7 +19292,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 2.69,
                   name: 'Blue',
                   price: 40,
@@ -20348,7 +19322,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 3.75,
                   name: 'Normal',
                   price: 12,
@@ -20357,7 +19331,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.75,
                   name: 'Orange',
                   price: 15,
@@ -20387,7 +19361,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 4.18,
                   name: 'Normal',
                   price: 12,
@@ -20396,7 +19370,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 4.18,
                   name: 'Green',
                   price: 20,
@@ -20405,7 +19379,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 4.18,
                   name: 'Yellow',
                   price: 20,
@@ -20414,7 +19388,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.18,
                   name: 'Orange',
                   price: 15,
@@ -20423,7 +19397,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 4.18,
                   name: 'Blue',
                   price: 40,
@@ -20453,7 +19427,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.4,
                   name: 'Normal',
                   price: 12,
@@ -20483,7 +19457,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.63,
                   name: 'Normal',
                   price: 12,
@@ -20492,7 +19466,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.63,
                   name: 'Orange',
                   price: 15,
@@ -20501,7 +19475,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.63,
                   name: 'Blue',
                   price: 40,
@@ -20531,7 +19505,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 4.98,
                   name: 'Normal',
                   price: 12,
@@ -20540,7 +19514,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.98,
                   name: 'Green',
                   price: 20,
@@ -20549,7 +19523,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 4.98,
                   name: 'Yellow',
                   price: 20,
@@ -20558,7 +19532,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 4.98,
                   name: 'Orange',
                   price: 15,
@@ -20567,7 +19541,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.98,
                   name: 'Blue',
                   price: 40,
@@ -20597,7 +19571,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 5.29,
                   name: 'Normal',
                   price: 12,
@@ -20627,7 +19601,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 25 minutes",
                   distance: 5.62,
                   name: 'Normal',
                   price: 12,
@@ -20636,7 +19610,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 5.62,
                   name: 'Orange',
                   price: 15,
@@ -20666,7 +19640,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 26 minutes",
                   distance: 5.8,
                   name: 'Normal',
                   price: 12,
@@ -20675,7 +19649,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 5.8,
                   name: 'Orange',
                   price: 15,
@@ -20705,7 +19679,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 8.0,
                   name: 'Yellow',
                   price: 29,
@@ -20735,7 +19709,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 1.16,
                   name: 'Blue',
                   price: 40,
@@ -20766,7 +19740,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 2.62,
                   name: 'Blue',
                   price: 40,
@@ -20796,7 +19770,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 4.11,
                   name: 'Blue',
                   price: 40,
@@ -20826,7 +19800,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 4.58,
                   name: 'Blue',
                   price: 40,
@@ -20857,7 +19831,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 4.94,
                   name: 'Blue',
                   price: 40,
@@ -20887,7 +19861,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.7,
                   name: 'Normal',
                   price: 10,
@@ -20896,7 +19870,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.7,
                   name: 'Orange',
                   price: 15,
@@ -20926,7 +19900,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.35,
                   name: 'Normal',
                   price: 10,
@@ -20956,7 +19930,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.79,
                   name: 'Normal',
                   price: 10,
@@ -20965,7 +19939,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.79,
                   name: 'Orange',
                   price: 15,
@@ -20995,7 +19969,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 2.31,
                   name: 'Normal',
                   price: 10,
@@ -21004,7 +19978,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 2.31,
                   name: 'Green',
                   price: 20,
@@ -21013,7 +19987,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 2.31,
                   name: 'Orange',
                   price: 15,
@@ -21043,7 +20017,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 3.37,
                   name: 'Normal',
                   price: 12,
@@ -21052,7 +20026,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 3.37,
                   name: 'Orange',
                   price: 15,
@@ -21082,7 +20056,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.79,
                   name: 'Normal',
                   price: 12,
@@ -21091,7 +20065,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 3.79,
                   name: 'Green',
                   price: 20,
@@ -21100,7 +20074,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 3.79,
                   name: 'Orange',
                   price: 15,
@@ -21130,7 +20104,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 4.01,
                   name: 'Normal',
                   price: 12,
@@ -21160,7 +20134,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 4.23,
                   name: 'Normal',
                   price: 12,
@@ -21169,7 +20143,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 4.23,
                   name: 'Orange',
                   price: 15,
@@ -21199,7 +20173,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.57,
                   name: 'Normal',
                   price: 12,
@@ -21208,7 +20182,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 4.57,
                   name: 'Green',
                   price: 20,
@@ -21217,7 +20191,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 4.57,
                   name: 'Orange',
                   price: 15,
@@ -21247,7 +20221,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.87,
                   name: 'Normal',
                   price: 12,
@@ -21277,7 +20251,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 22 minutes",
                   distance: 5.2,
                   name: 'Normal',
                   price: 12,
@@ -21286,7 +20260,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 5.2,
                   name: 'Orange',
                   price: 15,
@@ -21316,7 +20290,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 23 minutes",
                   distance: 5.37,
                   name: 'Normal',
                   price: 12,
@@ -21325,7 +20299,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 5.37,
                   name: 'Orange',
                   price: 15,
@@ -21355,7 +20329,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.69,
                   name: 'Normal',
                   price: 10,
@@ -21385,7 +20359,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 1.18,
                   name: 'Normal',
                   price: 10,
@@ -21394,7 +20368,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 1.18,
                   name: 'Orange',
                   price: 15,
@@ -21424,7 +20398,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.77,
                   name: 'Normal',
                   price: 10,
@@ -21433,7 +20407,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.77,
                   name: 'Orange',
                   price: 15,
@@ -21442,7 +20416,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 1.77,
                   name: 'Blue',
                   price: 40,
@@ -21472,7 +20446,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 2.83,
                   name: 'Normal',
                   price: 12,
@@ -21481,7 +20455,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 2.83,
                   name: 'Orange',
                   price: 15,
@@ -21511,7 +20485,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 3.21,
                   name: 'Normal',
                   price: 12,
@@ -21520,7 +20494,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 3.21,
                   name: 'Orange',
                   price: 15,
@@ -21529,7 +20503,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 3.21,
                   name: 'Blue',
                   price: 40,
@@ -21559,7 +20533,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 3.41,
                   name: 'Normal',
                   price: 12,
@@ -21589,7 +20563,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 3.62,
                   name: 'Normal',
                   price: 12,
@@ -21598,7 +20572,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 3.62,
                   name: 'Orange',
                   price: 15,
@@ -21607,7 +20581,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 3.62,
                   name: 'Blue',
                   price: 40,
@@ -21637,7 +20611,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.92,
                   name: 'Normal',
                   price: 12,
@@ -21646,7 +20620,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.92,
                   name: 'Orange',
                   price: 15,
@@ -21655,7 +20629,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.92,
                   name: 'Blue',
                   price: 40,
@@ -21685,7 +20659,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 4.18,
                   name: 'Normal',
                   price: 12,
@@ -21715,7 +20689,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 4.5,
                   name: 'Normal',
                   price: 12,
@@ -21724,7 +20698,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 4.5,
                   name: 'Orange',
                   price: 15,
@@ -21754,7 +20728,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 21 minutes",
                   distance: 4.67,
                   name: 'Normal',
                   price: 12,
@@ -21763,7 +20737,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 4.67,
                   name: 'Orange',
                   price: 15,
@@ -21793,7 +20767,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.52,
                   name: 'Normal',
                   price: 10,
@@ -21823,7 +20797,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 1.16,
                   name: 'Normal',
                   price: 10,
@@ -21853,7 +20827,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 2.18,
                   name: 'Normal',
                   price: 10,
@@ -21883,7 +20857,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 2.54,
                   name: 'Normal',
                   price: 10,
@@ -21913,7 +20887,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.73,
                   name: 'Normal',
                   price: 10,
@@ -21943,7 +20917,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.93,
                   name: 'Normal',
                   price: 10,
@@ -21973,7 +20947,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.24,
                   name: 'Normal',
                   price: 10,
@@ -22003,7 +20977,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 3.52,
                   name: 'Normal',
                   price: 10,
@@ -22033,7 +21007,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 3.85,
                   name: 'Normal',
                   price: 10,
@@ -22063,7 +21037,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 20 minutes",
                   distance: 4.04,
                   name: 'Normal',
                   price: 10,
@@ -22093,7 +21067,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.64,
                   name: 'Normal',
                   price: 10,
@@ -22102,7 +21076,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.64,
                   name: 'Orange',
                   price: 15,
@@ -22132,7 +21106,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.66,
                   name: 'Normal',
                   price: 10,
@@ -22141,7 +21115,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.66,
                   name: 'Orange',
                   price: 15,
@@ -22171,7 +21145,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 2.03,
                   name: 'Normal',
                   price: 10,
@@ -22180,7 +21154,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 2.03,
                   name: 'Orange',
                   price: 15,
@@ -22210,7 +21184,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 2.23,
                   name: 'Normal',
                   price: 10,
@@ -22240,7 +21214,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.45,
                   name: 'Normal',
                   price: 10,
@@ -22249,7 +21223,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 2.45,
                   name: 'Orange',
                   price: 15,
@@ -22279,7 +21253,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 2.79,
                   name: 'Normal',
                   price: 10,
@@ -22288,7 +21262,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 2.79,
                   name: 'Orange',
                   price: 15,
@@ -22318,7 +21292,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.15,
                   name: 'Normal',
                   price: 10,
@@ -22348,7 +21322,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 3.51,
                   name: 'Normal',
                   price: 10,
@@ -22357,7 +21331,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 3.51,
                   name: 'Orange',
                   price: 15,
@@ -22387,7 +21361,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 19 minutes",
                   distance: 3.73,
                   name: 'Normal',
                   price: 10,
@@ -22396,7 +21370,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 3.73,
                   name: 'Orange',
                   price: 15,
@@ -22426,7 +21400,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 1.07,
                   name: 'Normal',
                   price: 10,
@@ -22435,7 +21409,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 1.07,
                   name: 'Orange',
                   price: 15,
@@ -22465,7 +21439,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.49,
                   name: 'Normal',
                   price: 10,
@@ -22474,7 +21448,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.49,
                   name: 'Green',
                   price: 20,
@@ -22483,7 +21457,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.49,
                   name: 'Yellow',
                   price: 20,
@@ -22492,7 +21466,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.49,
                   name: 'Orange',
                   price: 15,
@@ -22501,7 +21475,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.49,
                   name: 'Blue',
                   price: 40,
@@ -22531,7 +21505,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.72,
                   name: 'Normal',
                   price: 10,
@@ -22561,7 +21535,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.98,
                   name: 'Normal',
                   price: 10,
@@ -22570,7 +21544,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.98,
                   name: 'Orange',
                   price: 15,
@@ -22579,7 +21553,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.98,
                   name: 'Blue',
                   price: 40,
@@ -22609,7 +21583,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 2.38,
                   name: 'Normal',
                   price: 10,
@@ -22618,7 +21592,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 2.38,
                   name: 'Green',
                   price: 20,
@@ -22627,7 +21601,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 2.38,
                   name: 'Yellow',
                   price: 20,
@@ -22636,7 +21610,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.38,
                   name: 'Orange',
                   price: 15,
@@ -22645,7 +21619,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 2.38,
                   name: 'Blue',
                   price: 40,
@@ -22675,7 +21649,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 2.9,
                   name: 'Normal',
                   price: 10,
@@ -22705,7 +21679,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 17 minutes",
                   distance: 3.28,
                   name: 'Normal',
                   price: 10,
@@ -22714,7 +21688,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 3.28,
                   name: 'Orange',
                   price: 15,
@@ -22744,7 +21718,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 18 minutes",
                   distance: 3.57,
                   name: 'Normal',
                   price: 10,
@@ -22753,7 +21727,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 3.57,
                   name: 'Orange',
                   price: 15,
@@ -22783,7 +21757,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 5.96,
                   name: 'Yellow',
                   price: 20,
@@ -22813,7 +21787,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.48,
                   name: 'Normal',
                   price: 10,
@@ -22822,7 +21796,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.48,
                   name: 'Orange',
                   price: 15,
@@ -22852,7 +21826,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.74,
                   name: 'Normal',
                   price: 10,
@@ -22882,7 +21856,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.04,
                   name: 'Normal',
                   price: 10,
@@ -22891,7 +21865,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.04,
                   name: 'Orange',
                   price: 15,
@@ -22921,7 +21895,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 1.52,
                   name: 'Normal',
                   price: 10,
@@ -22930,7 +21904,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.52,
                   name: 'Orange',
                   price: 15,
@@ -22960,7 +21934,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 2.26,
                   name: 'Normal',
                   price: 10,
@@ -22990,7 +21964,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 15 minutes",
                   distance: 2.65,
                   name: 'Normal',
                   price: 10,
@@ -22999,7 +21973,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 2.65,
                   name: 'Orange',
                   price: 15,
@@ -23029,7 +22003,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 16 minutes",
                   distance: 3.01,
                   name: 'Normal',
                   price: 10,
@@ -23038,7 +22012,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 3.01,
                   name: 'Orange',
                   price: 15,
@@ -23068,7 +22042,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.27,
                   name: 'Normal',
                   price: 10,
@@ -23098,7 +22072,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.57,
                   name: 'Normal',
                   price: 10,
@@ -23107,7 +22081,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.57,
                   name: 'Orange',
                   price: 15,
@@ -23116,7 +22090,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.57,
                   name: 'Blue',
                   price: 40,
@@ -23146,7 +22120,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.06,
                   name: 'Normal',
                   price: 10,
@@ -23155,7 +22129,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.06,
                   name: 'Green',
                   price: 20,
@@ -23164,7 +22138,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 1.06,
                   name: 'Yellow',
                   price: 20,
@@ -23173,7 +22147,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.06,
                   name: 'Orange',
                   price: 15,
@@ -23182,7 +22156,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.06,
                   name: 'Blue',
                   price: 40,
@@ -23212,7 +22186,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 1.87,
                   name: 'Normal',
                   price: 10,
@@ -23242,7 +22216,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 2.25,
                   name: 'Normal',
                   price: 10,
@@ -23251,7 +22225,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.25,
                   name: 'Orange',
                   price: 15,
@@ -23281,7 +22255,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 14 minutes",
                   distance: 2.63,
                   name: 'Normal',
                   price: 10,
@@ -23290,7 +22264,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 2.63,
                   name: 'Orange',
                   price: 15,
@@ -23320,7 +22294,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 5.0,
                   name: 'Yellow',
                   price: 20,
@@ -23350,7 +22324,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.3,
                   name: 'Normal',
                   price: 10,
@@ -23380,7 +22354,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 0.8,
                   name: 'Normal',
                   price: 10,
@@ -23410,7 +22384,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 1.64,
                   name: 'Normal',
                   price: 10,
@@ -23440,7 +22414,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 2.01,
                   name: 'Normal',
                   price: 10,
@@ -23470,7 +22444,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 13 minutes",
                   distance: 2.41,
                   name: 'Normal',
                   price: 10,
@@ -23500,7 +22474,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.5,
                   name: 'Normal',
                   price: 10,
@@ -23509,7 +22483,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.5,
                   name: 'Orange',
                   price: 15,
@@ -23518,7 +22492,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 3 minutes",
                   distance: 0.5,
                   name: 'Blue',
                   price: 40,
@@ -23548,7 +22522,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.37,
                   name: 'Normal',
                   price: 10,
@@ -23578,7 +22552,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 11 minutes",
                   distance: 1.74,
                   name: 'Normal',
                   price: 10,
@@ -23587,7 +22561,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 1.74,
                   name: 'Orange',
                   price: 15,
@@ -23617,7 +22591,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 12 minutes",
                   distance: 2.14,
                   name: 'Normal',
                   price: 10,
@@ -23626,7 +22600,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 2.14,
                   name: 'Orange',
                   price: 15,
@@ -23656,7 +22630,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 2 minutes",
                   distance: 0.91,
                   name: 'Normal',
                   price: 10,
@@ -23686,7 +22660,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 8 minutes",
                   distance: 1.26,
                   name: 'Normal',
                   price: 10,
@@ -23695,7 +22669,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 4 minutes",
                   distance: 1.26,
                   name: 'Orange',
                   price: 15,
@@ -23725,7 +22699,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 9 minutes",
                   distance: 1.67,
                   name: 'Normal',
                   price: 10,
@@ -23734,7 +22708,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 5 minutes",
                   distance: 1.67,
                   name: 'Orange',
                   price: 15,
@@ -23764,7 +22738,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 10 minutes",
                   distance: 3.98,
                   name: 'Yellow',
                   price: 20,
@@ -23794,7 +22768,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 6 minutes",
                   distance: 0.39,
                   name: 'Normal',
                   price: 10,
@@ -23824,7 +22798,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 7 minutes",
                   distance: 0.77,
                   name: 'Normal',
                   price: 10,
@@ -23854,7 +22828,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
                 }
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.42,
                   name: 'Normal',
                   price: 10,
@@ -23863,7 +22837,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
               });
                 $scope.Plist.push({
                   id: $scope.Plist.length + 1,
-                  time: "0 hour 0 minutes",
+                  time: "0 hour 1 minutes",
                   distance: 0.42,
                   name: 'Orange',
                   price: 15,
