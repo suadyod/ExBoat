@@ -67,10 +67,10 @@
 
 
 						<div ng-init = "checkblink31(13.883051,100.484511)">
-							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink31 > 0.2"></div>
+							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink31 > 0.8"></div>
 							<div class="cbp_tmicon ion-help-buoy" ng-if="diffforblink31 == 0"></div>
-							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink31 < 0.2 && diffforblink31 > 0">
-									<div ng-if = "diff < 0.2">
+							<div class="cbp_tmicon ion-help-buoy blink_me" ng-if="diffforblink31 < 0.8 && diffforblink31 > 0">
+									<div ng-if = "diff < 0.8">
 										<div ng-init = "notifyn31()"></div>
 									</div>
 							</div>

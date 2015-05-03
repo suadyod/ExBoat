@@ -22948,7 +22948,6 @@ $scope.scrollBottom = function() {
     //check blinking on each pier 
     $scope.latpier = 0;
     $scope.lngpier = 0;
-    var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
     $scope.diffforblinkt4 = 0;
     $scope.checkblinkt4 = function(latpier,lngpier) {
         $interval(function() {     
@@ -22972,6 +22971,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destt4)    
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23009,6 +23009,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destt3)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23046,6 +23047,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destt2) 
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23083,6 +23085,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destt1)  
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23120,6 +23123,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn33)       
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23157,6 +23161,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn32)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23195,6 +23200,7 @@ $scope.scrollBottom = function() {
         if($scope.dest == $scope.destn31)
         {       
         var alarmTime = new Date();  
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000); 
         my_media.play();
@@ -23233,7 +23239,8 @@ $scope.scrollBottom = function() {
     $scope.notifyn30 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn30)    
-        var alarmTime = new Date();
+        var alarmTime = new Date(); 
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23271,6 +23278,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn29s)       
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23308,6 +23316,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn29)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23345,6 +23354,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn28)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23382,6 +23392,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn27)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23419,6 +23430,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn26)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23456,6 +23468,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn25)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23493,6 +23506,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn24) 
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23530,6 +23544,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn23) 
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23567,6 +23582,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn22) 
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23604,6 +23620,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn21)  
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23641,6 +23658,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn20) 
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23678,6 +23696,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn19)  
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23715,6 +23734,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn18) 
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23752,6 +23772,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn17)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23789,6 +23810,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn16)   
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23826,6 +23848,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn15)  
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23863,6 +23886,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn14) 
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23900,6 +23924,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn13)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23937,6 +23962,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn12)   
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -23974,6 +24000,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn11)   
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24011,6 +24038,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn10)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24048,6 +24076,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn9s)  
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24085,6 +24114,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn9) 
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24122,6 +24152,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn8)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24159,6 +24190,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn7)       
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24196,6 +24228,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn6)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24233,6 +24266,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn5)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24270,6 +24304,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn4) 
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24307,6 +24342,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn3)
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24344,6 +24380,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn2)   
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24381,6 +24418,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn1) 
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
@@ -24418,6 +24456,7 @@ $scope.scrollBottom = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
         if($scope.dest == $scope.destn0) 
         var alarmTime = new Date();
+        var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
         $cordovaVibration.vibrate(3000);
         my_media.play();
