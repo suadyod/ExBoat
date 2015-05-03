@@ -1007,7 +1007,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 })
 
 //controller for emergency page
-.controller('EmergencyCtrl', function($scope, $ionicScrollDelegate, filterFilter, $location, $anchorScroll) {
+.controller('EmergencyCtrl', function($scope, $ionicScrollDelegate) {
   var letters = $scope.letters = [];
   var contacts = $scope.contacts = [];
   var currentCharCode = ' '.charCodeAt(0) - 1;
@@ -1103,7 +1103,11 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
 
 
 //controller for main page
-.controller('PopupCtrl',function($scope, $ionicPopup, $ionicModal, $interval, $cordovaLocalNotification) {
+.controller('PopupCtrl',function($scope, $ionicPopup, $ionicModal, $interval, $ionicScrollDelegate, $cordovaVibration) {
+
+$scope.scrollBottom = function() {
+    $ionicScrollDelegate.scrollBottom();
+  };
   
 
     //list of beginng pier
@@ -22930,19 +22934,13 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     //add notification on destination
     $scope.add = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        $scope.getLocation().then(function () {
-          alert("The notification has been set");
-        });
+         alert("The notification has been set (เปิดใช้งานการแจ้งเตือนแล้ว)");
+         $scope.getLocation();
     };
 
       
     
-    //check set on notification 
-    $scope.isScheduled = function() {
-        $cordovaLocalNotification.isScheduled("1234").then(function(isScheduled) {
-            alert("Notification set: " + isScheduled);
-        });
-    } 
+    
 
 
 
@@ -22950,6 +22948,7 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     //check blinking on each pier 
     $scope.latpier = 0;
     $scope.lngpier = 0;
+    var my_media = new Media('/android_asset/www/sounds/nautical005.mp3',null,null);
     $scope.diffforblinkt4 = 0;
     $scope.checkblinkt4 = function(latpier,lngpier) {
         $interval(function() {     
@@ -22974,13 +22973,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destt4)    
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "t4",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (S4)ท่าราษฎร์บูรณะ (บิ๊กซี)(Rajburana)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: null
+            autoCancel: true
         });   
         alert("You have arrived your destination : (S4)ท่าราษฎร์บูรณะ (บิ๊กซี)(Rajburana)");
     }
@@ -23010,13 +23010,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destt3)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "t3",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (S3)ท่าวัดราชสิงขร(Watrajsingkorn)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: null
+            autoCancel: true
         });       
         alert("You have arrived your destination : (S3)ท่าวัดราชสิงขร(Watrajsingkorn)");
     }
@@ -23046,13 +23047,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destt2) 
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "t2",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (S2)ท่าวธรรยาวาส(Watworachanyawas)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: null
+            autoCancel: true
         });      
         alert("You have arrived your destination : (S2)ท่าวธรรยาวาส(Watworachanyawas)");
     }
@@ -23082,13 +23084,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destt1)  
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "t1",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (S1)ท่าเศวตฉัตร(Watsawetachat)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: null
+            autoCancel: true
         });     
         alert("You have arrived your destination : (S1)ท่าเศวตฉัตร(Watsawetachat)");
     }
@@ -23118,13 +23121,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn33)       
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "33",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N33)ท่าปากเกร็ด(Pakkret)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: null
+            autoCancel: true
         });
         alert("You have arrived your destination : (N33)ท่าปากเกร็ด(Pakkret)");
     }
@@ -23154,13 +23158,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn32)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "32",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N32)ท่าวัดกลางเกร็ด(Watklangkret)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: null
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N32)ท่าวัดกลางเกร็ด(Watklangkret)");
     }
@@ -23187,18 +23192,22 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
     } 
     $scope.notifyn31 = function() {
         $scope.dest = window.localStorage.getItem("dest_pier");
-        if($scope.dest == $scope.destn31)       
-        var alarmTime = new Date();
+        if($scope.dest == $scope.destn31)
+        {       
+        var alarmTime = new Date();  
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000); 
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "31",
             date: alarmTime,
-            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N31)ท่ากระทรวงพาณิชย์(Ministryofcommerce)",
+            message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N31)ท่ากระทรวงพาณิชย์(Ministry of Commerce)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: null
+            autoCancel: true
         }); 
-        alert("You have arrived your destination : (N31)ท่ากระทรวงพาณิชย์(Ministryofcommerce)");
+        alert("You have arrived your destination : (N31)ท่ากระทรวงพาณิชย์(Ministry of Commerce)");
+      } 
+
     }
 
 
@@ -23226,13 +23235,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn30)    
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "30",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N30)ท่านนทบุรี(พิบูลย์3)(Nonthaburi(Pibul3))",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });   
         alert("You have arrived your destination : (N30)ท่านนทบุรี(พิบูลย์3)(Nonthaburi(Pibul3))");
     }
@@ -23262,13 +23272,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn29s)       
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "29s",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N29s)ท่าพระราม 5(Rama5)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });  
         alert("You have arrived your destination : (N29s)ท่าพระราม 5(Rama5)");
     }
@@ -23298,13 +23309,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn29)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "29",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N29)ท่าพิบูลย์สงคราม 2(Pibul2)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N29)ท่าพิบูลย์สงคราม 2(Pibul2)");
     }
@@ -23334,13 +23346,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn28)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "28",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N28)ท่าวัดเขียน(Watkien)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N28)ท่าวัดเขียน(Watkien)");
     }
@@ -23370,13 +23383,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn27)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "27",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N27)ท่าวัดตึก(Wattuek)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N27)ท่าวัดตึก(Wattuek)");
     }
@@ -23406,13 +23420,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn26)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "26",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N26)ท่าวัดเขมา(WatKhema)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N26)ท่าวัดเขมา(WatKhema)");
     }
@@ -23442,13 +23457,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn25)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "25",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N25)ท่าพิบูลย์สงคราม 1(Pibul1)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N25)ท่าพิบูลย์สงคราม 1(Pibul1)");
     }
@@ -23478,13 +23494,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn24) 
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "24",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N24)ท่าพระราม 7(Rama7)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });      
         alert("You have arrived your destination : (N24)ท่าพระราม 7(Rama7)");
     }
@@ -23514,13 +23531,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn23) 
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "23",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N23)ท่าวัดสร้อยทอง(Watsoithong)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });      
         alert("You have arrived your destination : (N23)ท่าวัดสร้อยทอง(Watsoithong)");
     }
@@ -23550,13 +23568,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn22) 
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "22",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N22)ท่าบางโพ(Bangpo)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });      
         alert("You have arrived your destination : (N22)ท่าบางโพ(Bangpo)");
     }
@@ -23586,13 +23605,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn21)  
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "21",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N21)ท่าเกียกกาย(Kjakkai)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });     
         alert("You have arrived your destination : (N21)ท่าเกียกกาย(Kjakkai)");
     }
@@ -23622,13 +23642,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn20) 
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "20",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N20)ท่าเขียวไข่กา(Kheawkhaika)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });      
         alert("You have arrived your destination : (N20)ท่าเขียวไข่กา(Kheawkhaika)");
     }
@@ -23658,13 +23679,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn19)  
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "19",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N19)ท่ากรมชลประทาน(Irrigation Dept.)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });     
         alert("You have arrived your destination : (N19)ท่ากรมชลประทาน(Irrigation Dept.)");
     }
@@ -23694,13 +23716,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn18) 
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "18",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N18)ท่าพายัพ(Payap)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });      
         alert("You have arrived your destination : (N18)ท่าพายัพ(Payap)");
     }
@@ -23730,13 +23753,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn17)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "17",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N17)ท่าเทพนารี(Thepnarhee)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });           
         alert("You have arrived your destination : (N17)ท่าเทพนารี(Thepnarhee)");
     }
@@ -23766,13 +23790,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn16)   
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "16",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N16)ท่าสะพานกรุงธน (ซังฮี้)(Krungthonburi Bridge)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });    
         alert("You have arrived your destination : (N16)ท่าสะพานกรุงธน (ซังฮี้)(Krungthonburi Bridge)");
     }
@@ -23802,13 +23827,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn15)  
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "15",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N15)ท่าเทเวศร์(Thewej)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });     
         alert("You have arrived your destination : (N15)ท่าเทเวศร์(Thewej)");
     }
@@ -23838,13 +23864,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn14) 
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "14",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N14)ท่าพระราม 8(Rama8)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });      
         alert("You have arrived your destination : (N14)ท่าพระราม 8(Rama8)");
     }
@@ -23874,13 +23901,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn13)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "13",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N13)ท่าพระอาทิตย์(Phraarthit)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N13)ท่าพระอาทิตย์(Phraarthit)");
     }
@@ -23910,13 +23938,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn12)   
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "12",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N12)ท่าพระปิ่นเกล้า(Phrapinklao Bridge)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });    
         alert("You have arrived your destination : (N12)ท่าพระปิ่นเกล้า(Phrapinklao Bridge)");
     }
@@ -23946,13 +23975,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn11)   
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "11",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N11)ท่ารถไฟ(Thonburirailway)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });    
         alert("You have arrived your destination : (N11)ท่ารถไฟ(Thonburirailway)");
     }
@@ -23982,13 +24012,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn10)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "10",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N10)ท่าวังหลัง (พรานนก)(Wanglang)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N10)ท่าวังหลัง (พรานนก)(Wanglang)");
     }
@@ -24018,13 +24049,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn9s)  
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "9s",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N9s)ท่ามหาราช(Maharaj)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });     
         alert("You have arrived your destination : (N9s)ท่ามหาราช(Maharaj)");
     }
@@ -24054,13 +24086,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn9) 
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "9",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N9)ท่าช้าง(Thachang)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });      
         alert("You have arrived your destination : (N9)ท่าช้าง(Thachang)");
     }
@@ -24090,13 +24123,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn8)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "8",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N8)ท่าเตียน(Thatien)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N8)ท่าเตียน(Thatien)");
     }
@@ -24126,13 +24160,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn7)       
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "7",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N7)ท่าราชินี(Rajinee)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });  
         alert("You have arrived your destination : (N7)ท่าราชินี(Rajinee)");
     }
@@ -24162,13 +24197,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn6)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "6",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N6)ท่าสะพานพุทธ(Memorial Bridge)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N6)ท่าสะพานพุทธ(Memorial Bridge)");
     }
@@ -24198,13 +24234,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn5)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "5",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N5)ท่าราชวงศ์(Rajchawongse)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N5)ท่าราชวงศ์(Rajchawongse)");
     }
@@ -24234,13 +24271,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn4) 
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "4",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N4)ท่ากรมเจ้าท่า(Marine Dept.)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });      
         alert("You have arrived your destination : (N4)ท่ากรมเจ้าท่า(Marine Dept.)");
     }
@@ -24270,13 +24308,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn3)
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "3",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N3)ท่าสี่พระยา(Siphraya)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });       
         alert("You have arrived your destination : (N3)ท่าสี่พระยา(Siphraya)");
     }
@@ -24306,13 +24345,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn2)   
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "2",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N2)ท่าวัดม่วงแค(Watmuangkae)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });    
         alert("You have arrived your destination : (N2)ท่าวัดม่วงแค(Watmuangkae)");
     }
@@ -24342,13 +24382,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn1) 
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "1",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (N1)ท่าโอเรียนเท็ล(Oriental)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });      
         alert("You have arrived your destination : (N1)ท่าโอเรียนเท็ล(Oriental)");
     }
@@ -24378,13 +24419,14 @@ angular.module('starter.controllers', ['ngCordova','ngSanitize','pascalprecht.tr
         if($scope.dest == $scope.destn0) 
         var alarmTime = new Date();
         alarmTime.setMinutes(alarmTime.getMinutes() + 0.5);
-        $cordovaLocalNotification.add({
+        $cordovaVibration.vibrate(3000);
+        my_media.play();
+        cordova.plugins.notification.local.schedule({
             id: "0",
             date: alarmTime,
             message: "You have arrived your destination(คุณเดินทางมาถึงท่าปลายทางของคุณแล้ว) : (CENTRAL)ท่าสาทร (ตากสิน)(Sathorn)",
             title: "ExBoat",
-            autoCancel: true,
-            sound: true
+            autoCancel: true
         });      
         alert("You have arrived your destination : (CENTRAL)ท่าสาทร (ตากสิน)(Sathorn)");
     }

@@ -709,6 +709,7 @@ angular.module('starter.map', [])
 
       ionic.Platform.ready(initialize);
       
+      
       $scope.centerOnMe = function() {
         if(!$scope.map) {
           return;

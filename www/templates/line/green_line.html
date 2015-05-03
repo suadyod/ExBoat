@@ -1,5 +1,7 @@
 <ion-view view-title="ExBoat">
-
+<ion-nav-buttons side="right">
+          <button class="button button-icon button-clear" ng-click = "scrollBottom()">{{"ScrollBottom" | translate}}</button>
+</ion-nav-buttons>
 <ion-content>
 	<head>
 		<meta charset="UTF-8" />
@@ -9,6 +11,8 @@
 		<link rel="stylesheet" type="text/css" href="css/component_green.css" />
 	</head>
 	<body>
+		
+
 		<div class="container">
 			<header class="clearfix" style="color:#228B22">
 				<button class="button button-block button-positive" ng-click = "add()">{{"Open_Noti" | translate}}</button>
